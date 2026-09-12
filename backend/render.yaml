@@ -1,0 +1,23 @@
+# Deploy the backend on Render: New > Blueprint, then point it at this repository.
+services:
+  - type: web
+    name: diwan-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: ./build.sh
+    startCommand: gunicorn config.wsgi:application
+    healthCheckPath: /api/v1/corpus/
+    envVars:
+      - key: DJANGO_DEBUG
+        value: "0"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true          # Render creates a long random key
+      - key: DJANGO_ALLOWED_HOSTS
+        sync: false                  # put your address here: diwan-api.onrender.com
+      - key: DJANGO_CSRF_TRUSTED_ORIGINS
+        sync: false                  # https://diwan-api.onrender.com
+      - key: PYTHON_VERSION
+        value: "3.12.6"
+      - key: DATABASE_URL
+        sync: false                  # the address of your PostgreSQL (Render, Neon or Supabase)

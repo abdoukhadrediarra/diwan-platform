@@ -55,6 +55,31 @@ shared copy. Hand-corrected transcriptions are included in the export and restor
 | `/api/v1/diwans/diwan-01/`            | a diwan and its published khassaïdes      |
 | `/api/v1/diwans/diwan-01/poems/008/`  | a khassida: lines, transcriptions, previous/next |
 
+## Putting the API online (free hosting)
+
+The whole point: once the API is online, the front-end and mobile developers work against **your**
+database without installing PostgreSQL or importing anything.
+
+```bash
+# what the host runs for you (see build.sh and render.yaml)
+./build.sh                              # install, collectstatic, migrate, seed_diwans
+gunicorn config.wsgi:application
+```
+
+Environment variables to set on the host:
+
+| Variable | Value |
+|---|---|
+| `DJANGO_DEBUG` | `0` |
+| `DJANGO_SECRET_KEY` | a long random string |
+| `DJANGO_ALLOWED_HOSTS` | `diwan-api.onrender.com` (your address) |
+| `DJANGO_CSRF_TRUSTED_ORIGINS` | `https://diwan-api.onrender.com` |
+| `DATABASE_URL` | given by the database service (Neon, Supabase, Render) |
+| `CORPUS_AUTO_PUBLISH` | `0` while you are still reviewing, `1` later |
+
+The API is read-only, so it answers any website (CORS). The admin stays behind its login: you are
+the only one who imports and publishes. Set `CORS_ALLOWED_ORIGINS` to restrict it if you prefer.
+
 ## Other tools
 
 - `python tools/poem_json_web/app.py`: the "Poem to JSON" page (drop .docx files, check, get JSON)
