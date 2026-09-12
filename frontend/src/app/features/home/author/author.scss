@@ -1,0 +1,17 @@
+.bio p { font-size: 1.1rem; margin-bottom: 1.2rem; }
+.bio .source { font-size: .95rem; color: var(--muted); margin-top: 2rem; }
+
+.timeline-title { font-size: 1.6rem; margin-bottom: 1.5rem; }
+.timeline { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--gold); }
+.timeline li { position: relative; display: grid; grid-template-columns: 4.5rem 1fr; gap: 1rem; padding: 0 0 1.35rem 1.5rem; }
+.timeline li::before {
+  content: ""; position: absolute; left: -4px; top: .55rem; width: 7px; height: 7px;
+  background: var(--paper); border: 1px solid var(--gold); transform: rotate(45deg);
+}
+.year { font-family: var(--serif); font-size: 1.35rem; font-weight: 700; line-height: 1.2; color: var(--emerald); }
+.event { padding-top: .1rem; }
+
+/* one verse of the corpus, shown the way the platform will show every poem */
+.verse { background: var(--emerald-dark); color: #f3f4f0; padding-block: clamp(3.5rem, 7vw, 5.5rem); }
+.verse-caption { text-align: center; margin: 2rem auto 0; max-width: 60ch; font-size: .95rem; color: #b9c9c1; }
+.verse-caption .ar { font-size: 1.15rem; color: #e1cb97; }

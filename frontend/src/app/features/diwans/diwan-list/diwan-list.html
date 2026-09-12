@@ -1,0 +1,35 @@
+<section class="section list-page" aria-labelledby="diwans-title">
+  <div class="container">
+    <app-breadcrumb [items]="[{ label: 'Accueil', link: '/' }, { label: 'Les diwans' }]" />
+    <h1 id="diwans-title" class="section-title mt-4">Les diwans</h1>
+    <p class="section-intro">
+      Les sept recueils de khassaïdes de Cheikh Ahmadou Bamba. Chaque poème y paraît dès qu’il a été relu et importé.
+    </p>
+    @if (remote().state === 'error') {
+      <p class="notice" role="status">Le nombre de poèmes en ligne n’a pas pu être chargé. Les diwans restent consultables.</p>
+    }
+
+    <ol class="diwan-index">
+      @for (d of diwans(); track d.number) {
+        <li>
+          <a class="diwan-row" [routerLink]="['/diwans', d.slug]">
+            <span class="num" aria-hidden="true">{{ d.number }}</span>
+            <span class="names">
+              <span class="ar title" lang="ar">{{ d.title }}</span>
+              <span class="meta">Diwan {{ d.number }}, {{ d.abyat | number }} abyat</span>
+            </span>
+            <span class="online">
+              @if (d.poemCount === null) {
+                <span class="muted">…</span>
+              } @else if (d.poemCount === 0) {
+                <span class="muted">Aucune khassida en ligne</span>
+              } @else {
+                <strong>{{ d.poemCount | number }}</strong> {{ d.poemCount > 1 ? 'khassaïdes en ligne' : 'khassida en ligne' }}
+              }
+            </span>
+          </a>
+        </li>
+      }
+    </ol>
+  </div>
+</section>

@@ -1,0 +1,55 @@
+:root {
+  --paper: #{$paper};
+  --ink: #{$ink};
+  --muted: #{$muted};
+  --emerald: #{$emerald};
+  --emerald-dark: #{$emerald-dark};
+  --gold: #{$gold};
+  --stone: #{$stone};
+  --rule: #{$rule};
+  --arabic: "Amiri", "Scheherazade New", "Noto Naskh Arabic", "Traditional Arabic", serif;
+  --serif: "Amiri", Georgia, "Times New Roman", serif;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+// The Wolofal font, developed for this project: the Wolof way of writing Arabic script.
+@font-face {
+  font-family: "Wolofal";
+  src: url("/fonts/wolofal-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+// Arabic text anywhere on the site
+.ar { font-family: var(--arabic); direction: rtl; unicode-bidi: isolate; font-feature-settings: "calt", "liga"; }
+
+// Wolofal style: same text, Wolofal letterforms. The font is drawn larger and with a narrow space,
+// so the size, the line height and the word spacing are adjusted to match the classical style.
+.script-wolofal .ar {
+  font-family: "Wolofal", var(--arabic);
+  font-size: 1.28em;
+  line-height: 1.7;
+  word-spacing: .18em;
+}
+
+// vertical rhythm of the page sections
+.section { padding-block: clamp(4rem, 9vw, 7rem); }
+.section + .section { border-top: 1px solid var(--rule); }
+.section-title { font-size: clamp(2.1rem, 4.4vw, 3.1rem); margin-bottom: 1.25rem; }
+.section-intro { font-size: 1.2rem; color: var(--muted); max-width: 62ch; }
+.measure { max-width: 64ch; }
+
+.btn-primary:hover, .btn-primary:focus-visible { background-color: var(--emerald-dark); border-color: var(--emerald-dark); }
+.link-quiet { color: var(--ink); font-weight: 600; text-underline-offset: .3em; text-decoration-color: var(--gold); }
+.link-quiet:hover { color: var(--emerald); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+.skip-link { position: absolute; left: 1rem; top: .75rem; z-index: 2000; background: var(--ink); color: #fff; padding: .5rem 1rem; border-radius: var(--bs-border-radius); }

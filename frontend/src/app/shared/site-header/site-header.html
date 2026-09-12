@@ -1,0 +1,39 @@
+<header class="site-header" [class.is-open]="open()">
+  <nav class="container" aria-label="Navigation principale">
+    <a routerLink="/" class="brand" aria-label="Diwan, accueil">
+      <span class="brand-ar ar" lang="ar">ديوان</span>
+      <span class="brand-name">Diwan</span>
+    </a>
+
+    <button class="menu-toggle d-lg-none" type="button" (click)="toggle()"
+            [attr.aria-expanded]="open()" aria-controls="site-menu">
+      <span class="menu-bars" aria-hidden="true"></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <ul id="site-menu" class="site-menu">
+      <li><a routerLink="/" fragment="cheikh">Le Cheikh</a></li>
+      <li class="has-panel">
+        <button type="button" class="panel-toggle" (click)="toggleDiwans()"
+                [attr.aria-expanded]="diwansOpen()" aria-controls="diwans-panel">
+          Les diwans <span class="caret" aria-hidden="true"></span>
+        </button>
+        <div id="diwans-panel" class="diwans-panel" [class.show]="diwansOpen()">
+          <ol>
+            @for (d of diwans(); track d.number) {
+              <li>
+                <a [routerLink]="['/diwans', slug(d.number)]" routerLinkActive="active">
+                  <span class="n">{{ d.number }}</span>
+                  <span class="ar" lang="ar">{{ d.title }}</span>
+                </a>
+              </li>
+            }
+          </ol>
+          <a class="all" routerLink="/diwans">Tous les diwans</a>
+        </div>
+      </li>
+      <li><a routerLink="/" fragment="projet">Le projet</a></li>
+      <li><a routerLink="/" fragment="corpus">Le corpus</a></li>
+    </ul>
+  </nav>
+</header>

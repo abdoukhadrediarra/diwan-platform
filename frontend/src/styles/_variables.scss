@@ -1,0 +1,31 @@
+// Diwan design tokens, fed into Bootstrap so its components share the same identity.
+$paper:        #f3f4f0;   // light of the white robe in the photograph
+$ink:          #15211d;   // text, deep green-black
+$muted:        #5a6862;
+$emerald:      #0f5a44;   // actions and links
+$emerald-dark: #0a4533;
+$gold:         #a3803a;   // fine ornaments only: arch outline, years, rules
+$stone:        #e3e7e0;   // quiet panels
+$rule:         #d3d9d2;
+
+$primary:   $emerald;
+$secondary: $muted;
+$body-bg:    $paper;
+$body-color: $ink;
+$link-color: $emerald;
+$link-hover-color: $emerald-dark;
+$border-color: $rule;
+
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Amiri", Georgia, "Times New Roman", serif;
+$headings-font-weight: 700;
+$headings-line-height: 1.15;
+$font-size-base: 1.0625rem;
+$line-height-base: 1.65;
+
+$border-radius: .375rem;
+$btn-padding-y: .75rem;
+$btn-padding-x: 1.5rem;
+$btn-font-weight: 600;
+$enable-shadows: false;
+$enable-negative-margins: true;

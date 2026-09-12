@@ -1,0 +1,61 @@
+# Diwan · backend (Django + PostgreSQL)
+
+## First start
+
+```bash
+pip install -r requirements.txt
+# PostgreSQL: a database "diwan" owned by user "diwan" (or set DB_NAME, DB_USER, DB_PASSWORD, DB_HOST)
+python manage.py migrate
+python manage.py seed_diwans         # the 7 diwans with their titles and figures
+python manage.py createsuperuser
+python manage.py runserver           # admin: http://127.0.0.1:8000/admin/   API: http://127.0.0.1:8000/api/v1/
+```
+
+## Putting a reviewed khassida online
+
+Either upload it in the admin: **Poems > Import poems** (the .docx named D01K08_… or its JSON),
+or from the command line: `python manage.py import_poems ../corpus-json/diwan-01/`.
+
+A poem without red flags is published immediately and appears on the website (its diwan page and its own page).
+A poem with red flags is saved as a draft. To review every poem before it goes online, set `CORPUS_AUTO_PUBLISH=0`
+and publish from the Poems list (the status column is editable there).
+
+## Reaching the API from a phone or an emulator
+
+Django answers **400 Bad Request** to an address that is not in `ALLOWED_HOSTS`. With `DEBUG=1` (the default),
+every address is accepted, so the Android emulator (`10.0.2.2`) and a phone on the same Wi-Fi work straight away.
+For a real phone, also start the server on the network: `python manage.py runserver 0.0.0.0:8000`.
+In production, set `DJANGO_ALLOWED_HOSTS=votre-domaine.sn` and keep `DJANGO_DEBUG=0`.
+
+## Sharing the poems with the team (the database is not in Git)
+
+Git carries code, not the contents of PostgreSQL. The poems travel as JSON files instead:
+
+```bash
+# you, after importing or correcting poems
+python manage.py export_poems              # writes ../corpus-json/diwan-01/D01K08.json …
+git add ../corpus-json && git commit -m "Corpus: poems of diwan 1" && git push
+
+# your collaborator, after git pull
+python manage.py migrate
+python manage.py seed_diwans
+python manage.py import_poems ../corpus-json/
+```
+
+He then has exactly the same poems as you, in his own local database, without typing or reviewing
+anything. You stay the only person who imports and reviews; the files in `corpus-json/` are the
+shared copy. Hand-corrected transcriptions are included in the export and restored on import.
+
+## API (read-only, published poems only)
+
+| GET                                   | Returns                                   |
+|---------------------------------------|-------------------------------------------|
+| `/api/v1/corpus/`                     | totals and the 7 diwans                   |
+| `/api/v1/diwans/`                     | the 7 diwans with their counts            |
+| `/api/v1/diwans/diwan-01/`            | a diwan and its published khassaïdes      |
+| `/api/v1/diwans/diwan-01/poems/008/`  | a khassida: lines, transcriptions, previous/next |
+
+## Other tools
+
+- `python tools/poem_json_web/app.py`: the "Poem to JSON" page (drop .docx files, check, get JSON)
+- `python manage.py import_poems … --refresh-transcriptions`: after improving the transcription rules

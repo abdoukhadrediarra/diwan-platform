@@ -1,0 +1,71 @@
+<section id="corpus" class="section corpus" aria-labelledby="corpus-title">
+  <div class="container">
+    <h2 id="corpus-title" class="section-title">Le corpus en chiffres</h2>
+    <p class="section-intro">
+      Sept diwans réunissent l’essentiel des khassaïdes. Les chiffres ci-dessous sont calculés sur leur texte intégral.
+    </p>
+
+    <dl class="figures">
+      <div><dt>Diwans</dt><dd>{{ corpus.diwans().length }}</dd></div>
+      <div><dt>Abyat</dt><dd>{{ corpus.totals().abyat | number }}</dd></div>
+      <div><dt>Hémistiches</dt><dd>{{ corpus.totals().hemistichs | number }}</dd></div>
+      <div><dt>Mots</dt><dd>{{ corpus.totals().words | number }}</dd></div>
+      <div><dt>Pages</dt><dd>{{ corpus.pages() | number }}</dd></div>
+    </dl>
+
+    @if (online(); as o) {
+      <p class="online-line">
+        <strong>{{ o.total | number }}</strong> {{ o.total > 1 ? 'khassaïdes sont' : 'khassida est' }} déjà en ligne.
+        Chaque poème relu et importé paraît aussitôt dans son diwan.
+      </p>
+    }
+
+    <div class="table-responsive">
+      <table class="table ledger align-middle">
+        <caption class="visually-hidden">Nombre d’abyat et de mots dans chacun des sept diwans</caption>
+        <thead>
+          <tr>
+            <th scope="col">Diwan</th>
+            <th scope="col" class="num">Abyat</th>
+            <th scope="col" class="num words-col">Mots</th>
+            <th scope="col" class="num">En ligne</th>
+            <th scope="col" class="share-col">Part des abyat du corpus</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (diwan of corpus.diwans(); track diwan.number) {
+            <tr>
+              <th scope="row">
+                <span class="diwan-cell">
+                <span class="diwan-number">{{ diwan.number }}</span>
+                <span class="diwan-name">
+                  <a class="ar diwan-link" lang="ar" [routerLink]="['/diwans', slug(diwan.number)]">{{ diwan.title }}</a>
+                  <span class="diwan-label">Diwan {{ diwan.number }}</span>
+                </span>
+                </span>
+              </th>
+              <td class="num">{{ diwan.abyat | number }}</td>
+              <td class="num words-col">{{ diwan.words | number }}</td>
+              <td class="num">{{ online() ? (online()!.byDiwan.get(diwan.number) ?? 0 | number) : '–' }}</td>
+              <td class="share-col">
+                <span class="share">
+                  <span class="bar" [style.width]="barWidth(diwan.abyat)"></span>
+                  <span class="pct">{{ diwan.abyat / corpus.totals().abyat | percent: '1.0-1' }}</span>
+                </span>
+              </td>
+            </tr>
+          }
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td class="num">{{ corpus.totals().abyat | number }}</td>
+            <td class="num words-col">{{ corpus.totals().words | number }}</td>
+            <td class="num">{{ online() ? (online()!.total | number) : '–' }}</td>
+            <td class="share-col"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>

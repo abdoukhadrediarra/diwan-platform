@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poem to JSON · Diwan Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="top">
+    <div class="top-text">
+      <h1>Poem to JSON</h1>
+      <p class="lede">Give the page a poem. It finds the muqaddima, the poem's name, the abyat and the khatima, and gives you the JSON to import into the database.</p>
+    </div>
+    <div class="top-actions" id="batchActions" hidden>
+      <button type="button" class="btn" id="saveAll">Save all in project</button>
+      <button type="button" class="btn btn-primary" id="zipAll">Download all as .zip</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="side">
+      <div class="tabs" role="tablist" aria-label="How to give the poem">
+        <button type="button" role="tab" id="tabUpload" aria-controls="panelUpload" aria-selected="true">Word files</button>
+        <button type="button" role="tab" id="tabPaste" aria-controls="panelPaste" aria-selected="false">Paste text</button>
+      </div>
+
+      <section class="panel" id="panelUpload" role="tabpanel" aria-labelledby="tabUpload">
+        <label class="drop" id="drop">
+          <input type="file" id="fileInput" accept=".docx" multiple>
+          <span class="drop-title">Drop .docx files here</span>
+          <span class="drop-hint">or click to choose them. Each file holds one poem and its name starts with the poem code, like D01K08_…</span>
+        </label>
+      </section>
+
+      <section class="panel" id="panelPaste" role="tabpanel" aria-labelledby="tabPaste" hidden>
+        <label class="field">
+          <span>Poem code</span>
+          <input id="pasteCode" placeholder="D01K08" autocomplete="off" spellcheck="false">
+        </label>
+        <label class="field">
+          <span>Poem, one paragraph per line</span>
+          <textarea id="pasteText" dir="rtl" lang="ar" rows="10"></textarea>
+        </label>
+        <p class="hint">Opening text, then the poem's own name on its own line if it has one (otherwise its first sadr is used), then the abyat with | between the hemistichs, then the khatima.</p>
+        <button type="button" class="btn btn-primary" id="pasteGo">Make JSON</button>
+      </section>
+
+      <section class="results" aria-live="polite">
+        <h2 class="results-title">Poems read <span id="count"></span></h2>
+        <ul class="poem-list" id="poemList"></ul>
+        <p class="muted" id="emptyList">None yet.</p>
+      </section>
+    </aside>
+
+    <section class="detail">
+      <div class="empty" id="emptyDetail">
+        <p class="empty-ar" dir="rtl" lang="ar">إِلَيَّ وَحْدِي سَلَبَ الْقُرْآنَا</p>
+        <p>Drop a poem on the left. It will open here under its name, with the acrostic letters in red ink when the name is an acrostic, ready to check before you take the JSON.</p>
+      </div>
+
+      <article id="poemView" hidden>
+        <header class="poem-head">
+          <div class="poem-id">
+            <h2 id="pCode"></h2>
+            <p class="poem-name" id="pName" dir="rtl" lang="ar"></p>
+            <p class="muted" id="pFile"></p>
+          </div>
+          <div class="poem-actions">
+            <button type="button" class="btn" id="copyJson">Copy JSON</button>
+            <button type="button" class="btn" id="saveOne">Save in project</button>
+            <button type="button" class="btn btn-primary" id="downloadJson">Download JSON</button>
+          </div>
+        </header>
+
+        <dl class="facts">
+          <div><dt>Muqaddima</dt><dd id="fMuq"></dd></div>
+          <div><dt>Name</dt><dd id="fAcr"></dd></div>
+          <div><dt>Abyat</dt><dd id="fAbyat"></dd></div>
+          <div><dt>Khatima</dt><dd id="fKha"></dd></div>
+        </dl>
+
+        <p class="notice" id="notice" role="status" hidden></p>
+        <ul class="warnings" id="warnings"></ul>
+
+        <div class="view-bar">
+          <div class="tabs tabs-view" role="tablist" aria-label="View">
+            <button type="button" role="tab" id="tabPoem" aria-controls="viewPoem" aria-selected="true">Poem</button>
+            <button type="button" role="tab" id="tabJson" aria-controls="viewJson" aria-selected="false">JSON</button>
+          </div>
+          <label class="toggle" id="translitToggle">
+            <input type="checkbox" id="showTranslit">
+            <span>Show transcription</span>
+          </label>
+        </div>
+        <div class="manuscript" id="viewPoem" role="tabpanel" aria-labelledby="tabPoem"></div>
+        <pre class="json" id="viewJson" role="tabpanel" aria-labelledby="tabJson" hidden></pre>
+      </article>
+    </section>
+  </main>
+
+  <p class="footer muted">"Save in project" writes to {{ json_dir }}</p>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.site-footer { background: var(--ink); color: #c9d2cd; padding-block: 3.5rem 2rem; }
+.footer-brand { font-family: var(--serif); font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: .5rem; }
+.footer-brand .ar { color: #d9bf82; margin-right: .35rem; }
+.footer-heading { color: #fff; font-weight: 600; margin-bottom: .5rem; }
+.footer-text + .footer-heading { margin-top: 1.5rem; }
+.footer-text { max-width: 60ch; margin-bottom: 0; }
+.site-footer a { color: #fff; text-decoration-color: var(--gold); text-underline-offset: .25em; }
+.footer-copy { margin: 2.5rem 0 0; padding-top: 1.25rem; border-top: 1px solid rgba(255, 255, 255, .14); font-size: .9rem; }

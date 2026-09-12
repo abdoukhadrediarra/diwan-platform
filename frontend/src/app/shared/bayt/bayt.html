@@ -1,0 +1,12 @@
+<div class="bayt ar" lang="ar">
+  @for (h of bayt().hemistichs; track $index) {
+    <span class="hemistich">{{ h }}</span>
+  }
+</div>
+@if (showTranscription() && bayt().transcription?.length) {
+  <p class="transcription" lang="fr">
+    @for (part of bayt().transcription; track $index; let last = $last) {
+      <span>{{ part }}</span>@if (!last) {<span class="sep" aria-hidden="true">|</span>}
+    }
+  </p>
+}

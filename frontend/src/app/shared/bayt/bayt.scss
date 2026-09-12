@@ -1,0 +1,10 @@
+:host { display: block; }
+.bayt { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3rem; font-size: clamp(1.6rem, 3.4vw, 2.5rem); line-height: 2; }
+.hemistich { text-align: center; }
+.transcription { margin: .5rem 0 0; text-align: center; font-size: 1.05rem; letter-spacing: .01em; opacity: .85; }
+.sep { padding-inline: .8rem; opacity: .5; }
+@media (max-width: 575.98px) {
+  .bayt { grid-template-columns: 1fr; }
+  .transcription span:not(.sep) { display: block; }
+  .sep { display: none; }
+}

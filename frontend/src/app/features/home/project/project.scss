@@ -1,0 +1,22 @@
+.project-aim { font-family: var(--serif); font-size: clamp(1.45rem, 2.4vw, 1.8rem); line-height: 1.45; margin-bottom: 1.5rem; }
+.sub-title { font-size: 1.6rem; margin-bottom: 1.25rem; }
+
+.offers { margin: 0; border-top: 1px solid var(--rule); }
+.offer { display: grid; grid-template-columns: minmax(0, 17rem) 1fr; gap: .25rem 2rem; padding: 1.05rem 0; border-bottom: 1px solid var(--rule); }
+.offer dt { font-weight: 600; }
+.offer dd { margin: 0; color: var(--muted); }
+
+.steps-title { margin-top: clamp(3.5rem, 7vw, 5rem); }
+.steps { list-style: none; padding: 0; margin-bottom: 0; counter-reset: none; }
+.steps li { position: relative; }
+.step-number {
+  display: inline-grid; place-items: center; width: 2.6rem; height: 2.6rem; margin-bottom: 1rem;
+  font-family: var(--serif); font-size: 1.35rem; font-weight: 700; color: var(--emerald);
+  border: 1px solid var(--gold); border-radius: 50%;
+}
+.step-title { font-weight: 700; font-size: 1.1rem; margin-bottom: .35rem; }
+.step-text { color: var(--muted); margin-bottom: 0; max-width: 32ch; }
+
+@media (max-width: 575.98px) {
+  .offer { grid-template-columns: 1fr; }
+}

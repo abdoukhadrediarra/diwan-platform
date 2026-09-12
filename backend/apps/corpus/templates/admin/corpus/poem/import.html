@@ -1,0 +1,40 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+  <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a> ›
+  <a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a> ›
+  <a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a> › Import poems
+</div>
+{% endblock %}
+{% block content %}
+<p>Poems without red flags are published immediately and appear on the website. Poems with red flags are saved as drafts.</p>
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" class="default" value="Import">
+</form>
+
+{% if results %}
+<h2 style="margin-top:2rem">Result</h2>
+<table>
+  <thead><tr><th>File</th><th>Poem</th><th>Name</th><th>Result</th><th>Status</th><th>Notes and warnings</th></tr></thead>
+  <tbody>
+  {% for r in results %}
+    <tr>
+      <td>{{ r.file }}</td>
+      {% if r.ok %}
+        <td>{{ r.code }}</td>
+        <td dir="rtl" lang="ar" style="font-size:1.1em">{{ r.title }}</td>
+        <td>{{ r.result }}</td>
+        <td>{{ r.status }}</td>
+        <td>{{ r.notes }}{% for w in r.warnings %}<div>⚠ {{ w }}</div>{% endfor %}</td>
+      {% else %}
+        <td colspan="5" style="color:#ba2121">{{ r.error }}</td>
+      {% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}
