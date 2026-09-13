@@ -28,6 +28,28 @@ npm start            # http://localhost:4200  (/api is forwarded to Django, see 
 
 Requires Node.js 22.12 or newer.
 
+## Mettre le site en ligne (Render, plan gratuit)
+
+Le site est un **deuxième service** : le premier sert l'API (Django), celui-ci sert les pages.
+
+| Champ | Valeur |
+|---|---|
+| Language | Node |
+| Root Directory | `frontend` |
+| Build Command | `npm ci && npm run build` |
+| Start Command | `node dist/diwan-web/server/server.mjs` |
+
+Variables d'environnement :
+
+| Variable | Valeur |
+|---|---|
+| `API_URL` | `https://diwan-platform.onrender.com/api/v1` (rendu côté serveur) |
+| `NG_ALLOWED_HOSTS` | `diwan-web.onrender.com` (l'adresse de ce service) |
+| `NODE_VERSION` | `22.12.0` |
+
+L'adresse de l'API utilisée **par le navigateur** est fixée à la construction, dans `angular.json`
+(`configurations > production > define > NG_API_BASE_URL`). Changez-la si l'adresse de l'API change.
+
 ## Production
 
 ```bash

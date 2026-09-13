@@ -1,0 +1,4 @@
+{
+  "//": "Use the API that is already online instead of a local Django: npm run start:api",
+  "/api": { "target": "https://diwan-api.onrender.com", "secure": true, "changeOrigin": true }
+}

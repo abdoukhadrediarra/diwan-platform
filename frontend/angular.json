@@ -2,8 +2,7 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm",
-    "analytics": "2aaf77ef-cb55-406c-9357-c357b69f4678"
+    "packageManager": "npm"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -71,12 +70,18 @@
                   "maximumError": "10kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "define": {
+                "NG_API_BASE_URL": "\"https://diwan-platform.onrender.com/api/v1\""
+              }
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "define": {
+                "NG_API_BASE_URL": "\"\""
+              }
             }
           },
           "defaultConfiguration": "production"

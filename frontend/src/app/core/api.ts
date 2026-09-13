@@ -6,7 +6,11 @@ import { Observable, catchError, map, of, startWith } from 'rxjs';
  * (ng serve proxies it, see proxy.conf.json; in production nginx routes /api to Django).
  * During server-side rendering it is set in app.config.server.ts from the API_URL environment variable.
  */
-export const API_BASE_URL = new InjectionToken<string>('API_BASE_URL', { factory: () => '/api/v1' });
+declare const NG_API_BASE_URL: string | undefined;   // set at build time (see angular.json > define)
+
+export const API_BASE_URL = new InjectionToken<string>('API_BASE_URL', {
+  factory: () => (typeof NG_API_BASE_URL === 'string' && NG_API_BASE_URL) ? NG_API_BASE_URL : '/api/v1',
+});
 
 /** A value that is loading, ready, or failed (with 404 kept apart, to show "not found"). */
 export type Loadable<T> =
