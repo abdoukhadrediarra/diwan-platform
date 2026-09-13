@@ -1,0 +1,7 @@
+# Pendant le développement : aucun moteur de recherche n'indexe le site.
+# Avant le lancement officiel, remplacer par :
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://<domaine>/sitemap.xml
+User-agent: *
+Disallow: /

@@ -7,6 +7,7 @@ Read-only API for the website and the mobile app. Only published poems are visib
     GET /api/v1/diwans/diwan-01/poems/008/                one poem with all its lines and transcriptions
 """
 from django.db.models import Count, IntegerField, Prefetch, Q, Sum, Value
+from django.http import HttpResponse
 from django.db.models.functions import Coalesce
 from django.shortcuts import get_object_or_404
 from rest_framework.generics import ListAPIView, RetrieveAPIView
@@ -24,6 +25,11 @@ def diwans_with_counts():
         poem_count=Count("poems", filter=PUBLISHED),
         published_abyat=Coalesce(Sum("poems__bayt_count", filter=PUBLISHED), Value(0), output_field=IntegerField()),
     ).order_by("number")
+
+
+def robots_txt(request):
+    """Ask search engines to stay away while the platform is not launched."""
+    return HttpResponse("User-agent: *\nDisallow: /\n", content_type="text/plain")
 
 
 class ApiRootView(APIView):
