@@ -11,6 +11,8 @@ import mimetypes
 import os
 from pathlib import Path
 
+from django.core.exceptions import ImproperlyConfigured
+
 # Some Windows PCs register .css and .js as "text/plain"; browsers then refuse the admin's stylesheets and
 # scripts, and the admin looks unstyled. Force the right types whatever the computer says.
 mimetypes.add_type("text/css", ".css", True)
@@ -65,6 +67,13 @@ TEMPLATES = [{
     ]},
 }]
 WSGI_APPLICATION = "config.wsgi.application"
+
+if not DEBUG and not os.environ.get("DATABASE_URL"):
+    # a clear message instead of "connection to 127.0.0.1 refused" during a deploy
+    raise ImproperlyConfigured(
+        "DATABASE_URL is not set. On the hosting service, add the connection string of your "
+        "PostgreSQL database (Neon, Supabase, Render) as an environment variable named DATABASE_URL."
+    )
 
 if os.environ.get("DATABASE_URL"):          # hosting services give the database as one address
     import dj_database_url

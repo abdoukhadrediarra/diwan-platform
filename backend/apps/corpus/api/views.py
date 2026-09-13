@@ -26,6 +26,24 @@ def diwans_with_counts():
     ).order_by("number")
 
 
+class ApiRootView(APIView):
+    """What lives at the root of the server: a short index, so the address is never a dead end."""
+
+    def get(self, request):
+        base = request.build_absolute_uri('/api/v1/')
+        return Response({
+            "name": "Diwan API",
+            "description": "Les sept diwans de Cheikh Ahmadou Bamba (lecture seule).",
+            "endpoints": {
+                "corpus": base + "corpus/",
+                "diwans": base + "diwans/",
+                "one_diwan": base + "diwans/diwan-01/",
+                "one_poem": base + "diwans/diwan-01/poems/008/",
+            },
+            "admin": request.build_absolute_uri('/admin/'),
+        })
+
+
 class CorpusView(APIView):
     def get(self, request):
         diwans = list(diwans_with_counts())
