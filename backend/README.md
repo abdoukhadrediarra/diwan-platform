@@ -83,3 +83,5 @@ the only one who imports and publishes. Set `CORS_ALLOWED_ORIGINS` to restrict i
 
 - `python tools/poem_json_web/app.py`: the "Poem to JSON" page (drop .docx files, check, get JSON)
 - `python manage.py import_poems … --refresh-transcriptions`: after improving the transcription rules
+
+"Everything is fine i hope"
