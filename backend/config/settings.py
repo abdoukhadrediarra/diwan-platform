@@ -6,6 +6,7 @@ Django settings for the Diwan backend. Values come from environment variables, w
     CORS_ALLOWED_ORIGINS (comma separated: where the website is served from, for the front-end team)
     DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
     CORPUS_AUTO_PUBLISH (1/0): publish reviewed poems as soon as they are imported
+    CORPUS_AUTO_EXPORT (1/0), CORPUS_JSON_DIR: write every poem to corpus-json/ automatically
 """
 import mimetypes
 import os
@@ -111,6 +112,11 @@ REST_FRAMEWORK = {
 }
 
 CORPUS_AUTO_PUBLISH = os.environ.get("CORPUS_AUTO_PUBLISH", "1") == "1"
+
+# every poem imported, published or corrected is also written to corpus-json/, so the folder
+# committed to Git always matches the database (set CORPUS_AUTO_EXPORT=0 to switch it off)
+CORPUS_AUTO_EXPORT = os.environ.get("CORPUS_AUTO_EXPORT", "1") == "1"
+CORPUS_JSON_DIR = Path(os.environ.get("CORPUS_JSON_DIR", BASE_DIR.parent / "corpus-json"))
 
 # --- when the API is online -------------------------------------------------------------------
 # the API is read-only, so any site may read it; the admin stays protected by its login

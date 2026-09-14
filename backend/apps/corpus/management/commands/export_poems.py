@@ -26,16 +26,17 @@ class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('--out', default='../corpus-json', help='folder to write into (default ../corpus-json)')
         parser.add_argument('--diwan', type=int, help='only this diwan number')
+        parser.add_argument('--database', default='default', help='which connection to read from')
 
-    def handle(self, *args, out, diwan, **options):
-        poems = Poem.objects.select_related('diwan').prefetch_related('lines')
+    def handle(self, *args, out, diwan, database, **options):
+        poems = Poem.objects.using(database).select_related('diwan').prefetch_related('lines')
         if diwan:
             poems = poems.filter(diwan__number=diwan)
         root = Path(out)
         written = 0
         for poem in poems.order_by('diwan__number', 'number'):
             manual = {t.line_id: (t.style, t.parts)
-                      for t in LineTranscription.objects.filter(line__poem=poem, is_manual=True)}
+                      for t in LineTranscription.objects.using(database).filter(line__poem=poem, is_manual=True)}
             lines = []
             for line in poem.lines.all():
                 entry = {

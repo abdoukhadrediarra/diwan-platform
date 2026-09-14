@@ -14,6 +14,7 @@ from django.conf import settings
 from django.db import transaction
 
 from .arabic import normalize_for_search
+from .exporting import write_poem_json_quietly
 from .models import Diwan, Line, LineTranscription, Poem, Status
 from .transcription import STYLES, transcribe_hemistichs
 
@@ -30,14 +31,18 @@ def auto_publish() -> bool:
     return getattr(settings, "CORPUS_AUTO_PUBLISH", True)
 
 
-@transaction.atomic
-def save_poem(data: dict, refresh_transcriptions: bool = False) -> ImportResult:
-    diwan, _ = Diwan.objects.get_or_create(
+def save_poem(data: dict, refresh_transcriptions: bool = False, database: str = 'default') -> ImportResult:
+    with transaction.atomic(using=database):
+        return _save_poem(data, refresh_transcriptions, database)
+
+
+def _save_poem(data: dict, refresh_transcriptions: bool, database: str) -> ImportResult:
+    diwan, _ = Diwan.objects.using(database).get_or_create(
         number=data["diwan"],
         defaults={"slug": f"diwan-{data['diwan']:02d}", "title": f"Diwan {data['diwan']}"},  # run seed_diwans for real titles
     )
 
-    poem = Poem.objects.select_for_update().filter(diwan=diwan, number=data["number"]).first()
+    poem = Poem.objects.using(database).select_for_update().filter(diwan=diwan, number=data["number"]).first()
     created = poem is None
     if created:
         poem = Poem(diwan=diwan, number=data["number"], slug=f"{data['number']:03d}")
@@ -70,22 +75,23 @@ def save_poem(data: dict, refresh_transcriptions: bool = False) -> ImportResult:
 
     if not text_changed:
         if details_changed:
-            poem.save()
+            poem.save(using=database)
         notes = refresh_poem_transcriptions(poem) if refresh_transcriptions else ""
+        write_poem_json_quietly(poem)       # keep corpus-json/ in step with the database
         return ImportResult(poem.code, "updated" if details_changed else "unchanged", poem.status, notes)
 
-    poem.save()
+    poem.save(using=database)
 
     # keep the hand-corrected transcriptions before the old lines (and their transcriptions) are deleted
     kept = [(t.style, t.line.position, tuple(t.line.hemistichs), t.parts)
-            for t in LineTranscription.objects.filter(line__poem=poem, is_manual=True).select_related("line")]
+            for t in LineTranscription.objects.using(database).filter(line__poem=poem, is_manual=True).select_related("line")]
 
     poem.lines.all().delete()               # replace the old version of the text
     # transcriptions corrected by hand and carried in the file (written by export_poems)
     for line in data["lines"]:
         for style, parts in (line.get("transcription_manual") or {}).items():
             kept.append((style, line["position"], tuple(line["hemistichs"]), parts))
-    lines = Line.objects.bulk_create(
+    lines = Line.objects.using(database).bulk_create(
         Line(
             poem=poem,
             position=line["position"],
@@ -97,10 +103,12 @@ def save_poem(data: dict, refresh_transcriptions: bool = False) -> ImportResult:
         )
         for line in data["lines"]
     )
-    return ImportResult(poem.code, "created" if created else "updated", poem.status, write_transcriptions(lines, kept))
+    notes = write_transcriptions(lines, kept, database)
+    write_poem_json_quietly(poem)           # keep corpus-json/ in step with the database
+    return ImportResult(poem.code, "created" if created else "updated", poem.status, notes)
 
 
-def write_transcriptions(lines, kept) -> str:
+def write_transcriptions(lines, kept, database: str = 'default') -> str:
     unused = list(range(len(kept)))
     rows, restored, to_review = [], 0, 0
     for line in lines:
@@ -122,7 +130,7 @@ def write_transcriptions(lines, kept) -> str:
             else:
                 rows.append(LineTranscription(line=line, style=style_name,
                                               parts=transcribe_hemistichs(line.hemistichs, style)))
-    LineTranscription.objects.bulk_create(rows)
+    LineTranscription.objects.using(database).bulk_create(rows)
 
     notes = []
     if restored:

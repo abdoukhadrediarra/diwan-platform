@@ -1,0 +1,58 @@
+{
+  "code": "D01K01",
+  "diwan": 1,
+  "number": 1,
+  "source_file": "D01K01_يَا رَبَّنَا صَلِّ صَلَاةً تَقْبَلُ.docx",
+  "incipit": "يَا رَبَّنَا صَلِّ صَلَاةً تَقْبَلُ",
+  "title": "يَا رَبَّنَا صَلِّ صَلَاةً تَقْبَلُ",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 3,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "6f74c7a2dd067ed87668dbb3aad5ecd46ee4b1a461b9a9aac8ce19b04390b4a7",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "يَا رَبَّنَا صَلِّ صَلَاةً تَقْبَلُ",
+        "بِهَا الْكِتَابُ ذَا قَبُولاً يُسْبِلُ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "سِتْرًا جَمِيلاً مَاحِيًا كُلَّ عُيُوبْ",
+        "مَعْ سَلَامٍ دَائِمٍ يُدْرِي الْغُيُوبْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "عَلَى النَّبِيِّ وَالرَّسُولِ أَحْمَدَا",
+        "وَالْآلِ وَالصَّحْبِ وَذَا السَّعْيَ احْمَدَا"
+      ]
+    }
+  ]
+}

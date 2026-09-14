@@ -28,8 +28,10 @@ class Command(BaseCommand):
         parser.add_argument("--dry-run", action="store_true", help="read and report without saving")
         parser.add_argument("--refresh-transcriptions", action="store_true",
                             help="regenerate automatic transcriptions, even for poems whose text did not change")
+        parser.add_argument("--database", default="default",
+                            help="which connection to write to (used by sync_corpus)")
 
-    def handle(self, *args, paths, dry_run, refresh_transcriptions, **options):
+    def handle(self, *args, paths, dry_run, refresh_transcriptions, database='default', **options):
         try:
             files = find_poem_files(paths)
         except ValueError as exc:
@@ -53,7 +55,7 @@ class Command(BaseCommand):
                 self.stdout.write(f"  {summary}  (dry run)")
             else:
                 try:
-                    r = save_poem(data, refresh_transcriptions)
+                    r = save_poem(data, refresh_transcriptions, database=database)
                 except (IntegrityError, KeyError) as exc:
                     totals["failed"] += 1
                     self.stderr.write(self.style.ERROR(f"✗ {data['code']}: not saved ({exc})"))

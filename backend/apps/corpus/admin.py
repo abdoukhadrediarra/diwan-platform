@@ -15,6 +15,7 @@ from django.db import IntegrityError
 from django.template.response import TemplateResponse
 from django.urls import path
 
+from .exporting import write_poem_json_quietly
 from .importing import save_poem
 from .models import Diwan, LineTranscription, Poem
 from .parsing import check_poem_json, parse_poem_docx
@@ -55,6 +56,14 @@ class PoemAdmin(admin.ModelAdmin):
     def get_urls(self):
         extra = [path("import/", self.admin_site.admin_view(self.import_view), name="corpus_poem_import")]
         return extra + super().get_urls()
+
+    def save_model(self, request, obj, form, change):
+        super().save_model(request, obj, form, change)
+        write_poem_json_quietly(obj)          # publishing a poem updates its file in corpus-json/
+
+    def save_related(self, request, form, formsets, change):
+        super().save_related(request, form, formsets, change)
+        write_poem_json_quietly(form.instance)
 
     def import_view(self, request):
         """Upload reviewed poems: they are saved exactly like `manage.py import_poems` saves them."""
@@ -125,3 +134,4 @@ class LineTranscriptionAdmin(admin.ModelAdmin):
             obj.is_manual = True          # a hand correction is never regenerated
             obj.needs_review = False      # and it is now up to date with the Arabic
         super().save_model(request, obj, form, change)
+        write_poem_json_quietly(obj.line.poem)   # the correction goes into corpus-json/ too

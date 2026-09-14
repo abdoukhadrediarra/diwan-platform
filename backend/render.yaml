@@ -17,7 +17,25 @@ services:
         sync: false                  # put your address here: diwan-api.onrender.com
       - key: DJANGO_CSRF_TRUSTED_ORIGINS
         sync: false                  # https://diwan-api.onrender.com
+      - key: CORPUS_AUTO_EXPORT
+        value: "0"                   # the server has no repository to write corpus-json into
       - key: PYTHON_VERSION
         value: "3.12.6"
       - key: DATABASE_URL
         sync: false                  # the address of your PostgreSQL (Render, Neon or Supabase)
+
+  # the website (Angular, rendered on the server)
+  - type: web
+    name: diwan-web
+    runtime: node
+    rootDir: frontend
+    plan: free
+    buildCommand: npm ci || npm install; npm run build
+    startCommand: node dist/diwan-web/server/server.mjs
+    envVars:
+      - key: API_URL
+        sync: false                  # https://diwan-platform.onrender.com/api/v1
+      - key: NG_ALLOWED_HOSTS
+        sync: false                  # diwan-web.onrender.com
+      - key: NODE_VERSION
+        value: "22.12.0"
