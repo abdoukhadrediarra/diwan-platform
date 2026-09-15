@@ -1,3 +1,4 @@
+from django.urls import reverse
 from rest_framework import serializers
 
 from ..models import Diwan, Line, Poem
@@ -48,11 +49,24 @@ class PoemDetailSerializer(serializers.ModelSerializer):
     lines = LineSerializer(many=True, read_only=True)
     previous = serializers.SerializerMethodField()
     next = serializers.SerializerMethodField()
+    downloads = serializers.SerializerMethodField()
 
     class Meta:
         model = Poem
         fields = ["code", "number", "slug", "title", "title_source", "is_acrostic", "acrostic_match", "incipit",
-                  "bayt_count", "hemistichs_per_bayt", "diwan", "lines", "previous", "next"]
+                  "bayt_count", "hemistichs_per_bayt", "diwan", "lines", "previous", "next", "downloads"]
+
+    def get_downloads(self, poem) -> dict:
+        """Ready-made addresses of the PDF versions of this poem."""
+        base = reverse("api-poem-pdf", kwargs={"diwan": poem.diwan.slug, "poem": poem.slug})
+        request = self.context.get("request")
+        full = request.build_absolute_uri(base) if request else base
+        return {
+            "pdf": full,
+            "pdf_transcription": f"{full}?transcription=1",
+            "pdf_wolofal": f"{full}?script=wolofal",
+            "pdf_wolofal_transcription": f"{full}?script=wolofal&transcription=1",
+        }
 
     def _neighbour(self, poem, before: bool):
         siblings = Poem.objects.filter(diwan=poem.diwan, status="published")
