@@ -13,6 +13,7 @@ from django.contrib import admin, messages
 from django.contrib.postgres.forms import SimpleArrayField
 from django.db import IntegrityError
 from django.template.response import TemplateResponse
+from django.utils.html import format_html
 from django.urls import path
 
 from .exporting import write_poem_json_quietly
@@ -35,6 +36,33 @@ class MultipleFileField(forms.FileField):
         return [single(item, initial) for item in data] if isinstance(data, (list, tuple)) else [single(data, initial)]
 
 
+class RedWordsFilter(admin.FieldListFilter):
+    """Reads "Mots en rouge : Aucun / À corriger" instead of "has open flags: Oui / Non"."""
+
+    title = "Mots en rouge"
+    labels = {"1": "À corriger", "0": "Aucun"}
+
+    def __init__(self, field, request, params, model, model_admin, field_path):
+        self.lookup_kwarg = f"{field_path}__exact"
+        self.lookup_val = params.get(self.lookup_kwarg)
+        super().__init__(field, request, params, model, model_admin, field_path)
+
+    def expected_parameters(self):
+        return [self.lookup_kwarg]
+
+    def choices(self, changelist):
+        yield {"selected": self.lookup_val is None,
+               "query_string": changelist.get_query_string(remove=[self.lookup_kwarg]), "display": "Tout"}
+        for value, label in self.labels.items():
+            yield {"selected": self.lookup_val == value,
+                   "query_string": changelist.get_query_string({self.lookup_kwarg: value}), "display": label}
+
+
+class AcrosticFilter(RedWordsFilter):
+    title = "Acrostiche"
+    labels = {"1": "Oui", "0": "Non"}
+
+
 class PoemImportForm(forms.Form):
     files = MultipleFileField(label="Poem files",
                               help_text="One poem per file: the reviewed .docx (named D01K08_…) or its JSON from the web page.")
@@ -47,11 +75,27 @@ class DiwanAdmin(admin.ModelAdmin):
 
 @admin.register(Poem)
 class PoemAdmin(admin.ModelAdmin):
-    list_display = ["code", "title", "title_source", "bayt_count", "is_acrostic", "has_open_flags", "status"]
-    list_filter = ["diwan", "status", "title_source", "is_acrostic", "has_open_flags"]
+    list_display = ["code", "title", "title_source", "bayt_count", "acrostic", "red_words", "status"]
+    list_filter = ["diwan", "status", "title_source", ("is_acrostic", AcrosticFilter), ("has_open_flags", RedWordsFilter)]
     list_editable = ["status"]
     search_fields = ["code", "title_plain"]
     change_list_template = "admin/corpus/poem/change_list.html"
+
+    @admin.display(description="Mots en rouge", ordering="has_open_flags")
+    def red_words(self, poem):
+        """Green when the poem is clean, red when words still have to be reviewed."""
+        return self._badge(not poem.has_open_flags, "Aucun", "À corriger")
+
+    @admin.display(description="Acrostiche", ordering="is_acrostic")
+    def acrostic(self, poem):
+        if not poem.is_acrostic:
+            return format_html('<span style="color:{}">{}</span>', "#5a6862", "Non")
+        return format_html('<span style="color:#0f5a44; font-weight:600">Oui, {}%</span>', poem.acrostic_match or 0)
+
+    @staticmethod
+    def _badge(good: bool, yes: str, no: str):
+        colour, label = ("#0f5a44", yes) if good else ("#9b2c2c", no)
+        return format_html('<span style="color:{}; font-weight:600">{}</span>', colour, label)
 
     def get_urls(self):
         extra = [path("import/", self.admin_site.admin_view(self.import_view), name="corpus_poem_import")]
