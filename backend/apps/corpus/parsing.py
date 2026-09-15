@@ -12,13 +12,15 @@ How a poem is read (empty paragraphs are ignored):
     first text(s) before the abyat                     -> section "muqaddima", kind "prose"
     the second text, right before the abyat            -> section "title",     kind "title"
       = the poem's own NAME given by the author (only when there are at least two texts)
+    a single text before the abyat                     -> section "title" too, but only when the
+      abyat spell it: then that line is the poem's acrostic name, not an opening text
     paragraphs containing "|"                          -> section "matn",      kind "bayt"
     paragraphs after the last bayt                     -> section "khatima",   kind "prose"
 
 The poem's name (the "title" field):
-    title_source "name_line"   the second text before the abyat, as above
-    title_source "first_sadr"  poems with one text or no text before the abyat are known by
-                               the sadr of their first bayt
+    title_source "name_line"   the second text before the abyat, as above; or the single text
+                               before the abyat when the abyat spell it
+    title_source "first_sadr"  everything else: the poem is known by the sadr of its first bayt
 
 The name is what the platform works with (display, search, months, events, days).
 Whether an own name is ALSO an acrostic is a secondary fact, checked leniently: its letters are
@@ -144,6 +146,11 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
 
     # The poem's name, when there is one, is the second text, on its own line, right before the abyat.
     title_index = first_bayt - 1 if first_bayt >= 2 else None
+    if title_index is None and first_bayt == 1:
+        # one text only: it is the poem's name when the abyat spell it, an opening text otherwise
+        opening_sadrs = [paragraphs[k][0].split("|")[0].strip() for k in bayt_indexes]
+        if acrostic_match(paragraphs[0][0], opening_sadrs) >= 100 * ACROSTIC_MAJORITY:
+            title_index = 0
     if first_bayt > 2:
         warnings.append(f"{first_bayt} texts before the abyat: line {first_bayt} was taken as the poem's name, please confirm")
 
@@ -204,9 +211,6 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
         is_acrostic = match >= 100 * ACROSTIC_MAJORITY
     else:                                   # no own name: the poem is known by its first sadr
         title, title_source, is_acrostic, match = sadrs[0], "first_sadr", False, None
-        if first_bayt == 1 and acrostic_match(lines[0]["hemistichs"][0], sadrs) >= 80:
-            warnings.append("name: the only text before the abyat is spelled by their first letters, so it may be "
-                            "the poem's name; if it is, put the opening text on a line above it")
 
     sizes = Counter(len(l["hemistichs"]) for l in abyat)
     if len(sizes) > 1:

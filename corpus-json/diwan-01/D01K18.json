@@ -1,0 +1,127 @@
+{
+  "code": "D01K18",
+  "diwan": 1,
+  "number": 18,
+  "source_file": "D01K18_أَلَمِّ أَلَمِّ طَسِمِّ.docx",
+  "incipit": "أَوْرَثْتَ عَبْدَكَ وَجَارَكَ الْكِتَابْ",
+  "title": "أَلَمِّ أَلَمِّ طَسِمِّ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 9,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "1188bd2c9fd037c2929d72cc2fd9765e04dc245b60ad162b886f1cf94927cc79",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "أَلَمِّ أَلَمِّ طَسِمِّ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أَوْرَثْتَ عَبْدَكَ وَجَارَكَ الْكِتَابْ",
+        "يَا مَاحِيًا عَنْهُ جَوَالِبَ الْعِتَابْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لَقَّنْتَنِي فَهَّمْتَنِي أَبْقَيْتَنِي",
+        "رَبَّيْتَنِي بِكَ كَمَا رَقَّيْتَنِي"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَلَّكْتَنِي هَدَيْتَنِي شَفَيْتَنِي",
+        "بَرَّأْتَنِي عِنْدَ الْوَرَى صَفَّيْتَنِي"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "أَخْفَيْتَ لِي ذِكْرَكَ عِنْدَ النَّاسِ",
+        "وَصُنْتَنِي عَنْ حِيَلِ الْخَنَّاسِ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "لَقَّيْتَنِي مَعَ بَقَاءٍ سَرْمَدَا",
+        "وَبِحَيَاتِيَ تُبَاهِي الْحُمَّدَا"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "مَدَحْتَنِي عِنْدَ خِيَارِ جُنْدِكَا",
+        "يَا مَنْ جَعَلْتَنِي دَوَامًا عِنْدَكَا"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "طَهَّرْتَنِي مِنْ كُلِّ مَا يَعُوقُ",
+        "مِنَ الدَّسَائِسِ الَّتِي تَعُوقُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "سَقَيْتَنِي مِنْ مَائِكَ الْغَيْبِيِّ",
+        "كَمَّلْتَنِي بِفَيْضِكَ الْوَهْبِيِّ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "مَحَوْتَ عَنِّي مَا يُوَرِّثُ الْعِتَابْ",
+        "مِنْ قَبْلِ أَنْ أَوْرَثْتَنِي خَيْرَ الْكِتَابْ"
+      ]
+    }
+  ]
+}
