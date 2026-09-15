@@ -63,6 +63,46 @@ class AcrosticFilter(RedWordsFilter):
     labels = {"1": "Oui", "0": "Non"}
 
 
+class PoemReplaceForm(forms.ModelForm):
+    """The poem's own page, plus a field to upload a corrected version of its file."""
+
+    replacement = forms.FileField(
+        required=False,
+        label="Remplacer le texte",
+        help_text="Choisissez la version corrigée du même poème (.docx ou .json). Le texte, les abyat et "
+                  "les transcriptions automatiques sont refaits ; les transcriptions corrigées à la main sont gardées.",
+        widget=forms.ClearableFileInput(attrs={"accept": ".docx,.json"}),
+    )
+
+    class Meta:
+        model = Poem
+        fields = "__all__"
+
+    def clean_replacement(self):
+        upload = self.cleaned_data.get("replacement")
+        if not upload:
+            return None
+        name = upload.name.lower()
+        if not name.endswith((".docx", ".json")):
+            raise forms.ValidationError("Seuls les fichiers .docx et .json peuvent être importés.")
+        try:
+            if name.endswith(".json"):
+                data = check_poem_json(json.load(upload), upload.name)
+            else:
+                data = parse_poem_docx(io.BytesIO(upload.read()), filename=upload.name)
+        except (ValueError, KeyError, json.JSONDecodeError) as exc:
+            raise forms.ValidationError(str(exc))
+        except Exception:
+            raise forms.ValidationError(f"{upload.name} : le fichier n\u2019a pas pu être lu.")
+
+        if self.instance.pk and data["code"] != self.instance.code:
+            raise forms.ValidationError(
+                f"Ce fichier contient le poème {data['code']}, pas {self.instance.code}. "
+                f"Pour importer un autre poème, utilisez « Import poems ».")
+        self.cleaned_data["replacement_data"] = data
+        return upload
+
+
 class PoemImportForm(forms.Form):
     files = MultipleFileField(label="Poem files",
                               help_text="One poem per file: the reviewed .docx (named D01K08_…) or its JSON from the web page.")
@@ -78,6 +118,7 @@ class PoemAdmin(admin.ModelAdmin):
     list_display = ["code", "title", "title_source", "bayt_count", "acrostic", "red_words", "status"]
     list_filter = ["diwan", "status", "title_source", ("is_acrostic", AcrosticFilter), ("has_open_flags", RedWordsFilter)]
     list_editable = ["status"]
+    form = PoemReplaceForm
     search_fields = ["code", "title_plain"]
     change_list_template = "admin/corpus/poem/change_list.html"
 
@@ -102,6 +143,15 @@ class PoemAdmin(admin.ModelAdmin):
         return extra + super().get_urls()
 
     def save_model(self, request, obj, form, change):
+        data = form.cleaned_data.get("replacement_data") if hasattr(form, "cleaned_data") else None
+        if data:
+            # the whole text is replaced by the new version of the file, exactly as import_poems does
+            result = save_poem(data)
+            messages.success(request, f"{result.code} : texte remplacé ({result.result}, {result.status})"
+                                      + (f" — {result.notes}" if result.notes else ""))
+            for warning in data["warnings"]:
+                messages.warning(request, f"{result.code} : {warning}")
+            return
         super().save_model(request, obj, form, change)
         write_poem_json_quietly(obj)          # publishing a poem updates its file in corpus-json/
 
