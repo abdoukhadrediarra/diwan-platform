@@ -6,17 +6,13 @@
         <h1 id="hero-title" class="hero-title">Cheikh Ahmadou Bamba</h1>
         <p class="hero-epithet">
           <span class="ar" lang="ar">خَادِمُ الرَّسُولِ</span>
-          Khadimou Rassoul, le Serviteur du Messager
+          {{ i18n.t('home.epithet') }}
         </p>
-        <p class="hero-dates">Mbacké, 1853 <span aria-hidden="true">–</span><span class="visually-hidden">à</span> Diourbel, 1927</p>
-        <p class="hero-lede">
-          Théologien, juriste et maître soufi, fondateur de la voie mouride et de la ville de Touba.
-          Il a consacré sa vie au service de Dieu et du Prophète, et laissé des milliers de vers de louange :
-          ses khassaïdes, réunis ici dans sept diwans.
-        </p>
+        <p class="hero-dates">{{ i18n.t('home.dates') }}</p>
+        <p class="hero-lede">{{ i18n.t('home.lede') }}</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" routerLink="/diwans">Découvrir les diwans</a>
-          <a class="link-quiet" routerLink="/" fragment="cheikh">Lire sa biographie</a>
+          <a class="btn btn-primary" routerLink="/diwans">{{ i18n.t('home.discover') }}</a>
+          <a class="link-quiet" routerLink="/" fragment="cheikh">{{ i18n.t('home.readBio') }}</a>
         </div>
       </div>
 
@@ -25,9 +21,9 @@
           <div class="arch">
             <img ngSrc="images/cheikh-ahmadou-bamba.jpg" width="808" height="1280" priority
                  sizes="(min-width: 992px) 40vw, 80vw"
-                 alt="Cheikh Ahmadou Bamba debout, vêtu d'un boubou blanc, le visage entouré d'un turban blanc">
+                 [alt]="i18n.t('home.photoAlt')">
           </div>
-          <figcaption>Cheikh Ahmadou Bamba, photographie d'archive</figcaption>
+          <figcaption>{{ i18n.t('home.photoCaption') }}</figcaption>
         </figure>
       </div>
     </div>

@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { BaytView } from '../../../shared/bayt/bayt';
 import { FEATURED_BAYT } from '../../../core/data/corpus-stats';
+
+import { LanguageService } from '../../../core/services/language.service';
 
 @Component({
   selector: 'app-author',
@@ -9,6 +11,7 @@ import { FEATURED_BAYT } from '../../../core/data/corpus-stats';
   styleUrl: './author.scss',
 })
 export class Author {
+  protected readonly i18n = inject(LanguageService);
   protected readonly bayt = FEATURED_BAYT;
   protected readonly timeline = [
     { year: '1853', text: 'Naissance à Mbacké, dans le royaume du Baol.' },

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+
+import { LanguageService } from '../../core/services/language.service';
 
 @Component({
   selector: 'app-site-footer',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './site-footer.scss',
 })
 export class SiteFooter {
+  protected readonly i18n = inject(LanguageService);
   protected readonly year = new Date().getFullYear();
 }

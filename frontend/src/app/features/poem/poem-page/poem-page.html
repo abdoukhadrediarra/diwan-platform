@@ -1,42 +1,41 @@
 @let p = poem();
 @if (p.state === 'error') {
   @if (p.notFound) {
-    <app-not-found heading="Khassida introuvable"
-      text="Ce poème n’est pas (encore) en ligne. Il paraîtra ici dès qu’il aura été relu et importé." />
+    <app-not-found [heading]="i18n.t('error.notFound')" [text]="i18n.t('error.poemNotFound')" />
   } @else {
-    <app-not-found heading="La khassida n’a pas pu être chargée" text="Le serveur ne répond pas pour le moment. Réessayez dans quelques instants." />
+    <app-not-found [heading]="i18n.t('error.poemTitle')" [text]="i18n.t('error.server')" />
   }
 } @else if (p.state === 'ready') {
   <article class="poem" [class.with-transcription]="showTranscription()" [class.is-acrostic]="p.data.is_acrostic">
     <div class="container">
       <app-breadcrumb [items]="[
-        { label: 'Accueil', link: '/' },
-        { label: 'Les diwans', link: '/diwans' },
-        { label: 'Diwan ' + p.data.diwan.number, link: '/diwans/' + p.data.diwan.slug },
-        { label: 'Khassida ' + p.data.number }
+        { label: i18n.t('nav.home'), link: '/' },
+        { label: i18n.t('diwans.title'), link: '/diwans' },
+        { label: i18n.t('diwan.label') + ' ' + p.data.diwan.number, link: '/diwans/' + p.data.diwan.slug },
+        { label: i18n.t('poem.label') + ' ' + p.data.number }
       ]" />
 
       <header class="poem-head">
         <p class="poem-context">
           <a [routerLink]="['/diwans', p.data.diwan.slug]" class="ar" lang="ar">{{ p.data.diwan.title }}</a>
-          <span>Khassida {{ p.data.number }}, {{ p.data.bayt_count | number }} abyat</span>
+          <span>{{ i18n.t('poem.label') }} {{ p.data.number }}, {{ p.data.bayt_count | number }} {{ i18n.t('poem.abyat') }}</span>
         </p>
         <h1 class="ar poem-title" lang="ar">{{ p.data.title }}</h1>
         @if (p.data.is_acrostic) {
-          <p class="acrostic-note">Acrostiche : les premières lettres des abyat, en rouge, forment le nom du poème.</p>
+          <p class="acrostic-note">{{ i18n.t('poem.acrosticNote') }}</p>
         }
         <div class="poem-tools">
           <app-script-toggle />
           <button type="button" class="btn btn-outline-secondary toggle" (click)="toggleTranscription()"
                   [attr.aria-pressed]="showTranscription()">
-            {{ showTranscription() ? 'Masquer la transcription' : 'Afficher la transcription' }}
+            {{ i18n.t(showTranscription() ? 'poem.hideTranscription' : 'poem.showTranscription') }}
           </button>
         </div>
       </header>
 
       <div class="poem-text">
         @for (group of sections(); track $index) {
-          <section class="block" [class]="'block ' + group.section" [attr.aria-label]="sectionLabels[group.section]">
+          <section class="block" [class]="'block ' + group.section" [attr.aria-label]="i18n.t(sectionKeys[group.section])">
             @for (line of group.lines; track line.position) {
               @if (line.kind === 'bayt') {
                 <div class="bayt" [id]="'bayt-' + line.bayt_number">
@@ -71,16 +70,16 @@
         }
       </div>
 
-      <nav class="poem-nav" aria-label="Khassaïdes voisines">
+      <nav class="poem-nav" [attr.aria-label]="i18n.t('poem.previous') + ' / ' + i18n.t('poem.next')">
         @if (p.data.previous; as prev) {
           <a class="prev" [routerLink]="['/diwans', p.data.diwan.slug, prev.slug]">
-            <span class="dir">Khassida précédente</span>
+            <span class="dir">{{ i18n.t('poem.previous') }}</span>
             <span class="ar" lang="ar">{{ prev.title }}</span>
           </a>
         } @else { <span></span> }
         @if (p.data.next; as next) {
           <a class="next" [routerLink]="['/diwans', p.data.diwan.slug, next.slug]">
-            <span class="dir">Khassida suivante</span>
+            <span class="dir">{{ i18n.t('poem.next') }}</span>
             <span class="ar" lang="ar">{{ next.title }}</span>
           </a>
         }
@@ -88,5 +87,5 @@
     </div>
   </article>
 } @else {
-  <div class="container section"><p class="text-secondary">Chargement de la khassida…</p></div>
+  <div class="container section"><p class="text-secondary">{{ i18n.t('state.loading') }}</p></div>
 }

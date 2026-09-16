@@ -2,11 +2,8 @@
   <div class="container">
     <div class="row gx-lg-5 gy-5">
       <div class="col-lg-5">
-        <h2 id="project-title" class="section-title">Le projet</h2>
-        <p class="project-aim">
-          Rassembler les diwans de Cheikh Ahmadou Bamba dans une édition numérique complète et vocalisée,
-          lisible par tous et partout : au Sénégal comme ailleurs, en arabe comme en caractères latins.
-        </p>
+        <h2 id="project-title" class="section-title">{{ i18n.t('home.projectTitle') }}</h2>
+        <p class="project-aim">{{ i18n.t('home.projectAim') }}</p>
         <p class="measure">
           Les khassaïdes sont récitées, chantées et étudiées chaque jour. Pourtant, beaucoup de lecteurs n’ont accès
           qu’à des éditions dispersées, souvent sans voyelles. Diwan donne à chaque poème une page, un texte fiable
@@ -15,7 +12,7 @@
       </div>
 
       <div class="col-lg-7">
-        <h3 class="sub-title">Ce que vous trouverez ici</h3>
+        <h3 class="sub-title">{{ i18n.t('home.offers') }}</h3>
         <dl class="offers">
           @for (offer of offers; track offer.title) {
             <div class="offer">

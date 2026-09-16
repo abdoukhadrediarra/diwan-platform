@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+
+import { LanguageService } from '../../../core/services/language.service';
 
 @Component({
   selector: 'app-project',
@@ -6,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './project.scss',
 })
 export class Project {
+  protected readonly i18n = inject(LanguageService);
   protected readonly offers = [
     { title: 'Une page pour chaque poème', text: 'Le texte entièrement vocalisé, bayt par bayt, sous le nom que lui a donné son auteur.' },
     { title: 'La transcription en caractères latins', text: 'Pour lire et réciter les khassaïdes sans lire l’écriture arabe.' },

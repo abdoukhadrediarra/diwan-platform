@@ -1,5 +1,7 @@
-import { Component, input } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
+
+import { LanguageService } from '../../core/services/language.service';
 
 @Component({
   selector: 'app-not-found',
@@ -9,12 +11,13 @@ import { RouterLink } from '@angular/router';
       <div class="container measure">
         <h1 class="section-title">{{ heading() }}</h1>
         <p class="section-intro">{{ text() }}</p>
-        <p class="mt-4"><a class="btn btn-primary" routerLink="/diwans">Voir les diwans</a></p>
+        <p class="mt-4"><a class="btn btn-primary" routerLink="/diwans">{{ i18n.t('menu.diwans') }}</a></p>
       </div>
     </section>
   `,
 })
 export class NotFound {
-  readonly heading = input('Page introuvable');
-  readonly text = input("Cette adresse ne correspond à aucune page du site. Les khassaïdes sont classées par diwan.");
+  protected readonly i18n = inject(LanguageService);
+  readonly heading = input(this.i18n.t('error.pageTitle'));
+  readonly text = input(this.i18n.t('error.pageText'));
 }

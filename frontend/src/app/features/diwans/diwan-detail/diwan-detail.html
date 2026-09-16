@@ -15,25 +15,25 @@
           <p class="diwan-kicker"><span class="num">{{ d.data.number }}</span> Diwan {{ d.data.number }}</p>
           <h1 class="ar diwan-title" lang="ar">{{ d.data.title }}</h1>
           <dl class="facts">
-            <div><dt>Khassaïdes en ligne</dt><dd>{{ d.data.poem_count | number }}</dd></div>
-            <div><dt>Abyat en ligne</dt><dd>{{ d.data.published_abyat | number }}</dd></div>
-            <div><dt>Abyat du diwan</dt><dd>{{ d.data.corpus_abyat | number }}</dd></div>
+            <div><dt>{{ i18n.t('diwan.poemsOnline') }}</dt><dd>{{ d.data.poem_count | number }}</dd></div>
+            <div><dt>{{ i18n.t('diwan.abyatOnline') }}</dt><dd>{{ d.data.published_abyat | number }}</dd></div>
+            <div><dt>{{ i18n.t('diwan.abyatTotal') }}</dt><dd>{{ d.data.corpus_abyat | number }}</dd></div>
           </dl>
         </header>
 
         @if (d.data.poems.length === 0) {
           <div class="empty">
-            <p class="empty-title">Aucune khassida de ce diwan n’est encore en ligne.</p>
-            <p>Chaque poème relu et importé dans la base de données apparaît ici automatiquement.
-              <a routerLink="/diwans">Voir les autres diwans</a></p>
+            <p class="empty-title">{{ i18n.t('diwan.emptyTitle') }}</p>
+            <p>{{ i18n.t('diwan.emptyText') }}
+              <a routerLink="/diwans">{{ i18n.t('menu.all') }}</a></p>
           </div>
         } @else {
           <div class="list-tools">
-            <label for="poem-search" class="form-label">Chercher une khassida par son nom</label>
+            <label for="poem-search" class="form-label">{{ i18n.t('diwan.searchLabel') }}</label>
             <input id="poem-search" class="form-control ar search" lang="ar" type="search" dir="rtl"
                    placeholder="اكتب اسم القصيدة" (input)="onSearch($event)" autocomplete="off">
             <p class="result-count" aria-live="polite">
-              {{ poems().length | number }} {{ poems().length > 1 ? 'khassaïdes' : 'khassida' }}
+              {{ poems().length | number }} {{ i18n.t(poems().length > 1 ? 'diwan.poemsOnline' : 'diwan.poemOnline') }}
             </p>
           </div>
 
@@ -44,18 +44,18 @@
                   <span class="poem-num">{{ p.number }}</span>
                   <span class="ar poem-name" lang="ar">{{ p.title }}</span>
                   <span class="poem-meta">
-                    @if (p.is_acrostic) { <span class="tag">Acrostiche</span> }
-                    {{ p.bayt_count | number }} abyat
+                    @if (p.is_acrostic) { <span class="tag">{{ i18n.t('poem.acrostic') }}</span> }
+                    {{ p.bayt_count | number }} {{ i18n.t('poem.abyat') }}
                   </span>
                 </a>
               </li>
             } @empty {
-              <li class="no-match">Aucune khassida de ce diwan ne porte ce nom. Essayez avec un seul mot du nom.</li>
+              <li class="no-match">{{ i18n.t('diwan.noMatch') }}</li>
             }
           </ol>
         }
       } @else {
-        <p class="loading">Chargement du diwan…</p>
+        <p class="loading">{{ i18n.t('state.loading') }}</p>
       }
     </div>
   </section>

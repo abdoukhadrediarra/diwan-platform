@@ -1,0 +1,166 @@
+{
+  "code": "D01K59",
+  "diwan": 1,
+  "number": 59,
+  "source_file": "D01K59_وَأُدْخِلَ الْجَنَّةَ.docx",
+  "incipit": "وَلَّتْ لِغَيْرِ ذَاتِيَ الأَكْدَارُ",
+  "title": "وَأُدْخِلَ الْجَنَّةَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "eeb3f050301b820d344cf14cd138f2e297825416e210d922dd9f50c011790271",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا وَوَهَبَ لِي فِي هَذَا الْيَوْمِ وَبَعْدَهُ بُشَارَاتِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَأُدْخِلَ الْجَنَّةَ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَلَّتْ لِغَيْرِ ذَاتِيَ الأَكْدَارُ",
+        "وَتَنْتَحِي لِبِشْرِيَ الأَقْدَارُ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَدْبَرَ إِبْلِيسُ وَمَا وَالَاهُ",
+        "لِغَيْرِ نَحْوِي وَنَفَاهُ اللَّهُ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "دَجَّالُهُ الَّذِي يَدُورُ حِيَلَا",
+        "بَيْنِي وَبَيْنَهُ لَدُنْ أُحِيلَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "خِدْمَةُ خَيْرِ الْعَالَمِينَ مَنَعَتْ",
+        "مِنِّي عِدَايَ وَعِدَايَ امْتَنَعَتْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "لَمْ يَنْحُنِي وَلَيْسَ يَنْحُونِي الْمَرَضْ",
+        "وَلَا عِدًى وَلِيَ يَنْقَادُ الْغَرَضْ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "أَفْنَى مَكَارِهِي الَّتِي تَوَجَّهَتْ",
+        "إِلَى إِلَهِي وَحَيَاتِي نُوِّهَتْ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لِيَ تَوَجُّهٌ إِلَى الْجِنَانِ حِينْ",
+        "تَوَجَّهَ الْخَلْقُ لِأَوْجَالٍ تَحِينْ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "جَعَلَنِي اللَّهُ تَعَالَى آيَهْ",
+        "مُعْجِزَةً وَلِيَ قَادَ الآيَهْ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "نَزَعَنِيَ اللَّهُ مِنَ الْخَلْقِ مَعَا",
+        "لَهُ وَلِي بِهِ عِدَايَ قَمَعَا"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "نَفَعَنِي الرَّحْمَانُ وَالرَّحِيمُ",
+        "وَقَادَ لِي إِطْلَاقَهُ التَّرْحِيمُ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "هِبَاتُ مَنْ يَفْعَلُ مَا شَاءَ لِمَنْ",
+        "شَاءَ حَمَتْنِي عَنْ مَشَقَّاتِ الزَّمَنْ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "تَوْفِيقُ مَنْ تَجْرِي بِهِ الأَقْدَارُ",
+        "قَدْ صَانَنِي عَمَّا بِهِ الأَكْدَارُ"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بَاطِنًا مُدَّةَ مَكْثِي فِي الدُّنْيَا وَوَصَّلَ إِلَيَّ مُقَدِّمَاتِهَا فِي الْحَالِ وَكُلِّيَّتَهَا بِلَا سَلَبٍ أَبَدًا فِي الْمَآلِ وَأَظْهَرَ فِي هَذِهِ الْقَصِيدَةِ بَرَكَةً لَمْ تَظْهَرْ قَبْلَهَا قَطُّ فِي الدُّنْيَا آمِينَ يَا رَبَّ الْعَالَمِينَ"
+      ]
+    }
+  ]
+}

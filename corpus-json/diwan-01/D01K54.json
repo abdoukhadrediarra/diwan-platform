@@ -1,0 +1,246 @@
+{
+  "code": "D01K54",
+  "diwan": 1,
+  "number": 54,
+  "source_file": "D01K54_حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ.docx",
+  "incipit": "حُبِّي لِلَّهِ وَلِلْكِتَابِ",
+  "title": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 20,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "52473f884e1684709a50d5d20f7a7f2966839213b491a3f88e7216f847523db0",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا وَوَهَبَ لِي فِي قَوْلِي هَذَا مَا اخْتَارَهُ لِي أَبَدًا"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "حُبِّي لِلَّهِ وَلِلْكِتَابِ",
+        "وَلِلرَّسُولِ قَدْ مَحَا عِتَابِي"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "سَالَمَنِي الْحَسُودُ وَالْمُعَادِي",
+        "مُسْتَغْنِيًا عَنْ نَحْوِ مَا لِعَادِ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "بَارَكَ فِي عَقْدِي وَقَوْلِي وَالْفِعَالْ",
+        "وَجُمْلَةِ الأَخْلَاقِ مُغْنٍ بِفِعَالْ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "نَفَعَنِي بِمَا بِهِ يَغْبِطُنِي",
+        "سِوَايَ فِيهِ عَاصِمِي بِوَطَنِي"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "إِلَى سِوَى دُورِي انْتَحَا الْعَرَمْرَمِ",
+        "وَأَهْلُ بَدْرٍ هُمْ حُمَاةُ حَرَمِي"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "إِلَى سِوَايَ زَحْزَحَ الدَّجَّالَا",
+        "رَبِّي وَمَا لِي بِالْفَسَادِ جَالَا"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لَمْ يَنْحُنِي إِبْلِيسُ حَيْثُ كَانَا",
+        "بِطَرْدِ مَنْ طَيَّبَ لِيَ الْمَكَانَا"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لَمْ يَنْحُنِي كَافِرٌ أَوْ فَاسِقٌ أَوْ",
+        "مُشْرِكٌ أَوْ شَرٌّ لِغَيْرِيَ نَأَوْ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "إِلَى جِنَانِ اللَّهِ كُلِّي يَقْصِدُ",
+        "حِينَ الْفُتُونُ لِلْبَرَايَا تَقْصِدُ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "هَوْلُ الْقِيَامَةِ يَؤُمُّ غَيْرِي",
+        "وَكُلُّ شَيْءٍ جَالِبٌ لِضَيْرِ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "وَقَانِيَ الْحِسَابَ وَالْعَذَابَا",
+        "مَنْ مَنْ يَمِلْ لِضَرَرِي أَذَابَا"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "نَزَعَ لِي مَا اخْتَارَ لِي أَنْ يَنْزِعَهْ",
+        "لِي وَلِيَ سَلَبَ مَنْ لَمْ يَنْزِعَهْ"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "عَلَّمَنِي مِمَّا يَشَاءُ اللَّهُ",
+        "فَضْلاً وَلَا إِلَهَ إِلَّا اللَّهُ"
+      ]
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "مَدَّ لِيَ الْحَقَّ الَّذِي بِهِ دَمَغْ",
+        "بَاطِلَ مَنْ رَامَ أَذَايَ فَانْدَمَغْ"
+      ]
+    },
+    {
+      "position": 17,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 15,
+      "hemistichs": [
+        "إِلَيَّ مَدَّ سِرَّهُ الْمَصُونَا",
+        "مَنْ قَادَ لِي مَا أَخْجَلَ الْحُصُونَا"
+      ]
+    },
+    {
+      "position": 18,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 16,
+      "hemistichs": [
+        "لَهُ خِطَابِي قَبْلُ وَهْوَ خَيْرُ مَنْ",
+        "لَهُ تَوَجَّهَ الْخِطَابُ فِي زَمَنْ"
+      ]
+    },
+    {
+      "position": 19,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 17,
+      "hemistichs": [
+        "وَاجَهَنِي بَعْدَ الْخِطَابِ بِالْجَوَابْ",
+        "مُغْنٍ وَمُشْكٍ وَظَفِرْتُ بِثَوَابْ"
+      ]
+    },
+    {
+      "position": 20,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 18,
+      "hemistichs": [
+        "كِتَابُهُ انْسَلَبَ لِي وَلِي جَمَعْ",
+        "سُؤْلِي وَإِنَّهُ لِيَ الْعِدَى قَمَعْ"
+      ]
+    },
+    {
+      "position": 21,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 19,
+      "hemistichs": [
+        "يَنْسَلِبُ الْحَلَالُ لِي بِلَا حِسَابْ",
+        "وَعَادَتِي مَعْ عِبَادَاتِي احْتِسَابْ"
+      ]
+    },
+    {
+      "position": 22,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 20,
+      "hemistichs": [
+        "لِي قَادَ حُبَّ اللَّهِ وَالْكِتَابِ",
+        "وَحُبُّ أَحْمَدَ امَّحَا الْعِتَابِ"
+      ]
+    },
+    {
+      "position": 23,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَنِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيرُ سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ]
+    }
+  ]
+}

@@ -7,6 +7,8 @@ import { DiwanApi } from '../../../core/services/diwan-api.service';
 import { Loadable, loadable } from '../../../core/api';
 import { CorpusOverview } from '../../../core/models/api.model';
 
+import { LanguageService } from '../../../core/services/language.service';
+
 @Component({
   selector: 'app-corpus',
   imports: [DecimalPipe, PercentPipe, RouterLink],
@@ -14,6 +16,7 @@ import { CorpusOverview } from '../../../core/models/api.model';
   styleUrl: './corpus.scss',
 })
 export class Corpus {
+  protected readonly i18n = inject(LanguageService);
   protected readonly corpus = inject(CorpusService);
 
   /** Live counts from the database: how many khassaïdes are already online. */

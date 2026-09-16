@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row gx-lg-5 gy-5">
       <div class="col-lg-7">
-        <h2 id="author-title" class="section-title">Le Cheikh</h2>
+        <h2 id="author-title" class="section-title">{{ i18n.t('home.cheikhTitle') }}</h2>
         <div class="measure bio">
           <p>
             Cheikh Ahmadou Bamba, de son nom complet Muhammad ibn Muhammad ibn Habiballah, est né en 1853 à Mbacké,
@@ -37,7 +37,7 @@
       </div>
 
       <aside class="col-lg-5" aria-labelledby="timeline-title">
-        <h3 id="timeline-title" class="timeline-title">Les grandes dates</h3>
+        <h3 id="timeline-title" class="timeline-title">{{ i18n.t('home.timeline') }}</h3>
         <ol class="timeline">
           @for (item of timeline; track item.year) {
             <li>

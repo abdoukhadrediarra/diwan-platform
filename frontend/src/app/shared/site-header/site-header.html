@@ -8,15 +8,15 @@
     <button class="menu-toggle d-lg-none" type="button" (click)="toggle()"
             [attr.aria-expanded]="open()" aria-controls="site-menu">
       <span class="menu-bars" aria-hidden="true"></span>
-      <span class="visually-hidden">Menu</span>
+      <span class="visually-hidden">{{ i18n.t('menu.open') }}</span>
     </button>
 
     <ul id="site-menu" class="site-menu">
-      <li><a routerLink="/" fragment="cheikh">Le Cheikh</a></li>
+      <li><a routerLink="/" fragment="cheikh">{{ i18n.t('menu.cheikh') }}</a></li>
       <li class="has-panel">
         <button type="button" class="panel-toggle" (click)="toggleDiwans()"
                 [attr.aria-expanded]="diwansOpen()" aria-controls="diwans-panel">
-          Les diwans <span class="caret" aria-hidden="true"></span>
+          {{ i18n.t('menu.diwans') }} <span class="caret" aria-hidden="true"></span>
         </button>
         <div id="diwans-panel" class="diwans-panel" [class.show]="diwansOpen()">
           <ol>
@@ -29,11 +29,12 @@
               </li>
             }
           </ol>
-          <a class="all" routerLink="/diwans">Tous les diwans</a>
+          <a class="all" routerLink="/diwans">{{ i18n.t('menu.all') }}</a>
         </div>
       </li>
-      <li><a routerLink="/" fragment="projet">Le projet</a></li>
-      <li><a routerLink="/" fragment="corpus">Le corpus</a></li>
+      <li><a routerLink="/" fragment="projet">{{ i18n.t('menu.project') }}</a></li>
+      <li><a routerLink="/" fragment="corpus">{{ i18n.t('menu.corpus') }}</a></li>
+      <li class="lang"><app-language-switcher /></li>
     </ul>
   </nav>
 </header>

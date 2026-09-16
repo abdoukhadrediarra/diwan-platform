@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
+
+import { LanguageService } from '../../../core/services/language.service';
 
 @Component({
   selector: 'app-hero',
@@ -8,4 +10,6 @@ import { RouterLink } from '@angular/router';
   templateUrl: './hero.html',
   styleUrl: './hero.scss',
 })
-export class Hero {}
+export class Hero {
+  protected readonly i18n = inject(LanguageService);
+}

@@ -12,6 +12,7 @@ import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
 import { NotFound } from '../../../shared/not-found/not-found';
 import { ScriptToggle } from '../../../shared/script-toggle/script-toggle';
 import { ReadingService } from '../../../core/services/reading.service';
+import { LanguageService } from '../../../core/services/language.service';
 
 interface ViewLine extends PoemLine {
   initial?: { initial: string; joiner: string; rest: string };
@@ -26,6 +27,7 @@ interface ViewLine extends PoemLine {
 export class PoemPage {
   private readonly api = inject(DiwanApi);
   protected readonly reading = inject(ReadingService);
+  protected readonly i18n = inject(LanguageService);
 
   protected readonly poem = toSignal(
     inject(ActivatedRoute).paramMap.pipe(
@@ -51,8 +53,8 @@ export class PoemPage {
     return groups;
   });
 
-  protected readonly sectionLabels: Record<Section, string> = {
-    muqaddima: 'Ouverture', title: 'Nom du poème', matn: 'Abyat', khatima: 'Clôture',
+  protected readonly sectionKeys: Record<Section, string> = {
+    muqaddima: 'section.muqaddima', title: 'section.title', matn: 'section.matn', khatima: 'section.khatima',
   };
 
   constructor() {

@@ -53,3 +53,13 @@ body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; 
 }
 
 .skip-link { position: absolute; left: 1rem; top: .75rem; z-index: 2000; background: var(--ink); color: #fff; padding: .5rem 1rem; border-radius: var(--bs-border-radius); }
+
+// When the interface is in Arabic the whole page reads right to left; a few pieces keep their
+// own direction (Latin transcription, code and figures).
+.lang-ar {
+  .transcription, .meta, .poem-id p, .crumbs, .footer-copy { direction: ltr; unicode-bidi: isolate; }
+  .hero-arabic, .diwan-title, .poem-title, .diwan-name .ar, .poem-name { text-align: right; }
+  .timeline { border-left: 0; border-right: 1px solid var(--gold); }
+  .timeline li { padding: 0 1.5rem 1.35rem 0; }
+  .timeline li::before { left: auto; right: -4px; }
+}

@@ -3,16 +3,19 @@ import { NavigationEnd, Router, RouterLink, RouterLinkActive } from '@angular/ro
 import { filter } from 'rxjs';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { CorpusService } from '../../core/services/corpus.service';
+import { LanguageService } from '../../core/services/language.service';
+import { LanguageSwitcher } from '../language-switcher/language-switcher';
 
 @Component({
   selector: 'app-site-header',
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink, RouterLinkActive, LanguageSwitcher],
   templateUrl: './site-header.html',
   styleUrl: './site-header.scss',
 })
 export class SiteHeader {
   private readonly host = inject(ElementRef<HTMLElement>);
   protected readonly diwans = inject(CorpusService).diwans;
+  protected readonly i18n = inject(LanguageService);
   protected readonly open = signal(false);         // mobile menu
   protected readonly diwansOpen = signal(false);   // "Les diwans" panel
 

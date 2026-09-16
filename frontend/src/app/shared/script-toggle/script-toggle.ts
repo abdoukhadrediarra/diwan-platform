@@ -1,16 +1,17 @@
 import { Component, inject } from '@angular/core';
 import { ArabicScript, ReadingService } from '../../core/services/reading.service';
+import { LanguageService } from '../../core/services/language.service';
 
 /** Lets the reader choose the classical letterforms or the Wolofal ones. */
 @Component({
   selector: 'app-script-toggle',
   template: `
-    <div class="script-toggle" role="group" aria-label="Style d'écriture">
+    <div class="script-toggle" role="group" [attr.aria-label]="i18n.t('script.label')">
       @for (option of options; track option.value) {
         <button type="button" [class.active]="reading.script() === option.value"
                 [attr.aria-pressed]="reading.script() === option.value"
                 (click)="reading.setScript(option.value)">
-          <span class="name">{{ option.label }}</span>
+          <span class="name">{{ i18n.t(option.key) }}</span>
           <span class="sample" [class.wolofal]="option.value === 'wolofal'" lang="ar" dir="rtl">{{ option.sample }}</span>
         </button>
       }
@@ -29,8 +30,9 @@ import { ArabicScript, ReadingService } from '../../core/services/reading.servic
 })
 export class ScriptToggle {
   protected readonly reading = inject(ReadingService);
-  protected readonly options: { value: ArabicScript; label: string; sample: string }[] = [
-    { value: 'classic', label: 'Classique', sample: 'عربي' },
-    { value: 'wolofal', label: 'Wolofal', sample: 'ولفل' },
+  protected readonly i18n = inject(LanguageService);
+  protected readonly options: { value: ArabicScript; key: string; sample: string }[] = [
+    { value: 'classic', key: 'script.classic', sample: 'عربي' },
+    { value: 'wolofal', key: 'script.wolofal', sample: 'ولفل' },
   ];
 }

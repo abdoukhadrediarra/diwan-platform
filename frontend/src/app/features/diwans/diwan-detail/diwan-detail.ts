@@ -8,6 +8,7 @@ import { DiwanApi } from '../../../core/services/diwan-api.service';
 import { Loadable, loadable } from '../../../core/api';
 import { DiwanDetail } from '../../../core/models/api.model';
 import { normalizeArabic } from '../../../core/arabic';
+import { LanguageService } from '../../../core/services/language.service';
 import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
 import { NotFound } from '../../../shared/not-found/not-found';
 
@@ -19,6 +20,7 @@ import { NotFound } from '../../../shared/not-found/not-found';
 })
 export class DiwanDetailPage {
   private readonly api = inject(DiwanApi);
+  protected readonly i18n = inject(LanguageService);
   protected readonly diwan = toSignal(
     inject(ActivatedRoute).paramMap.pipe(switchMap((p) => loadable(this.api.diwan(p.get('diwan') ?? '')))),
     { initialValue: { state: 'loading' } as Loadable<DiwanDetail> },
