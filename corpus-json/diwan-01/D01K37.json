@@ -1,0 +1,166 @@
+{
+  "code": "D01K37",
+  "diwan": 1,
+  "number": 37,
+  "source_file": "D01K37_وَإِنِّي سَمَّيْتُهَا.docx",
+  "incipit": "وَصَلْتُ لِلْمُخْتَارِ بِشْرًا يَبْقَى",
+  "title": "وَإِنِّي سَمَّيْتُهَا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "bee9257a0ee3cdca78dddebea7929e13faa5f598a6a7d6cbbcea0998591051af",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَإِنِّي سَمَّيْتُهَا"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَصَلْتُ لِلْمُخْتَارِ بِشْرًا يَبْقَى",
+        "بَقَاءَ سَبْقِهِ وَأَرْجُو سَبْقَا"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَنَالَنِي اللَّهُ بِلَا غُرُورِ",
+        "كَوْنِي مَعْصُومًا مِنَ الْغَرُورِ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "نَفَى الأَبَالِيسَ وَمَا وَالَاهَا",
+        "رَبِّي لِغَيْرِي بَاقِيًا إِلَاهَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "نَبِيُّنَا أَحْمَدُ لَمْ يُبَارَى",
+        "فِي الْجُودِ وَالْبَأْسِ وَلَنْ يُبَارَى"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "يَئُوبُ مَنْ أَطَاعَهُ بِالْخَيْرِ",
+        "كَمَا يَبُوءُ عَكْسُهُ بِالضَّيْرِ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "سُبْحَانَ مَنْ خَلَقَهُ وَصَوَّرَهْ",
+        "كَمَا إِلَيْهِ قَادَ فَضْلاً سُوَرَهْ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "مَنْ شَكَّ فِي تَقْدِيمِهِ فَجَاهِلُ",
+        "وَغَافِلٌ وَجَاحِدٌ وَذَاهِلُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "مَادَ أَبُو جَهْلٍ وَظَنَّ أَحْمَدَا",
+        "مِثْلَ الْوَرَى مَيْدًا أَدَامَ كَمَدَا"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "يَلُومُ كُلُّ مُسْلِمٍ وَمُسْلِمَهْ",
+        "أُضْحُوكَةَ النَّاسِ مَعًا مُسَيْلِمَهْ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "تَعَبُ مَنْ أَرَادَ أَنْ يَرُدَّ مَا",
+        "أَمَرَاهُ رَبُّهُ يُدِيمُ نَدَمَا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "هَدَى الَّذِي عَصَمَهُ مِنَ الْوَرَى",
+        "هَدَاهُ وَالصَّحْبَ وَأَبْقَى السُّوَرَا"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "أَوْصَلْتُ لِلْمُخْتَارِ بِشْرًا يَبْقَى",
+        "بَقَاءَ فَضْلِهِ وَأَرْجُو سَبْقَا"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُعْجِزَاتُ سَيِّدِ الأَوَّلِينَ وَالآخِرِينَ الْمُتَأَخِّرَاتِ فِيمَا جَرَى بَيْنَهُ وَبَيْنَ الظَّالِمِينَ الْخَاسِرِينْ"
+      ]
+    }
+  ]
+}
