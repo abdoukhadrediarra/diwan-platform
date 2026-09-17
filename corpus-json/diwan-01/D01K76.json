@@ -1,0 +1,177 @@
+{
+  "code": "D01K76",
+  "diwan": 1,
+  "number": 76,
+  "source_file": "D01K76_وَتَمَّتْ كَلِمَاتُ رَبِّكَ.docx",
+  "incipit": "وَلَّتْ شَيَاطِينُ الْوَرَى لِغَيْرِنَا",
+  "title": "وَتَمَّتْ كَلِمَاتُ رَبِّكَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 14,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "3ac09584812719232f91d32faa26b3e4cbdedb16384cb23c9495ca35cbb454bb",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَتَمَّتْ كَلِمَاتُ رَبِّكَ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَلَّتْ شَيَاطِينُ الْوَرَى لِغَيْرِنَا",
+        "بِغَيْرِ قَصْدٍ لِي وَطَابَ مَيْرُنَا"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "تَفَضَّلَ الْبَاقِي عَلَيَّ بِالأَمْنِ",
+        "بِغَيْرِ تَخْوِيفٍ وَطَابَ لِي الزَّمَنْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مُحَمَّدٌ صَلَّى عَلَيْهِ بِسَلَامْ",
+        "قَادَ لِيَ الْكِتَابَ أَفْضَلَ الْكَلَامْ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مِنْ مَالِكِي رُمْتُ لَهُ خَيْرَ صَلَاةْ",
+        "وَرَامَ لِي مِنْهُ فِرَاقِيَ الْقُلَاةْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "تَفَارُقِي الأَذَى بِمَنْ لِغَيْرِنَا",
+        "سَاقَ الْعِدَى بِهِ يَطِيبُ مَيْرُنَا"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "كَلَّمَنِي مَنْ جَادَ بِالصَّفَاءِ",
+        "بِلَا مُعَادَاةٍ وَلَا جَفَاءِ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لَهُ قِلَامِي وَلَهُ مِدَادِي",
+        "وَكَانَ لِي بِالْحِفْظِ وَالسَّدَادِ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "مَدُّ يَدِي لِغَيْرِهِ كَادَ يَكُونْ",
+        "مِنَ الْمَحَالِ وَأَطَابَ لِي السُّكُونْ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "أَطَابَ لِي الْحَكِيمُ ظَاهِرِي كَمَا",
+        "أَطَابَ لِيَ الْبَاطِنَ حُزْتُ الْحِكَمَا"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "تُنْمِي أُجُورِيَ مَنَافِعَ الْبَدِيعْ",
+        "وَقَدْ تَقَبَّلَ شُكُورِي بِبَدِيعْ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "رَضِيَ عَنِّي مَنْ رَضِيتُ عَنْهُ",
+        "بِغَيْرِ سُخْطٍ مُسْتَمِدّاً مِنْهُ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "بِهِ اسْتَعَذْتُ وَكَفَانِيَ اللَّعِينْ",
+        "بِغَيْرِ تَسْلِيطٍ عَلَيَّ وَيُعِينْ"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "بَيْعِي تَقُبِّلَ بِلَا إِقَالَهْ",
+        "وَسِلَعِي أَخْفَى بِلَا مَقَالَهْ"
+      ]
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "كَلَّمَنِي تَكْلِيمَ ذِي إِخْفَاءِ",
+        "كُلِّيَّتِي حَمَى بِلَا جَفَاءِ"
+      ]
+    }
+  ]
+}

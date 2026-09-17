@@ -1,0 +1,157 @@
+{
+  "code": "D01K67",
+  "diwan": 1,
+  "number": 67,
+  "source_file": "D01K67_فَقَدْ جَاءَكُمْ بَشِيرٌ.docx",
+  "incipit": "فَاقَ جَمِيعَ الأَنْبِيَاءِ وَالرُّسُلِ",
+  "title": "فَقَدْ جَاءَكُمْ بَشِيرٌ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "e61444cac6b8b4e337a907b833fb73c474c15e0be198b708e273b185b5ce038a",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ تَعَالَى عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "فَقَدْ جَاءَكُمْ بَشِيرٌ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "فَاقَ جَمِيعَ الأَنْبِيَاءِ وَالرُّسُلِ",
+        "سَيِّدُنَا أَحْمَدُ حِبُّ الْمُرْسِلِ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "قُدِّمَ أَحْمَدَ عَلَى الْكِرَامِ",
+        "مُسْرًى بِهِ لِلْكُلِّ بِاحْتِرَامِ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "دَرَجَةُ الْعَبْدِ الرَّسُولِ أَحْمَدَا",
+        "صَيَّرَتِ الأَخْيَارَ غُرّاً حُمَّدَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "جَادَ النَّبِيُّ يَوْمَ أَلَسْتُ بِجَوَابْ",
+        "لِلْغُرِّ فَالْكُلُّ أَجَابَ بِصَوَابْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "أَعْجَزَ كُلَّ وَالِدٍ وَوَالِدَهْ",
+        "أَحْمَدُنَا الَّذِي عُلَاهُ خَالِدَهْ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "آيَاتُ أَحْمَدَ حَوَتْ آيَاتِ مَنْ",
+        "مَضَوْا وَمَنْ يَأْتِي وَفَاقَتْ ذَا الزَّمَنْ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "كِتَابُهُ كُتُبَ رُسْلِ الْمُنْزِلِ",
+        "حَوَى وَجَادَ بِالْقِرَى وَالنُّزُلِ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "مُحَمَّدٌ عَلَيْهِ أَفْضَلُ سَلَامْ",
+        "مُقَدَّمٌ بِخَيْرِ فِعْلٍ وَكَلَامْ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "بِدَايَةُ الْمَاحِي نِهَايَةُ الْخِيَارْ",
+        "فَضَّلَهُ عَلَى الْوَرَى ذُو الاِخْتِيَارْ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "شَهِدَ كُلُّ سَيِّدٍ يُخْتَارُ",
+        "بِأَنَّ أَحْمَدَ هُوَ الْمُخْتَارُ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "يَنْقَادُ لِلْمُخْتَارِ مَا سِوَاهُ",
+        "فَرَّ لَهُ فَضْلاً وَقَدْ حَوَاهُ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "رَسُولُنَا فَاقَ جَمِيعَ الرُّسُلِ",
+        "وَالأَنْبِيَاءِ وَهْوَ حَبِيبُ الْمُرْسِلِ"
+      ]
+    }
+  ]
+}

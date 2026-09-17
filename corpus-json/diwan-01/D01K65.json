@@ -1,0 +1,157 @@
+{
+  "code": "D01K65",
+  "diwan": 1,
+  "number": 65,
+  "source_file": "D01K65_يُؤْتِيهِمْ أُجُورَهُمْ.docx",
+  "incipit": "يَنْقَادُ لِيَ الأَجْرُ بِلَا حِسَابِ",
+  "title": "يُؤْتِيهِمْ أُجُورَهُمْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "1c1d88f0e36c31ab231bfd2dd583a1d1dc6bb5eec426cdd35e77c11bb4983022",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "يُؤْتِيهِمْ أُجُورَهُمْ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "يَنْقَادُ لِيَ الأَجْرُ بِلَا حِسَابِ",
+        "مِمَّنْ لَهُ عُمْرِيَ ذَا احْتِسَابِ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "وَاجَهَنِي جَزَاءُ مُغْنٍ عَنْ كِيَلْ",
+        "وَعَنْ تَسَبُّبٍ وَعَنْ كُلِّ حِيَلْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "تَنْمُو أُجُورِي وَجَزَائِي أَبَدَا",
+        "بِفَضْلِ مَنْ عِنْدَ عِدَاهُ عُبِدَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "يَقُودُ لِي مُخْجِلَ كُلِّ مُزْبِدِ",
+        "مَنْ صَانَنِي عَنْ مُشْرِكٍ وَزَبَدِ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "هَرَبَ إِبْلِيسُ لِغَيْرِي بَعْدَمَا",
+        "بَاءَ بِخَيْبَةٍ أَدَامَتْ نَدَمَا"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "مَلَّكْتُ خَيْرَ الْخَلْقِ مَا نَفَى اللَّعِينْ",
+        "عِنْدَ الْبُحُورِ لِسِوَايَ بِالْمُعِينْ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "أَجْرِيَ فِي رَدِّ الَّذِينَ ثَلَّثُوا",
+        "عَلَى الَّذِي بِهِ انْتَفَى الْمُثَلِّثُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "جَزَاءُ مَنْ مَا عِنْدَهُ لَا يَنْفَدُ",
+        "لِي قَادَ مُخْجِلَ الَّذِينَ صَفَدُوا"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "وَلَّى لِغَيْرِي كُلُّ مَنْ لَا يَعْبُدُ",
+        "وَقَادَ لِي اللَّهُ رِضَى مَنْ عَبَدُوا"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "رَافَقَنِي فِي اللَّهِ أَهْلُ بَدْرِ",
+        "فَلِسِوَايَ مَالَ أَهْلُ الْغَدْرِ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "هَذَّبْتُ لِلَّهِ عِبَادَةً لَدَى",
+        "مَنْ جَحَدُوا وَلِيَ صَفَّى الْخَلَدَا"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "مَلَّكَنِي الأَجْرَ بِلَا حِسَابِ",
+        "جَاعِلُ كُلِّي الدَّهْرَ فِي احْتِسَابِ"
+      ]
+    }
+  ]
+}

@@ -13,15 +13,12 @@ import { LanguageService } from '../../../core/services/language.service';
 export class Author {
   protected readonly i18n = inject(LanguageService);
   protected readonly bayt = FEATURED_BAYT;
-  protected readonly timeline = [
-    { year: '1853', text: 'Naissance à Mbacké, dans le royaume du Baol.' },
-    { year: '1881', text: 'Mort de son père. Il reprend son école à Mbacké Cayor.' },
-    { year: '1888', text: 'Fondation de Touba, au cœur de la forêt de Mbaffar.' },
-    { year: '1895', text: 'Arrestation et exil au Gabon, à Mayumba puis à Lambaréné.' },
-    { year: '1902', text: 'Retour au Sénégal, accueilli par ses disciples à Dakar.' },
-    { year: '1903', text: 'Nouvel exil, en Mauritanie, pendant quatre ans.' },
-    { year: '1907', text: 'Résidence surveillée à Thiéyène.' },
-    { year: '1912', text: 'Installation à Diourbel, où il vit ses dernières années.' },
-    { year: '1927', text: 'Décès à Diourbel. Il repose à Touba, près de la grande mosquée.' },
-  ];
+  /** The caption around the poem's name, split so the Arabic name keeps its own direction. */
+  protected get captionParts(): [string, string] {
+    const [before, after = ''] = this.i18n.t('verse.caption').split('{name}');
+    return [before, after.replace('{n}', String(this.bayt.diwan))];
+  }
+
+  protected readonly bioKeys = ['bio.1', 'bio.2', 'bio.3', 'bio.4', 'bio.5'];
+  protected readonly years = ['1853', '1881', '1888', '1895', '1902', '1903', '1907', '1912', '1927'];
 }

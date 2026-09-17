@@ -4,33 +4,29 @@
       <div class="col-lg-5">
         <h2 id="project-title" class="section-title">{{ i18n.t('home.projectTitle') }}</h2>
         <p class="project-aim">{{ i18n.t('home.projectAim') }}</p>
-        <p class="measure">
-          Les khassaïdes sont récitées, chantées et étudiées chaque jour. Pourtant, beaucoup de lecteurs n’ont accès
-          qu’à des éditions dispersées, souvent sans voyelles. Diwan donne à chaque poème une page, un texte fiable
-          et les outils pour le lire, le retrouver et le partager.
-        </p>
+        <p class="measure">{{ i18n.t('home.projectText') }}</p>
       </div>
 
       <div class="col-lg-7">
         <h3 class="sub-title">{{ i18n.t('home.offers') }}</h3>
         <dl class="offers">
-          @for (offer of offers; track offer.title) {
+          @for (offer of offers; track offer) {
             <div class="offer">
-              <dt>{{ offer.title }}</dt>
-              <dd>{{ offer.text }}</dd>
+              <dt>{{ i18n.t('offer.' + offer + '.t') }}</dt>
+              <dd>{{ i18n.t('offer.' + offer + '.d') }}</dd>
             </div>
           }
         </dl>
       </div>
     </div>
 
-    <h3 class="sub-title steps-title">Comment le corpus est préparé</h3>
+    <h3 class="sub-title steps-title">{{ i18n.t('steps.title') }}</h3>
     <ol class="steps row gy-4">
-      @for (step of steps; track step.title; let i = $index) {
+      @for (step of steps; track step; let i = $index) {
         <li class="col-sm-6 col-lg-3">
           <span class="step-number" aria-hidden="true">{{ i + 1 }}</span>
-          <p class="step-title">{{ step.title }}</p>
-          <p class="step-text">{{ step.text }}</p>
+          <p class="step-title">{{ i18n.t('step.' + step + '.t') }}</p>
+          <p class="step-text">{{ i18n.t('step.' + step + '.d') }}</p>
         </li>
       }
     </ol>
