@@ -1,0 +1,157 @@
+{
+  "code": "D01K110",
+  "diwan": 1,
+  "number": 110,
+  "source_file": "D01K110_فَلَا رَادَّ لِفَضْلِهِ.docx",
+  "incipit": "فَاقَ رَبِيعُ الأَوَّلِ الشُّهُورَا",
+  "title": "فَلَا رَادَّ لِفَضْلِهِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "6ce382e6ffa43bb617b94e3e21701e7607cc0544faddcb02cf02b2deb8d05011",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى مَنْ أَنْزَلْتَ عَلَيْهِ فِي كِتَابِهِ الْمَجِيدِ قَوْلَكَ فَلَا رَادَّ لِفَضْلِهِ سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَفَرِّحْهُ بِهَذِهِ الْحُرُوفِ آمِينَ يَا رَبَّ الْعَالَمِينَ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "فَلَا رَادَّ لِفَضْلِهِ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "فَاقَ رَبِيعُ الأَوَّلِ الشُّهُورَا",
+        "بِمَوْلِدِ الَّذِي بَدَا مَشْهُورَا"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لَنَا رَبِيعُنَا جَلَا الْمَنْصُورَا",
+        "أَحْمَدَنَا الَّذِي هَدَى الْقُصُورَا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "أَحْمَدُنَا قَادَ لَنَا التَّبْشِيرَا",
+        "بِكَوْنِهِ جَارًا لَنَا بَشِيرَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "رِضَى إِلَهٍ لَمْ يَزَلْ شَكُورَا",
+        "عَلَى صِحَابٍ لَازَمُوا شُكُورَا"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "أَحْمَدُنَا قَدْ زَحْزَحَ الْمَدْحُورَا",
+        "لِغَيْرِنَا بِمَنْ أَنَالَ الْحُورَا"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "دَرَجَةُ الْمَاحِي أَنَارَتْ دُورَا",
+        "حَوَتْ شُمُوسًا وَحَوَتْ بُدُورَا"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "دَرَجَةُ الْمَاحِي حَوَتْ ظُهُورَا",
+        "أَعْلَى صِحَابًا لَازَمُوا طُهُورَا"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لِلْمُصْطَفَى الَّذِي حَوَى الأُجُورَا",
+        "خَطِّي بِشَارَةٌ وَلَنْ أَجُورَا"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "فُزْتُ بِذِكْرٍ حُزْتُهُ مُنِيرَا",
+        "بِمَنْ كَفَانِي مَدْحُهُ تَشْنِيرَا"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "ضَمِنْتُ خِدْمَةً غَدَتْ نُذُورَا",
+        "لِمَنْ حَبَانِي بِالْمُنَى نَذِيرَا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "لَهُ خِطَابِي وَنَفَى الْغُرُورَا",
+        "لِغَيْرِ نَحْوِي وَمَحَا الْغُرُورَا"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "هَاكَ هَدِيَّةً بِهَا الشُّهُورَا",
+        "أَحْيَيْتَ يَا نُورًا أَضَا مَشْهُورَا"
+      ]
+    }
+  ]
+}

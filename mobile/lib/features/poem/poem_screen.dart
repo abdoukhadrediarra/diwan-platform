@@ -188,15 +188,18 @@ class _ProseLine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isTitle = line.kind == 'title';
+    // a grouped acrostic ("اللام"...): the header names the letter every bayt below it
+    // starts with, until the next header. Styled like the title, one size smaller.
+    final isHeader = line.kind == 'header';
     final parts = line.localTranscription;
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
+      padding: EdgeInsets.only(top: isHeader ? 18 : 6, bottom: 6),
       child: Column(children: [
         ArabicText(
           line.hemistichs.join(' '),
-          size: isTitle ? 26 : 22,
-          weight: isTitle ? FontWeight.w700 : FontWeight.w400,
-          color: isTitle && acrostic ? DiwanColors.rubric : DiwanColors.ink,
+          size: isTitle ? 26 : (isHeader ? 20 : 22),
+          weight: isTitle || isHeader ? FontWeight.w700 : FontWeight.w400,
+          color: (isTitle || isHeader) && acrostic ? DiwanColors.rubric : DiwanColors.ink,
           height: 2.0,
         ),
         if (showTranscription && parts.isNotEmpty)

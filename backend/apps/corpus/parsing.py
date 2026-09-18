@@ -14,6 +14,10 @@ How a poem is read (empty paragraphs are ignored):
       = the poem's own NAME given by the author (only when there are at least two texts)
     a single text before the abyat                     -> section "title" too, but only when the
       abyat spell it: then that line is the poem's acrostic name, not an opening text
+    a short line naming a letter ("اللام"), among the abyat -> section "matn", kind "header"
+      = a GROUPED acrostic: every bayt that follows, until the next header, starts with that
+        letter. A shadda in the name (الحقّ) means the letter opens two groups in a row.
+        Section headers are not counted among the "texts before the abyat" above.
     paragraphs containing "|"                          -> section "matn",      kind "bayt"
     paragraphs after the last bayt                     -> section "khatima",   kind "prose"
 
@@ -41,11 +45,11 @@ from pathlib import Path
 import docx  # pip install python-docx
 
 try:
-    from .arabic import acrostic_letters, bayt_initial, clean_display_text
+    from .arabic import acrostic_letters, acrostic_letters_by_group, bayt_initial, clean_display_text, header_letter
     from .transcription import transcribe_hemistichs
 except ImportError:  # run as a standalone script
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from arabic import acrostic_letters, bayt_initial, clean_display_text
+    from arabic import acrostic_letters, acrostic_letters_by_group, bayt_initial, clean_display_text, header_letter
     from transcription import transcribe_hemistichs
 
 CODE_RE = re.compile(r"^D(\d{2})K(\d{2,3})", re.IGNORECASE)
@@ -144,21 +148,36 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
         raise ValueError(f"{code}: no bayt found (no line contains '|' between the two hemistichs)")
     first_bayt, last_bayt = bayt_indexes[0], bayt_indexes[-1]
 
-    # The poem's name, when there is one, is the second text, on its own line, right before the abyat.
-    title_index = first_bayt - 1 if first_bayt >= 2 else None
-    if title_index is None and first_bayt == 1:
-        # one text only: it is the poem's name when the abyat spell it, an opening text otherwise
-        opening_sadrs = [paragraphs[k][0].split("|")[0].strip() for k in bayt_indexes]
-        if acrostic_match(paragraphs[0][0], opening_sadrs) >= 100 * ACROSTIC_MAJORITY:
-            title_index = 0
-    if first_bayt > 2:
-        warnings.append(f"{first_bayt} texts before the abyat: line {first_bayt} was taken as the poem's name, please confirm")
+    # Section headers ("اللام"...) are recognized wherever they appear among the abyat, and are
+    # not counted among the "texts before the abyat" used to find the poem's name below.
+    headers = {i: header_letter(text) for i, (text, _) in enumerate(paragraphs)
+              if i <= last_bayt and header_letter(text)}
+    opening_indexes = [i for i in range(first_bayt) if i not in headers]
+
+    # The poem's name, when there is one, is the second (non-header) text, right before the abyat.
+    # When there is only one, it is the name as well if the abyat spell it (an acrostic name) —
+    # unless section headers are already present, which confirms it without that fragile check.
+    if len(opening_indexes) >= 2:
+        title_index = opening_indexes[-1]
+    elif len(opening_indexes) == 1:
+        title_index = opening_indexes[0]
+        if not headers:
+            opening_sadrs = [paragraphs[k][0].split("|")[0].strip() for k in bayt_indexes]
+            if acrostic_match(paragraphs[title_index][0], opening_sadrs) < 100 * ACROSTIC_MAJORITY:
+                title_index = None
+    else:
+        title_index = None
+    if len(opening_indexes) > 2:
+        warnings.append(f"{len(opening_indexes)} texts before the abyat (section headers aside): "
+                        f"line {opening_indexes[-1] + 1} was taken as the poem's name, please confirm")
 
     lines, bayt_number, has_open_flags = [], 0, False
     for i, (text, red) in enumerate(paragraphs):
         position = i + 1
         if i == title_index:
             section, kind = "title", "title"
+        elif i in headers:
+            section, kind = "matn", "header"
         elif i < first_bayt:
             section, kind = "muqaddima", "prose"
         elif i > last_bayt:
@@ -205,7 +224,34 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
     abyat = [l for l in lines if l["kind"] == "bayt"]
     sadrs = [l["hemistichs"][0] for l in abyat]
 
-    if title_index is not None:
+    if headers:
+        # a grouped acrostic: check every bayt against the header of its own group, and compare
+        # the sequence of header letters with the name's letters (a shadda counts twice).
+        current_letter = None
+        for line in lines:
+            if line["kind"] == "header":
+                current_letter = headers[line["position"] - 1]
+            elif line["kind"] == "bayt" and current_letter:
+                initial = bayt_initial(line["hemistichs"][0])
+                if initial != current_letter:
+                    warnings.append(f"bayt {line['bayt_number']}: starts with «{initial}», "
+                                    f"expected «{current_letter}» for this group")
+        header_sequence = "".join(headers[i] for i in sorted(headers))
+        if title_index is not None:
+            title, title_source = paragraphs[title_index][0], "name_line"
+            expected_sequence = acrostic_letters_by_group(title)
+            matcher = difflib.SequenceMatcher(None, expected_sequence, header_sequence, autojunk=False)
+            found = sum(block.size for block in matcher.get_matching_blocks())
+            match = round(100 * found / len(expected_sequence)) if expected_sequence else 0
+            is_acrostic = match >= 100 * ACROSTIC_MAJORITY
+            if not is_acrostic:
+                warnings.append(f"acrostic: the section headers spell «{header_sequence}», only "
+                                f"{match}% of the name's letters «{expected_sequence}» found there")
+        else:                               # section headers with no name line above them: unusual
+            title, title_source, is_acrostic, match = sadrs[0], "first_sadr", False, None
+            warnings.append("acrostic: section headers were found, but no name line introduces them; "
+                            "please check that this poem's own name has not been left out")
+    elif title_index is not None:
         title, title_source = paragraphs[title_index][0], "name_line"
         match = acrostic_match(title, sadrs)
         is_acrostic = match >= 100 * ACROSTIC_MAJORITY

@@ -60,7 +60,7 @@
                   }
                 </div>
               } @else {
-                <p class="prose ar" lang="ar">{{ line.hemistichs.join(' ') }}</p>
+                <p class="prose ar" lang="ar" [class.name]="line.kind === 'title'" [class.header]="line.kind === 'header'">{{ line.hemistichs.join(' ') }}</p>
                 @if (showTranscription() && line.transcription['local']; as parts) {
                   <p class="transcription prose-transcription" lang="fr">{{ parts.join(' ') }}</p>
                 }

@@ -1,0 +1,157 @@
+{
+  "code": "D01K91",
+  "diwan": 1,
+  "number": 91,
+  "source_file": "D01K91_نَكَصَ عَلَى عَقِبَيْهِ.docx",
+  "incipit": "نَفَى الَّذِي لَهُ الْوُجُودُ وَالْقِدَمْ",
+  "title": "نَكَصَ عَلَى عَقِبَيْهِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 91,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "bd73099aeb155229ef800080ffedaba4be0ae9f325bfe3a876b19b9f80422329",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "نَكَصَ عَلَى عَقِبَيْهِ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "نَفَى الَّذِي لَهُ الْوُجُودُ وَالْقِدَمْ",
+        "لِغَيْرِيَ الشَّيْطَانَ وَهْوَ ذُو نَدَمْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "كَفَانِيَ الَّذِي الْبَقَاءُ وَالْخِلَافْ",
+        "لَهُ اللَّعِينَ وَالْعِدَى بِلَا خِلَافْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "صَفَّى الَّذِي لَهُ الْقِيَامُ وَجَبَا",
+        "عُمْرِي وَقَادَ لِيَ مِنْهُ عَجَبَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عَوَّذَ مَنْ لَهُ أُدِيمُ الْوَحْدَهْ",
+        "كُلِّي مِنَ الشَّيْطَانِ فَرَّ وَحْدَهْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "لِلَّهِ كُلِّيَ لَدَى الْبُحُورِ",
+        "وَقَدْ أَعَاذَنِي مِنَ الْمَدْحُورِ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "إِلَى سِوَايَ قَدْ نَفَى إِبْلِيسَا",
+        "مَنْ كَانَ لِي وَلَا أَرَى تَفْلِيسَا"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "سَيَّرَ لِيَ الْمُيَسِّرُ الْعَسِيرِ",
+        "مَا أَعْجَزَ الْوَرَى لَدَى مَسِيرِي"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "عَادَ اللَّعِينُ لِسِوَى جَنَابِي",
+        "بِحِمْلِهِ وَظُفْرِهِ وَالنَّابِي"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "قَادَ لِغَيْرِيَ اللَّعِينُ الْحِزْبَا",
+        "بِهِمْ يَفِرُّ إِنْ قَرَأْتُ حِزْبَا"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "بَارَكَ لِي فِي التَّرْكِ وَالأَخْذِ الْكَرِيمْ",
+        "وَفِيهِمَا لِي قَادَ أَجْرًا لَا يَرِيمْ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "يَقُودُ لِيَ الْبَاقِي بِلَا شَيْطَانِ",
+        "دُنْيَا وَأُخْرَى بُشَرَ الأَوْطَانِ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "هَدَّدَ رَبِّي ذُو الْوُجُودِ وَالْقِدَمْ",
+        "إِبْلِيسَ هَارِبًا لِغَيْرِي بِالنَّدَمْ"
+      ]
+    }
+  ]
+}

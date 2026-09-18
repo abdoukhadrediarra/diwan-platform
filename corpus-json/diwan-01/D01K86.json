@@ -1,0 +1,166 @@
+{
+  "code": "D01K86",
+  "diwan": 1,
+  "number": 86,
+  "source_file": "D01K86_فَخُذْ مَا آتَيْتُكَ وَ.docx",
+  "incipit": "فَدَانِيَ الْبَاقِي وَقَادَ لِي الْكِتَابْ",
+  "title": "فَخُذْ مَا آتَيْتُكَ وَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "4c61a64dd5d5eb70b7d02a03033d2631993cc38ed65662804b1dc11e2e5a5cbc",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ صَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "فَخُذْ مَا آتَيْتُكَ وَ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "فَدَانِيَ الْبَاقِي وَقَادَ لِي الْكِتَابْ",
+        "إِلَى جِنَانِهِ بِهِ بِلَا عِتَابْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "خَرَجْتُ مِنْ ضَيْقٍ وَمِنْ فُتُونِ",
+        "بَقِيتُ بِالشُّرُوحِ وَالْمُتُونِ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "ذُقْتُ حَلَاوَةَ الْعِبَادَةِ فَلَا",
+        "أَتْرُكُهَا وَلَا أُرَى مُغَفَّلَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَسَكْتُ بِالْكِتَابِ ذَا يَقِينِ",
+        "وَاللَّهُ غَيْرَ بُشَرٍ يَقِينِي"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "أَعْطَيْتُهُ كُلِّيَّتِي بِلَا نِزَاعْ",
+        "وَلِسِوَى نَحْوِيَ ذَبَّ ذَا النِّزَاعْ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "آتَانِيَ الأَعْظَمَ وَالْكِتَابَهْ",
+        "وَقَادَ لِي مُنْسَلِبًا كِتَابَهْ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "إِذَا كَتَبْتُ أَوْ قَرَأْتُ هَرْوَلَا",
+        "كُلُّ عَدُوٍّ يَطْلُبُ التَّقَوُّلَا"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "تُرْسِي عَنِ الآفَاتِ وَالْخَنَّاسِ",
+        "كِتَابُ أَحْمَدَ مُنَاخِ النَّاسِ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "يَنْقَادُ لِي مِنَ الْكِتَابِ سِرُّ",
+        "بِهِ لِغَيْرِيَ الْعِدَى تَفِرُّ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "تُرْسِي عَنِ الْعَوْدِ إِلَى مَبِيعِي",
+        "تَلَازُمِي الثَّمَنَ مِنْ رَبِيعِي"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "كُلِّيَّتِي عَنِ الْمَبِيعِ صَائِمَهْ",
+        "وَبُشَرِي بِلَا انْتِهَاءٍ دَائِمَهْ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "وَاجَهَنِي الْبَاقِي بِلَا عِتَابِ",
+        "وَجَادَ لِي بِالْعُمْرِ وَالْكِتَابِ"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "كُنْ مِنَ الشَّاكِرِينَ قَبِلْتُ وَرَضِيتُ حَامِدًا وَشَاكِرًا لَكَ أَبَدًا اللَّهُمَّ مَا أَصْبَحَ بِيَ مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لَا شَرِيكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ]
+    }
+  ]
+}
