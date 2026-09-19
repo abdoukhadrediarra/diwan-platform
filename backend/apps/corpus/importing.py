@@ -109,36 +109,31 @@ def _save_poem(data: dict, refresh_transcriptions: bool, database: str) -> Impor
 
 
 def write_transcriptions(lines, kept, database: str = 'default') -> str:
+    """A hand-corrected transcription is kept only when that bayt's Arabic is exactly
+    unchanged (wherever it now sits in the poem — a bayt moving up or down still matches).
+    The moment the underlying text changes at all, the transcription re-syncs automatically:
+    it is regenerated fresh from the new wording, the same as a line that was never corrected.
+    This is deliberate — a stale hand translation of text that no longer exists would otherwise
+    sit there silently wrong until someone happens to revisit it."""
     unused = list(range(len(kept)))
-    rows, restored, to_review = [], 0, 0
+    rows, kept_count = [], 0
     for line in lines:
         for style_name, style in STYLES.items():
-            # 1. same Arabic text: the hand correction still applies
             match = next((i for i in unused if kept[i][0] == style_name and kept[i][2] == tuple(line.hemistichs)), None)
-            needs_review = False
-            # 2. same place but the Arabic changed: keep it, flag it for review
-            if match is None:
-                match = next((i for i in unused if kept[i][0] == style_name and kept[i][1] == line.position
-                              and len(kept[i][3]) == len(line.hemistichs)), None)
-                needs_review = match is not None
             if match is not None:
                 unused.remove(match)
-                restored += 1
-                to_review += needs_review
-                rows.append(LineTranscription(line=line, style=style_name, parts=kept[match][3],
-                                              is_manual=True, needs_review=needs_review))
+                kept_count += 1
+                rows.append(LineTranscription(line=line, style=style_name, parts=kept[match][3], is_manual=True))
             else:
                 rows.append(LineTranscription(line=line, style=style_name,
                                               parts=transcribe_hemistichs(line.hemistichs, style)))
     LineTranscription.objects.using(database).bulk_create(rows)
 
     notes = []
-    if restored:
-        notes.append(f"{restored} hand-corrected transcription(s) kept")
-    if to_review:
-        notes.append(f"{to_review} to review (Arabic changed)")
-    if len(kept) - restored:
-        notes.append(f"{len(kept) - restored} hand correction(s) dropped (line removed)")
+    if kept_count:
+        notes.append(f"{kept_count} hand-corrected transcription(s) kept (text unchanged)")
+    if len(kept) - kept_count:
+        notes.append(f"{len(kept) - kept_count} hand correction(s) re-synced automatically (text changed or line removed)")
     return "; ".join(notes)
 
 
