@@ -6,13 +6,11 @@ import { CorpusService } from '../../../core/services/corpus.service';
 import { DiwanApi } from '../../../core/services/diwan-api.service';
 import { Loadable, loadable } from '../../../core/api';
 import { CorpusOverview } from '../../../core/models/api.model';
-import { TranslatePipe } from '../../../core/i18n/translate.pipe';
-
 import { LanguageService } from '../../../core/services/language.service';
 
 @Component({
   selector: 'app-corpus',
-  imports: [DecimalPipe, PercentPipe, RouterLink, TranslatePipe],
+  imports: [DecimalPipe, PercentPipe, RouterLink],
   templateUrl: './corpus.html',
   styleUrl: './corpus.scss',
 })

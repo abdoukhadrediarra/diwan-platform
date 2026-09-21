@@ -1,10 +1,11 @@
 import { DOCUMENT } from '@angular/common';
 import { Injectable, effect, inject, signal } from '@angular/core';
 
-import { LANGUAGE_NAMES, Language, LANGUAGES, TRANSLATIONS } from '../i18n/translations';
+import { LANGUAGE_NAMES, type Language, LANGUAGES, TRANSLATIONS } from '../i18n/translations';
 
-export { Language, LANGUAGES, LANGUAGE_NAMES, TRANSLATIONS };
+export type { Language };
 export type LanguageCode = Language;
+export { LANGUAGES, LANGUAGE_NAMES, TRANSLATIONS };
 
 const KEY = 'diwan.language';
 

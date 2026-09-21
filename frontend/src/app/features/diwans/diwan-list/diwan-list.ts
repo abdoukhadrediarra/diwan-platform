@@ -8,11 +8,10 @@ import { CorpusService } from '../../../core/services/corpus.service';
 import { LanguageService } from '../../../core/services/language.service';
 import { DiwanSummary } from '../../../core/models/api.model';
 import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
-import { TranslatePipe } from '../../../core/i18n/translate.pipe';
 
 @Component({
   selector: 'app-diwan-list',
-  imports: [DecimalPipe, RouterLink, Breadcrumb, TranslatePipe],
+  imports: [DecimalPipe, RouterLink, Breadcrumb],
   templateUrl: './diwan-list.html',
   styleUrl: './diwan-list.scss',
 })
