@@ -6,7 +6,8 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { switchMap } from 'rxjs';
 import { DiwanApi } from '../../../core/services/diwan-api.service';
 import { Loadable, loadable } from '../../../core/api';
-import { DiwanDetail } from '../../../core/models/api.model';
+import { DiwanDetail, PoemSummary } from '../../../core/models/api.model';
+import { FavoritesService } from '../../../core/services/favorites.service';
 import { normalizeArabic } from '../../../core/arabic';
 import { LanguageService } from '../../../core/services/language.service';
 import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
@@ -20,7 +21,9 @@ import { NotFound } from '../../../shared/not-found/not-found';
 })
 export class DiwanDetailPage {
   private readonly api = inject(DiwanApi);
+  protected readonly favorites = inject(FavoritesService);
   protected readonly i18n = inject(LanguageService);
+
   protected readonly diwan = toSignal(
     inject(ActivatedRoute).paramMap.pipe(switchMap((p) => loadable(this.api.diwan(p.get('diwan') ?? '')))),
     { initialValue: { state: 'loading' } as Loadable<DiwanDetail> },
@@ -45,5 +48,20 @@ export class DiwanDetailPage {
 
   protected onSearch(event: Event): void {
     this.query.set((event.target as HTMLInputElement).value);
+  }
+
+  protected toggleFavorite(event: Event, poem: PoemSummary, diwan: DiwanDetail): void {
+    event.preventDefault();
+    event.stopPropagation();
+    this.favorites.toggle({
+      code: poem.code,
+      number: poem.number,
+      slug: poem.slug,
+      title: poem.title,
+      diwanSlug: diwan.slug,
+      diwanNumber: diwan.number,
+      baytCount: poem.bayt_count,
+      isAcrostic: poem.is_acrostic,
+    });
   }
 }

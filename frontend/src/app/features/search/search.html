@@ -1,0 +1,130 @@
+<section class="section search-page">
+  <div class="container">
+    <app-breadcrumb [items]="[{ label: ('nav.home' | t), link: '/' }, { label: ('search.title' | t) }]" />
+
+    <header class="search-head">
+      <p class="search-kicker">{{ 'search.kicker' | t }}</p>
+      <h1 class="search-title">{{ 'search.heading' | t }}</h1>
+      <p class="search-desc">{{ 'search.desc' | t }}</p>
+
+      <form class="search-form" (ngSubmit)="onSubmit()">
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input id="corpus-query" class="form-control form-control-lg search-input" type="search"
+                 name="searchQuery"
+                 [placeholder]="'search.placeholder' | t"
+                 [ngModel]="query()" (ngModelChange)="query.set($event)"
+                 autocomplete="off" autofocus>
+          <button type="submit" class="btn btn-primary search-submit">
+            {{ 'search.action' | t }}
+          </button>
+        </div>
+
+        <div class="search-filters">
+          <div class="scope-pills" role="radiogroup" [attr.aria-label]="'search.scope' | t">
+            <button type="button" class="scope-pill" [class.active]="scope() === 'all'" (click)="setScope('all')">
+              {{ 'search.scopeAll' | t }}
+            </button>
+            <button type="button" class="scope-pill" [class.active]="scope() === 'titles'" (click)="setScope('titles')">
+              {{ 'search.scopeTitles' | t }}
+            </button>
+            <button type="button" class="scope-pill" [class.active]="scope() === 'verses'" (click)="setScope('verses')">
+              {{ 'search.scopeVerses' | t }}
+            </button>
+          </div>
+
+          <div class="quick-chips">
+            <span class="quick-label">{{ 'search.suggestions' | t }} :</span>
+            @for (chip of quickChips(); track chip) {
+              <button type="button" class="chip" (click)="quickSearch(chip)">{{ chip }}</button>
+            }
+          </div>
+        </div>
+      </form>
+    </header>
+
+    @if (loading()) {
+      <div class="search-loading" role="status">
+        <p class="loading-text">{{ 'search.loading' | t }}</p>
+      </div>
+    } @else if (response(); as res) {
+      <div class="search-results-meta">
+        <p class="results-count" aria-live="polite">
+          <strong>{{ res.total | number }}</strong>
+          {{ res.total > 1 ? ('search.resultsPlural' | t) : ('search.resultsSingle' | t) }}
+          {{ 'search.for' | t }} <em>« {{ res.query }} »</em>
+        </p>
+      </div>
+
+      @if (res.results.length === 0) {
+        <div class="empty-search">
+          <div class="empty-icon" aria-hidden="true">🔍</div>
+          <h2 class="empty-title">{{ 'search.noMatchTitle' | t }}</h2>
+          <p class="empty-text">{{ 'search.noMatchText' | t }}</p>
+        </div>
+      } @else {
+        <ol class="search-results-list">
+          @for (item of res.results; track item.poem_code) {
+            <li class="result-card">
+              <a class="result-card-link" [routerLink]="['/diwans', item.diwan_slug, item.poem_slug]">
+                <div class="card-meta-line">
+                  <span class="diwan-badge">{{ 'corpus.diwan' | t }} {{ item.diwan_number }} · #{{ item.poem_number }}</span>
+                  <span class="code-badge">{{ item.poem_code }}</span>
+                  @if (item.match_type === 'title') {
+                    <span class="match-badge match-title">{{ 'search.matchTitle' | t }}</span>
+                  } @else {
+                    <span class="match-badge match-verse">{{ 'search.matchVerse' | t }}</span>
+                  }
+                  <span class="meta-abyat ms-auto">{{ item.bayt_count | number }} {{ 'corpus.abyat' | t }}</span>
+                </div>
+
+                <h2 class="ar result-title" lang="ar">{{ item.poem_title }}</h2>
+
+                @if (item.matched_lines.length > 0) {
+                  <div class="matched-snippet">
+                    <p class="snippet-label">{{ 'search.foundInVerse' | t }} :</p>
+                    @for (line of item.matched_lines; track line.position) {
+                      <div class="snippet-line">
+                        @if (line.bayt_number) {
+                          <span class="snippet-bayt-num">v. {{ line.bayt_number }}</span>
+                        }
+                        <div class="snippet-texts">
+                          <p class="ar snippet-text" lang="ar">{{ line.hemistichs.join(' | ') }}</p>
+                          @if (line.transcription) {
+                            <p class="snippet-transcription">{{ line.transcription }}</p>
+                          }
+                        </div>
+                      </div>
+                    }
+                  </div>
+                }
+
+                <div class="card-footer-line">
+                  <span class="view-link">{{ 'detail.read' | t }} →</span>
+                </div>
+              </a>
+            </li>
+          }
+        </ol>
+      }
+    } @else {
+      <div class="search-welcome">
+        <h2 class="welcome-title">{{ 'search.welcomeTitle' | t }}</h2>
+        <div class="welcome-tips">
+          <div class="tip-card">
+            <h3>📖 {{ 'search.tip1Title' | t }}</h3>
+            <p>{{ 'search.tip1Text' | t }}</p>
+          </div>
+          <div class="tip-card">
+            <h3>🏷️ {{ 'search.tip2Title' | t }}</h3>
+            <p>{{ 'search.tip2Text' | t }}</p>
+          </div>
+          <div class="tip-card">
+            <h3>✨ {{ 'search.tip3Title' | t }}</h3>
+            <p>{{ 'search.tip3Text' | t }}</p>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</section>

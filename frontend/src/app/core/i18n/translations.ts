@@ -289,4 +289,42 @@ export const TRANSLATIONS: Record<string, Entry> = {
                       ar: 'هذا العنوان لا يقابل أي صفحة. القصائد مرتبة حسب الديوان.',
                       wo: 'Adres bii àndul ak benn xët. Xasida yi, diwan lañu leen tëral.' },
   'error.notFound': { fr: 'Introuvable', en: 'Not found', ar: 'غير موجود', wo: 'Gisuñu ko' },
+
+  // ---------------------------------------------------------------- search
+  'search.title': { fr: 'Recherche dans le Diwan', en: 'Search in Diwan', ar: 'البحث في الديوان', wo: 'Seet ci Diwan bi' },
+  'search.placeholder': { fr: 'Rechercher un poème, un vers, un thème (ex: Sindidi, Touba, Coran, Diwan 1)...', en: 'Search for a poem, verse, theme...', ar: 'ابحث عن قصيدة، بيت، موضوع...', wo: 'Seet ab xasida, ab bayt, ab téem...' },
+  'search.scope.all': { fr: 'Tout le corpus', en: 'All corpus', ar: 'كل المدونة', wo: 'Mbooleem dajale gi' },
+  'search.scope.titles': { fr: 'Titres de poèmes', en: 'Poem titles', ar: 'عناوين القصائد', wo: 'Koju xasida yi' },
+  'search.scope.verses': { fr: 'Versets & abyat', en: 'Verses & abyat', ar: 'الأبيات', wo: 'Bayt yi' },
+  'search.allDiwans': { fr: 'Tous les 7 diwans', en: 'All 7 diwans', ar: 'كل الدواوين السبعة', wo: 'Juróom-ñaari diwan yépp' },
+  'search.quickSuggestions': { fr: 'Suggestions rapides :', en: 'Quick suggestions:', ar: 'اقتراحات سريعة:', wo: 'Tànneef yu gaaw:' },
+  'search.loading': { fr: 'Recherche en cours...', en: 'Searching...', ar: 'جارٍ البحث...', wo: 'Mu ngi seet...' },
+  'search.noResults': { fr: 'Aucun résultat trouvé', en: 'No results found', ar: 'لم يتم العثور على نتائج', wo: 'Gisuñu dara' },
+  'search.noResultsDesc': { fr: 'Essayez avec une autre orthographe, en arabe ou avec le numéro de diwan.', en: 'Try another spelling, in Arabic or with diwan number.', ar: 'جرب تهجئة أخرى أو بالعربية أو برقم الديوان.', wo: 'Jéemaat beneen mbindin walla làkku araab.' },
+  'search.stats': { fr: '{count} poème(s) trouvé(s) pour « {q} »', en: '{count} poem(s) found for "{q}"', ar: 'تم العثور على {count} قصيدة لـ « {q} »', wo: '{count} xasida gisnañu ko ngir « {q} »' },
+  'search.matchTitle': { fr: 'Titre correspondant', en: 'Matching title', ar: 'عنوان مطابق', wo: 'Koj bu dëppoo' },
+  'search.matchVerse': { fr: 'Vers correspondant', en: 'Matching verse', ar: 'بيت مطابق', wo: 'Bayt bu dëppoo' },
+  'search.readPoem': { fr: 'Lire la khassida', en: 'Read khassida', ar: 'قراءة القصيدة', wo: 'Jàng xasida bi' },
+  'menu.search': { fr: 'Recherche', en: 'Search', ar: 'بحث', wo: 'Seet' },
+  'menu.favorites': { fr: 'Favoris', en: 'Favorites', ar: 'المفضلة', wo: 'Tànneef yi' },
+
+  // ---------------------------------------------------------------- reader toolbar & themes
+  'reader.zoomIn': { fr: 'Agrandir le texte', en: 'Zoom in', ar: 'تكبير النص', wo: 'Magal mbind mi' },
+  'reader.zoomOut': { fr: 'Réduire le texte', en: 'Zoom out', ar: 'تصغير النص', wo: 'Waññi mbind mi' },
+  'reader.themeLight': { fr: 'Mode clair', en: 'Light theme', ar: 'الوضع الفاتح', wo: 'Lëndëmul' },
+  'reader.themeSepia': { fr: 'Mode sépia', en: 'Sepia theme', ar: 'وضع القراءة الدافئ', wo: 'Melo wu tàng' },
+  'reader.themeDark': { fr: 'Mode sombre', en: 'Dark theme', ar: 'الوضع الداكن', wo: 'Melo wu lëndëm' },
+  'reader.print': { fr: 'Imprimer le poème', en: 'Print poem', ar: 'طباعة القصيدة', wo: 'Móol xasida bi' },
+  'reader.downloadPdf': { fr: 'Télécharger le PDF', en: 'Download PDF', ar: 'تحميل ملف PDF', wo: 'Yeb PDF bi' },
+  'reader.copyLink': { fr: 'Copier le lien', en: 'Copy link', ar: 'نسخ الرابط', wo: 'Duppil lëkkalekaay bi' },
+  'reader.linkCopied': { fr: 'Lien copié !', en: 'Link copied!', ar: 'تم نسخ الرابط!', wo: 'Lëkkalekaay bi duppiku na!' },
+  'reader.addToFavorites': { fr: 'Ajouter aux favoris', en: 'Add to favorites', ar: 'إضافة للمفضلة', wo: 'Duggal ci tànneef yi' },
+  'reader.removeFromFavorites': { fr: 'Retirer des favoris', en: 'Remove from favorites', ar: 'إزالة من المفضلة', wo: 'Dindi ci tànneef yi' },
+
+  // ---------------------------------------------------------------- favorites
+  'favorites.title': { fr: 'Mes Khassaïdes favorites', en: 'My Favorite Khassaïdes', ar: 'قصائدي المفضلة', wo: 'Sama Xasida yi ma tànn' },
+  'favorites.empty': { fr: 'Aucun favori pour le moment', en: 'No favorites yet', ar: 'لا توجد مفضلات بعد', wo: 'Amul tànneef leegi' },
+  'favorites.emptyDesc': { fr: 'Cliquez sur le bouton cœur dans le lecteur pour enregistrer vos poèmes préférés.', en: 'Click the heart button in the reader to save your favorite poems.', ar: 'انقر على زر القلب لحفظ قصائدك المفضلة.', wo: 'Bësal xol bi ci jàngukaay bi ngir denc sa xasida yi.' },
+  'favorites.clearAll': { fr: 'Tout effacer', en: 'Clear all', ar: 'مسح الكل', wo: 'Dindi lépp' },
 };
+

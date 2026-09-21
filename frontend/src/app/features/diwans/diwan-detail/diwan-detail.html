@@ -1,18 +1,18 @@
 @let d = diwan();
 @if (d.state === 'error') {
   @if (d.notFound) {
-    <app-not-found heading="Diwan introuvable" text="Ce diwan n’existe pas. Le corpus compte sept diwans." />
+    <app-not-found [heading]="i18n.t('error.diwanNotFound')" [text]="i18n.t('error.diwanNotFound')" />
   } @else {
-    <app-not-found heading="Le diwan n’a pas pu être chargé" text="Le serveur ne répond pas pour le moment. Réessayez dans quelques instants." />
+    <app-not-found [heading]="i18n.t('error.diwanTitle')" [text]="i18n.t('error.server')" />
   }
 } @else {
   <section class="section diwan-page" [attr.aria-busy]="d.state === 'loading'">
     <div class="container">
       @if (d.state === 'ready') {
-        <app-breadcrumb [items]="[{ label: 'Accueil', link: '/' }, { label: 'Les diwans', link: '/diwans' }, { label: 'Diwan ' + d.data.number }]" />
+        <app-breadcrumb [items]="[{ label: i18n.t('nav.home'), link: '/' }, { label: i18n.t('diwans.title'), link: '/diwans' }, { label: i18n.t('diwan.label') + ' ' + d.data.number }]" />
 
         <header class="diwan-head">
-          <p class="diwan-kicker"><span class="num">{{ d.data.number }}</span> Diwan {{ d.data.number }}</p>
+          <p class="diwan-kicker"><span class="num">{{ d.data.number }}</span> {{ i18n.t('diwan.label') }} {{ d.data.number }}</p>
           <h1 class="ar diwan-title" lang="ar">{{ d.data.title }}</h1>
           <dl class="facts">
             <div><dt>{{ i18n.t('diwan.poemsOnline') }}</dt><dd>{{ d.data.poem_count | number }}</dd></div>
@@ -29,9 +29,9 @@
           </div>
         } @else {
           <div class="list-tools">
-            <label for="poem-search" class="form-label">{{ i18n.t('diwan.searchLabel') }}</label>
-            <input id="poem-search" class="form-control ar search" lang="ar" type="search" dir="rtl"
-                   placeholder="اكتب اسم القصيدة" (input)="onSearch($event)" autocomplete="off">
+            <label for="poem-search" class="form-label visually-hidden">{{ i18n.t('diwan.searchLabel') }}</label>
+            <input id="poem-search" class="form-control search" type="search"
+                   placeholder="Rechercher par titre ou numéro..." (input)="onSearch($event)" autocomplete="off">
             <p class="result-count" aria-live="polite">
               {{ poems().length | number }} {{ i18n.t(poems().length > 1 ? 'diwan.poemsOnline' : 'diwan.poemOnline') }}
             </p>
@@ -40,13 +40,25 @@
           <ol class="poem-list">
             @for (p of poems(); track p.code) {
               <li>
-                <a class="poem-row" [routerLink]="['/diwans', d.data.slug, p.slug]">
-                  <span class="poem-num">{{ p.number }}</span>
-                  <span class="ar poem-name" lang="ar">{{ p.title }}</span>
-                  <span class="poem-meta">
-                    @if (p.is_acrostic) { <span class="tag">{{ i18n.t('poem.acrostic') }}</span> }
-                    {{ p.bayt_count | number }} {{ i18n.t('poem.abyat') }}
+                <a class="poem-card" [routerLink]="['/diwans', d.data.slug, p.slug]">
+                  <span class="poem-card-head">
+                    <span class="poem-num">{{ p.number }}</span>
+                    <span class="head-right">
+                      <span class="poem-meta">
+                        @if (p.is_acrostic) { <span class="tag">{{ i18n.t('poem.acrostic') }}</span> }
+                        {{ p.bayt_count | number }} {{ i18n.t('poem.abyat') }}
+                      </span>
+                      <button type="button" class="card-fav-btn"
+                              [class.is-fav]="favorites.isFavorite(p.code)"
+                              title="Favoris"
+                              aria-label="Favoris"
+                              (click)="toggleFavorite($event, p, d.data)">
+                        <span aria-hidden="true">{{ favorites.isFavorite(p.code) ? '♥' : '♡' }}</span>
+                      </button>
+                    </span>
                   </span>
+                  <span class="ar poem-name" lang="ar">{{ p.title }}</span>
+                  <span class="card-arrow" aria-hidden="true">Lire la khassida →</span>
                 </a>
               </li>
             } @empty {
