@@ -2,26 +2,24 @@
   <div class="container">
     <div class="row gy-4">
       <div class="col-md-5">
-        <p class="footer-brand"><span class="ar" lang="ar">ديوان</span> Diwan</p>
-        <p class="footer-text">Les sept diwans de Cheikh Ahmadou Bamba, vocalisés et consultables poème par poème.</p>
+        <div class="footer-brand-wrap">
+          <img src="images/logo.png" alt="Logo Diwaan" class="footer-logo" width="48" height="48">
+          <div>
+            <p class="footer-brand"><span class="ar" lang="ar">ديوان</span> Diwaan</p>
+            <p class="footer-tagline">Khassida Serigne Touba · Service et Héritage Spirituel</p>
+          </div>
+        </div>
+        <p class="footer-text">{{ 'footer.brandDesc' | t }}</p>
       </div>
       <div class="col-md-7">
-        <p class="footer-heading">Sources</p>
+        <p class="footer-heading">{{ 'footer.sources' | t }}</p>
         <p class="footer-text">
-          Biographie rédigée d'après l'article
-          <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a>
-          de Wikipédia, sous licence
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" rel="noopener" target="_blank">CC BY-SA 4.0</a>.
-          Photographie provenant de Wikimedia Commons. Chiffres calculés sur le texte intégral des sept diwans.
-          Police wolofal développée par Abdou Khadre Mbacké (XIDMA-AI) ; texte arabe classique en Amiri.
+          {{ 'footer.sourcesDesc' | t }}
         </p>
-        <p class="footer-heading">Xidma</p>
-        <p class="footer-text">
-          Ce projet est mené dans l'esprit du <i>xidma</i> : travailler et servir sans rien attendre en retour,
-          pour l'amour de Dieu et au service de l'œuvre de Cheikh Ahmadou Bamba.
-        </p>
+        <p class="footer-heading">{{ 'footer.xidma' | t }}</p>
+        <p class="footer-text">{{ 'footer.xidmaText' | t }}</p>
       </div>
     </div>
-    <p class="footer-copy">© {{ year }} Projet Diwan</p>
+    <p class="footer-copy">© {{ year }} {{ 'footer.copy' | t }}</p>
   </div>
 </footer>

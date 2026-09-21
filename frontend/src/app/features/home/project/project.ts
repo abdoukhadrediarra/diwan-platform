@@ -1,23 +1,25 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '../../../core/i18n/translate.pipe';
 
 @Component({
   selector: 'app-project',
+  imports: [TranslatePipe],
   templateUrl: './project.html',
   styleUrl: './project.scss',
 })
 export class Project {
   protected readonly offers = [
-    { title: 'Une page pour chaque poème', text: 'Le texte entièrement vocalisé, bayt par bayt, sous le nom que lui a donné son auteur.' },
-    { title: 'La transcription en caractères latins', text: 'Pour lire et réciter les khassaïdes sans lire l’écriture arabe.' },
-    { title: 'Des PDF à télécharger', text: 'Chaque poème, chaque diwan et le corpus entier, prêts à imprimer ou à partager.' },
-    { title: 'Une recherche dans tout le corpus', text: 'D’abord dans les noms des poèmes, ensuite dans les vers eux-mêmes.' },
-    { title: 'Des classements utiles', text: 'Par diwan, par mois de l’année hégirienne, par événement et par jour.' },
+    { titleKey: 'project.offer1.title', textKey: 'project.offer1.text' },
+    { titleKey: 'project.offer2.title', textKey: 'project.offer2.text' },
+    { titleKey: 'project.offer3.title', textKey: 'project.offer3.text' },
+    { titleKey: 'project.offer4.title', textKey: 'project.offer4.text' },
+    { titleKey: 'project.offer5.title', textKey: 'project.offer5.text' },
   ];
 
   protected readonly steps = [
-    { title: 'Saisie', text: 'Le texte des sept diwans est saisi vers par vers, à partir des recueils imprimés.' },
-    { title: 'Normalisation', text: 'Tous les poèmes suivent le même format : un bayt par ligne, ses hémistiches séparés.' },
-    { title: 'Vocalisation', text: 'Chaque mot reçoit sa vocalisation complète, puis chaque poème est relu à la main.' },
-    { title: 'Publication', text: 'Les poèmes relus entrent dans la base de données et paraissent sur le site et l’application.' },
+    { titleKey: 'project.step1.title', textKey: 'project.step1.text' },
+    { titleKey: 'project.step2.title', textKey: 'project.step2.text' },
+    { titleKey: 'project.step3.title', textKey: 'project.step3.text' },
+    { titleKey: 'project.step4.title', textKey: 'project.step4.text' },
   ];
 }

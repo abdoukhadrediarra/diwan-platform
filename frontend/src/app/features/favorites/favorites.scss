@@ -1,0 +1,60 @@
+.favorites-page { min-height: 70vh; padding: 2.5rem 0 5rem; }
+
+.favorites-head {
+  display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1.5rem;
+  padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid var(--rule);
+}
+.favorites-kicker { text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; font-weight: 700; color: var(--gold); margin: 0 0 .35rem; }
+.favorites-title { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.75rem); color: var(--ink); margin: 0 0 .5rem; }
+.favorites-desc { color: var(--muted); max-width: 58ch; margin: 0; font-size: 1.05rem; }
+
+.favorites-toolbar { display: flex; gap: .75rem; align-items: center; }
+
+.empty-favorites {
+  text-align: center; padding: 4rem 1.5rem; background: #f8fbf8; border: 1px dashed var(--rule); border-radius: .75rem;
+  max-width: 48rem; margin: 2rem auto;
+}
+.empty-icon { font-size: 3.5rem; line-height: 1; color: var(--gold); margin-bottom: 1rem; }
+.empty-title { font-family: var(--serif); font-size: 1.6rem; color: var(--ink); margin-bottom: .75rem; }
+.empty-text { color: var(--muted); max-width: 42ch; margin: 0 auto 1.75rem; }
+.text-emerald { color: var(--emerald); font-weight: 600; }
+
+.list-tools { margin-bottom: 2rem; max-width: 32rem; }
+.search { padding: .75rem 1rem; border-color: var(--rule); background: #fff; font-size: 1rem; }
+.search:focus { border-color: var(--emerald); box-shadow: 0 0 0 3px rgba(15, 90, 68, .15); }
+.result-count { margin: .5rem 0 0; color: var(--muted); font-size: .95rem; }
+
+.poem-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.poem-card {
+  position: relative; display: flex; min-height: 11.5rem; flex-direction: column; gap: .5rem;
+  padding: 1.25rem 1.35rem; color: var(--ink); text-decoration: none; background: #f8fbf8;
+  border: 1px solid var(--rule); border-radius: .5rem; transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+.poem-card:hover { border-color: var(--emerald); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(15, 90, 68, .08); }
+.poem-card:hover .poem-name { color: var(--emerald); }
+.poem-card-head { display: flex; justify-content: space-between; align-items: center; }
+.head-right { display: flex; align-items: center; gap: .6rem; }
+.poem-num { font-family: var(--serif); font-size: .9rem; font-weight: 700; color: var(--gold); }
+.poem-meta { color: var(--muted); font-size: .85rem; }
+.card-remove-btn {
+  background: none; border: 0; padding: 0 .35rem; font-size: 1.35rem; line-height: 1;
+  color: var(--muted); cursor: pointer; transition: color .15s ease, transform .15s ease; border-radius: .25rem;
+}
+.card-remove-btn:hover { color: #dc3545; transform: scale(1.2); }
+
+.poem-name { font-size: 1.55rem; line-height: 1.65; text-align: left; }
+.poem-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: auto; padding-right: 2.5rem; }
+.tag { display: inline-block; padding: .12rem .65rem; font-size: .8rem; color: var(--emerald); background: #e2eee7; border-radius: 1rem; }
+.tag-code { color: var(--muted); background: var(--stone); font-family: monospace; }
+.card-arrow { position: absolute; right: 1.25rem; bottom: 1.15rem; color: var(--emerald); font-size: .85rem; font-weight: 700; }
+
+.no-match { padding: 2rem 0; color: var(--muted); }
+
+@media (max-width: 575.98px) {
+  .poem-list { grid-template-columns: 1fr; }
+  .favorites-head { flex-direction: column; align-items: flex-start; }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+  .poem-list { grid-template-columns: repeat(2, 1fr); }
+}

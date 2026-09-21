@@ -1,24 +1,25 @@
 import { Component } from '@angular/core';
 import { BaytView } from '../../../shared/bayt/bayt';
 import { FEATURED_BAYT } from '../../../core/data/corpus-stats';
+import { TranslatePipe } from '../../../core/i18n/translate.pipe';
 
 @Component({
   selector: 'app-author',
-  imports: [BaytView],
+  imports: [BaytView, TranslatePipe],
   templateUrl: './author.html',
   styleUrl: './author.scss',
 })
 export class Author {
   protected readonly bayt = FEATURED_BAYT;
   protected readonly timeline = [
-    { year: '1853', text: 'Naissance à Mbacké, dans le royaume du Baol.' },
-    { year: '1881', text: 'Mort de son père. Il reprend son école à Mbacké Cayor.' },
-    { year: '1888', text: 'Fondation de Touba, au cœur de la forêt de Mbaffar.' },
-    { year: '1895', text: 'Arrestation et exil au Gabon, à Mayumba puis à Lambaréné.' },
-    { year: '1902', text: 'Retour au Sénégal, accueilli par ses disciples à Dakar.' },
-    { year: '1903', text: 'Nouvel exil, en Mauritanie, pendant quatre ans.' },
-    { year: '1907', text: 'Résidence surveillée à Thiéyène.' },
-    { year: '1912', text: 'Installation à Diourbel, où il vit ses dernières années.' },
-    { year: '1927', text: 'Décès à Diourbel. Il repose à Touba, près de la grande mosquée.' },
+    { year: '1853', key: 'timeline.1853' },
+    { year: '1881', key: 'timeline.1881' },
+    { year: '1888', key: 'timeline.1888' },
+    { year: '1895', key: 'timeline.1895' },
+    { year: '1902', key: 'timeline.1902' },
+    { year: '1903', key: 'timeline.1903' },
+    { year: '1907', key: 'timeline.1907' },
+    { year: '1912', key: 'timeline.1912' },
+    { year: '1927', key: 'timeline.1927' },
   ];
 }

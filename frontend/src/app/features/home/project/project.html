@@ -2,38 +2,35 @@
   <div class="container">
     <div class="row gx-lg-5 gy-5">
       <div class="col-lg-5">
-        <h2 id="project-title" class="section-title">Le projet</h2>
+        <h2 id="project-title" class="section-title">{{ 'project.title' | t }}</h2>
         <p class="project-aim">
-          Rassembler les diwans de Cheikh Ahmadou Bamba dans une édition numérique complète et vocalisée,
-          lisible par tous et partout : au Sénégal comme ailleurs, en arabe comme en caractères latins.
+          {{ 'project.aim' | t }}
         </p>
         <p class="measure">
-          Les khassaïdes sont récitées, chantées et étudiées chaque jour. Pourtant, beaucoup de lecteurs n’ont accès
-          qu’à des éditions dispersées, souvent sans voyelles. Diwan donne à chaque poème une page, un texte fiable
-          et les outils pour le lire, le retrouver et le partager.
+          {{ 'project.desc' | t }}
         </p>
       </div>
 
       <div class="col-lg-7">
-        <h3 class="sub-title">Ce que vous trouverez ici</h3>
+        <h3 class="sub-title">{{ 'project.offersTitle' | t }}</h3>
         <dl class="offers">
-          @for (offer of offers; track offer.title) {
+          @for (offer of offers; track offer.titleKey) {
             <div class="offer">
-              <dt>{{ offer.title }}</dt>
-              <dd>{{ offer.text }}</dd>
+              <dt>{{ offer.titleKey | t }}</dt>
+              <dd>{{ offer.textKey | t }}</dd>
             </div>
           }
         </dl>
       </div>
     </div>
 
-    <h3 class="sub-title steps-title">Comment le corpus est préparé</h3>
+    <h3 class="sub-title steps-title">{{ 'project.stepsTitle' | t }}</h3>
     <ol class="steps row gy-4">
-      @for (step of steps; track step.title; let i = $index) {
+      @for (step of steps; track step.titleKey; let i = $index) {
         <li class="col-sm-6 col-lg-3">
           <span class="step-number" aria-hidden="true">{{ i + 1 }}</span>
-          <p class="step-title">{{ step.title }}</p>
-          <p class="step-text">{{ step.text }}</p>
+          <p class="step-title">{{ step.titleKey | t }}</p>
+          <p class="step-text">{{ step.textKey | t }}</p>
         </li>
       }
     </ol>

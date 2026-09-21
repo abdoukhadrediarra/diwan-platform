@@ -43,6 +43,14 @@
             "security": {
               "allowedHosts": []
             },
+            "allowedCommonJsDependencies": [
+              "html2pdf.js",
+              "html2canvas",
+              "jspdf",
+              "canvg",
+              "dompurify",
+              "fflate"
+            ],
             "ssr": {
               "entry": "src/server.ts"
             },

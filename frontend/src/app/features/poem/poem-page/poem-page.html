@@ -10,33 +10,91 @@
   <article class="poem" [class.with-transcription]="showTranscription()" [class.is-acrostic]="p.data.is_acrostic">
     <div class="container">
       <app-breadcrumb [items]="[
-        { label: 'Accueil', link: '/' },
-        { label: 'Les diwans', link: '/diwans' },
-        { label: 'Diwan ' + p.data.diwan.number, link: '/diwans/' + p.data.diwan.slug },
-        { label: 'Khassida ' + p.data.number }
+        { label: ('nav.home' | t), link: '/' },
+        { label: ('diwans.title' | t), link: '/diwans' },
+        { label: ('corpus.diwan' | t) + ' ' + p.data.diwan.number, link: '/diwans/' + p.data.diwan.slug },
+        { label: ('detail.poemTag' | t) + ' ' + p.data.number }
       ]" />
 
       <header class="poem-head">
         <p class="poem-context">
           <a [routerLink]="['/diwans', p.data.diwan.slug]" class="ar" lang="ar">{{ p.data.diwan.title }}</a>
-          <span>Khassida {{ p.data.number }}, {{ p.data.bayt_count | number }} abyat</span>
+          <span>{{ 'detail.poemTag' | t }} {{ p.data.number }}, {{ p.data.bayt_count | number }} {{ 'corpus.abyat' | t }}</span>
         </p>
         <h1 class="ar poem-title" lang="ar">{{ p.data.title }}</h1>
         @if (p.data.is_acrostic) {
-          <p class="acrostic-note">Acrostiche : les premières lettres des abyat, en rouge, forment le nom du poème.</p>
+          <p class="acrostic-note">{{ 'poem.acrosticDesc' | t }}</p>
         }
-        <div class="poem-tools">
+      </header>
+
+      <section class="poem-overview" [attr.aria-label]="'poem.info' | t">
+        <div class="overview-tags">
+          <span class="overview-tag">{{ 'detail.poemTag' | t }}</span>
+        
+          @if (p.data.is_acrostic) { <span class="overview-tag">{{ 'detail.acrosticTag' | t }}</span> }
+        </div>
+        <dl class="overview-facts">
+          <div><dt>{{ 'poem.verses' | t }}</dt><dd>{{ p.data.bayt_count | number }}</dd></div>
+          <div><dt>{{ 'poem.type' | t }}</dt><dd>{{ 'detail.poemTag' | t }}</dd></div>
+          <div><dt>{{ 'poem.diwan' | t }}</dt><dd>{{ p.data.diwan.number }}</dd></div>
+        </dl>
+        <div class="overview-actions">
+          <button type="button" class="btn favorite-action" [class.is-favorite]="isFavorite()"
+                  [attr.aria-pressed]="isFavorite()" (click)="toggleFavorite()">
+            <span aria-hidden="true">{{ isFavorite() ? '♥' : '♡' }}</span> {{ isFavorite() ? ('poem.inFav' | t) : ('poem.addFav' | t) }}
+          </button>
+          <button type="button" class="btn btn-outline-secondary share-action" (click)="share()">{{ 'poem.share' | t }}</button>
           <app-script-toggle />
           <button type="button" class="btn btn-outline-secondary toggle" (click)="toggleTranscription()"
                   [attr.aria-pressed]="showTranscription()">
-            {{ showTranscription() ? 'Masquer la transcription' : 'Afficher la transcription' }}
+            {{ showTranscription() ? ('poem.hideTrans' | t) : ('poem.showTrans' | t) }}
+          </button>
+          <button type="button" class="btn download-action"
+                  [disabled]="isExportingPdf()"
+                  title="Télécharger directement le fichier PDF de la khassida"
+                  aria-label="Télécharger directement le fichier PDF de la khassida"
+                  (click)="downloadPdf()">
+            <span aria-hidden="true">&#x2193;</span>
+            <span>{{ isExportingPdf() ? ('poem.generating' | t) : ('poem.downloadPdf' | t) }}</span>
+          </button>
+          <button type="button" class="btn btn-outline-secondary print-action"
+                  title="Imprimer ou Enregistrer au format PDF (qualité vectorielle haute définition)"
+                  aria-label="Imprimer ou Enregistrer au format PDF (qualité vectorielle haute définition)"
+                  (click)="printPoem()">
+            <span aria-hidden="true">🖨️</span> {{ 'poem.printPdf' | t }}
           </button>
         </div>
-      </header>
 
-      <div class="poem-text">
+        <div class="reader-toolbar">
+          <div class="reader-group" [attr.aria-label]="'reader.theme' | t">
+            <span class="reader-label">{{ 'reader.theme' | t }} :</span>
+            <button type="button" class="theme-btn" [class.active]="reader.theme() === 'light'" (click)="reader.setTheme('light')">
+              ☀️ {{ 'reader.light' | t }}
+            </button>
+            <button type="button" class="theme-btn" [class.active]="reader.theme() === 'sepia'" (click)="reader.setTheme('sepia')">
+              📜 {{ 'reader.sepia' | t }}
+            </button>
+            <button type="button" class="theme-btn" [class.active]="reader.theme() === 'dark'" (click)="reader.setTheme('dark')">
+              🌙 {{ 'reader.dark' | t }}
+            </button>
+          </div>
+
+          <div class="reader-group" [attr.aria-label]="'reader.fontSize' | t">
+            <span class="reader-label">{{ 'reader.fontSize' | t }} :</span>
+            <button type="button" class="font-btn" (click)="reader.decreaseFontSize()" [disabled]="reader.fontSizeLevel() === 1" [attr.aria-label]="'reader.fontDecrease' | t">
+              A-
+            </button>
+            <span class="font-indicator">{{ reader.currentFontSize().level }}/5</span>
+            <button type="button" class="font-btn" (click)="reader.increaseFontSize()" [disabled]="reader.fontSizeLevel() === 5" [attr.aria-label]="'reader.fontIncrease' | t">
+              A+
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="poem-text" id="poem-text">
         @for (group of sections(); track $index) {
-          <section class="block" [class]="'block ' + group.section" [attr.aria-label]="sectionLabels[group.section]">
+          <section class="block" [class]="'block ' + group.section" [attr.aria-label]="sectionLabel(group.section)">
             @for (line of group.lines; track line.position) {
               @if (line.kind === 'bayt') {
                 <div class="bayt" [id]="'bayt-' + line.bayt_number">
@@ -74,13 +132,13 @@
       <nav class="poem-nav" aria-label="Khassaïdes voisines">
         @if (p.data.previous; as prev) {
           <a class="prev" [routerLink]="['/diwans', p.data.diwan.slug, prev.slug]">
-            <span class="dir">Khassida précédente</span>
+            <span class="dir">{{ 'poem.prev' | t }}</span>
             <span class="ar" lang="ar">{{ prev.title }}</span>
           </a>
         } @else { <span></span> }
         @if (p.data.next; as next) {
           <a class="next" [routerLink]="['/diwans', p.data.diwan.slug, next.slug]">
-            <span class="dir">Khassida suivante</span>
+            <span class="dir">{{ 'poem.next' | t }}</span>
             <span class="ar" lang="ar">{{ next.title }}</span>
           </a>
         }

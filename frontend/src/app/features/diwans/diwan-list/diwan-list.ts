@@ -7,10 +7,11 @@ import { Loadable, loadable } from '../../../core/api';
 import { CorpusService } from '../../../core/services/corpus.service';
 import { DiwanSummary } from '../../../core/models/api.model';
 import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
+import { TranslatePipe } from '../../../core/i18n/translate.pipe';
 
 @Component({
   selector: 'app-diwan-list',
-  imports: [DecimalPipe, RouterLink, Breadcrumb],
+  imports: [DecimalPipe, RouterLink, Breadcrumb, TranslatePipe],
   templateUrl: './diwan-list.html',
   styleUrl: './diwan-list.scss',
 })

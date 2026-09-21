@@ -2,47 +2,26 @@
   <div class="container">
     <div class="row gx-lg-5 gy-5">
       <div class="col-lg-7">
-        <h2 id="author-title" class="section-title">Le Cheikh</h2>
+        <h2 id="author-title" class="section-title">{{ 'author.title' | t }}</h2>
         <div class="measure bio">
-          <p>
-            Cheikh Ahmadou Bamba, de son nom complet Muhammad ibn Muhammad ibn Habiballah, est né en 1853 à Mbacké,
-            une ville fondée par son arrière-grand-père dans le royaume du Baol. Son père, Momar Anta Saly Mbacké,
-            était un savant et un cadi respecté ; sa mère, Mame Diarra Bousso, est vénérée comme une sainte au Sénégal
-            comme en Mauritanie.
-          </p>
-          <p>
-            Il apprend le Coran dès l'âge de sept ans, puis la théologie, le droit et le soufisme. Très jeune, il met en
-            vers des traités classiques : son <i>Mawâhib al-Quddûs</i>, adaptation en vers d'un traité sur l'unicité
-            divine, entre dans le programme de l'école de son père.
-          </p>
-          <p>
-            Après la mort de son père en 1881, il choisit d'éduquer ses disciples par l'élévation spirituelle plutôt que
-            par la seule étude. C'est la naissance de la voie mouride, la Mouridiyya. En 1888, il fonde Touba, un lieu
-            retiré au cœur de la forêt, qui deviendra la ville sainte des mourides.
-          </p>
-          <p>
-            Son influence grandissante inquiète l'administration coloniale française, bien qu'aucun appel à la guerre ne
-            puisse lui être reproché. Arrêté en 1895, il est exilé sept ans au Gabon, puis quatre ans en Mauritanie,
-            avant d'être placé en résidence surveillée. Il fera de l'anniversaire de son départ en exil un jour d'action
-            de grâce, que les mourides célèbrent encore chaque année.
-          </p>
-          <p>
-            Il s'éteint en 1927 à Diourbel et repose à Touba. Son œuvre, écrite en arabe et en grande partie versifiée,
-            couvre la théologie, le droit, la spiritualité et, surtout, la louange de Dieu et du Prophète.
-          </p>
+          <p>{{ 'author.p1' | t }}</p>
+          <p>{{ 'author.p2' | t }}</p>
+          <p>{{ 'author.p3' | t }}</p>
+          <p>{{ 'author.p4' | t }}</p>
+          <p>{{ 'author.p5' | t }}</p>
           <p class="source">
-            D'après l'article <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a> de Wikipédia.
+            {{ 'author.sourceWiki' | t }} <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a>.
           </p>
         </div>
       </div>
 
       <aside class="col-lg-5" aria-labelledby="timeline-title">
-        <h3 id="timeline-title" class="timeline-title">Les grandes dates</h3>
+        <h3 id="timeline-title" class="timeline-title">{{ 'author.datesTitle' | t }}</h3>
         <ol class="timeline">
           @for (item of timeline; track item.year) {
             <li>
               <span class="year">{{ item.year }}</span>
-              <span class="event">{{ item.text }}</span>
+              <span class="event">{{ item.key | t }}</span>
             </li>
           }
         </ol>
@@ -55,8 +34,7 @@
   <div class="container">
     <app-bayt [bayt]="bayt" />
     <p class="verse-caption">
-      Premier bayt du poème <span class="ar" lang="ar">{{ bayt.poemName }}</span>, diwan {{ bayt.diwan }},
-      avec sa vocalisation et sa transcription en caractères latins.
+      {{ 'author.verseCaption' | t }}
     </p>
   </div>
 </section>
