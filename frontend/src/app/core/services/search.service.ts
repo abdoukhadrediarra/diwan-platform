@@ -1,6 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable, catchError, of } from 'rxjs';
+import { API_BASE_URL } from '../api';
 
 export interface SearchResultLine {
   bayt_number: number | null;
@@ -36,7 +37,12 @@ export interface SearchResponse {
 @Injectable({ providedIn: 'root' })
 export class SearchService {
   private readonly http = inject(HttpClient);
-  private readonly baseUrl = '/api/v1/search/';
+  private readonly apiBase = inject(API_BASE_URL);
+
+  private get baseUrl(): string {
+    const base = this.apiBase.endsWith('/') ? this.apiBase.slice(0, -1) : this.apiBase;
+    return `${base}/search/`;
+  }
 
   search(query: string, scope: 'all' | 'titles' | 'verses' = 'all', diwan = ''): Observable<SearchResponse> {
     const q = query.trim();
