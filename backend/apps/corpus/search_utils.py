@@ -124,17 +124,30 @@ AUTHOR_KEYWORDS = [
 def clean_transcription_expression():
     """
     Returns a Django DB Func that transforms LineTranscription.parts (text[])
-    into a clean unaccented string with apostrophes stripped, suitable for
-    fast, flexible case-insensitive pattern matching.
+    into a clean unaccented lowercase string with apostrophes stripped, suitable for
+    fast, flexible cross-database case-insensitive pattern matching without requiring
+    external postgres extensions like unaccent.
     """
     return Func(
         Func(
-            Func(F('parts'), Value(' '), function='array_to_string', output_field=models.TextField()),
-            function='unaccent',
+            Func(
+                Func(
+                    F('parts'),
+                    Value(' '),
+                    function='array_to_string',
+                    output_field=models.TextField(),
+                ),
+                Value('âîûÂÎÛéèêëàùüôöïçñ'),
+                Value('aiuAIUeeeeauuooicn'),
+                function='translate',
+                output_field=models.TextField(),
+            ),
+            Value("'"),
+            Value(''),
+            function='replace',
             output_field=models.TextField(),
         ),
-        Value("'"),
-        Value(''),
-        function='replace',
+        function='lower',
         output_field=models.TextField(),
     )
+

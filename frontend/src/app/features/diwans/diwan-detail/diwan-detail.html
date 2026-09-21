@@ -31,7 +31,7 @@
           <div class="list-tools">
             <label for="poem-search" class="form-label visually-hidden">{{ i18n.t('diwan.searchLabel') }}</label>
             <input id="poem-search" class="form-control search" type="search"
-                   placeholder="Rechercher par titre ou numéro..." (input)="onSearch($event)" autocomplete="off">
+                   [placeholder]="i18n.t('diwan.searchPlaceholder')" (input)="onSearch($event)" autocomplete="off">
             <p class="result-count" aria-live="polite">
               {{ poems().length | number }} {{ i18n.t(poems().length > 1 ? 'diwan.poemsOnline' : 'diwan.poemOnline') }}
             </p>
@@ -50,15 +50,15 @@
                       </span>
                       <button type="button" class="card-fav-btn"
                               [class.is-fav]="favorites.isFavorite(p.code)"
-                              title="Favoris"
-                              aria-label="Favoris"
+                              [title]="i18n.t('menu.favorites')"
+                              [attr.aria-label]="i18n.t('menu.favorites')"
                               (click)="toggleFavorite($event, p, d.data)">
                         <span aria-hidden="true">{{ favorites.isFavorite(p.code) ? '♥' : '♡' }}</span>
                       </button>
                     </span>
                   </span>
                   <span class="ar poem-name" lang="ar">{{ p.title }}</span>
-                  <span class="card-arrow" aria-hidden="true">Lire la khassida →</span>
+                  <span class="card-arrow" aria-hidden="true">{{ i18n.t('detail.read') }} →</span>
                 </a>
               </li>
             } @empty {

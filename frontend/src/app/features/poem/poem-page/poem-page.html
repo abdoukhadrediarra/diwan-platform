@@ -51,23 +51,23 @@
           </button>
           <button type="button" class="btn download-action"
                   [disabled]="isExportingPdf()"
-                  title="Télécharger directement le fichier PDF de la khassida"
-                  aria-label="Télécharger directement le fichier PDF de la khassida"
+                  [title]="i18n.t('reader.downloadTitle')"
+                  [attr.aria-label]="i18n.t('reader.downloadTitle')"
                   (click)="downloadPdf()">
             <span aria-hidden="true">&#x2193;</span>
-            <span>{{ isExportingPdf() ? 'Génération...' : i18n.t('reader.downloadPdf') }}</span>
+            <span>{{ isExportingPdf() ? '...' : i18n.t('reader.downloadPdf') }}</span>
           </button>
           <button type="button" class="btn btn-outline-secondary print-action"
-                  title="Imprimer ou Enregistrer au format PDF"
-                  aria-label="Imprimer ou Enregistrer au format PDF"
+                  [title]="i18n.t('reader.printTitle')"
+                  [attr.aria-label]="i18n.t('reader.printTitle')"
                   (click)="printPoem()">
             <span aria-hidden="true">🖨️</span> {{ i18n.t('reader.print') }}
           </button>
         </div>
 
         <div class="reader-toolbar">
-          <div class="reader-group" aria-label="Thème de lecture">
-            <span class="reader-label">Thème :</span>
+          <div class="reader-group" [attr.aria-label]="i18n.t('reader.themeAria')">
+            <span class="reader-label">{{ i18n.t('reader.themeLabel') }}</span>
             <button type="button" class="theme-btn" [class.active]="reader.theme() === 'light'" (click)="reader.setTheme('light')">
               ☀️ {{ i18n.t('reader.themeLight') }}
             </button>
@@ -79,13 +79,13 @@
             </button>
           </div>
 
-          <div class="reader-group" aria-label="Taille du texte">
-            <span class="reader-label">Taille :</span>
-            <button type="button" class="font-btn" (click)="reader.decreaseFontSize()" [disabled]="reader.fontSizeLevel() === 1" aria-label="Réduire taille">
+          <div class="reader-group" [attr.aria-label]="i18n.t('reader.fontSizeAria')">
+            <span class="reader-label">{{ i18n.t('reader.fontSizeLabel') }}</span>
+            <button type="button" class="font-btn" (click)="reader.decreaseFontSize()" [disabled]="reader.fontSizeLevel() === 1" [attr.aria-label]="i18n.t('reader.zoomOut')">
               A-
             </button>
             <span class="font-indicator">{{ reader.currentFontSize().level }}/5</span>
-            <button type="button" class="font-btn" (click)="reader.increaseFontSize()" [disabled]="reader.fontSizeLevel() === 5" aria-label="Agrandir taille">
+            <button type="button" class="font-btn" (click)="reader.increaseFontSize()" [disabled]="reader.fontSizeLevel() === 5" [attr.aria-label]="i18n.t('reader.zoomIn')">
               A+
             </button>
           </div>

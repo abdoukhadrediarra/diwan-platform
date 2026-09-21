@@ -6,6 +6,7 @@ Read-only API for the website and the mobile app. Only published poems are visib
     GET /api/v1/diwans/diwan-01/                          one diwan and its published poems
     GET /api/v1/diwans/diwan-01/poems/008/                one poem with all its lines and transcriptions
 """
+import logging
 from django.db.models import Count, IntegerField, Prefetch, Q, Sum, Value
 from django.http import HttpResponse
 from django.db.models.functions import Coalesce
@@ -13,6 +14,8 @@ from django.shortcuts import get_object_or_404
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
+
+logger = logging.getLogger(__name__)
 
 from ..arabic import normalize_for_search
 from ..models import Diwan, Line, LineTranscription, Poem, Status
@@ -203,20 +206,23 @@ class SearchView(APIView):
 
             # Latin title search via LineTranscription (kind='title' or kind='prose' opening)
             if has_latin and latin_variants and not (diwan_match or poem_match):
-                trans_title_q = Q(line__kind__in=['title', 'prose'])
-                var_q = Q()
-                for v in latin_variants:
-                    var_q |= Q(clean_text__icontains=v.replace("'", ""))
-                trans_title_q &= var_q
+                try:
+                    trans_title_q = Q(line__kind__in=['title', 'prose'])
+                    var_q = Q()
+                    for v in latin_variants:
+                        var_q |= Q(clean_text__icontains=v.replace("'", ""))
+                    trans_title_q &= var_q
 
-                matching_title_lines = (
-                    LineTranscription.objects.annotate(clean_text=clean_parts_expr)
-                    .filter(trans_title_q, line__poem__status=Status.PUBLISHED)
-                    .values_list('line__poem_id', flat=True)[:limit]
-                )
-                latin_title_poem_ids = list(matching_title_lines)
-                if latin_title_poem_ids:
-                    poem_q |= Q(id__in=latin_title_poem_ids)
+                    matching_title_lines = (
+                        LineTranscription.objects.annotate(clean_text=clean_parts_expr)
+                        .filter(trans_title_q, line__poem__status=Status.PUBLISHED)
+                        .values_list('line__poem_id', flat=True)[:limit]
+                    )
+                    latin_title_poem_ids = list(matching_title_lines)
+                    if latin_title_poem_ids:
+                        poem_q |= Q(id__in=latin_title_poem_ids)
+                except Exception as exc:
+                    logger.warning("Erreur lors de la recherche des titres latins: %s", exc)
 
             if poem_q:
                 matching_poems = (
@@ -280,36 +286,39 @@ class SearchView(APIView):
 
             # 2b. Latin verse search (LineTranscription)
             if has_latin and latin_variants and not (diwan_match or poem_match) and len(lines_by_poem) < remaining_slots:
-                trans_verse_q = Q(line__kind__in=['bayt', 'prose'])
-                var_q = Q()
-                for v in latin_variants:
-                    var_q |= Q(clean_text__icontains=v.replace("'", ""))
-                trans_verse_q &= var_q
+                try:
+                    trans_verse_q = Q(line__kind__in=['bayt', 'prose'])
+                    var_q = Q()
+                    for v in latin_variants:
+                        var_q |= Q(clean_text__icontains=v.replace("'", ""))
+                    trans_verse_q &= var_q
 
-                line_trans_filter = Q(line__poem__status=Status.PUBLISHED) & trans_verse_q
-                if diwan_filter:
-                    line_trans_filter &= Q(line__poem__diwan__slug=diwan_filter)
+                    line_trans_filter = Q(line__poem__status=Status.PUBLISHED) & trans_verse_q
+                    if diwan_filter:
+                        line_trans_filter &= Q(line__poem__diwan__slug=diwan_filter)
 
-                matching_trans_lines = (
-                    LineTranscription.objects.annotate(clean_text=clean_parts_expr)
-                    .filter(line_trans_filter)
-                    .select_related("line", "line__poem", "line__poem__diwan")
-                    .order_by("line__poem__diwan__number", "line__poem__number", "line__position")[:remaining_slots * 5]
-                )
+                    matching_trans_lines = (
+                        LineTranscription.objects.annotate(clean_text=clean_parts_expr)
+                        .filter(line_trans_filter)
+                        .select_related("line", "line__poem", "line__poem__diwan")
+                        .order_by("line__poem__diwan__number", "line__poem__number", "line__position")[:remaining_slots * 5]
+                    )
 
-                for lt in matching_trans_lines:
-                    line = lt.line
-                    pid = line.poem_id
-                    if pid not in lines_by_poem:
-                        lines_by_poem[pid] = {"poem": line.poem, "lines": []}
-                    if len(lines_by_poem[pid]["lines"]) < 3:
-                        lines_by_poem[pid]["lines"].append({
-                            "bayt_number": line.bayt_number,
-                            "position": line.position,
-                            "kind": line.kind,
-                            "hemistichs": line.hemistichs,
-                            "transcription": " | ".join(lt.parts) if lt.parts else "",
-                        })
+                    for lt in matching_trans_lines:
+                        line = lt.line
+                        pid = line.poem_id
+                        if pid not in lines_by_poem:
+                            lines_by_poem[pid] = {"poem": line.poem, "lines": []}
+                        if len(lines_by_poem[pid]["lines"]) < 3:
+                            lines_by_poem[pid]["lines"].append({
+                                "bayt_number": line.bayt_number,
+                                "position": line.position,
+                                "kind": line.kind,
+                                "hemistichs": line.hemistichs,
+                                "transcription": " | ".join(lt.parts) if lt.parts else "",
+                            })
+                except Exception as exc:
+                    logger.warning("Erreur lors de la recherche des versets latins: %s", exc)
 
             # Merge matched lines into results
             for pid, data in lines_by_poem.items():

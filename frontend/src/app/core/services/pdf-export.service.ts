@@ -152,7 +152,7 @@ export class PdfExportService {
     let html = `
       <div style="font-family: 'Amiri', 'Traditional Arabic', serif; direction: rtl; text-align: right; color: #15211d; padding: 20px; background: #ffffff; width: 760px; box-sizing: border-box;">
         <div class="pdf-header" style="text-align: center; border-bottom: 2px solid #a3803a; padding-bottom: 14px; margin-bottom: 22px;">
-          <img src="images/logo.png" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 8px; object-fit: contain;" alt="Diwaan">
+          <img src="/images/logo.png" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 8px; object-fit: contain;" alt="Diwaan">
           <p style="font-size: 13px; color: #5a6862; margin: 0 0 6px; font-family: 'Source Sans 3', sans-serif; direction: ltr; font-weight: 600;">
             Plateforme Diwaan · Khassida Serigne Touba
           </p>

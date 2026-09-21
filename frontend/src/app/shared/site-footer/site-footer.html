@@ -3,10 +3,10 @@
     <div class="row gy-4">
       <div class="col-md-5">
         <div class="footer-brand-wrap">
-          <img src="images/logo.png" alt="Logo Diwaan" class="footer-logo" width="48" height="48">
+          <img src="/images/logo.png" alt="Logo Diwaan" class="footer-logo" width="48" height="48">
           <div>
             <p class="footer-brand"><span class="ar" lang="ar">ديوان</span> Diwaan</p>
-            <p class="footer-tagline">Khassida Serigne Touba · Service et Héritage Spirituel</p>
+            <p class="footer-tagline">{{ i18n.t('footer.subtitle') }}</p>
           </div>
         </div>
         <p class="footer-text">{{ i18n.t('footer.tagline') }}</p>
@@ -14,20 +14,40 @@
       <div class="col-md-7">
         <p class="footer-heading">{{ i18n.t('footer.sources') }}</p>
         <p class="footer-text">
-          Biographie rédigée d'après l'article
-          <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a>
-          de Wikipédia, sous licence
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" rel="noopener" target="_blank">CC BY-SA 4.0</a>.
-          Photographie provenant de Wikimedia Commons. Chiffres calculés sur le texte intégral des sept diwans.
-          Police wolofal développée par Abdou Khadre Mbacké (XIDMA-AI) ; texte arabe classique en Amiri.
+          @if (i18n.language() === 'wo') {
+            Tarix bi jële nañu ko ci jukki
+            <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a>
+            ci Wikipedia, ci ron sañ-sañu
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" rel="noopener" target="_blank">CC BY-SA 4.0</a>.
+            Nataal bi jépp na ci Wikimedia Commons. Lim yi ñu ngi leen xalaat ci mbindu juróom-ñaari diwan yi yépp.
+            Xatu wolofal gi Abdou Khadre Mbacké (XIDMA-AI) moo ko defar ; mbindu araab bu mag bi ci Amiri la.
+          } @else if (i18n.language() === 'en') {
+            Biography based on the Wikipedia article
+            <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a>,
+            under
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" rel="noopener" target="_blank">CC BY-SA 4.0</a>
+            license. Photograph from Wikimedia Commons. Figures calculated from the full text of the seven diwans.
+            Wolofal font developed by Abdou Khadre Mbacké (XIDMA-AI); classical Arabic text in Amiri.
+          } @else if (i18n.language() === 'ar') {
+            سيرة مقتبسة من مقالة
+            <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">أحمد بمب</a>
+            في ويكيبيديا، بموجب ترخيص
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" rel="noopener" target="_blank">CC BY-SA 4.0</a>.
+            الصورة من ويكيميديا كومنز. الإحصائيات مستخلصة من النص الكامل للدواوين السبعة.
+            خط الولفال من تطوير عبد القادر امباكي (XIDMA-AI)؛ النص العربي الكلاسيكي بخط أميري.
+          } @else {
+            Biographie rédigée d'après l'article
+            <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a>
+            de Wikipédia, sous licence
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" rel="noopener" target="_blank">CC BY-SA 4.0</a>.
+            Photographie provenant de Wikimedia Commons. Chiffres calculés sur le texte intégral des sept diwans.
+            Police wolofal développée par Abdou Khadre Mbacké (XIDMA-AI) ; texte arabe classique en Amiri.
+          }
         </p>
         <p class="footer-heading">{{ i18n.t('footer.xidma') }}</p>
-        <p class="footer-text">
-          Ce projet est mené dans l'esprit du <i>xidma</i> : travailler et servir sans rien attendre en retour,
-          pour l'amour de Dieu et au service de l'œuvre de Cheikh Ahmadou Bamba.
-        </p>
+        <p class="footer-text">{{ i18n.t('footer.xidmaText') }}</p>
       </div>
     </div>
-    <p class="footer-copy">© {{ year }} Diwan · Dajaleb Xassida yi</p>
+    <p class="footer-copy">{{ i18n.t('footer.copy').replace('{year}', '' + year) }}</p>
   </div>
 </footer>
