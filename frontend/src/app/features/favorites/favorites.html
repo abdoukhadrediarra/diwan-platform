@@ -1,0 +1,79 @@
+<section class="section favorites-page">
+  <div class="container">
+    <app-breadcrumb [items]="[{ label: ('nav.home' | t), link: '/' }, { label: ('fav.title' | t) }]" />
+
+    <header class="favorites-head">
+      <div class="head-content">
+        <p class="favorites-kicker">{{ 'fav.kicker' | t }}</p>
+        <h1 class="favorites-title">{{ 'fav.title' | t }}</h1>
+        <p class="favorites-desc">
+          {{ 'fav.desc' | t }}
+        </p>
+      </div>
+
+      @if (favoritesService.count() > 0) {
+        <div class="favorites-toolbar">
+          <button type="button" class="btn btn-sm btn-outline-secondary" (click)="exportFavorites()">
+            <span>&#x2193;</span> {{ 'fav.export' | t }}
+          </button>
+          <button type="button" class="btn btn-sm btn-outline-danger" (click)="clearAll()">
+            {{ 'fav.clear' | t }}
+          </button>
+        </div>
+      }
+    </header>
+
+    @if (favoritesService.count() === 0) {
+      <div class="empty-favorites">
+        <div class="empty-icon" aria-hidden="true">♡</div>
+        <h2 class="empty-title">{{ 'fav.emptyTitle' | t }}</h2>
+        <p class="empty-text">
+          {{ 'fav.emptyText' | t }}
+        </p>
+        <div class="empty-action">
+          <a routerLink="/diwans" class="btn btn-primary">{{ 'fav.browse' | t }}</a>
+        </div>
+      </div>
+    } @else {
+      <div class="list-tools">
+        <input id="fav-search" class="form-control search" type="search"
+               [placeholder]="'fav.searchPlaceholder' | t"
+               (input)="onSearch($event)" autocomplete="off">
+        <p class="result-count" aria-live="polite">
+          {{ filteredFavorites().length | number }} {{ 'fav.of' | t }} {{ favoritesService.count() | number }}
+          {{ favoritesService.count() > 1 ? ('detail.poemsCount' | t) : ('detail.singlePoem' | t) }}
+        </p>
+      </div>
+
+      <ol class="poem-list">
+        @for (p of filteredFavorites(); track p.code) {
+          <li>
+            <a class="poem-card" [routerLink]="['/diwans', p.diwanSlug, p.slug]">
+              <span class="poem-card-head">
+                <span class="poem-num">{{ 'corpus.diwan' | t }} {{ p.diwanNumber }} · #{{ p.number }}</span>
+                <span class="head-right">
+                  <span class="poem-meta">{{ p.baytCount | number }} {{ 'corpus.abyat' | t }}</span>
+                  <button type="button" class="card-remove-btn"
+                          [title]="'fav.remove' | t"
+                          [attr.aria-label]="'fav.remove' | t"
+                          (click)="remove($event, p.code)">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </span>
+              </span>
+              <span class="ar poem-name" lang="ar">{{ p.title }}</span>
+              <span class="poem-tags">
+                <span class="tag">{{ 'detail.poemTag' | t }}</span>
+                @if (p.isAcrostic) { <span class="tag">{{ 'detail.acrosticTag' | t }}</span> }
+                <span class="tag tag-code">{{ p.code }}</span>
+              </span>
+              <span class="card-arrow" aria-hidden="true">{{ 'detail.read' | t }}</span>
+            </a>
+          </li>
+        } @empty {
+          <li class="no-match">{{ 'fav.noMatch' | t }}</li>
+        }
+      </ol>
+    }
+  </div>
+</section>

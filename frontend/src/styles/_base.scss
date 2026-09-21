@@ -9,6 +9,68 @@
   --rule: #{$rule};
   --arabic: "Amiri", "Scheherazade New", "Noto Naskh Arabic", "Traditional Arabic", serif;
   --serif: "Amiri", Georgia, "Times New Roman", serif;
+  --bayt-font-size: 1.9rem;
+}
+
+[data-theme="sepia"] {
+  --paper: #f7efe1;
+  --ink: #291d14;
+  --muted: #6e5946;
+  --emerald: #155c45;
+  --emerald-dark: #0f4433;
+  --gold: #966f28;
+  --stone: #ebdcc0;
+  --rule: #ded0b3;
+  background-color: var(--paper) !important;
+  color: var(--ink) !important;
+
+  body, .site-header {
+    background: rgba(247, 239, 225, .95) !important;
+  }
+  .diwans-panel, .poem-text, .poem-overview {
+    background: #fbf5e9 !important;
+  }
+}
+
+[data-theme="dark"] {
+  --paper: #121815;
+  --ink: #e6eae7;
+  --muted: #95a39c;
+  --emerald: #27ae83;
+  --emerald-dark: #37c897;
+  --gold: #d4af37;
+  --stone: #1a2420;
+  --rule: #25342d;
+  background-color: var(--paper) !important;
+  color: var(--ink) !important;
+
+  body, .site-header {
+    background: rgba(18, 24, 21, .96) !important;
+  }
+  .diwans-panel, .poem-text, .poem-overview, .lang-dropdown {
+    background: #17211d !important;
+    border-color: #273830 !important;
+    color: var(--ink) !important;
+  }
+  .lang-option {
+    color: #e6eae7 !important;
+  }
+  .lang-option:hover {
+    background: #1e2c26 !important;
+  }
+  .lang-btn, .btn-outline-secondary, .toggle, .download-action, .print-action, .favorite-action {
+    background: #19241f !important;
+    border-color: #2e4238 !important;
+    color: #e6eae7 !important;
+  }
+  .form-control, input.search {
+    background: #19241f !important;
+    border-color: #2e4238 !important;
+    color: #e6eae7 !important;
+  }
+  .poem-card, .table {
+    color: var(--ink) !important;
+  }
 }
 
 html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
