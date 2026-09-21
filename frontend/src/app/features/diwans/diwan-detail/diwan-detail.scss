@@ -53,3 +53,92 @@
 @media (min-width: 576px) and (max-width: 900px) {
   .poem-list { grid-template-columns: repeat(2, 1fr); }
 }
+
+.pagination-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+  margin: 3rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-page {
+  font-family: inherit;
+  font-size: .95rem;
+  font-weight: 600;
+  padding: .6rem 1.15rem;
+  border-radius: 2rem;
+  border: 1px solid var(--rule);
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  transition: all .2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  line-height: 1;
+
+  &:hover:not(:disabled) {
+    border-color: var(--emerald);
+    color: var(--emerald);
+    background: #f0f7f4;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(15, 90, 68, .08);
+  }
+
+  &:disabled {
+    opacity: .38;
+    cursor: not-allowed;
+    background: #fafafa;
+    border-color: var(--rule);
+  }
+}
+
+.page-numbers {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.btn-page-num {
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border-radius: 50%;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--ink);
+
+  &.active {
+    background: var(--emerald);
+    color: #fff;
+    border-color: var(--emerald);
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(15, 90, 68, .25);
+  }
+}
+
+.pagination-summary {
+  text-align: center;
+  color: var(--muted);
+  font-size: .92rem;
+  margin: .5rem 0 2.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 575.98px) {
+  .pagination-bar {
+    gap: .5rem;
+  }
+  .btn-page-nav {
+    padding: .5rem .85rem;
+    font-size: .88rem;
+  }
+  .btn-page-num {
+    min-width: 2.2rem;
+    height: 2.2rem;
+    font-size: .95rem;
+  }
+}

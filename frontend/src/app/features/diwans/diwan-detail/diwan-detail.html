@@ -33,7 +33,10 @@
             <input id="poem-search" class="form-control search" type="search"
                    [placeholder]="i18n.t('diwan.searchPlaceholder')" (input)="onSearch($event)" autocomplete="off">
             <p class="result-count" aria-live="polite">
-              {{ poems().length | number }} {{ i18n.t(poems().length > 1 ? 'diwan.poemsOnline' : 'diwan.poemOnline') }}
+              {{ filteredPoems().length | number }} {{ i18n.t(filteredPoems().length > 1 ? 'diwan.poemsOnline' : 'diwan.poemOnline') }}
+              @if (totalPages() > 1) {
+                · {{ i18n.t('pagination.page') }} {{ currentPage() }} {{ i18n.t('pagination.of') }} {{ totalPages() }}
+              }
             </p>
           </div>
 
@@ -65,6 +68,34 @@
               <li class="no-match">{{ i18n.t('diwan.noMatch') }}</li>
             }
           </ol>
+
+          @if (totalPages() > 1) {
+            <nav class="pagination-bar" [attr.aria-label]="i18n.t('pagination.page')">
+              <button type="button" class="btn-page btn-page-nav"
+                      [disabled]="currentPage() === 1"
+                      (click)="prevPage()">
+                ← {{ i18n.t('pagination.prev') }}
+              </button>
+
+              <div class="page-numbers">
+                @for (p of pagesList(); track p) {
+                  <button type="button" class="btn-page btn-page-num"
+                          [class.active]="currentPage() === p"
+                          (click)="setPage(p)">
+                    {{ p }}
+                  </button>
+                }
+              </div>
+
+              <button type="button" class="btn-page btn-page-nav"
+                      [disabled]="currentPage() === totalPages()"
+                      (click)="nextPage()">
+                {{ i18n.t('pagination.next') }} →
+              </button>
+            </nav>
+
+            <p class="pagination-summary">{{ paginationInfo() }}</p>
+          }
         }
       } @else {
         <p class="loading">{{ i18n.t('state.loading') }}</p>

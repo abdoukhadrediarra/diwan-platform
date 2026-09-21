@@ -446,5 +446,17 @@ export const TRANSLATIONS: Record<string, Entry> = {
   'favorites.empty': { fr: 'Aucun favori pour le moment', en: 'No favorites yet', ar: 'لا توجد مفضلات بعد', wo: 'Amul tànneef leegi' },
   'favorites.emptyDesc': { fr: 'Cliquez sur le bouton cœur dans le lecteur pour enregistrer vos poèmes préférés.', en: 'Click the heart button in the reader to save your favorite poems.', ar: 'انقر على زر القلب لحفظ قصائدك المفضلة.', wo: 'Bësal xol bi ci jàngukaay bi ngir denc sa xasida yi.' },
   'favorites.clearAll': { fr: 'Tout effacer', en: 'Clear all', ar: 'مسح الكل', wo: 'Dindi lépp' },
+
+  // ---------------------------------------------------------------- pagination
+  'pagination.prev': { fr: 'Précédent', en: 'Previous', ar: 'السابق', wo: 'Bi jiitu' },
+  'pagination.next': { fr: 'Suivant', en: 'Next', ar: 'التالي', wo: 'Bi topp' },
+  'pagination.page': { fr: 'Page', en: 'Page', ar: 'صفحة', wo: 'Xët' },
+  'pagination.of': { fr: 'sur', en: 'of', ar: 'من', wo: 'ci' },
+  'pagination.showing': {
+    fr: 'Affichage des khassaïdes {start} à {end} sur {total}',
+    en: 'Showing khassaïdes {start} to {end} of {total}',
+    ar: 'عرض القصائد من {start} إلى {end} من أصل {total}',
+    wo: 'Wone xasida yi jóoge {start} ba {end} ci {total}',
+  },
 };
 
