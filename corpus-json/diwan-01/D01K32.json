@@ -1,0 +1,156 @@
+{
+  "code": "D01K32",
+  "diwan": 1,
+  "number": 32,
+  "source_file": "D01K32_وَاتَّقُوا اللَّهَ.docx",
+  "incipit": "وُدِّي لِرَبِّي وَخَلِيلِي وَالْحَبِيبْ",
+  "title": "وَاتَّقُوا اللَّهَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 91,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 11,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "196507d1019c3c138e2197ddc338c6ac55fae1fc77590b26a0598775efaa4036",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَاتَّقُوا اللَّهَ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وُدِّي لِرَبِّي وَخَلِيلِي وَالْحَبِيبْ",
+        "وَهْوَ الَّذِي كُلِّيَ أَغْنَى عَنْ طَبِيبْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَشْكُرُهُ نِعْمَ عَلَى اسْتِغْنَائِي",
+        "بِهِ وَعَنِّي قَدْ مَحَا عَنَائِي"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "تَشْكُرُهُ بِذِكْرِهِ أَقْلَامِي",
+        "وَقَدْ كَفَانِي دَاعِيَ الْمَلَامِ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "تَشْكُرُهُ إِلَى الْجِنَانِ نِيَّتِي",
+        "لَهُ بِلَا مَلَامَةٍ كُلِّيَّتِي"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "قَوْلِيَ لَا إِلَهَ إِلَّا اللَّهُ",
+        "مُحَمَّدٌ الرَّسُولُ مِنْ مَوْلَاهُ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "وَقَانِيَ الْبَاقِي ذَوِي مَلَاهِ",
+        "وَلَيْسَ يَنْحُونِي ذَوُو الْمَلَاهِ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "إِذَا جَلَبْتُ أَوْ دَفَعْتُ بِالنَّبِي",
+        "قَادَ وَذَبَّ ثُمَّ قَالَ أَطْنِبِ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "أَكْرَمَنِي الْبَاقِي بِخِدْمَةِ الْبَشِيرْ",
+        "وَقَلَمِي إِلَى الْمَزِيَّاتِ يُشِيرْ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "لِي يَقُودُ بِالنَّبِيِّ اللَّهُ",
+        "مِنَنَ لَا إِلَهَ إِلَّا اللَّهُ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "لَهُ خِطَابِي بَعْدَ مَا مَاتَ لَعِينْ",
+        "كَانَ مُقَارِنًا وَإِنَّهُ الْمُعِينْ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "هَبْ لِيَ تَوْحِيدَ الْهُدَاةِ أَجْمَعِينَ",
+        "يَا مَنْ كَفَانِيَ تَوَجُّهَ اللَّعِينْ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ]
+    }
+  ]
+}

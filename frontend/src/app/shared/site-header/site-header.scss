@@ -19,6 +19,7 @@ nav { display: flex; align-items: center; justify-content: space-between; min-he
 .brand-name { font-family: var(--serif); font-size: 1.35rem; font-weight: 700; letter-spacing: .02em; }
 
 .site-menu { display: flex; align-items: center; gap: 2.25rem; list-style: none; margin: 0; padding: 0; }
+.site-menu .lang { margin-inline-start: -.75rem; }
 .site-menu > li > a, .panel-toggle {
   color: var(--ink); text-decoration: none; font-weight: 600; padding: .5rem 0; border: 0; border-bottom: 2px solid transparent; background: none;
 }

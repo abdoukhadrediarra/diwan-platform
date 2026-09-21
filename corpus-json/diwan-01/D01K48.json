@@ -1,0 +1,166 @@
+{
+  "code": "D01K48",
+  "diwan": 1,
+  "number": 48,
+  "source_file": "D01K48_يَسْتَبْشِرُونَ أَبَدًا.docx",
+  "incipit": "يَسُرُّ نَحْوِي وَعَرُوضِيَ الْمُنْتَقَى",
+  "title": "يَسْتَبْشِرُونَ أَبَدًا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "035b90ea1155d1004823a57f9cbcae75b85177f03368cd8384ce7bb7a07d8a10",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا كَمَا وَهَبَ لِي"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "يَسْتَبْشِرُونَ أَبَدًا"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "يَسُرُّ نَحْوِي وَعَرُوضِيَ الْمُنْتَقَى",
+        "عَلَيْهِ تَسْلِيمَاتُ هَادٍ انْتَقَى"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "سَرَّ رَسُولَ اللَّهِ عُمْرِي صَلَّى",
+        "مُسَلِّمًا عَلَيْهِ بَاقٍ جَلَّا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "تَسُرُّ أَفْضَلَ الْوَرَى حَيَاتِي",
+        "بِخِدْمَتِي لَهُ وَلِلآيَاتِ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "بَانَ لِكُلِّ مَنْ لَهُ مَعْقُولُ",
+        "فِي كَلْكَلِيَ الْمَنْقُولُ وَالْمَعْقُولُ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "شَهِدَتِ الشَّرِيعَةُ الْمُطَهَّرَهْ",
+        "لِيَ مَعَ الْحَقِيقَةِ الْمُنَوَّرَهْ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "رَافَقَنِي الظَّاهِرُ فِي مَسِيرِي",
+        "وَقَادَنِي الْبَاطِنُ بِالتَّيْسِيرِ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "وَلَّتْ لِغَيْرِيَ الْعِدَى وَالْكَدَرُ",
+        "وَلِي لَا يَرُدُّهَا الْمُقَدِّرُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "نَفَى لِغَيْرِ ذَاتِيَ الْبَاقِي الْقَدِيمْ",
+        "مَكَارِهَ الدَّارَيْنِ بِشْرِي يَدُومْ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "إِلَى سِوَايَ تَنْتَحِي الْمَفَاسِدُ",
+        "وَلَيْسَ يَنْحُو لِحَيَاتِي فَاسِدُ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "بَرَّأَنِي الْبَصِيرُ مِنْ عُيُوبِي",
+        "وَجَادَ لِيَ الْخَبِيرُ بِالْغُيُوبِ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "دَعَانِيَ الْبَاقِي إِلَى الشُّكُورِ",
+        "وَلَمْ يَزَلْ بِنَافِعٍ شَكُورِ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "أَزْكَى سَلَامِي مَنْ كِتَابَتِي انْتَقَى",
+        "عَلَى النَّبِيِّ الْعَرَبِيِّ الْمُنْتَقَى"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِنِعْمَةٍ مِنَ اللَّهِ وَفَضْلٍ لَمْ يَمْسَسْهُمْ سُوءٌ وَاتَّبَعُوا رِضْوَانَ اللَّهِ وَاللَّهُ ذُو فَضْلٍ عَظِيمٍ فِيمَا مَضَى قَبْلَ يَوْمِ خَطِّي هَاتَيْنِ الْقَصِيدَتَيْنِ اللَّتَيْنِ أَمَرَنِي بِأَنْ أَشْكُرَهُ بِهِمَا وَاللَّهُ عَلَى مَا نَقُولُ وَكِيلٌ"
+      ]
+    }
+  ]
+}

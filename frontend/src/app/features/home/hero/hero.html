@@ -6,15 +6,13 @@
         <h1 id="hero-title" class="hero-title">Cheikh Ahmadou Bamba</h1>
         <p class="hero-epithet">
           <span class="ar" lang="ar">خَادِمُ الرَّسُولِ</span>
-          {{ 'hero.epithet' | t }}
+          {{ i18n.t('home.epithet') }}
         </p>
-        <p class="hero-dates">{{ 'hero.dates' | t }}</p>
-        <p class="hero-lede">
-          {{ 'hero.lede' | t }}
-        </p>
+        <p class="hero-dates">{{ i18n.t('home.dates') }}</p>
+        <p class="hero-lede">{{ i18n.t('home.lede') }}</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" routerLink="/diwans">{{ 'hero.ctaDiwans' | t }}</a>
-          <a class="link-quiet" routerLink="/" fragment="cheikh">{{ 'hero.ctaBio' | t }}</a>
+          <a class="btn btn-primary" routerLink="/diwans">{{ i18n.t('home.discover') }}</a>
+          <a class="link-quiet" routerLink="/" fragment="cheikh">{{ i18n.t('home.readBio') }}</a>
         </div>
       </div>
 
@@ -23,9 +21,9 @@
           <div class="arch">
             <img ngSrc="images/cheikh-ahmadou-bamba.jpg" width="808" height="1280" priority
                  sizes="(min-width: 992px) 40vw, 80vw"
-                 alt="Cheikh Ahmadou Bamba">
+                 [alt]="i18n.t('home.photoAlt')">
           </div>
-          <figcaption>{{ 'hero.portraitCaption' | t }}</figcaption>
+          <figcaption>{{ i18n.t('home.photoCaption') }}</figcaption>
         </figure>
       </div>
     </div>

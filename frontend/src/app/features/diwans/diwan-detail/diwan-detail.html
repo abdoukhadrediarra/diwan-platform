@@ -1,38 +1,39 @@
 @let d = diwan();
 @if (d.state === 'error') {
   @if (d.notFound) {
-    <app-not-found heading="Diwan introuvable" text="Ce diwan n’existe pas. Le corpus compte sept diwans." />
+    <app-not-found [heading]="i18n.t('error.diwanNotFound')" [text]="i18n.t('error.diwanNotFound')" />
   } @else {
-    <app-not-found heading="Le diwan n’a pas pu être chargé" text="Le serveur ne répond pas pour le moment. Réessayez dans quelques instants." />
+    <app-not-found [heading]="i18n.t('error.diwanTitle')" [text]="i18n.t('error.server')" />
   }
 } @else {
   <section class="section diwan-page" [attr.aria-busy]="d.state === 'loading'">
     <div class="container">
       @if (d.state === 'ready') {
-        <app-breadcrumb [items]="[{ label: ('nav.home' | t), link: '/' }, { label: ('diwans.title' | t), link: '/diwans' }, { label: ('corpus.diwan' | t) + ' ' + d.data.number }]" />
+        <app-breadcrumb [items]="[{ label: i18n.t('nav.home'), link: '/' }, { label: i18n.t('diwans.title'), link: '/diwans' }, { label: i18n.t('diwan.label') + ' ' + d.data.number }]" />
 
         <header class="diwan-head">
-          <p class="diwan-kicker"><span class="num">{{ d.data.number }}</span> {{ 'corpus.diwan' | t }} {{ d.data.number }}</p>
+          <p class="diwan-kicker"><span class="num">{{ d.data.number }}</span> {{ i18n.t('diwan.label') }} {{ d.data.number }}</p>
           <h1 class="ar diwan-title" lang="ar">{{ d.data.title }}</h1>
           <dl class="facts">
-            <div><dt>{{ 'detail.poemsOnline' | t }}</dt><dd>{{ d.data.poem_count | number }}</dd></div>
-            <div><dt>{{ 'detail.abyatOnline' | t }}</dt><dd>{{ d.data.published_abyat | number }}</dd></div>
-            <div><dt>{{ 'detail.corpusAbyat' | t }}</dt><dd>{{ d.data.corpus_abyat | number }}</dd></div>
+            <div><dt>{{ i18n.t('diwan.poemsOnline') }}</dt><dd>{{ d.data.poem_count | number }}</dd></div>
+            <div><dt>{{ i18n.t('diwan.abyatOnline') }}</dt><dd>{{ d.data.published_abyat | number }}</dd></div>
+            <div><dt>{{ i18n.t('diwan.abyatTotal') }}</dt><dd>{{ d.data.corpus_abyat | number }}</dd></div>
           </dl>
         </header>
 
         @if (d.data.poems.length === 0) {
           <div class="empty">
-            <p class="empty-title">{{ 'detail.empty' | t }}</p>
-            <p>Chaque poème relu et importé dans la base de données apparaît ici automatiquement.
-              <a routerLink="/diwans">{{ 'detail.viewOther' | t }}</a></p>
+            <p class="empty-title">{{ i18n.t('diwan.emptyTitle') }}</p>
+            <p>{{ i18n.t('diwan.emptyText') }}
+              <a routerLink="/diwans">{{ i18n.t('menu.all') }}</a></p>
           </div>
         } @else {
           <div class="list-tools">
+            <label for="poem-search" class="form-label visually-hidden">{{ i18n.t('diwan.searchLabel') }}</label>
             <input id="poem-search" class="form-control search" type="search"
-                   [placeholder]="'detail.searchPlaceholder' | t" (input)="onSearch($event)" autocomplete="off">
+                   placeholder="Rechercher par titre ou numéro..." (input)="onSearch($event)" autocomplete="off">
             <p class="result-count" aria-live="polite">
-              {{ poems().length | number }} {{ poems().length > 1 ? ('detail.poemsCount' | t) : ('detail.singlePoem' | t) }}
+              {{ poems().length | number }} {{ i18n.t(poems().length > 1 ? 'diwan.poemsOnline' : 'diwan.poemOnline') }}
             </p>
           </div>
 
@@ -43,31 +44,30 @@
                   <span class="poem-card-head">
                     <span class="poem-num">{{ p.number }}</span>
                     <span class="head-right">
-                      <span class="poem-meta">{{ p.bayt_count | number }} {{ 'corpus.abyat' | t }}</span>
+                      <span class="poem-meta">
+                        @if (p.is_acrostic) { <span class="tag">{{ i18n.t('poem.acrostic') }}</span> }
+                        {{ p.bayt_count | number }} {{ i18n.t('poem.abyat') }}
+                      </span>
                       <button type="button" class="card-fav-btn"
                               [class.is-fav]="favorites.isFavorite(p.code)"
-                              [title]="favorites.isFavorite(p.code) ? ('detail.favRemove' | t) : ('detail.favAdd' | t)"
-                              [attr.aria-label]="favorites.isFavorite(p.code) ? ('detail.favRemove' | t) : ('detail.favAdd' | t)"
+                              title="Favoris"
+                              aria-label="Favoris"
                               (click)="toggleFavorite($event, p, d.data)">
                         <span aria-hidden="true">{{ favorites.isFavorite(p.code) ? '♥' : '♡' }}</span>
                       </button>
                     </span>
                   </span>
                   <span class="ar poem-name" lang="ar">{{ p.title }}</span>
-                  <span class="poem-tags">
-                    <span class="tag">{{ 'detail.poemTag' | t }}</span>
-                    @if (p.is_acrostic) { <span class="tag">{{ 'detail.acrosticTag' | t }}</span> }
-                  </span>
-                  <span class="card-arrow" aria-hidden="true">{{ 'detail.read' | t }}</span>
+                  <span class="card-arrow" aria-hidden="true">Lire la khassida →</span>
                 </a>
               </li>
             } @empty {
-              <li class="no-match">{{ 'detail.noMatch' | t }}</li>
+              <li class="no-match">{{ i18n.t('diwan.noMatch') }}</li>
             }
           </ol>
         }
       } @else {
-        <p class="loading">Chargement du diwan…</p>
+        <p class="loading">{{ i18n.t('state.loading') }}</p>
       }
     </div>
   </section>

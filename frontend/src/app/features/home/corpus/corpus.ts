@@ -8,6 +8,8 @@ import { Loadable, loadable } from '../../../core/api';
 import { CorpusOverview } from '../../../core/models/api.model';
 import { TranslatePipe } from '../../../core/i18n/translate.pipe';
 
+import { LanguageService } from '../../../core/services/language.service';
+
 @Component({
   selector: 'app-corpus',
   imports: [DecimalPipe, PercentPipe, RouterLink, TranslatePipe],
@@ -15,6 +17,7 @@ import { TranslatePipe } from '../../../core/i18n/translate.pipe';
   styleUrl: './corpus.scss',
 })
 export class Corpus {
+  protected readonly i18n = inject(LanguageService);
   protected readonly corpus = inject(CorpusService);
 
   /** Live counts from the database: how many khassaïdes are already online. */

@@ -6,23 +6,24 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { switchMap } from 'rxjs';
 import { DiwanApi } from '../../../core/services/diwan-api.service';
 import { Loadable, loadable } from '../../../core/api';
-import { DiwanDetail } from '../../../core/models/api.model';
-import { PoemSummary } from '../../../core/models/api.model';
+import { DiwanDetail, PoemSummary } from '../../../core/models/api.model';
 import { FavoritesService } from '../../../core/services/favorites.service';
 import { normalizeArabic } from '../../../core/arabic';
+import { LanguageService } from '../../../core/services/language.service';
 import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
 import { NotFound } from '../../../shared/not-found/not-found';
-import { TranslatePipe } from '../../../core/i18n/translate.pipe';
 
 @Component({
   selector: 'app-diwan-detail',
-  imports: [DecimalPipe, RouterLink, Breadcrumb, NotFound, TranslatePipe],
+  imports: [DecimalPipe, RouterLink, Breadcrumb, NotFound],
   templateUrl: './diwan-detail.html',
   styleUrl: './diwan-detail.scss',
 })
 export class DiwanDetailPage {
   private readonly api = inject(DiwanApi);
   protected readonly favorites = inject(FavoritesService);
+  protected readonly i18n = inject(LanguageService);
+
   protected readonly diwan = toSignal(
     inject(ActivatedRoute).paramMap.pipe(switchMap((p) => loadable(this.api.diwan(p.get('diwan') ?? '')))),
     { initialValue: { state: 'loading' } as Loadable<DiwanDetail> },

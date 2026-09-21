@@ -1,0 +1,167 @@
+{
+  "code": "D01K87",
+  "diwan": 1,
+  "number": 87,
+  "source_file": "D01K87_وَكُنْ مِنَ الشَّاكِرِينَ.docx",
+  "incipit": "وَاجَهَنِي الْبَاقِي بِلَا اسْتِدْرَاجِ",
+  "title": "وَكُنْ مِنَ الشَّاكِرِينَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 13,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "159ddf6df921f2214798b9e710062b6ff982bccee1c1154b65aa4473867f111f",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا وَوَهَبَ لِنَاظِمِ هَذِهِ الْقَصِيدَةِ امْتِثَالَ أَمْرِهِ تَبَارَكَ وَتَعَالَى فِي قَوْلِهِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَكُنْ مِنَ الشَّاكِرِينَ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَاجَهَنِي الْبَاقِي بِلَا اسْتِدْرَاجِ",
+        "وَقَادَنِي إِلَيْهِ ذَا خَرَاجِ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "كِتَابُهُ سَلَبَ لِي بِلَا غُرُورْ",
+        "وَلِسِوَايَ سَاقَ مَكْرًا كَغُرُورْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "نَزَعَ لِي مَا شَاءَهُ مِنْ بَرَكَاتْ",
+        "مَنْ سَكَنَاتِيَ هَدَى وَالْحَرَكَاتْ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَحَا الَّذِي قَدْ سَاءَنِي فِي نَفْسِي",
+        "مَنْ صَانَنِي عَنْ جَالِبَاتِ الْعَفْسِ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "نَظَّفَنِي الْقُدُّوسُ مِنْ أَدْنَاسِ",
+        "وَأَذْهَبَ الْخَنَّاسَ بِالْجِنَاسِ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "اللَّهُ رَافِعٌ لَهُ لُزُومِي",
+        "بِصَاحِبِ الْبُرَاقِ وَالْحَيْزُومِ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لِلَّهِ تَوْحِيدِي لَدَى الْبُحُورِ",
+        "وَقَادَ لِي مِنْهُ مُهُورَ الْحُورِ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "شَكَرْتُهُ بِهِ وَبِالْمُشَفَّعِ",
+        "وَصَانَنِي عَنْ زَبَدٍ وَمِدْفَعِ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "أَشْكُرُهُ وَصَانَنِي عَنْ هَفَوَاتْ",
+        "وَقَادَ لِي فِي الْخَطِّ يُمْنَ الْغَزَوَاتْ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "كِتَابَتِي طَوَتْ مَسَافَةَ السُّلُوكْ",
+        "عَنِّي وَصَانَنِيَ عَنْ ضَرِّ الْمُلُوكْ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "رَافَقَنِي فِي الْخَطِّ أَهْلُ بَدْرِ",
+        "زَادَهُمُ الْبَاقِي اعْتِلَاءَ الْقَدْرِ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "يَرُومُ أَفْضَلَ صَلَاةٍ وَسَلَامْ",
+        "مَعْ رِضًى لَهُمْ فُؤَادِي وَالْقِلَامْ"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "نَوَيْتُ شُكْرَ اللَّهِ بِالْخَرَاجِ",
+        "بِغَيْرِ مَكْرٍ وَبِلَا اسْتِدْرَاجِ"
+      ]
+    }
+  ]
+}

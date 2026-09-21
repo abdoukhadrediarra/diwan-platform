@@ -1,21 +1,22 @@
 <section id="corpus" class="section corpus" aria-labelledby="corpus-title">
   <div class="container">
-    <h2 id="corpus-title" class="section-title">{{ 'corpus.title' | t }}</h2>
+    <h2 id="corpus-title" class="section-title">{{ i18n.t('home.corpusTitle') }}</h2>
     <p class="section-intro">
-      {{ 'corpus.desc' | t }}
+      Sept diwans réunissent l’essentiel des khassaïdes. Les chiffres ci-dessous sont calculés sur leur texte intégral.
     </p>
 
     <dl class="figures">
-      <div><dt>{{ 'corpus.diwan' | t }}</dt><dd>{{ corpus.diwans().length }}</dd></div>
-      <div><dt>{{ 'corpus.abyat' | t }}</dt><dd>{{ corpus.totals().abyat | number }}</dd></div>
-      <div><dt>{{ 'corpus.hemistichs' | t }}</dt><dd>{{ corpus.totals().hemistichs | number }}</dd></div>
-      <div><dt>{{ 'corpus.words' | t }}</dt><dd>{{ corpus.totals().words | number }}</dd></div>
-      <div><dt>{{ 'corpus.pages' | t }}</dt><dd>{{ corpus.pages() | number }}</dd></div>
+      <div><dt>{{ i18n.t('figure.diwans') }}</dt><dd>{{ corpus.diwans().length }}</dd></div>
+      <div><dt>{{ i18n.t('figure.abyat') }}</dt><dd>{{ corpus.totals().abyat | number }}</dd></div>
+      <div><dt>{{ i18n.t('figure.hemistichs') }}</dt><dd>{{ corpus.totals().hemistichs | number }}</dd></div>
+      <div><dt>{{ i18n.t('figure.words') }}</dt><dd>{{ corpus.totals().words | number }}</dd></div>
+      <div><dt>{{ i18n.t('figure.pages') }}</dt><dd>{{ corpus.pages() | number }}</dd></div>
     </dl>
 
     @if (online(); as o) {
       <p class="online-line">
-        <strong>{{ o.total | number }}</strong> {{ o.total > 1 ? ('corpus.onlineCountLine' | t) : ('corpus.singleOnlineLine' | t) }}
+        <strong>{{ o.total | number }}</strong> {{ o.total > 1 ? 'khassaïdes sont' : 'khassida est' }} déjà en ligne.
+        Chaque poème relu et importé paraît aussitôt dans son diwan.
       </p>
     }
 
@@ -24,11 +25,11 @@
         <caption class="visually-hidden">Nombre d’abyat et de mots dans chacun des sept diwans</caption>
         <thead>
           <tr>
-            <th scope="col">{{ 'corpus.diwan' | t }}</th>
-            <th scope="col" class="num">{{ 'corpus.abyat' | t }}</th>
-            <th scope="col" class="num words-col">{{ 'corpus.words' | t }}</th>
-            <th scope="col" class="num">{{ 'corpus.online' | t }}</th>
-            <th scope="col" class="share-col">{{ 'corpus.share' | t }}</th>
+            <th scope="col">{{ i18n.t('diwan.label') }}</th>
+            <th scope="col" class="num">{{ i18n.t('figure.abyat') }}</th>
+            <th scope="col" class="num words-col">{{ i18n.t('figure.words') }}</th>
+            <th scope="col" class="num">{{ i18n.t('home.online') }}</th>
+            <th scope="col" class="share-col">Part des abyat du corpus</th>
           </tr>
         </thead>
         <tbody>
@@ -39,7 +40,7 @@
                 <span class="diwan-number">{{ diwan.number }}</span>
                 <span class="diwan-name">
                   <a class="ar diwan-link" lang="ar" [routerLink]="['/diwans', slug(diwan.number)]">{{ diwan.title }}</a>
-                  <span class="diwan-label">{{ 'corpus.diwan' | t }} {{ diwan.number }}</span>
+                  <span class="diwan-label">{{ i18n.t('diwan.label') }} {{ diwan.number }}</span>
                 </span>
                 </span>
               </th>
@@ -57,7 +58,7 @@
         </tbody>
         <tfoot>
           <tr>
-            <th scope="row">{{ 'corpus.total' | t }}</th>
+            <th scope="row">Total</th>
             <td class="num">{{ corpus.totals().abyat | number }}</td>
             <td class="num words-col">{{ corpus.totals().words | number }}</td>
             <td class="num">{{ online() ? (online()!.total | number) : '–' }}</td>

@@ -4,6 +4,18 @@ Website of the Diwan platform: the seven diwans of Cheikh Ahmadou Bamba.
 Angular 21 (standalone components, server-side rendering), Bootstrap 5 (Sass, only the modules used),
 self-hosted Amiri and Source Sans 3 fonts.
 
+## Langues de l'interface
+
+Le site se lit en **français, anglais, arabe et wolof (en caractères latins)**. Le bouton de langue
+se trouve dans le menu ; le choix est gardé dans le navigateur et s'applique à toutes les pages.
+En arabe, la page entière passe de droite à gauche (`<html dir="rtl">`), sauf la transcription
+latine et les chiffres.
+
+Les poèmes eux-mêmes ne sont jamais traduits : seule l'interface change.
+
+Tous les mots de l'interface sont réunis dans un seul fichier, `src/app/core/i18n/translations.ts` :
+une clé, quatre langues. Pour corriger une traduction ou en ajouter une, il suffit d'y toucher.
+
 ## Pages
 
 | Address                     | Page                                                        | Data                         |

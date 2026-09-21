@@ -1,0 +1,157 @@
+{
+  "code": "D01K68",
+  "diwan": 1,
+  "number": 68,
+  "source_file": "D01K68_يَدَاهُ مَبْسُوطَتَانِ.docx",
+  "incipit": "يَقُودُ لِيَ الظَّاهِرُ فَضْلاً ظَاهِرَا",
+  "title": "يَدَاهُ مَبْسُوطَتَانِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "af7a32bc9176e9039197938336ac8cc7dd2b35ec0ac69e3d46b92b6c9e9e9c43",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ جَعَلْتُ كُلَّ مَا اخْتَارَهُ اللَّهُ تَبَارَكَ وَتَعَالَى بَدَلاً لِي مِنْ كُلِّ مَا لَمْ تَخْتَرْهُ لِي فِي الْحَالِ وَالْمَآلِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "يَدَاهُ مَبْسُوطَتَانِ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "يَقُودُ لِيَ الظَّاهِرُ فَضْلاً ظَاهِرَا",
+        "وَالْبَاطِنُ الدَّارَيْنِ سِرّاً بَاهِرَا"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "دِينِي كِتَابُ مَنْ مَحَا الْكَبَائِرَا",
+        "وَحَائِرًا ذَبَّ لِغَيْرِي بَائِرَا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "إِلَيَّ قَادَ مَنْ مَحَا الصَّغَائِرَا",
+        "فَضْلَيْنِ مِنْهُ ظَاهِرًا وَغَائِرَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "هَدَانِيَ الَّذِي اشْتَرَى الضَّمَائِرَا",
+        "وَلَا يَزَالُ مُغْنِيًا وَمَائِرَا"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "مَدَّ الَّذِي قَدْ أَنْزَلَ الدَّفَاتِرَا",
+        "لِي نُورَهَا فَلَا أَكُونُ فَاتِرَا"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "بَيَّنَ لِي مَنْ لَا يَزَالُ فَاطِرَا",
+        "تَبْيِينَ هَادٍ نَوَّرَ الْخَوَاطِرَا"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "سَأَلْتُهُ وَقَادَ لِي مَشَاكِرَا",
+        "كَوْنِي سَعِيدًا شَاكِرًا وَذَاكِرَا"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "وَجَّهْتُ بِالشُّكْرِ الْكَرِيمَ الْغَافِرَا",
+        "وَقَدْ كَفَانِي حَاسِدًا وَكَافِرَا"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "طَوَى الَّذِي لَيْسَ يَزَالُ قَادِرَا",
+        "عَنِّي الْمَسِيرَ لَا أُلَاقِي غَادِرَا"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "تَابَ عَلَيَّ مَنْ مَحَا الْجَرَائِرَا",
+        "وَحَسَّنَ الأَخْلَاقَ وَالسَّرَائِرَا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "إِلَيَّ قَادَ الْحُورَ مِنْ حَرَائِرَا",
+        "لِي قَادَ مُصْلِحًا بِيَ الضَّمَائِرَا"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "نَوَيْتُ شُكْرَ اللَّهِ شُكْرًا ظَاهِرَا",
+        "وَبَاطِنًا عَبْدًا خَدِيمًا بَاهِرَا"
+      ]
+    }
+  ]
+}

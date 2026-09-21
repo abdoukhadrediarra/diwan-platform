@@ -5,6 +5,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { DiwanApi } from '../../../core/services/diwan-api.service';
 import { Loadable, loadable } from '../../../core/api';
 import { CorpusService } from '../../../core/services/corpus.service';
+import { LanguageService } from '../../../core/services/language.service';
 import { DiwanSummary } from '../../../core/models/api.model';
 import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
 import { TranslatePipe } from '../../../core/i18n/translate.pipe';
@@ -17,6 +18,7 @@ import { TranslatePipe } from '../../../core/i18n/translate.pipe';
 })
 export class DiwanList {
   private readonly corpus = inject(CorpusService);
+  protected readonly i18n = inject(LanguageService);
   protected readonly remote = toSignal(loadable(inject(DiwanApi).diwans()), {
     initialValue: { state: 'loading' } as Loadable<DiwanSummary[]>,
   });

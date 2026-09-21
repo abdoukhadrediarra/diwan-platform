@@ -27,6 +27,40 @@ every address is accepted, so the Android emulator (`10.0.2.2`) and a phone on t
 For a real phone, also start the server on the network: `python manage.py runserver 0.0.0.0:8000`.
 In production, set `DJANGO_ALLOWED_HOSTS=votre-domaine.sn` and keep `DJANGO_DEBUG=0`.
 
+## Downloading a poem as PDF
+
+```
+GET /api/v1/diwans/diwan-01/poems/008/pdf/
+GET /api/v1/diwans/diwan-01/poems/008/pdf/?transcription=1
+GET /api/v1/diwans/diwan-01/poems/008/pdf/?script=wolofal
+GET /api/v1/diwans/diwan-01/poems/008/pdf/?script=wolofal&transcription=1
+```
+
+The four addresses are also given in the poem's own JSON, under `downloads`, so the front-end has
+nothing to build: it can put them straight into a link.
+
+The file is made when it is asked for (about 1 to 3 seconds for a poem) and sent as an attachment
+named after the poem (`D01K08.pdf`). Nothing is stored on the server, which suits a host with no
+permanent disk. Published poems only; an unknown poem or script gives 404.
+
+A5 pages, Amiri or the Wolofal font, the acrostic letters in red, the bayt numbers, and the Latin
+transcription under each line when it is asked for. The fonts live in
+`apps/exports/static/exports/fonts/` and are embedded in the PDF, so it looks the same everywhere.
+
+**Installing WeasyPrint.** `pip install -r requirements.txt` is enough on Linux (the hosting
+service). On Windows it also needs the GTK libraries; without them the API answers 503 on the PDF
+address and everything else keeps working.
+
+## Correcting a poem that is already in the database
+
+Open the poem in the admin (Poems > its code). At the bottom of its page, **Remplacer le texte**
+takes the corrected version of its file (.docx or .json) and rebuilds the poem from it: abyat,
+name, acrostic, transcriptions, and the file in corpus-json/. The transcriptions you corrected by
+hand are kept.
+
+The file must be the same poem: a file whose code does not match is refused, with a message saying
+which poem it contains. To import another poem, use **Import poems** on the Poems list.
+
 ## corpus-json/ keeps itself up to date
 
 Every poem you import, publish or correct is written to `corpus-json/diwan-XX/CODE.json` straight
@@ -110,5 +144,3 @@ the only one who imports and publishes. Set `CORS_ALLOWED_ORIGINS` to restrict i
 
 - `python tools/poem_json_web/app.py`: the "Poem to JSON" page (drop .docx files, check, get JSON)
 - `python manage.py import_poems … --refresh-transcriptions`: after improving the transcription rules
-
-"Font fix"

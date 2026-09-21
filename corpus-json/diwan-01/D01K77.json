@@ -1,0 +1,117 @@
+{
+  "code": "D01K77",
+  "diwan": 1,
+  "number": 77,
+  "source_file": "D01K77_فَأَحْيَيْنَاهُ.docx",
+  "incipit": "فَازَتْ حَيَاتِي بِبَقَاءٍ لَا يُرَى",
+  "title": "فَأَحْيَيْنَاهُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 8,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "4e5a3c4154843b05f16ae098a64b4b6262811a6a02de2531974ca1ec968e9073",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "فَأَحْيَيْنَاهُ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "فَازَتْ حَيَاتِي بِبَقَاءٍ لَا يُرَى",
+        "قَطُّ لِغَيْرِي وَلِغَيْرِي لَنْ يُرَى"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "إِلَيَّ قَادَ اللَّهُ أَجْرًا حَسَنَا",
+        "وَصَانَ كُلِّي عِنْدَهُ مُسْتَحْسَنَا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "حَفِظَنِيَ الْبَاقِي عَنِ الأَعْدَاءِ",
+        "وَكُلِّ حَاسِدٍ وَكُلِّ دَاءِ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "يُكْرِمُنِي الْبَاقِي بِلَا إِشْمَاتِ",
+        "فَصِرْتُ مَغْبُوطًا بِلَا شَمَاتِ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "يُغْنِينِيَ الْبَاقِي عَنِ الْمُعَادِ",
+        "مُصَيِّرًا عِدَايَ مِثْلَ عَادِ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "نَحَتْ قِلَامِي وَمِدَادِي وَالْجَسَدْ",
+        "لِشُكْرِ بَاقٍ صَانَنِي عَمَّنْ حَسَدْ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "أَبْقَانِيَ الْمُحْيِي الَّذِي لَيْسَ يَمُوتْ",
+        "مُسْتَغْنِيًا عَنِ السِّلَاحِ بِالْمُمِيتْ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "هَرَبَ إِبْلِيسُ لِغَيْرِي لَمْ يُرَى",
+        "فِي جِهَتِي وَفِي جِهَاتِي لَنْ يُرَى"
+      ]
+    }
+  ]
+}

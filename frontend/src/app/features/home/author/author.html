@@ -2,26 +2,25 @@
   <div class="container">
     <div class="row gx-lg-5 gy-5">
       <div class="col-lg-7">
-        <h2 id="author-title" class="section-title">{{ 'author.title' | t }}</h2>
+        <h2 id="author-title" class="section-title">{{ i18n.t('home.cheikhTitle') }}</h2>
         <div class="measure bio">
-          <p>{{ 'author.p1' | t }}</p>
-          <p>{{ 'author.p2' | t }}</p>
-          <p>{{ 'author.p3' | t }}</p>
-          <p>{{ 'author.p4' | t }}</p>
-          <p>{{ 'author.p5' | t }}</p>
+          @for (key of bioKeys; track key) {
+            <p>{{ i18n.t(key) }}</p>
+          }
           <p class="source">
-            {{ 'author.sourceWiki' | t }} <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Ahmadou Bamba</a>.
+            {{ i18n.t('bio.source') }}
+            <a href="https://fr.wikipedia.org/wiki/Ahmadou_Bamba" rel="noopener" target="_blank">Wikipédia</a>
           </p>
         </div>
       </div>
 
       <aside class="col-lg-5" aria-labelledby="timeline-title">
-        <h3 id="timeline-title" class="timeline-title">{{ 'author.datesTitle' | t }}</h3>
+        <h3 id="timeline-title" class="timeline-title">{{ i18n.t('home.timeline') }}</h3>
         <ol class="timeline">
-          @for (item of timeline; track item.year) {
+          @for (year of years; track year) {
             <li>
-              <span class="year">{{ item.year }}</span>
-              <span class="event">{{ item.key | t }}</span>
+              <span class="year">{{ year }}</span>
+              <span class="event">{{ i18n.t('time.' + year) }}</span>
             </li>
           }
         </ol>
@@ -34,7 +33,7 @@
   <div class="container">
     <app-bayt [bayt]="bayt" />
     <p class="verse-caption">
-      {{ 'author.verseCaption' | t }}
+      {{ captionParts[0] }}<span class="ar" lang="ar">{{ bayt.poemName }}</span>{{ captionParts[1] }}
     </p>
   </div>
 </section>

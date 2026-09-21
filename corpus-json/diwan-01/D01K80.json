@@ -1,0 +1,166 @@
+{
+  "code": "D01K80",
+  "diwan": 1,
+  "number": 80,
+  "source_file": "D01K80_أَصْحَابِ الْجَنَّةِ.docx",
+  "incipit": "إِلَى إِلَهِي اللَّهِ قَدْ أَوْصَلْتُ",
+  "title": "أَصْحَابِ الْجَنَّةِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "327126242a5c2be5b959a2852a6ca37d726e3c466721bd1b016099490b933026",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا وَوَهَبَ لِي بِلَا سَلْبٍ أَبَدًا كَوْنِي مِنْ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "أَصْحَابِ الْجَنَّةِ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِلَى إِلَهِي اللَّهِ قَدْ أَوْصَلْتُ",
+        "الْحَمْدَ وَالشُّكْرَ لَدُنْ وَصَلْتُ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "صَمَدُنَا لَيْسَ لَهُ كُفْؤًا أَحَدْ",
+        "وَأَحْمَدُ الْمُخْتَارُ لَيْثُ مَنْ جَحَدْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "حَمِدْتُ رَبِّي عَلَى مُحَمَّدِ",
+        "مُذْ قَادَنِي مُحَمَّدٌ لِلصَّمَدِ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "أَحْمَدُنَا الْمُخْتَارُ نُورُ الرُّسُلِ",
+        "عَلَى الْجَمِيعِ صَلَوَاتُ الْمُرْسِلِ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "بِاللَّهِ وَالرَّسُولِ وَالْكِتَابِ",
+        "وَصَلْتُ لِلَّهِ بِلَا عِتَابِ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "أَوْرَثَنِي الذِّكْرَ الْحَكِيمَ الصَّمَدُ",
+        "وَقَادَهُ إِلَى يَدِي مُحَمَّدُ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لَمْ يَنْحُ قَلْبِي شَكٌّ أَوْ تَخْمِينُ",
+        "مُذْ لِلأَمِينِ قَادَنِي الأَمِينُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "جَزَاءُ رَبِّي وَجَزَاءُ الْمُعْتَمَى",
+        "قَادَا لِيَ الَّذِي الْخَفَاءُ حُتِمَا"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "نَزَعَ لِيَ الْوَاحِدُ مَا لَا أَذْكُرُهْ",
+        "لِأَحَدٍ عِوَضٌ وَإِنِّي أَشْكُرُهْ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "نَاجَانِيَ الْقُدُّوسُ فِي عَقَائِدِي",
+        "وَالْقَوْلِ وَالْفِعْلِ وَنِعْمَ قَائِدِي"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "هَدِيَّةُ الْبَاقِي الْوَلِيِّ زَحْزَحَتْ",
+        "لِغَيْرِيَ الْعِدَى وَرِبْحًا مَنَحَتْ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "تَوْفِيقُ رَبِّيَ الَّذِي وَصَلْتُ",
+        "لَهُ هَدَانِيَ وَمَا انْفَصَلْتُ"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "الَّتِي وُعِدَ الْمُتَّقُونَ آمِينَ يَا رَبَّ الْعَالَمِينَ وَاجْعَلْ هَذِهِ الْقَصِيدَةَ مِنْ أَعْجَزِ الْمُعْجِزَاتِ الْكَامِنَاتِ الْمُتَأَخِّرَاتِ آمِينَ يَا رَبَّ الْعَالَمِينْ"
+      ]
+    }
+  ]
+}

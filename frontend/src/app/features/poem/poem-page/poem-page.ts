@@ -15,8 +15,7 @@ import { FavoritesService } from '../../../core/services/favorites.service';
 import { ReadingService } from '../../../core/services/reading.service';
 import { PdfExportService } from '../../../core/services/pdf-export.service';
 import { LanguageService } from '../../../core/services/language.service';
-import { ReaderSettingsService, ReaderTheme } from '../../../core/services/reader-settings.service';
-import { TranslatePipe } from '../../../core/i18n/translate.pipe';
+import { ReaderSettingsService } from '../../../core/services/reader-settings.service';
 
 interface ViewLine extends PoemLine {
   initial?: { initial: string; joiner: string; rest: string };
@@ -24,7 +23,7 @@ interface ViewLine extends PoemLine {
 
 @Component({
   selector: 'app-poem-page',
-  imports: [DecimalPipe, RouterLink, Breadcrumb, NotFound, ScriptToggle, TranslatePipe],
+  imports: [DecimalPipe, RouterLink, Breadcrumb, NotFound, ScriptToggle],
   templateUrl: './poem-page.html',
   styleUrl: './poem-page.scss',
 })
@@ -33,7 +32,7 @@ export class PoemPage {
   private readonly pdfExport = inject(PdfExportService);
   protected readonly reading = inject(ReadingService);
   protected readonly favorites = inject(FavoritesService);
-  protected readonly lang = inject(LanguageService);
+  protected readonly i18n = inject(LanguageService);
   protected readonly reader = inject(ReaderSettingsService);
   protected readonly isExportingPdf = signal(false);
 
@@ -61,27 +60,28 @@ export class PoemPage {
     return groups;
   });
 
-  protected sectionLabel(section: Section): string {
-    return this.lang.t('section.' + section);
-  }
-
-  protected readonly isFavorite = computed(() => {
-    const p = this.poem();
-    return p.state === 'ready' && this.favorites.isFavorite(p.data.code);
-  });
+  protected readonly sectionKeys: Record<Section, string> = {
+    muqaddima: 'section.muqaddima',
+    title: 'section.title',
+    matn: 'section.matn',
+    khatima: 'section.khatima',
+  };
 
   constructor() {
     const title = inject(Title);
     effect(() => {
       const p = this.poem();
-      if (p.state === 'ready') {
-        title.setTitle(`${p.data.title} | Diwan ${p.data.diwan.number} | Diwan`);
-      }
+      if (p.state === 'ready') title.setTitle(`${p.data.title} | Diwan ${p.data.diwan.number} | Diwan`);
     });
   }
 
   protected toggleTranscription(): void {
     this.reading.toggleTranscription();
+  }
+
+  protected isFavorite(): boolean {
+    const p = this.poem();
+    return p.state === 'ready' ? this.favorites.isFavorite(p.data.code) : false;
   }
 
   protected share(): void {

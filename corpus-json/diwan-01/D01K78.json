@@ -1,0 +1,166 @@
+{
+  "code": "D01K78",
+  "diwan": 1,
+  "number": 78,
+  "source_file": "D01K78_لَهُمْ دَارُ السَّلَامِ.docx",
+  "incipit": "لِرَبِّنَا الَّذِي لَنَا دَارُ السَّلَامْ",
+  "title": "لَهُمْ دَارُ السَّلَامِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "6df80203aff990b92cd5238a2ab1013c02d5be603093eebb7b56f9e5821c5138",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَاجْعَلْنِي مِمَّنْ لَهُمْ دَارُ السَّلَامِ وَاجْعَلْ هَذِهِ الأَبْيَاتِ فَوْقَ مَا قُلْتُ وَظَنَنْتُ فِي الدَّارَيْنِ آمِينَ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "لَهُمْ دَارُ السَّلَامِ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "لِرَبِّنَا الَّذِي لَنَا دَارُ السَّلَامْ",
+        "بِوَعْدِهِ شُكْرٌ يُزَحْزِحُ الظَّلَامْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "هُوَ الَّذِي لَا يُخْلِفُ الْمِيعَادَا",
+        "وَمِنْهُ أَبْغِي الْحِلَّ وَالْمَعَادَا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَكَّنَنِي مُوَسِّعًا فِي الْبَحْرِ",
+        "مِنْ بَعْدِ مَا ضَيَّقَ أَهْلُ الدَّحْرِ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "دَعَوْتُهُ وَهُوَ الْمُجِيبُ وَالْقَرِيبْ",
+        "وَإِنَّنِي وَقْتَ دُعَائِي غَرِيبْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "أَجَابَنِي فِي غَيْرِهِ فَلِي يُجِيبْ",
+        "فِيهِ فَإِنَّنِي الْقَرِيبُ وَالْمُجِيبْ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "رُمْتُ مِنَ الْمُعِيدِ مَكْثِي زَمَنَا",
+        "فِي الْوَطَنَيْنِ وَيَسُوقُ لِي الْمُنَى"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "اللَّهُ رَبِّيَ هُوَ السَّلَامُ",
+        "الْوَاسِعُ الْمُكَرِّمُ الْعَلَّامُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لَهُ خِطَابِيَ الْيَوْمَ وَهْوَ الأَكْرَمُ",
+        "فَمَنْ تَوَجَّهَ لَهُ يُكَرَّمُ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "سَلَامُ ذَا الْجَلَالِ وَالإِكْرَامِ",
+        "كُنْ لِي وَسَلِّمْنِي مِنَ الْحَرَامِ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "لِي كُنْ بِجُودٍ أَبَدًا وَكَرَمِ",
+        "بِحُرْمَةِ الْمُشَفَّعِ الْمُحْتَرَمِ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "أَكْرَمِ مَنْ قَدَّمَهُ ذُو الْقِدَمِ",
+        "وَخَيْرُ مَنْ خَدَمَهُ ذُو خِدَمِ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "مُحَمَّدٌ بِغْيَةُ كُلِّ رَاجِ",
+        "كُنْ لِي بِهِ رَبِّ بِلَا اسْتِدْرَاجِ"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ]
+    }
+  ]
+}

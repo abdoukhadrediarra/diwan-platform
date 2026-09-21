@@ -1,0 +1,147 @@
+{
+  "code": "D01K23",
+  "diwan": 1,
+  "number": 23,
+  "source_file": "D01K23_اعْبُدُوا رَبَّكُمْ.docx",
+  "incipit": "إِلَى الْإِلَهِ بِالرَّسُولِ مِيلُوا",
+  "title": "اعْبُدُوا رَبَّكُمْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 11,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "3139931541233454844ef63eb498036c03c342cbdc0da6a709f3b0f58110004e",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "اعْبُدُوا رَبَّكُمْ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِلَى الْإِلَهِ بِالرَّسُولِ مِيلُوا",
+        "وَلَا إِلَى سُبْلِ الرَّدَى تَمِيلُوا"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "عَلَيْكُمْ بِمَا بِهِ الرَّسُولُ",
+        "جَاءَ وَفِي ذَاكَ النَّجَا وَالسُّولُ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "بِيعُوا ابْتِدَاعًا بِالَّذِي النُّقُولُ",
+        "جَاءَتْ بِهِ وَمَا بِهِ الْمَقُولُ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "دُومُوا عَلَى الَّذِي بِهِ الْأُصُولُ",
+        "جَاءَتْ بِهِ يَأْتِكُمُ الْوُصُولُ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "وَصِيَّتِي اقْبَلُوا مَعًا يَا جِيلُ",
+        "يَأْتِكُمُ الْإِكْرَامُ وَالتَّبْجِيلُ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "إِلَى الَّذِي مَا إِنْ لَهُ أُصُولُ",
+        "سُبْحَانَهُ وَلَا لَهُ فُصُولُ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "رُومُوا فِرَارًا وَلَهُ سَبِيلُ",
+        "يَأْتِي لِمَنْ سَلَكَهُ الْقَبُولُ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "بَرَكَةً مِمَّنْ هُوَ الْجَلِيلُ",
+        "أَوْدَعَهَا الَّذِي هُوَ الْخَلِيلُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "بَانَ لَهُ التَّقْدِيمُ وَالتَّجْلِيلُ",
+        "مَنْ لَمْ يُطِعْهُ قَادَهُ الضَّلِيلُ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "كُونُوا مُحِبِّينَ لِمَنْ غُفُولُ",
+        "عَنْ نَهْجِهِ يَرَى بِهِ الْأُفُولُ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "مُحَمَّدٌ نَهْجُ الْهُدَى فَمِيلُوا",
+        "بِهِ إِلَى الْإِلَهِ لَا تَمِيلُوا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِفَضْلِكَ وَجُودِكَ وَكَرَمِكَ وَبِجَاهِ سَيِّدِنَا مُحَمَّدٍ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ أَنْ تُصَلِّيَ وَتُسَلِّمَ عَلَيْهِ وَعَلَى آلِهِ وَأَنْ تَجْعَلَ هَذِهِ الْأَبْيَاتِ فَوْقَ ظَنِّي فِي هَذَا الْعَامِ وَفِي كُلِّ عَامٍ بَعْدَهُ آمِينَ يَا رَبَّ الْعَالَمِينَ"
+      ]
+    }
+  ]
+}

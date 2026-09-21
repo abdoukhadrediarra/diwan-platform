@@ -1,0 +1,69 @@
+{% load static %}<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>{{ poem.title }}</title>
+  <style>
+    @font-face { font-family: "Amiri"; src: url("{{ fonts }}/Amiri-Regular.ttf"); }
+    @font-face { font-family: "Amiri"; font-weight: 700; src: url("{{ fonts }}/Amiri-Bold.ttf"); }
+    @font-face { font-family: "Wolofal"; src: url("{{ fonts }}/wolofal-regular.ttf"); }
+
+    @page {
+      size: A5; margin: 18mm 16mm 16mm;
+      @bottom-center { content: counter(page); font-family: "Amiri"; font-size: 9pt; color: #5a6862; }
+    }
+    body { font-family: "{{ font_family }}"; color: #15211d; margin: 0; }
+    .head { text-align: center; border-bottom: 1px solid #a3803a; padding-bottom: 6mm; margin-bottom: 8mm; }
+    .diwan { font-size: 11pt; color: #0f5a44; }
+    .title { font-size: {{ title_size }}pt; font-weight: 700; line-height: 1.7; margin: 2mm 0 1mm; }
+    .meta { font-family: "Amiri"; font-size: 9pt; color: #5a6862; direction: ltr; }  /* digits and the code */
+
+    .prose { text-align: center; font-size: {{ text_size }}pt; line-height: 2; margin: 3mm 0; }
+    .name { font-weight: 700; }
+    /* a grouped acrostic ("اللام"...): the header names the letter every bayt below it
+       starts with, until the next header. Styled like the title, one size smaller. */
+    .header-letter { font-weight: 700; font-size: {{ text_size|add:2 }}pt; margin-top: 5mm; }
+    .is-acrostic .name, .is-acrostic .header-letter { color: #9b2c2c; }
+
+    .bayt { display: flex; align-items: baseline; margin-bottom: 1mm; break-inside: avoid; }
+    .number { width: 8mm; font-family: "Amiri"; font-size: 7pt; color: #9aa5a0; text-align: center; }
+    .hemistichs { flex: 1; display: flex; }
+    .hemistichs > span { flex: 1; text-align: center; font-size: {{ text_size }}pt; line-height: 2.1; }
+    .initial { color: #9b2c2c; }
+
+    .transcription { direction: ltr; text-align: center; font-size: 8.5pt; color: #44524d;
+                     margin: -1mm 0 2mm 8mm; font-family: "Amiri"; }
+    .section + .section { border-top: 1px solid #e6eae5; padding-top: 4mm; margin-top: 4mm; }
+    .footer { margin-top: 10mm; padding-top: 3mm; border-top: 1px solid #d3d9d2;
+              font-size: 8pt; color: #5a6862; text-align: center; direction: ltr; font-family: "Amiri"; }
+  </style>
+</head>
+<body class="{% if poem.is_acrostic %}is-acrostic{% endif %}">
+  <div class="head">
+    <div class="diwan">{{ poem.diwan.title }}</div>
+    <div class="title">{{ poem.title }}</div>
+    <div class="meta">{{ poem.code }} · {{ poem.bayt_count }} abyat{% if poem.is_acrostic %} · acrostiche{% endif %}</div>
+  </div>
+
+  {% for section in sections %}
+    <div class="section">
+      {% for line in section.lines %}
+        {% if line.is_bayt %}
+          <div class="bayt" id="bayt-{{ line.bayt_number }}">
+            <div class="number">{{ line.bayt_number }}</div>
+            <div class="hemistichs">
+              {% for part in line.parts %}<span>{% if forloop.first and part.initial %}<span class="initial">{{ part.initial }}</span>{{ part.rest }}{% else %}{{ part.text }}{% endif %}</span>{% endfor %}
+            </div>
+          </div>
+          {% if line.transcription %}<div class="transcription">{{ line.transcription }}</div>{% endif %}
+        {% else %}
+          <p class="prose {% if line.kind == 'title' %}name{% elif line.kind == 'header' %}header-letter{% endif %}">{{ line.text }}</p>
+          {% if line.transcription %}<div class="transcription">{{ line.transcription }}</div>{% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+
+  <div class="footer">{{ footer }}</div>
+</body>
+</html>

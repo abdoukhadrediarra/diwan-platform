@@ -1,25 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { BaytView } from '../../../shared/bayt/bayt';
 import { FEATURED_BAYT } from '../../../core/data/corpus-stats';
-import { TranslatePipe } from '../../../core/i18n/translate.pipe';
+import { LanguageService } from '../../../core/services/language.service';
 
 @Component({
   selector: 'app-author',
-  imports: [BaytView, TranslatePipe],
+  imports: [BaytView],
   templateUrl: './author.html',
   styleUrl: './author.scss',
 })
 export class Author {
+  protected readonly i18n = inject(LanguageService);
   protected readonly bayt = FEATURED_BAYT;
-  protected readonly timeline = [
-    { year: '1853', key: 'timeline.1853' },
-    { year: '1881', key: 'timeline.1881' },
-    { year: '1888', key: 'timeline.1888' },
-    { year: '1895', key: 'timeline.1895' },
-    { year: '1902', key: 'timeline.1902' },
-    { year: '1903', key: 'timeline.1903' },
-    { year: '1907', key: 'timeline.1907' },
-    { year: '1912', key: 'timeline.1912' },
-    { year: '1927', key: 'timeline.1927' },
-  ];
+
+  /** The caption around the poem's name, split so the Arabic name keeps its own direction. */
+  protected get captionParts(): [string, string] {
+    const [before, after = ''] = this.i18n.t('verse.caption').split('{name}');
+    return [before, after.replace('{n}', String(this.bayt.diwan))];
+  }
+
+  protected readonly bioKeys = ['bio.1', 'bio.2', 'bio.3', 'bio.4', 'bio.5'];
+  protected readonly years = ['1853', '1881', '1888', '1895', '1902', '1903', '1907', '1912', '1927'];
 }
