@@ -1,0 +1,148 @@
+{
+  "code": "D01K140",
+  "diwan": 1,
+  "number": 140,
+  "source_file": "D01K140_الْحَقُّ مِنْ رَبِّكُمْ.docx",
+  "incipit": "إِنَّ نَبِيَّنَا الرَّسُولَ أَحْمَدَا",
+  "title": "الْحَقُّ مِنْ رَبِّكُمْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "107748e56d3bfd4f2f72697d0be84eaeac350a9b0d21010c7b89686326b2b977",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "الْحَقُّ مِنْ رَبِّكُمْ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِنَّ نَبِيَّنَا الرَّسُولَ أَحْمَدَا",
+        "قَدَّمَهُ مَنْ لَا يَزَالُ الصَّمَدَا"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لِلْمُصْطَفَى مَا لَمْ يَكُنْ وَلَا يَكُونْ",
+        "لِغَيْرِهِ مِمَّنْ لَهُ كُنْ فَيَكُونْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "حَازَ نَبِيُّ اللَّهِ مَا لَا يَعْلَمُهْ",
+        "إِلَّا الَّذِي اللَّوْحُ لَهُ وَقَلَمُهْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "قَدَّمَ خَيْرَ الْمُرْسَلِينَ الْمُرْسِلُ",
+        "عَلَى الْجَمِيعِ وَاقْتَفَتْهُ الرُّسُلُ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "قَدَّمَ أَحْمَدَ عَلَى رِقَابِ مَنْ",
+        "مَضَوْا وَمَنْ يَأْتِي وَمَنْ فِي ذَا الزَّمَنْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "مُحَمَّدٌ صَلَّى عَلَيْهِ اللَّهُ",
+        "عَلَى الْوَرَى فَضَّلَهُ مَوْلَاهُ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "نَبِيُّنَا أَحْمَدُ مَا دَانَاهُ",
+        "عَبْدٌ لَدَى بَاقٍ لَهُ أَدْنَاهُ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "رَسُولُنَا أَحْمَدُ فَاقَ الرُّسُلَا",
+        "وَالأَنْبِيَآ فَضَّلَهُ مَنْ أَرْسَلَا"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "بَشَّرَنِي مَعَ الرِّضَى مُحَمَّدُ",
+        "صَلَّى وَسَلَّمَ عَلَيْهِ الصَّمَدُ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "بِاللَّهِ لَمْ يَأْتِ وَلَيْسَ يَأْتِي",
+        "مِثْلُ ابْنِ عَبْدِ اللَّهِ ذِي الْآيَاتِ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "كِتَابُهُ كُلَّ كِتَابٍ نَسَخَا",
+        "وَإِنَّهُ بِغَيْرِهِ لَنْ يُنْسَخَا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "مَنْ رَامَ فِي الْخَلْقِ نَظِيرَ أَحْمَدَا",
+        "أَعْجَزَهُ مَنْ لَا يَزَالُ الصَّمَدَا"
+      ]
+    }
+  ]
+}

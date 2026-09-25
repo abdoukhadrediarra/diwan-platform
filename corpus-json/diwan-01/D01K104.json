@@ -12,7 +12,7 @@
   "bayt_count": 21,
   "has_open_flags": false,
   "status": "published",
-  "content_hash": "ae8b98b74e81c496815bc00f695c37a8a3d3e8b97bc7a5bc59975abd01f5a879",
+  "content_hash": "2db314b3567c0ec22ef955d910534deab5371e54a7e1d87cff28a5cdc0f1c4a0",
   "warnings": [],
   "lines": [
     {
@@ -79,7 +79,7 @@
       "kind": "bayt",
       "bayt_number": 5,
       "hemistichs": [
-        "بَقَاءُ كُلِّي مَعَ الْبَدَائِعِ",
+        "بَقَاءُ كُلِّيَ مَعَ الْبَدَائِعِ",
         "مَلَّكَنِي مَا كَانَ كَالْوَدَائِعِ"
       ]
     },

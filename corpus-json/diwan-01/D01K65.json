@@ -3,7 +3,7 @@
   "diwan": 1,
   "number": 65,
   "source_file": "D01K65_يُؤْتِيهِمْ أُجُورَهُمْ.docx",
-  "incipit": "يَنْقَادُ لِيَ الأَجْرُ بِلَا حِسَابِ",
+  "incipit": "يَنْقَادُ لِي الأَجْرُ بِلَا حِسَابِ",
   "title": "يُؤْتِيهِمْ أُجُورَهُمْ",
   "title_source": "name_line",
   "is_acrostic": true,
@@ -12,7 +12,7 @@
   "bayt_count": 12,
   "has_open_flags": false,
   "status": "published",
-  "content_hash": "1c1d88f0e36c31ab231bfd2dd583a1d1dc6bb5eec426cdd35e77c11bb4983022",
+  "content_hash": "756611a0b05013d417032e0558b36badaccc1359c7c4c716630c3fb0832e5b8a",
   "warnings": [],
   "lines": [
     {
@@ -39,7 +39,7 @@
       "kind": "bayt",
       "bayt_number": 1,
       "hemistichs": [
-        "يَنْقَادُ لِيَ الأَجْرُ بِلَا حِسَابِ",
+        "يَنْقَادُ لِي الأَجْرُ بِلَا حِسَابِ",
         "مِمَّنْ لَهُ عُمْرِيَ ذَا احْتِسَابِ"
       ]
     },
@@ -79,7 +79,7 @@
       "kind": "bayt",
       "bayt_number": 5,
       "hemistichs": [
-        "هَرَبَ إِبْلِيسُ لِغَيْرِي بَعْدَمَا",
+        "هَرَبَ إِبْلِيسُ لِغَيْرِي بَعْدَ مَا",
         "بَاءَ بِخَيْبَةٍ أَدَامَتْ نَدَمَا"
       ]
     },
