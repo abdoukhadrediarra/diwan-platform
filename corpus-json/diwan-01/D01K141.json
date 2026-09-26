@@ -1,0 +1,157 @@
+{
+  "code": "D01K141",
+  "diwan": 1,
+  "number": 141,
+  "source_file": "D01K141_فَمَنْ شَاءَ فَلْيُؤْمِنْ.docx",
+  "incipit": "فَرَّحَ مَوْلِدُ النَّبِي مُحَرَّمَا",
+  "title": "فَمَنْ شَاءَ فَلْيُؤْمِنْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "5234dfb24b20ecaf69a24a68be46b3796f0e10e1781245529f5a5bf3aab25de7",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى مَنْ قُلْتَ فِي كِتَابِكَ الْعَزِيزِ فَمَنْ شَاءَ فَلْيُؤْمِنْ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَبَشِّرْهُ بِهَذِهِ الْحُرُوفِ الَّتِي أَخَذْتُهَا مِنْ حُرُوفِهِ أَبَدًا آمِينْ يَا رَبَّ الْعَالَمِينَ وَتَقَبَّلْ مِنِّي بِلَا آفَةٍ وَلَا كَدَرٍ آمِينْ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "فَمَنْ شَاءَ فَلْيُؤْمِنْ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "فَرَّحَ مَوْلِدُ النَّبِي مُحَرَّمَا",
+        "كَمَا لَهُ قَادَ الْعُلَى وَالْكَرَمَا"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "مَلَّكَ مَوْلِدُ النَّبِيِّ صَفَرَا",
+        "بِشَارَةً خَالِدَةً لَمْ تُكْفَرَا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "نَفَعَ مَوْلِدُ النَّبِي رَبِيعَا",
+        "الأَوَّلَ الَّذِي أَرَى الْيَنْبُوعَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "شَرَّفَ مَوْلِدُ النَّبِيِّ رَبِيعَا",
+        "الآخِرِ الَّذِي اعْتَمَى الْمَتْبُوعَا"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "أَكْرَمَ مَوْلِدُ النَّبِي جُمَادَى",
+        "فَلَا يَزَالُ شَاكِرًا حَمَّادَا"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "آتَى النَّبِي بُشَارَةً جُمَادَى",
+        "غَدَتْ بِهَا بِفَضْلِهِ عِمَادَا"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "فَازَ بِمَوْلِدِ النَّبِيِّ رَجَبُ",
+        "فَوْزًا بِهِ انْقَادَ إِلَيْهِ الْعَجَبُ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لِلْمُصْطَفَى نُورٌ أَضَآ شَعْبَانَا",
+        "قَادَ لَهُ مِنْ رَبِّهِ قُرْبَانَا"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "يَقُودُ مَوْلِدُ النَّبِي لِرَمَضَانْ",
+        "فَضْلاً عَظِيمًا قَدْ يُدِيمُ الْفَيَضَانْ"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "وَاجَهَ مَوْلِدُ النَّبِي شَوَّالَا",
+        "بِمَا بِهِ قَادَ لَهُ نَوَالَا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "مَوْلِدُ أَحْمَدَ أَضَآ ذَا الْقَعْدَهْ",
+        "إِضَاءَةً فِيهِ بَدَتْ وَبَعْدَهْ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "نَوَّرَ مَوْلِدُ النَّبِي ذَا الْحِجَّهْ",
+        "قَادَ لَهُ دَرَجَةً وَحُجَّهْ"
+      ]
+    }
+  ]
+}

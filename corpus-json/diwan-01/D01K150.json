@@ -1,0 +1,227 @@
+{
+  "code": "D01K150",
+  "diwan": 1,
+  "number": 150,
+  "source_file": "D01K150_سَيَجْعَلُ لَهُمُ الرَّحْمَنُ وُدًّا.docx",
+  "incipit": "سَعَادَتِي عِنْدَ الإِلَهِ كُتِبَتْ",
+  "title": "سَيَجْعَلُ لَهُمُ الرَّحْمَنُ وُدًّا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 19,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "14b782d2305aecbd59c86cbbb507341300f8b2b53b740ce4a063c03389054ed9",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "سَيَجْعَلُ لَهُمُ الرَّحْمَنُ وُدًّا"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "سَعَادَتِي عِنْدَ الإِلَهِ كُتِبَتْ",
+        "وَلَيْسَ يَمْحُوهَا فَأَمْنِيَ ثَبَتْ"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "يَقُودُ لِي الْكَرَمَ بَاقٍ لَا يَمُوتْ",
+        "وَمَنْ نَحَا ضُرِّي أَمَاتَهُ الْمُمِيتْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "جَادَ الْجَمِيلُ لِي بِخَيْرٍ قَدْ يَفُوقْ",
+        "نِعْمَ خَلِيلِيَ حَبِيبِيَ الرَّفِيقْ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عَادَتِيَ الدَّهْرَ لِجَنَّاتِ الْخُلُودْ",
+        "وَبِكِتَابَتِي ذَكَاءٌ لِلْبَلِيدْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "لِيَ يَكُونُ اللَّهُ بِالْمَرَامِ",
+        "وَلِلنَّبِي بَقِيتُ ذَا احْتِرَامِ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "لِي قَادَ رَبِّيَ بِقَدْرِهِ الْعَظِيمْ",
+        "كَرَمَهُ كَمَالَهُ الدُّرَّ النَّظِيمْ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "هَدَانِيَ الْبَاقِي كَمَا عِيَالِي",
+        "بَشَّرَ فِي النَّهَارِ وَاللَّيَالِي"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "مَلَّكَنِي بِقَدْرِهِ وَتَوَّجَا",
+        "بِقَدْرِهِ وَلَا أُلَاقِي عِوَجَا"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "إِلَيَّ قَادَ مِنَنَ الرَّحْمَانِ",
+        "وَكَانَ لِي بِالْبِشْرِ فِي زَمَانِي"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "لِلَّهِ حَمْدِي عَدَدَ الْخَلَائِقِ",
+        "وَلَا يَزَالُ بِالثَّنَآ بِلَائِقِ"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "رَدَّ سِوَى الْكَرَمِ عَنْ تَوَجُّهِ",
+        "لِي وَلِي مَا سَرَّ ذُو تَوَجُّهِ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "حَمِدَ رَبِّي وَالنَّبِي كُلِّيَّتِي",
+        "وَكَانَ لِي بِعَمَلِي وَنِيَّتِي"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "مَلَّكَنِي الْمَلِكُ وَالْمَلِيكُ",
+        "وَدُونَ مَا قَدْ حُزْتُهُ تَمْلِيكُ"
+      ]
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "أَنَالَنِي الْكَرَمَ بَاقٍ مُغْنِ",
+        "وَبِالْعَلِي مَعَ النَّبِي أَسْتَغْنِي"
+      ]
+    },
+    {
+      "position": 17,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 15,
+      "hemistichs": [
+        "نَفَعَنِي النَّافِعُ نَفْعًا لَا يَكُونْ",
+        "لِأَحَدٍ غَيْرِي أُلَازِمُ الْمَكِينْ"
+      ]
+    },
+    {
+      "position": 18,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 16,
+      "hemistichs": [
+        "وَجَّهَ لِي الْإِلَهُ وَالرَّسُولُ",
+        "مَا أَبَدًا بِهِ يَجِيءُ السُّولُ"
+      ]
+    },
+    {
+      "position": 19,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 17,
+      "hemistichs": [
+        "دَفَعَ رَبِّي لِسِوَايَ الضَّيْرَا",
+        "بِقَدْرِهِ وَلِيَ قَادَ الْخَيْرَا"
+      ]
+    },
+    {
+      "position": 20,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 18,
+      "hemistichs": [
+        "دَفَعَ رَبِّي قَالِيًا قَدْ مَاتَا",
+        "وَلِيَ لَا يُوَجِّهُ الشَّمَاتَا"
+      ]
+    },
+    {
+      "position": 21,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 19,
+      "hemistichs": [
+        "أَزْكَى سَلَامَيِ الَّذِي بِهِ انْكَبَتْ",
+        "مُبَارِزِي عَلَى الَّذِي السَّبْقُ ثَبَتْ"
+      ]
+    }
+  ]
+}

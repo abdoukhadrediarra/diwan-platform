@@ -1,0 +1,87 @@
+{
+  "code": "D01K146",
+  "diwan": 1,
+  "number": 146,
+  "source_file": "D01K146_كَهَيَعَصَ.docx",
+  "incipit": "كَرَمُ مَنْ خَلَقَ أُمّاً وَأَبَا",
+  "title": "كَهَيَعَصَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "3b554615e23acbc863326cf991e0b76f52df3f0bbaf8d50930ec6e26eb8c1969",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "كَهَيَعَصَ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "كَرَمُ مَنْ خَلَقَ أُمّاً وَأَبَا",
+        "خَلَّدَ لِي النَّفْعَ وَضُرِّيَ أَبَى"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "هَدَانِيَ الَّذِي الْمُنَى لِي وَهَبَا",
+        "مَعَ الْكِتَابِ وَأَذَايَ أَذْهَبَا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "يَقُودُ لِي الْبَاقِي الْكَرِيمُ النُّجَبَآ",
+        "وَبِي يُبَاهِيهِمْ عَزِيزًا عَجَبَا"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عِلْمِيَ يَهْدِي الْأَصْفِيَاءَ النُّخَبَآ",
+        "حَقَّقَ لِي اللَّهُ الرَّجَآ لَمْ أَخِبَا"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "صَلَاةُ مَنْ خَلَقَ أُمّاً وَأَبَا",
+        "عَلَى الَّذِي غَيْرَ سُرُورِي أَبَى"
+      ]
+    }
+  ]
+}

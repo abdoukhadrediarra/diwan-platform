@@ -14,6 +14,10 @@ How a poem is read (empty paragraphs are ignored):
       = the poem's own NAME given by the author (only when there are at least two texts)
     a single text before the abyat                     -> section "title" too, but only when the
       abyat spell it: then that line is the poem's acrostic name, not an opening text
+    BOLD text anywhere in the opening, before the first bayt -> not split off at all: the name is
+      read straight out of the muqaddima paragraph it sits in, which is kept exactly as written.
+      This is for poems whose manuscript never repeats the name as its own line — duplicating it
+      onto a new line would add words the author never wrote there.
     a short line naming a letter ("اللام"), among the abyat -> section "matn", kind "header"
       = a GROUPED acrostic: every bayt that follows, until the next header, starts with that
         letter. A shadda in the name (الحقّ) means the letter opens two groups in a row.
@@ -22,9 +26,14 @@ How a poem is read (empty paragraphs are ignored):
     paragraphs after the last bayt                     -> section "khatima",   kind "prose"
 
 The poem's name (the "title" field):
+    title_source "bold"        text marked bold anywhere before the first bayt (checked first)
     title_source "name_line"   the second text before the abyat, as above; or the single text
                                before the abyat when the abyat spell it
     title_source "first_sadr"  everything else: the poem is known by the sadr of its first bayt
+
+A name found in bold is always treated as the poem's acrostic name (is_acrostic is always true),
+since the reviewer marked it deliberately — a low letter-match only earns a warning, in case the
+wrong span was highlighted, never a downgrade to "not acrostic".
 
 The name is what the platform works with (display, search, months, events, days).
 Whether an own name is ALSO an acrostic is a secondary fact, checked leniently: its letters are
@@ -118,61 +127,86 @@ def red_marks(paragraph) -> list[dict]:
     return marks
 
 
+def bold_text(paragraph) -> str:
+    """The paragraph's explicitly bold-formatted text, its separate bold spans (if more than
+    one) joined by a space. A style that happens to render bold does not count — only a
+    deliberate bold toggle on the run does, since that is the reviewer's own mark."""
+    spans, current = [], ""
+    for run in paragraph.runs:
+        if run.text and run.bold:
+            current += run.text
+        elif current:
+            spans.append(current)
+            current = ""
+    if current:
+        spans.append(current)
+    return " ".join(span.strip() for span in spans if span.strip())
+
+
 def parse_poem_docx(source, filename: str | None = None) -> dict:
     """source: a path, or an uploaded file object (then give its filename)."""
     name = filename or Path(source).name
     code_from_name(name)  # fail early on a bad file name
     document = docx.Document(source)
-    paragraphs = [(p.text, red_marks(p)) for p in document.paragraphs]
+    paragraphs = [(p.text, red_marks(p), bold_text(p)) for p in document.paragraphs]
     notes = ["the file contains tables; only normal paragraphs are read"] if document.tables else []
     return parse_paragraphs(name, paragraphs, notes)
 
 
 def parse_poem_text(code: str, text: str) -> dict:
-    """Pasted text: one paragraph per line."""
-    return parse_paragraphs(code, [(line, []) for line in text.splitlines()], [])
+    """Pasted text: one paragraph per line (plain text carries no bold formatting)."""
+    return parse_paragraphs(code, [(line, [], "") for line in text.splitlines()], [])
 
 
 def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
     code, diwan_number, poem_number = code_from_name(name)
     warnings = list(warnings)
 
-    paragraphs = []  # (text, red marks)
-    for text, red in raw_paragraphs:
+    paragraphs = []  # (text, red marks, bold text)
+    for text, red, bold in raw_paragraphs:
         text = re.sub(r"\s+", " ", clean_display_text(text)).strip()
         if text:
-            paragraphs.append((text, red))
+            paragraphs.append((text, red, bold))
 
-    bayt_indexes = [i for i, (text, _) in enumerate(paragraphs) if "|" in text]
+    bayt_indexes = [i for i, (text, _, _) in enumerate(paragraphs) if "|" in text]
     if not bayt_indexes:
         raise ValueError(f"{code}: no bayt found (no line contains '|' between the two hemistichs)")
     first_bayt, last_bayt = bayt_indexes[0], bayt_indexes[-1]
+    opening_sadrs = [paragraphs[k][0].split("|")[0].strip() for k in bayt_indexes]
 
     # Section headers ("اللام"...) are recognized wherever they appear among the abyat, and are
     # not counted among the "texts before the abyat" used to find the poem's name below.
-    headers = {i: header_letter(text) for i, (text, _) in enumerate(paragraphs)
+    headers = {i: header_letter(text) for i, (text, _, _) in enumerate(paragraphs)
               if i <= last_bayt and header_letter(text)}
     opening_indexes = [i for i in range(first_bayt) if i not in headers]
+
+    # A reviewer sometimes marks the poem's own name in BOLD, right inside the opening prose,
+    # instead of writing it again as a separate line — many manuscripts never repeat it, so the
+    # digitisation must not invent that repetition either. This is checked first: found or not,
+    # it settles the name outright, and the opening text it sits in is kept exactly as written,
+    # unsplit, in the muqaddima.
+    bold_phrase = " ".join(paragraphs[i][2] for i in range(first_bayt) if paragraphs[i][2]).strip()
 
     # The poem's name, when there is one, is the second (non-header) text, right before the abyat.
     # When there is only one, it is the name as well if the abyat spell it (an acrostic name) —
     # unless section headers are already present, which confirms it without that fragile check.
-    if len(opening_indexes) >= 2:
+    if bold_phrase:
+        title_index = None      # the name stays inside its muqaddima paragraph; nothing is split off
+    elif len(opening_indexes) >= 2:
         title_index = opening_indexes[-1]
     elif len(opening_indexes) == 1:
         title_index = opening_indexes[0]
         if not headers:
-            opening_sadrs = [paragraphs[k][0].split("|")[0].strip() for k in bayt_indexes]
             if acrostic_match(paragraphs[title_index][0], opening_sadrs) < 100 * ACROSTIC_MAJORITY:
                 title_index = None
     else:
         title_index = None
-    if len(opening_indexes) > 2:
+    if not bold_phrase and len(opening_indexes) > 2:
         warnings.append(f"{len(opening_indexes)} texts before the abyat (section headers aside): "
                         f"line {opening_indexes[-1] + 1} was taken as the poem's name, please confirm")
 
     lines, bayt_number, has_open_flags = [], 0, False
-    for i, (text, red) in enumerate(paragraphs):
+    for i, (text, red, _bold) in enumerate(paragraphs):
         position = i + 1
         if i == title_index:
             section, kind = "title", "title"
@@ -224,7 +258,17 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
     abyat = [l for l in lines if l["kind"] == "bayt"]
     sadrs = [l["hemistichs"][0] for l in abyat]
 
-    if headers:
+    if bold_phrase:
+        # the reviewer's own mark settles it: this text is the name, acrostic or not, exactly as
+        # bolded, and it is used as-is even if the letters do not line up well with the abyat —
+        # a low match is flagged, in case the wrong span was highlighted, but never overridden
+        title, title_source = bold_phrase, "bold"
+        match = acrostic_match(title, sadrs)
+        is_acrostic = True
+        if match < 100 * ACROSTIC_MAJORITY:
+            warnings.append(f"name: the bold text «{title}» only matches {match}% of the abyat's "
+                            f"opening letters; please check that the right span was highlighted")
+    elif headers:
         # a grouped acrostic: check every bayt against the header of its own group, and compare
         # the sequence of header letters with the name's letters (a shadda counts twice).
         current_letter = None

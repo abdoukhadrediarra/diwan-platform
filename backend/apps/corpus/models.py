@@ -52,6 +52,7 @@ class Diwan(models.Model):
 
 class TitleSource(models.TextChoices):
     NAME_LINE = "name_line", "Own name (line before the abyat)"
+    BOLD = "bold", "Own name (marked in bold, inside the opening text)"
     FIRST_SADR = "first_sadr", "First sadr (no own name)"
 
 
