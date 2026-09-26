@@ -2,7 +2,7 @@
 
 | Police | Usage | Origine |
 |---|---|---|
-| **Wolofal** (`wolofal-regular.ttf`) | Style wolof, au choix du lecteur | Développée par Abdou Khadre Mbacké pour ce projet |
+| **Wolofal** (`wolofal-regular.ttf`) | Style wolof, au choix du lecteur | Développée par Abdou Khadre Mbacké (XIDMA-AI) |
 | Amiri | Style arabe classique (par défaut) | Open Font License |
 | Source Sans 3 | Textes en français | Open Font License |
 
@@ -28,3 +28,10 @@ appliquent, uniquement pour cette police : taille × 1,28, interligne × 0,9 et 
 Ces valeurs sont écrites à un seul endroit — `src/styles/_base.scss` pour le site, `lib/core/theme.dart` (enum `ArabicScript`) pour l'application.
 
 Le fichier d'origine est conservé tel quel dans `docs/fonts-source/wolof-font.ttf`.
+
+## XIDMA-AI
+
+La police wolofal porte le nom de **XIDMA-AI**, la communauté fondée par son auteur : mettre l'intelligence
+artificielle et le numérique au service du *xidma* de Cheikh Ahmadou Bamba. Le *xidma* est ce principe mouride
+de travailler et d'aider sans rien attendre en retour, pour l'amour de Dieu. C'est l'esprit dans lequel
+cette plateforme est construite.

@@ -1,4 +1,4 @@
-import { Component, computed, effect, inject, signal } from '@angular/core';
+import { Component, computed, effect, inject } from '@angular/core';
 import { DecimalPipe } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Title } from '@angular/platform-browser';
@@ -11,14 +11,28 @@ import { splitInitial } from '../../../core/arabic';
 import { Breadcrumb } from '../../../shared/breadcrumb/breadcrumb';
 import { NotFound } from '../../../shared/not-found/not-found';
 import { ScriptToggle } from '../../../shared/script-toggle/script-toggle';
-import { FavoritesService } from '../../../core/services/favorites.service';
 import { ReadingService } from '../../../core/services/reading.service';
-import { PdfExportService } from '../../../core/services/pdf-export.service';
 import { LanguageService } from '../../../core/services/language.service';
-import { ReaderSettingsService } from '../../../core/services/reader-settings.service';
 
 interface ViewLine extends PoemLine {
   initial?: { initial: string; joiner: string; rest: string };
+  segments?: { text: string; hl: boolean }[];
+}
+
+/** Splits a line's text around its bolded span(s), so each one can be coloured red on its own,
+ * leaving the untouched prose around it exactly as written. */
+function splitAcrosticSpans(text: string, spans: string[]): { text: string; hl: boolean }[] {
+  const segments: { text: string; hl: boolean }[] = [];
+  let rest = text;
+  for (const span of spans) {
+    const i = rest.indexOf(span);
+    if (i === -1) continue;   // not found in the remaining text (shouldn't happen): leave it plain
+    if (i > 0) segments.push({ text: rest.slice(0, i), hl: false });
+    segments.push({ text: span, hl: true });
+    rest = rest.slice(i + span.length);
+  }
+  if (rest) segments.push({ text: rest, hl: false });
+  return segments.length ? segments : [{ text, hl: false }];
 }
 
 @Component({
@@ -29,12 +43,8 @@ interface ViewLine extends PoemLine {
 })
 export class PoemPage {
   private readonly api = inject(DiwanApi);
-  private readonly pdfExport = inject(PdfExportService);
   protected readonly reading = inject(ReadingService);
-  protected readonly favorites = inject(FavoritesService);
   protected readonly i18n = inject(LanguageService);
-  protected readonly reader = inject(ReaderSettingsService);
-  protected readonly isExportingPdf = signal(false);
 
   protected readonly poem = toSignal(
     inject(ActivatedRoute).paramMap.pipe(
@@ -53,6 +63,8 @@ export class PoemPage {
     for (const line of p.data.lines) {
       const view: ViewLine = line.kind === 'bayt' && p.data.is_acrostic
         ? { ...line, initial: splitInitial(line.hemistichs[0]) }
+        : line.acrostic_spans?.length
+        ? { ...line, segments: splitAcrosticSpans(line.hemistichs[0], line.acrostic_spans) }
         : line;
       const last = groups[groups.length - 1];
       last && last.section === line.section ? last.lines.push(view) : groups.push({ section: line.section, lines: [view] });
@@ -61,10 +73,7 @@ export class PoemPage {
   });
 
   protected readonly sectionKeys: Record<Section, string> = {
-    muqaddima: 'section.muqaddima',
-    title: 'section.title',
-    matn: 'section.matn',
-    khatima: 'section.khatima',
+    muqaddima: 'section.muqaddima', title: 'section.title', matn: 'section.matn', khatima: 'section.khatima',
   };
 
   constructor() {
@@ -77,72 +86,5 @@ export class PoemPage {
 
   protected toggleTranscription(): void {
     this.reading.toggleTranscription();
-  }
-
-  protected isFavorite(): boolean {
-    const p = this.poem();
-    return p.state === 'ready' ? this.favorites.isFavorite(p.data.code) : false;
-  }
-
-  protected share(): void {
-    if (typeof navigator !== 'undefined' && navigator.share) {
-      void navigator.share({ title: document.title, url: window.location.href });
-    } else if (typeof navigator !== 'undefined' && navigator.clipboard) {
-      void navigator.clipboard.writeText(window.location.href);
-    }
-  }
-
-  protected async downloadPdf(): Promise<void> {
-    const p = this.poem();
-    if (p.state !== 'ready' || this.isExportingPdf()) return;
-
-    this.isExportingPdf.set(true);
-    try {
-      await this.pdfExport.exportPoem(p.data, {
-        showTranscription: this.showTranscription(),
-      });
-    } catch (err) {
-      console.error('Erreur lors de la génération du PDF', err);
-    } finally {
-      this.isExportingPdf.set(false);
-    }
-  }
-
-  protected printPoem(): void {
-    const p = this.poem();
-    if (p.state !== 'ready') return;
-    this.pdfExport.printPoemDirect(p.data, this.showTranscription());
-  }
-
-  protected downloadPoem(): void {
-    const p = this.poem();
-    if (p.state !== 'ready' || typeof window === 'undefined') return;
-
-    const text = p.data.lines
-      .map((line) => line.hemistichs.join(' | '))
-      .join('\n');
-    const blob = new Blob([`${p.data.title}\n\n${text}`], { type: 'text/plain;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `${p.data.code}.txt`;
-    link.click();
-    URL.revokeObjectURL(url);
-  }
-
-  protected toggleFavorite(): void {
-    const p = this.poem();
-    if (p.state !== 'ready') return;
-
-    this.favorites.toggle({
-      code: p.data.code,
-      number: p.data.number,
-      slug: p.data.slug,
-      title: p.data.title,
-      diwanSlug: p.data.diwan.slug,
-      diwanNumber: p.data.diwan.number,
-      baytCount: p.data.bayt_count,
-      isAcrostic: p.data.is_acrostic,
-    });
   }
 }

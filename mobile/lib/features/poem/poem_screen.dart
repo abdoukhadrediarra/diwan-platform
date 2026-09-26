@@ -192,20 +192,43 @@ class _ProseLine extends StatelessWidget {
     // starts with, until the next header. Styled like the title, one size smaller.
     final isHeader = line.kind == 'header';
     final parts = line.localTranscription;
+    final text = line.hemistichs.join(' ');
+    final style = arabicStyle(
+      size: isTitle ? 26 : (isHeader ? 20 : 22),
+      weight: isTitle || isHeader ? FontWeight.w700 : FontWeight.w400,
+      color: (isTitle || isHeader) && acrostic ? DiwanColors.rubric : DiwanColors.ink,
+      height: 2.0,
+      script: SettingsScope.of(context).script,
+    );
     return Padding(
       padding: EdgeInsets.only(top: isHeader ? 18 : 6, bottom: 6),
       child: Column(children: [
-        ArabicText(
-          line.hemistichs.join(' '),
-          size: isTitle ? 26 : (isHeader ? 20 : 22),
-          weight: isTitle || isHeader ? FontWeight.w700 : FontWeight.w400,
-          color: (isTitle || isHeader) && acrostic ? DiwanColors.rubric : DiwanColors.ink,
-          height: 2.0,
-        ),
+        // the acrostic name marked in bold inside an ordinary opening paragraph (rather than its
+        // own line): only that exact span turns red, the rest of the sentence stays as written
+        line.acrosticSpans.isEmpty
+            ? Text(text, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: style)
+            : Text.rich(_highlighted(text, line.acrosticSpans, style),
+                textDirection: TextDirection.rtl, textAlign: TextAlign.center),
         if (showTranscription && parts.isNotEmpty)
           Text(parts.join(' '), textAlign: TextAlign.center, style: const TextStyle(fontSize: 15, color: Color(0xFF44524D), height: 1.45)),
       ]),
     );
+  }
+
+  /// Splits [text] around each of [spans], colouring only those parts red — the untouched
+  /// prose around them keeps its normal style.
+  TextSpan _highlighted(String text, List<String> spans, TextStyle style) {
+    final children = <TextSpan>[];
+    var rest = text;
+    for (final span in spans) {
+      final i = rest.indexOf(span);
+      if (i == -1) continue; // not found in the remaining text (shouldn't happen): leave it plain
+      if (i > 0) children.add(TextSpan(text: rest.substring(0, i)));
+      children.add(TextSpan(text: span, style: const TextStyle(color: DiwanColors.rubric)));
+      rest = rest.substring(i + span.length);
+    }
+    if (rest.isNotEmpty) children.add(TextSpan(text: rest));
+    return TextSpan(style: style, children: children.isEmpty ? [TextSpan(text: text)] : children);
   }
 }
 

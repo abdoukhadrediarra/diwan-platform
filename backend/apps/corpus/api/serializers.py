@@ -32,7 +32,7 @@ class LineSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Line
-        fields = ["position", "section", "kind", "bayt_number", "hemistichs", "transcription"]
+        fields = ["position", "section", "kind", "bayt_number", "hemistichs", "acrostic_spans", "transcription"]
 
     def get_transcription(self, line) -> dict:
         return {t.style: t.parts for t in line.transcriptions.all()}   # {"local": ["sadr", "ajz"]}

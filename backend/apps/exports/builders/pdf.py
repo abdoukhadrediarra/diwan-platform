@@ -39,6 +39,23 @@ def fonts_url() -> str:
     return (Path(settings.BASE_DIR) / "apps" / "exports" / "static" / "exports" / "fonts").as_uri()
 
 
+def split_acrostic_spans(text: str, spans: list[str]) -> list[dict]:
+    """Splits text around each of spans, so only those exact parts can be coloured red — the
+    untouched prose around them (and the paragraph's own text) is never touched or reordered."""
+    segments, rest = [], text
+    for span in spans:
+        index = rest.find(span)
+        if index == -1:
+            continue  # not found in what's left (shouldn't happen): leave it as plain text
+        if index > 0:
+            segments.append({"text": rest[:index], "hl": False})
+        segments.append({"text": span, "hl": True})
+        rest = rest[index + len(span):]
+    if rest:
+        segments.append({"text": rest, "hl": False})
+    return segments or [{"text": text, "hl": False}]
+
+
 def poem_context(poem, script: str = "classic", transcription: bool = False) -> dict:
     style = SCRIPTS.get(script, SCRIPTS["classic"])
     sections, current = [], None
@@ -63,8 +80,10 @@ def poem_context(poem, script: str = "classic", transcription: bool = False) -> 
             current["lines"].append({"is_bayt": True, "bayt_number": line.bayt_number,
                                      "parts": parts, "transcription": latin})
         else:
+            text = " ".join(line.hemistichs)
+            segments = split_acrostic_spans(text, line.acrostic_spans) if line.acrostic_spans else None
             current["lines"].append({"is_bayt": False, "kind": line.kind,
-                                     "text": " ".join(line.hemistichs), "transcription": latin})
+                                     "text": text, "segments": segments, "transcription": latin})
 
     return {
         "poem": poem,

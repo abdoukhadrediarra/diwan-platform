@@ -7,47 +7,25 @@
 .poem-title { font-size: clamp(2.1rem, 5vw, 3.6rem); line-height: 1.55; margin-bottom: .75rem; }
 .acrostic-note { color: var(--muted); max-width: 46ch; margin: 0 auto 1.5rem; }
 .poem-tools { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: .75rem 1rem; }
-.poem-overview { max-width: 64rem; margin: 0 auto 2.5rem; padding: 1.5rem; background: #f8fbf8; border: 1px solid var(--rule); border-radius: .5rem; }
-.overview-tags { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1rem; }
-.overview-tag { padding: .2rem .75rem; color: var(--emerald); background: #e2eee7; border-radius: 1rem; font-size: .85rem; font-weight: 600; }
-.overview-tag-strong { color: #fff; background: var(--emerald); }
-.overview-facts { display: grid; grid-template-columns: repeat(3, 1fr); margin: 0; border-top: 1px solid var(--rule); }
-.overview-facts div { display: flex; justify-content: space-between; gap: 1rem; padding: .85rem 1rem .85rem 0; border-bottom: 1px solid var(--rule); }
-.overview-facts dt { color: var(--muted); }
-.overview-facts dd { margin: 0; font-weight: 600; }
-.overview-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-top: 1.25rem; }
-.favorite-action { min-width: 10rem; color: var(--emerald); background: #fff; border: 1px solid var(--emerald); }
-.favorite-action:hover, .favorite-action:focus-visible, .favorite-action.is-favorite { color: #fff; background: var(--emerald); border-color: var(--emerald); }
-.favorite-action span { font-size: 1.35rem; line-height: 0; vertical-align: -.1em; }
-.share-action { min-width: 10rem; }
-.download-action {
-  display: inline-flex; align-items: center; gap: .45rem;
-  padding: .5rem 1rem; color: var(--emerald); border: 1px solid var(--rule); background: #fff;
-  font-weight: 600; font-size: .95rem; border-radius: var(--bs-border-radius); transition: all .15s ease;
-}
-.download-action:hover, .download-action:focus-visible { color: #fff; border-color: var(--emerald); background: var(--emerald); }
-.download-action:disabled { opacity: .65; cursor: wait; }
-.print-action {
-  display: inline-flex; align-items: center; gap: .45rem; padding: .5rem 1rem;
-  border-color: var(--rule); color: var(--ink); background: #fff; font-weight: 600; font-size: .95rem;
-}
-.print-action:hover { border-color: var(--emerald); color: var(--emerald); background: var(--stone); }
 .toggle { border-color: var(--rule); color: var(--ink); background: #fff; font-weight: 600; }
 .toggle[aria-pressed="true"] { background: var(--emerald); border-color: var(--emerald); color: #fff; }
 
 /* the text, set on a sheet with generous leading, like a printed diwan page */
 .poem-text { max-width: 64rem; margin: 0 auto; background: #fbfcfa; border: 1px solid var(--rule); padding: clamp(1.5rem, 5vw, 3.5rem) clamp(1rem, 4vw, 3.5rem); }
 .block + .block { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #e6eae5; }
-.prose { font-size: calc(var(--bayt-font-size, 1.8rem) * 0.88); line-height: 2; text-align: center; margin: 0 auto; max-width: 48rem; }
+.prose { font-size: clamp(1.35rem, 2.6vw, 1.7rem); line-height: 2; text-align: center; margin: 0 auto; max-width: 48rem; }
 .title .prose { font-weight: 700; font-size: clamp(1.6rem, 3vw, 2rem); }
 // a section header ("اللام"...) inside a grouped acrostic: smaller than the poem's own name,
 // but styled the same way, and marks the start of a new group of abyat
 .prose.header { font-weight: 700; font-size: clamp(1.15rem, 2vw, 1.35rem); margin-top: 1.5rem; }
 .is-acrostic .prose.name, .is-acrostic .prose.header { color: #9b2c2c; }
+// the acrostic name when it is bolded inline within a muqaddima paragraph, rather than its own
+// line: only that exact span turns red, the rest of the paragraph stays as plain prose
+.acrostic-highlight { color: #9b2c2c; font-weight: 700; }
 
 .bayt { display: grid; grid-template-columns: 2.5rem 1fr; column-gap: 1rem; align-items: baseline; direction: rtl; }  /* bayt number on the right, where the line starts */
 .bayt-number { font-size: .8rem; color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; }
-.hemistichs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3rem; margin: 0; font-size: var(--bayt-font-size, clamp(1.45rem, 2.8vw, 1.9rem)); line-height: 2.1; }
+.hemistichs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3rem; margin: 0; font-size: clamp(1.45rem, 2.8vw, 1.9rem); line-height: 2.1; }
 .hemistichs.four { grid-template-columns: repeat(4, 1fr); column-gap: 1.5rem; }
 .h { text-align: center; }
 .initial { color: #9b2c2c; }
@@ -56,62 +34,6 @@
 .prose-transcription { max-width: 48rem; margin: .25rem auto 0; }
 .sep { padding-inline: .7rem; color: #a3ada8; }
 
-/* Reader controls toolbar (Themes & Font Size) */
-.reader-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: .75rem;
-  padding: .75rem 1.25rem;
-  margin-top: 1.25rem;
-  background: var(--stone);
-  border: 1px solid var(--rule);
-  border-radius: .5rem;
-}
-.reader-group {
-  display: inline-flex;
-  align-items: center;
-  gap: .35rem;
-}
-.reader-label {
-  font-size: .85rem;
-  font-weight: 600;
-  color: var(--muted);
-  margin-right: .35rem;
-}
-.theme-btn, .font-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: .35rem .75rem;
-  font-size: .88rem;
-  font-weight: 600;
-  border: 1px solid var(--rule);
-  background: var(--paper);
-  color: var(--ink);
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all .15s ease;
-}
-.theme-btn:hover, .font-btn:hover {
-  border-color: var(--emerald);
-  color: var(--emerald);
-}
-.theme-btn.active {
-  background: var(--emerald);
-  border-color: var(--emerald);
-  color: #fff;
-}
-.font-indicator {
-  font-size: .85rem;
-  font-weight: 700;
-  color: var(--ink);
-  padding: 0 .4rem;
-  min-width: 2.5rem;
-  text-align: center;
-}
-
 .poem-nav { display: flex; justify-content: space-between; gap: 1.5rem; max-width: 64rem; margin: 2.5rem auto 0; }
 .poem-nav a { display: flex; flex-direction: column; max-width: 48%; padding: 1rem 0; color: var(--ink); text-decoration: none; border-top: 1px solid var(--gold); }
 .poem-nav .next { text-align: right; align-items: flex-end; margin-left: auto; }
@@ -119,8 +41,6 @@
 .poem-nav .ar { font-size: 1.3rem; line-height: 1.7; color: var(--emerald); }
 
 @media (max-width: 767.98px) {
-  .overview-facts { grid-template-columns: 1fr; }
-  .overview-actions > * { flex: 1 1 100%; }
   .bayt { grid-template-columns: 1.75rem 1fr; column-gap: .5rem; }
   .hemistichs, .hemistichs.four { grid-template-columns: 1fr; }
   .h { text-align: right; }
@@ -129,12 +49,3 @@
   .transcription span:not(.sep) { display: block; }
   .sep { display: none; }
 }
-
-@media print {
-  .site-header, .site-footer, .overview-actions, .poem-nav, app-breadcrumb, .acrostic-note { display: none !important; }
-  .poem { padding: 0 !important; background: #fff !important; }
-  .poem-text { border: none !important; padding: 0 !important; max-width: 100% !important; background: #fff !important; }
-  .bayt { page-break-inside: avoid; break-inside: avoid; }
-  .poem-overview { border: 1px solid #ccc !important; }
-}
-

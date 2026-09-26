@@ -127,10 +127,11 @@ def red_marks(paragraph) -> list[dict]:
     return marks
 
 
-def bold_text(paragraph) -> str:
-    """The paragraph's explicitly bold-formatted text, its separate bold spans (if more than
-    one) joined by a space. A style that happens to render bold does not count — only a
-    deliberate bold toggle on the run does, since that is the reviewer's own mark."""
+def bold_spans(paragraph) -> list[str]:
+    """The paragraph's explicitly bold-formatted text, as separate spans in reading order (more
+    than one when plain text sits between two bolded parts). A style that happens to render bold
+    does not count — only a deliberate bold toggle on the run does, since that is the reviewer's
+    own mark."""
     spans, current = [], ""
     for run in paragraph.runs:
         if run.text and run.bold:
@@ -140,7 +141,7 @@ def bold_text(paragraph) -> str:
             current = ""
     if current:
         spans.append(current)
-    return " ".join(span.strip() for span in spans if span.strip())
+    return [span.strip() for span in spans if span.strip()]
 
 
 def parse_poem_docx(source, filename: str | None = None) -> dict:
@@ -148,14 +149,14 @@ def parse_poem_docx(source, filename: str | None = None) -> dict:
     name = filename or Path(source).name
     code_from_name(name)  # fail early on a bad file name
     document = docx.Document(source)
-    paragraphs = [(p.text, red_marks(p), bold_text(p)) for p in document.paragraphs]
+    paragraphs = [(p.text, red_marks(p), bold_spans(p)) for p in document.paragraphs]
     notes = ["the file contains tables; only normal paragraphs are read"] if document.tables else []
     return parse_paragraphs(name, paragraphs, notes)
 
 
 def parse_poem_text(code: str, text: str) -> dict:
     """Pasted text: one paragraph per line (plain text carries no bold formatting)."""
-    return parse_paragraphs(code, [(line, [], "") for line in text.splitlines()], [])
+    return parse_paragraphs(code, [(line, [], []) for line in text.splitlines()], [])
 
 
 def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
@@ -185,7 +186,7 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
     # digitisation must not invent that repetition either. This is checked first: found or not,
     # it settles the name outright, and the opening text it sits in is kept exactly as written,
     # unsplit, in the muqaddima.
-    bold_phrase = " ".join(paragraphs[i][2] for i in range(first_bayt) if paragraphs[i][2]).strip()
+    bold_phrase = " ".join(span for i in range(first_bayt) for span in paragraphs[i][2]).strip()
 
     # The poem's name, when there is one, is the second (non-header) text, right before the abyat.
     # When there is only one, it is the name as well if the abyat spell it (an acrostic name) —
@@ -206,7 +207,7 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
                         f"line {opening_indexes[-1] + 1} was taken as the poem's name, please confirm")
 
     lines, bayt_number, has_open_flags = [], 0, False
-    for i, (text, red, _bold) in enumerate(paragraphs):
+    for i, (text, red, bold) in enumerate(paragraphs):
         position = i + 1
         if i == title_index:
             section, kind = "title", "title"
@@ -221,6 +222,15 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
         else:
             section, kind = "matn", "prose"
             warnings.append(f"line {position}: text without '|' between two abyat (kept as prose inside the matn)")
+
+        # The exact text(s) that were bolded in THIS paragraph, cleaned the same way as the line
+        # itself, so the front-end can find and colour them red inside the untouched prose — kept
+        # as separate spans (there can be more than one, with plain words between them), and only
+        # for the paragraph(s) that actually make up the bold-detected name, never a stray bold
+        # word elsewhere (a khatima emphasis, say) that has nothing to do with the acrostic.
+        acrostic_spans = []
+        if bold_phrase and section == "muqaddima" and bold:
+            acrostic_spans = [s for s in (re.sub(r"\s+", " ", clean_display_text(b)).strip() for b in bold) if s]
 
         if kind == "bayt":
             bayt_number += 1
@@ -253,6 +263,7 @@ def parse_paragraphs(name: str, raw_paragraphs, warnings: list[str]) -> dict:
             "bayt_number": bayt_number if kind == "bayt" else None,
             "hemistichs": hemistichs,
             "transcription": {"local": transcribe_hemistichs(hemistichs)},   # generated; not part of content_hash
+            "acrostic_spans": acrostic_spans,  # the bolded substring(s) of this line, if any; not part of content_hash
         })
 
     abyat = [l for l in lines if l["kind"] == "bayt"]

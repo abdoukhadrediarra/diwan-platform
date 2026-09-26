@@ -24,6 +24,9 @@
        starts with, until the next header. Styled like the title, one size smaller. */
     .header-letter { font-weight: 700; font-size: {{ text_size|add:2 }}pt; margin-top: 5mm; }
     .is-acrostic .name, .is-acrostic .header-letter { color: #9b2c2c; }
+    /* the acrostic name marked bold inline within an opening paragraph, rather than its own
+       line: only that exact span turns red, the rest of the paragraph stays plain prose */
+    .acrostic-highlight { color: #9b2c2c; font-weight: 700; }
 
     .bayt { display: flex; align-items: baseline; margin-bottom: 1mm; break-inside: avoid; }
     .number { width: 8mm; font-family: "Amiri"; font-size: 7pt; color: #9aa5a0; text-align: center; }
@@ -57,7 +60,9 @@
           </div>
           {% if line.transcription %}<div class="transcription">{{ line.transcription }}</div>{% endif %}
         {% else %}
-          <p class="prose {% if line.kind == 'title' %}name{% elif line.kind == 'header' %}header-letter{% endif %}">{{ line.text }}</p>
+          <p class="prose {% if line.kind == 'title' %}name{% elif line.kind == 'header' %}header-letter{% endif %}">
+            {% if line.segments %}{% for seg in line.segments %}{% if seg.hl %}<span class="acrostic-highlight">{{ seg.text }}</span>{% else %}{{ seg.text }}{% endif %}{% endfor %}{% else %}{{ line.text }}{% endif %}
+          </p>
           {% if line.transcription %}<div class="transcription">{{ line.transcription }}</div>{% endif %}
         {% endif %}
       {% endfor %}

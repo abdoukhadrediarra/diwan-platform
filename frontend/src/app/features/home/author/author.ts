@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { BaytView } from '../../../shared/bayt/bayt';
 import { FEATURED_BAYT } from '../../../core/data/corpus-stats';
+
 import { LanguageService } from '../../../core/services/language.service';
 
 @Component({
@@ -12,7 +13,6 @@ import { LanguageService } from '../../../core/services/language.service';
 export class Author {
   protected readonly i18n = inject(LanguageService);
   protected readonly bayt = FEATURED_BAYT;
-
   /** The caption around the poem's name, split so the Arabic name keeps its own direction. */
   protected get captionParts(): [string, string] {
     const [before, after = ''] = this.i18n.t('verse.caption').split('{name}');

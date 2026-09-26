@@ -37,6 +37,7 @@ def poem_as_dict(poem: Poem) -> dict:
             "kind": line.kind,
             "bayt_number": line.bayt_number,
             "hemistichs": line.hemistichs,
+            "acrostic_spans": line.acrostic_spans,
         }
         if line.id in manual:
             style, parts = manual[line.id]

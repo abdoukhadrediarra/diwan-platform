@@ -24,75 +24,16 @@
         @if (p.data.is_acrostic) {
           <p class="acrostic-note">{{ i18n.t('poem.acrosticNote') }}</p>
         }
-      </header>
-
-      <section class="poem-overview" [attr.aria-label]="i18n.t('poem.label')">
-        <div class="overview-tags">
-          <span class="overview-tag">{{ i18n.t('poem.label') }}</span>
-          @if (p.data.is_acrostic) { <span class="overview-tag">{{ i18n.t('poem.acrostic') }}</span> }
-        </div>
-        <dl class="overview-facts">
-          <div><dt>{{ i18n.t('poem.abyat') }}</dt><dd>{{ p.data.bayt_count | number }}</dd></div>
-          <div><dt>{{ i18n.t('diwan.label') }}</dt><dd>{{ p.data.diwan.number }}</dd></div>
-        </dl>
-        <div class="overview-actions">
-          <button type="button" class="btn favorite-action" [class.is-favorite]="isFavorite()"
-                  [attr.aria-pressed]="isFavorite()" (click)="toggleFavorite()">
-            <span aria-hidden="true">{{ isFavorite() ? '♥' : '♡' }}</span>
-            {{ isFavorite() ? i18n.t('reader.removeFromFavorites') : i18n.t('reader.addToFavorites') }}
-          </button>
-          <button type="button" class="btn btn-outline-secondary share-action" (click)="share()">
-            {{ i18n.t('reader.copyLink') }}
-          </button>
+        <div class="poem-tools">
           <app-script-toggle />
           <button type="button" class="btn btn-outline-secondary toggle" (click)="toggleTranscription()"
                   [attr.aria-pressed]="showTranscription()">
             {{ i18n.t(showTranscription() ? 'poem.hideTranscription' : 'poem.showTranscription') }}
           </button>
-          <button type="button" class="btn download-action"
-                  [disabled]="isExportingPdf()"
-                  [title]="i18n.t('reader.downloadTitle')"
-                  [attr.aria-label]="i18n.t('reader.downloadTitle')"
-                  (click)="downloadPdf()">
-            <span aria-hidden="true">&#x2193;</span>
-            <span>{{ isExportingPdf() ? '...' : i18n.t('reader.downloadPdf') }}</span>
-          </button>
-          <button type="button" class="btn btn-outline-secondary print-action"
-                  [title]="i18n.t('reader.printTitle')"
-                  [attr.aria-label]="i18n.t('reader.printTitle')"
-                  (click)="printPoem()">
-            <span aria-hidden="true">🖨️</span> {{ i18n.t('reader.print') }}
-          </button>
         </div>
+      </header>
 
-        <div class="reader-toolbar">
-          <div class="reader-group" [attr.aria-label]="i18n.t('reader.themeAria')">
-            <span class="reader-label">{{ i18n.t('reader.themeLabel') }}</span>
-            <button type="button" class="theme-btn" [class.active]="reader.theme() === 'light'" (click)="reader.setTheme('light')">
-              ☀️ {{ i18n.t('reader.themeLight') }}
-            </button>
-            <button type="button" class="theme-btn" [class.active]="reader.theme() === 'sepia'" (click)="reader.setTheme('sepia')">
-              📜 {{ i18n.t('reader.themeSepia') }}
-            </button>
-            <button type="button" class="theme-btn" [class.active]="reader.theme() === 'dark'" (click)="reader.setTheme('dark')">
-              🌙 {{ i18n.t('reader.themeDark') }}
-            </button>
-          </div>
-
-          <div class="reader-group" [attr.aria-label]="i18n.t('reader.fontSizeAria')">
-            <span class="reader-label">{{ i18n.t('reader.fontSizeLabel') }}</span>
-            <button type="button" class="font-btn" (click)="reader.decreaseFontSize()" [disabled]="reader.fontSizeLevel() === 1" [attr.aria-label]="i18n.t('reader.zoomOut')">
-              A-
-            </button>
-            <span class="font-indicator">{{ reader.currentFontSize().level }}/5</span>
-            <button type="button" class="font-btn" (click)="reader.increaseFontSize()" [disabled]="reader.fontSizeLevel() === 5" [attr.aria-label]="i18n.t('reader.zoomIn')">
-              A+
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <div class="poem-text" id="poem-text">
+      <div class="poem-text">
         @for (group of sections(); track $index) {
           <section class="block" [class]="'block ' + group.section" [attr.aria-label]="i18n.t(sectionKeys[group.section])">
             @for (line of group.lines; track line.position) {
@@ -119,7 +60,15 @@
                   }
                 </div>
               } @else {
-                <p class="prose ar" lang="ar" [class.name]="line.kind === 'title'" [class.header]="line.kind === 'header'">{{ line.hemistichs.join(' ') }}</p>
+                <p class="prose ar" lang="ar" [class.name]="line.kind === 'title'" [class.header]="line.kind === 'header'">
+                  @if (line.segments) {
+                    @for (seg of line.segments; track $index) {
+                      <span [class.acrostic-highlight]="seg.hl">{{ seg.text }}</span>
+                    }
+                  } @else {
+                    {{ line.hemistichs.join(' ') }}
+                  }
+                </p>
                 @if (showTranscription() && line.transcription['local']; as parts) {
                   <p class="transcription prose-transcription" lang="fr">{{ parts.join(' ') }}</p>
                 }

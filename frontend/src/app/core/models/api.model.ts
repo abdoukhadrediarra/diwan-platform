@@ -34,6 +34,7 @@ export interface PoemLine {
   kind: 'prose' | 'title' | 'bayt' | 'header' | 'quran';
   bayt_number: number | null;
   hemistichs: string[];
+  acrostic_spans: string[];   // the bolded substring(s) of this line to colour red, if any
   transcription: Record<string, string[]>;   // { local: [...] }
 }
 

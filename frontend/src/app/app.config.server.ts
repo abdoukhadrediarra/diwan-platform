@@ -8,7 +8,7 @@ const serverConfig: ApplicationConfig = {
   providers: [
     provideServerRendering(withRoutes(serverRoutes)),
     // when rendering on the server, call Django directly (absolute URL)
-    { provide: API_BASE_URL, useValue: process.env['API_URL'] || 'https://diwan-platform.onrender.com/api/v1' },
+    { provide: API_BASE_URL, useValue: process.env['API_URL'] ?? 'http://127.0.0.1:8000/api/v1' },
   ],
 };
 

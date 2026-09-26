@@ -111,6 +111,8 @@ class Line(models.Model):
     kind = models.CharField(max_length=10, choices=Kind.choices)
     bayt_number = models.PositiveIntegerField(null=True, blank=True)  # 1..n for abyat only (#bayt-12 links)
     hemistichs = ArrayField(models.TextField())                     # bayt: ["sadr", "ajz"] or 4 items; prose: 1 item
+    acrostic_spans = ArrayField(models.TextField(), default=list, blank=True)  # bolded substring(s) of
+                                                                     # this line, to highlight in red (see parsing.py)
     text_plain = models.TextField()                                 # joined, tashkeel stripped, normalized (search)
 
     class Meta:

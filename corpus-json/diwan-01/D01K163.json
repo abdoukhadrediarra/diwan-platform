@@ -1,0 +1,186 @@
+{
+  "code": "D01K163",
+  "diwan": 1,
+  "number": 163,
+  "source_file": "D01K163_وَهُمْ بِأَمْرِهِ يَعْمَلُونَ.docx",
+  "incipit": "وَجَّهْتُ وَجْهَكَ الْكَرِيمَ لَكَ يَا",
+  "title": "وَهُمْ بِأَمْرِهِ يَعْمَلُونَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 14,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "aff64fd5cebcfc955fa8aecab98458300c7c88ec732641134b997cfd18f388cb",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَهُمْ بِأَمْرِهِ يَعْمَلُونَ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَجَّهْتُ وَجْهَكَ الْكَرِيمَ لَكَ يَا",
+        "عَلِيمُ يَا خَبِيرُ زَالَ شَكِّيَا"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "هَبْ لِي تَلَازُمَ الْيَقِينِ لِلْجِنَانْ",
+        "فِي كُلِّ شَيْءٍ وَلْتُطَيِّبْ لِي الْجَنَانْ"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَلَّكْتَنِي مَكَّنْتَنِي أَغْنَيْتَنِي",
+        "صَحَّحْتَنِي أَصْلَحْتَ لِي هَدَيْتَنِي"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "بَرَّأْتَنِي أَبْقَيْتَنِي كَلَّمْتَنِي",
+        "أَوْحَيْتَ لِي عَصَمْتَنِي عَلَّمْتَنِي"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "أَكْرَمْتَنِي أَذْهَبْتَ عَنِّيَ الْحَزَنْ",
+        "بِغَيْرِ رَدٍّ لِي قَبِلْتَ مَا اتَّزَنْ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "مَحَوْتَ أَنْ يَقْصِدَنِي عَدُوُّ",
+        "وَهَبْتَ لِي الْأَعْظَمَ يَا مَرْجُوُّ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "رَدَدْتَ كُلَّ مَا نَحَانِي مِنْ غُرُورْ",
+        "لِغَيْرِ ذَاتِي وَقَبِلْتَ لِي الْبُرُورْ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "هَدَيْتَنِي بِالذِّكْرِ وَالْحَدِيثِ",
+        "عَلَّمْتَنِي التَّأْوِيلَ كَالتَّحْدِيثِ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "يُرْضِيكَ فِي الدَّارَيْنِ رَبِّ عَرْضِي",
+        "كَجُثَّتِي يَا مَنْ مَحَوْتَ مَرَضِي"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "عَنْكَ رَضِيتُ وَرَضِيتُ بِكَ يَا",
+        "مَنْ كَانَ لِي حَتَّى غَدَوْتُ مُشْكِيَا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "مَدَدْتَ لِي مَا لَا يَزَالُ عَجَبَا",
+        "بِلَا انْتِهًا لِلصَّالِحِينَ النُّجَبَآ"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "لَكَ شُكُورِي بَعْدَ حَمْدٍ رَاضِيَا",
+        "وَقُدْتَ لِي الْأَعْظَمَ فِي أَغْرَاضِيَا"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "وَجْهَكَ عَظَّمْتُ بِتَرْكِ الْعَوْدِ",
+        "إِلَى الضَّمَائِرِ فَجُدْ بِقَوْدِ"
+      ]
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "نَاجَيْتُكَ الْيَوْمَ وَإِنِّي لَا أَعُودْ",
+        "إِلَّا لِمَا رَضِيتَهُ لِي يَا مُعِيدْ"
+      ]
+    },
+    {
+      "position": 17,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَاجْعَلْ كُلِّيَّتِي نَاقِلَةً مِنَ اللَّوْحِ الْمَحْفُوظِ حَتَّى أَدْخُلَ الْجَنَّةَ الَّتِي وُعِدَ الْمُتَّقُونَ آمِينْ يَا رَبَّ الْعَالَمِينَ"
+      ]
+    }
+  ]
+}

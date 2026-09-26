@@ -42,6 +42,7 @@ class PoemLine {
     required this.kind,
     required this.baytNumber,
     required this.hemistichs,
+    required this.acrosticSpans,
     required this.transcription,
   });
 
@@ -50,6 +51,7 @@ class PoemLine {
   final String kind; // prose, title, bayt
   final int? baytNumber;
   final List<String> hemistichs;
+  final List<String> acrosticSpans; // bolded substring(s) of this line, to highlight in red
   final Map<String, List<String>> transcription; // {"local": ["...", "..."]}
 
   bool get isBayt => kind == 'bayt';
@@ -64,6 +66,7 @@ class PoemLine {
       kind: readString(json['kind']),
       baytNumber: readIntOrNull(json['bayt_number']),
       hemistichs: readStrings(json['hemistichs']),
+      acrosticSpans: readStrings(json['acrostic_spans']),
       transcription: raw is Map
           ? raw.map((style, parts) => MapEntry('$style', readStrings(parts)))
           : const {},

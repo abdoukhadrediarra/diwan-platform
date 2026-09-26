@@ -99,6 +99,7 @@ def _save_poem(data: dict, refresh_transcriptions: bool, database: str) -> Impor
             kind=line["kind"],
             bayt_number=line["bayt_number"],
             hemistichs=line["hemistichs"],
+            acrostic_spans=line.get("acrostic_spans") or [],
             text_plain=normalize_for_search(" ".join(line["hemistichs"])),
         )
         for line in data["lines"]

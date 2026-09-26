@@ -1,11 +1,8 @@
 <header class="site-header" [class.is-open]="open()">
   <nav class="container" aria-label="Navigation principale">
-    <a routerLink="/" class="brand" aria-label="Diwaan, accueil">
-      <img src="/images/logo.png" alt="Logo Diwaan" class="brand-logo" width="40" height="40">
-      <span class="brand-text">
-        <span class="brand-ar ar" lang="ar">ديوان</span>
-        <span class="brand-name">Diwaan</span>
-      </span>
+    <a routerLink="/" class="brand" aria-label="Diwan, accueil">
+      <span class="brand-ar ar" lang="ar">ديوان</span>
+      <span class="brand-name">Diwan</span>
     </a>
 
     <button class="menu-toggle d-lg-none" type="button" (click)="toggle()"
@@ -37,20 +34,6 @@
       </li>
       <li><a routerLink="/" fragment="projet">{{ i18n.t('menu.project') }}</a></li>
       <li><a routerLink="/" fragment="corpus">{{ i18n.t('menu.corpus') }}</a></li>
-      <li>
-        <a routerLink="/favoris" routerLinkActive="active" class="fav-link">
-          <span>{{ i18n.t('menu.favorites') }}</span>
-          @if (favorites.count() > 0) {
-            <span class="fav-badge">{{ favorites.count() }}</span>
-          }
-        </a>
-      </li>
-      <li>
-        <a routerLink="/recherche" routerLinkActive="active" class="search-nav-link" [title]="i18n.t('menu.search')">
-          <span class="search-nav-icon" aria-hidden="true">🔍</span>
-          <span>{{ i18n.t('menu.search') }}</span>
-        </a>
-      </li>
       <li class="lang"><app-language-switcher /></li>
     </ul>
   </nav>

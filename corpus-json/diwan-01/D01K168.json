@@ -1,0 +1,166 @@
+{
+  "code": "D01K168",
+  "diwan": 1,
+  "number": 168,
+  "source_file": "D01K168_وَعِبَادُ الرَّحْمَنِ.docx",
+  "incipit": "وَالَانِيَ الرَّحْمَانُ فِي دُنْيَايَا",
+  "title": "وَعِبَادُ الرَّحْمَنِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "de2a51fe3686ace4a02071362bce022bd8591682baff690035a23399f86c70cd",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ]
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَعِبَادُ الرَّحْمَنِ"
+      ]
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَالَانِيَ الرَّحْمَانُ فِي دُنْيَايَا",
+        "وَكَانَ لِي الرَّحِيمُ فِي أُخْرَايَا"
+      ]
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "عَنِّي يُصَلِّي أَبَدًا مَوْلَايَا",
+        "عَلَى النَّبِي وَلِيَ قَادَ الْآيَا"
+      ]
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "بَرَّأَنِي مِنَ الْعُيُوبِ وَالْمَرَضْ",
+        "بَاقٍ يَقُودُ لِي الْأُجُورَ فِي الْغَرَضْ"
+      ]
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "أَكْرَمَنِي اللَّهُ الَّذِي هُوَ الْمَلِكْ",
+        "بِمَا بِهِ يَغْبِطُنِي كُلُّ مَلِكْ"
+      ]
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَعَانِيَ الأَكْرَمُ وَالْمُكَرِّمُ",
+        "لَهُ بِمَا كُلِّيَّتِي يُكَرِّمُ"
+      ]
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "أَجَابَنِي الْبَاقِي بِمَا يَسُرُّ",
+        "وَلَيْسَ يَنْحُو لِجِهَاتِي شَرُّ"
+      ]
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لَقِيَنِي الْحَيُّ الَّذِي لَيْسَ يَمُوتْ",
+        "بِلَا مَمَاتٍ وَمُعَادِيَّ يُمِيتْ"
+      ]
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "رَضِيَ عَنِّي اللَّهُ مِنْ غَيْرِ سَخَطْ",
+        "وَلِيَ قَادَ بَرَكَاتِهِ بِخَطّ"
+      ]
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "حَفِظَنِي مِنْ كُلِّ مَا قَدْ خُلِقَا",
+        "وَمَا سَيَخْلُقُ أَذًى مَنْ أَطْلَقَا"
+      ]
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "مَدَّ لِيَ الْخُيُورَ وَالْمَنَافِعَا",
+        "بِلَا أَذًى مَنْ لَا يَزَالُ نَافِعَا"
+      ]
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "إِلَيَّ تَنْقَادُ مُنَى السَّادَاتِ",
+        "بِفَضْلِ هَادِيهِمْ لَدَى عَادَاتِي"
+      ]
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "نَفَعَنِي الرَّحْمَانُ فِي دُنْيَايَا",
+        "وَكَانَ لِي الرَّحِيمُ فِي أُخْرَايَا"
+      ]
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَاجْعَلْ هَذِهِ الْحُرُوفَ سُرُورًا لَا يَنْقَطِعُ أَبَدًا لَهُ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ وَلِآلِهِ وَصَحْبِهِ آمِينْ يَا رَبَّ الْعَالَمِينَ سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"
+      ]
+    }
+  ]
+}
