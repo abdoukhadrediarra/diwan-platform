@@ -32,10 +32,15 @@ export class LanguageService {
   }
 
   /** The text of a key in the language now chosen. */
-  t(key: string): string {
+  t(key: string, fallback?: string): string {
     const entry = TRANSLATIONS[key];
-    if (!entry) return key;                     // a missing key shows itself, never an empty page
-    return entry[this.language()] || entry.fr;
+    if (entry) return entry[this.language()] || entry.fr;
+    return fallback ?? key;                     // a missing key without a fallback shows itself
+  }
+
+  /** The language code now chosen (an alias for reading `language()` outside a template). */
+  currentCode(): Language {
+    return this.language();
   }
 
   /** "3 khassaïdes en ligne" — the count, then the word in the right language. */
