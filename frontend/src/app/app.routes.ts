@@ -20,6 +20,16 @@ export const routes: Routes = [
     loadComponent: () => import('./features/poem/poem-page/poem-page').then((m) => m.PoemPage),
   },
   {
+    path: 'favoris',
+    loadComponent: () => import('./features/favorites/favorites').then((m) => m.FavoritesPage),
+    title: 'Mes favoris | Diwan',
+  },
+  {
+    path: 'recherche',
+    loadComponent: () => import('./features/search/search').then((m) => m.SearchPage),
+    title: 'Recherche | Diwan',
+  },
+  {
     path: '**',
     loadComponent: () => import('./shared/not-found/not-found').then((m) => m.NotFound),
     title: 'Page introuvable | Diwan',

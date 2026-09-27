@@ -20,16 +20,31 @@ const allowedHosts = (process.env['NG_ALLOWED_HOSTS'] ?? 'localhost,127.0.0.1')
 const angularApp = new AngularNodeAppEngine({ allowedHosts });
 
 /**
- * Example Express Rest API endpoints can be defined here.
- * Uncomment and define endpoints as necessary.
- *
- * Example:
- * ```ts
- * app.get('/api/{*splat}', (req, res) => {
- *   // Handle API request
- * });
- * ```
+ * Forward /api requests to the Django backend
  */
+app.use('/api', async (req, res, next) => {
+  const backendBase = (process.env['API_URL'] || 'https://diwan-platform.onrender.com/api/v1').replace(/\/api\/v1\/?$/, '');
+  const targetUrl = `${backendBase}${req.originalUrl}`;
+  try {
+    const response = await fetch(targetUrl, {
+      method: req.method,
+      headers: {
+        'Accept': req.headers['accept'] || 'application/json',
+        'User-Agent': (req.headers['user-agent'] as string) || 'Diwan-Web-Proxy',
+      },
+    });
+    res.status(response.status);
+    response.headers.forEach((val, key) => {
+      if (!['content-encoding', 'content-length', 'transfer-encoding'].includes(key.toLowerCase())) {
+        res.setHeader(key, val);
+      }
+    });
+    const buffer = await response.arrayBuffer();
+    res.send(Buffer.from(buffer));
+  } catch (error) {
+    next(error);
+  }
+});
 
 /**
  * Serve static files from /browser
