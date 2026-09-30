@@ -1,0 +1,115 @@
+{
+  "code": "D01K207",
+  "diwan": 1,
+  "number": 207,
+  "source_file": "D01K207_حم عسق.docx",
+  "incipit": "حَمْدِي وَشُكْرِي لِلْكَرِيمِ الْأَكْرَمِ",
+  "title": "حم عسق",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "884ca1095e3f85b8b5f7fb73dbbf8ea7c86df873664452374640e06e58c5c75e",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "حم عسق"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "حَمْدِي وَشُكْرِي لِلْكَرِيمِ الْأَكْرَمِ",
+        "الْبَاسِطِ الْمُقَدِّمِ الْمُكَرِّمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "مُدِيمَ أَفْضَلِ صَلَاةِ الْأَعْظَمِ",
+        "عَلَى النَّبِيِّ الْمُنْتَقَى الْمُعَظَّمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مُحَمَّدٌ قَبِلَ مِنِّي خِدَمِي",
+        "مُقَدِّمًا كُلِّيَّتِي لَمْ أَنْدَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عَلَيْهِ خَيْرُ صَلَوَاتِ الْأَكْرَمِ",
+        "وَآلِهِ وَالصَّحْبِ ظَرْفِ الْكَرَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "سَعَادَتِي كَتَبَهَا ذُو الْقِدَمِ",
+        "وَلَيْسَ يَمْحُوهَا وَأَعْلَى قَدَمِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "قُدْتُ خُيُورًا لِلنَّبِيِّ الْأَكْرَمِ",
+        "مُحَمَّدٍ حَبِيبِنَا الْمُكَرَّمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "code": "D01K191",
+  "diwan": 1,
+  "number": 191,
+  "source_file": "D01K191_إِنَّهُ كَانَ عَلِيمًا قَدِيرًا.docx",
+  "incipit": "أُوصِيكَ يَا ابْنَ عَمَّتِي وَخَالِي",
+  "title": "إِنَّهُ كَانَ عَلِيمًا قَدِيرًا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 17,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "df8c97621389f4ea8a6351939eeda3d2c1608f9c02ae874a903a0eb1c2a73d8e",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَالسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ تَعَالَى وَبَرَكَاتُهُ أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ مِنْ عَبْدِ اللَّهِ تَعَالَى خَدِيمِ الْمُصْطَفَى صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ مُحَمَّدِ ابْنِ مُحَمَّدِ ابْنِ حَبِيبِ اللَّهِ الْغَنِيِّ بِاللَّهِ تَعَالَى عَنْ كُلِّ رَبٍّ وَكُلِّ طَبِيبٍ إِلَى أَخِيهِ فِي اللَّهِ تَعَالَى وَفِي الْقَرَابَةِ مُحَمَّدِ ابْنِ خَالِي ذِي النَّجَابَةِ سَلَامٌ سَلِيمٌ لَا لَغْوٌ فِيهِ وَلَا تَأْثِيمٌ أَمَّا بَعْدُ فَقَدْ وَرَدَ عَلَيْنَا كِتَابَاكَ الرِّسَالَةُ وَالْهَدِيَّةُ فَقُلْتُ حَامِدًا إِلَيْكَ لِلْعَلِيمِ الْقَدِيرِ الْقَائِلِ إِنَّهُ كَانَ عَلِيمًا قَدِيرًا مُصَلِّيًا عَلَى جُنَّتِي وَجَنَّتِي مُجِيبًا لَكَ مُتَبَرِّكًا بِهَذِهِ الْحُرُوفِ وَالدِّينُ النَّصِيحَةُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "إِنَّهُ كَانَ عَلِيمًا قَدِيرًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أُوصِيكَ يَا ابْنَ عَمَّتِي وَخَالِي",
+        "وَفُزْتُ بِالْإِخْرَاجِ وَالْإِدْخَالِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "نَصِيحَةً وَهْيَ لَهَا مَزِيَّهْ",
+        "فِي الْمِلَّةِ الصَّحِيحَةِ الْمَرْضِيَّهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "نَاجَيْتُ رَبِّيَ الْمُكَرِّمَ الْأَحَدْ",
+        "وَجَادَ لِي بِقُلْ هُوَ اللَّهُ أَحَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "هُوَ الْإِلَهُ وَالْبَدِيعُ وَالصَّمَدْ",
+        "الرَّافِعُ السَّمَاءِ مِنْ غَيْرِ عَمَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "كَافَأْتُهُ بِقُلْ هُوَ اللَّهُ أَحَدْ",
+        "جَلَّ وَلَمْ يَكُنْ لَهُ كُفْؤًا أَحَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "اللَّهُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ",
+        "يَحْتَجْ لِشَيْءٍ وَكَفَانِيَ الْوَلَمْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "نَفَى الَّذِينَ ثَلَّثُوا بِالْغَدْرِ",
+        "عَنِّي بِحِزْبِهِ رِجَالِ بَدْرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "عَلَيْهِ أُثْنِي وَعَلَى الْمُخْتَارِ",
+        "وَآلِهِ وَصَحْبِهِ الْأَسْتَارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "لَهُ فِرَارِي مِنْ سِوَاهُ عَبْدَا",
+        "لَهُ وَلِي خَيْرَ خُيُورٍ أَبْدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "يَشْكُرُهُ كُلِّيَ بِالصَّلَاةِ",
+        "عَلَى الشَّفِيعِ الْفَائِضِ الصِّلَاةِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "مِنْ غَيْرِهِ فِرَّ إِلَيْهِ عَاجِلَا",
+        "بِالْمُصْطَفَى خَيْرِ الْوَرَى وَآجِلَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "أَزْكَى صَلَاةِ اللَّهِ ذِي الْجَلَالِ",
+        "عَلَى النَّبِيِّ الْمُذْهِبِ الضَّلَالِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "قَلَّبَ لِي بِجَاهِهِ الْأَعْيَانَا",
+        "رَبِّي وَلِي قَدْ وَهَبَ الْعِيَانَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "دَعَوْتُهُ مِنْ قَبْلِ عَامِ جَيْسَشِ",
+        "وَلِي قَضَى حَاجِيَ عَامَ حَيْسَشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 17,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 15,
+      "hemistichs": [
+        "يَشْكُرُهُ كُلِّيَ إِنْ شَاءَ بِلَا",
+        "نِهَايَةٍ عَلَى فِرَاقِيَ الْبَلَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 18,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 16,
+      "hemistichs": [
+        "رَضِيتُ عَنْ بَاقٍ حَبَانِي بِثُبُوتْ",
+        "بَعْدَ خُرُوجِي مِنْ بَلَاءِ الْعَنْكَبُوتْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 19,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 17,
+      "hemistichs": [
+        "اتَّقِ ذَا الْجَلَالِ يَا ابْنَ خَالِي",
+        "يَأْتِكَ بِالْإِخْرَاجِ وَالْإِدْخَالِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 20,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ تَعَالَى وَبَرَكَاتُهُ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

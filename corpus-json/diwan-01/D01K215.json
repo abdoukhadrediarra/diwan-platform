@@ -1,0 +1,236 @@
+{
+  "code": "D01K215",
+  "diwan": 1,
+  "number": 215,
+  "source_file": "D01K215_وَفَجَّرْنَا الْأَرْضَ عُيُونًا.docx",
+  "incipit": "وَجَبَ حَمْدُ اللَّهِ وَالصَّلَاةُ",
+  "title": "وَفَجَّرْنَا الْأَرْضَ عُيُونًا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 17,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "56b80c5f09b7cc4c1c2fef126e47856a9cd7999be630833e29e8784ab5676a55",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَاجْعَلْ هَذِهِ الْقَصِيدَةَ مِنْ أَحَبِّ الشُّكْرِ إِلَيْكَ يَا بَدِيعُ يَا مَنْ قَالَ فِي كِتَابِكَ وَفَجَّرْنَا الْأَرْضَ عُيُونًا وَتَقَبَّلْهَا مِنْ قَائِلِهَا بِقَبُولٍ حَسَنٍ بِلَا آفَةٍ وَلَا كَدَرٍ فِيهِ وَلَا بَيْنَهُ وَبَيْنَ أَحَدٍ آمِينْ يَا رَبَّ الْعَالَمِينَ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَفَجَّرْنَا الْأَرْضَ عُيُونًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَجَبَ حَمْدُ اللَّهِ وَالصَّلَاةُ",
+        "عَلَى الَّذِي تَفِي بِهِ الصِّلَاتُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "فَجَّرْتَ يَا رَحْمَانُ عَيْنَ الرَّحْمَةِ",
+        "مَعَ سَلَامَةٍ وَخَيْرِ نِعْمَةِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "جِئْنَاكَ يَا كَرِيمُ يَا قَهَّارُ",
+        "يَا مَنْ لَهُ الْبُحُورُ وَالْأَنْهَارُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "جُدْتَ لَنَا بِالْمَاءِ وَالْأَرْزَاقِ",
+        "يَا خَيْرَ مُعْطٍ نَافِعٍ رَزَّاقِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "رَضِيتَ عَنَّا وَرَضِينَا عَنْكَا",
+        "وَلَا نَزَالُ فِي ازْدِيَادٍ مِنْكَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "نَفَعْتَنَا بِمَنْ لَنَا الشَّرِيعَهْ",
+        "قَادَ بِرِزْقٍ لِلرِّضَى ذَرِيعَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "أَنْتَ الْقَوِيُّ وَالْقَوِيُّ أَوْلَى",
+        "بِأَنْ يَكُونَ نَاصِرًا وَمَوْلَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "أَنْتَ الرَّحِيمُ وَالرَّحِيمُ أَقْمَنُ",
+        "بِشُكْرِ شَاكِرٍ أَتَاهُ الْأَمْنُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "لَكَ الْمِيَاهُ وَلَكَ الْبَرَايَا",
+        "يَا قَائِدًا لِي بِالرِّضَى قِرَايَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "أَسْقَيْتَنَا خَيْرَ مِيَاهٍ يَرْتَوِي",
+        "شَارِبُهَا وَخَيْرَ فَوْزٍ يَحْتَوِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "رَبِّ اكْفِنَا شَقَاوَةً وَضَيْرَا",
+        "قَبْلَ انْتِحَاءٍ وَلْتُصَفِّ الْمَيْرَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "ضُمَّ فُؤَادَ شَارِبٍ مِنْهَا إِلَى",
+        "أَفْئِدَةِ الَّذِينَ فَازُوا بِالْإِلَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "عَنِ الْقُلُوبِ اغْسِلْ بِهَا كُلَّ عُيُوبْ",
+        "وَعِنْدَكَ اجْعَلْهَا مَفَاتِحَ الْغُيُوبْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "يَا رَبَّنَا يَا رَبَّنَا يَا رَبَّنَا",
+        "يَا رَبَّنَا سَقَيْتَنَا يَا رَبَّنَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 17,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 15,
+      "hemistichs": [
+        "وَقَيْتَنَا شَرَّ الْبَرَايَا طُرَّا",
+        "قُدْتَ لَنَا فِي كُلِّ شَيْءٍ بِرَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 18,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 16,
+      "hemistichs": [
+        "نَحْنُ الْعِيَالُ وَالْعِيَالُ أَجْدَرُ",
+        "بِأَنْ يُخَصَّصَ بِخَيْرٍ يَنْدُرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 19,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 17,
+      "hemistichs": [
+        "أَدِمْ سَلَامَيْكَ بِلَا نِهَايَهْ",
+        "لِمَنْ حَوَى الْفَضْلَ بِغَيْرِ غَايَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 20,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
