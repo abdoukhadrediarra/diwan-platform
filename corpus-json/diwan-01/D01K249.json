@@ -1,0 +1,215 @@
+{
+  "code": "D01K249",
+  "diwan": 1,
+  "number": 249,
+  "source_file": "D01K249_وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ.docx",
+  "incipit": "وَجْهُ النَّبِيِّ الْمُنْتَقَى الْمُنِيرِ",
+  "title": "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 93,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 16,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "cb321b45301de857664145c454cbeca69a722c57da50daafe36cc5c024ea0e25",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَجْهُ النَّبِيِّ الْمُنْتَقَى الْمُنِيرِ",
+        "يُنِيرُ قَلْبَ كُلِّ مُسْتَنِيرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَحْمَدُنَا الْمُخْتَارُ لَا يُبَاهَى",
+        "عِنْدَ الَّذِي بِهِ الْبَرَايَا بَاهَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "نَبِيُّنَا أَحْمَدُ نُورُ الرُّسُلِ",
+        "عَلَيْهِمُ أَزْكَى صَلَاةِ الْمُرْسِلِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "نَبِيُّنَا أَحْمَدُ نُورُ الْأَنْبِيَآ",
+        "عَلَيْهِمُ أَزْكَى سَلَامَيْ رَبِّيَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "كِتَابُ أَحْمَدَ سِوَاهُ نَسَخَا",
+        "وَإِنَّهُ بِغَيْرِهِ لَنْ يُنْسَخَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "لِلْمُنْتَقَى الَّذِي التَّقَدُّمُ سَبَقْ",
+        "ذِكْرٌ حَكِيمٌ مِنْهُ إِبْلِيسُ أَبَقْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "عَلَيْهِ صَلَّى بِسَلَامٍ سَرْمَدَا",
+        "فِي الْآلِ وَالصَّحْبِ وَكُلِّي حَمِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لِلْمُصْطَفَى لَدَى الْإِلَهِ الْوَاحِدِ",
+        "نُورٌ يُنِيرُ قَلْبَ غَيْرِ جَاحِدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "أَنَّى يَشُكُّ أَحَدٌ فِي كَوْنِ",
+        "أَحْمَدِنَا الْمُخْتَارِ نُورَ الْكَوْنِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "خِدْمَةُ خَيْرِ الْعَالَمِينَ فَهَّمَتْ",
+        "صَدْرِي عُلُومًا نَافِعَاتٍ أَفْحَمَتْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "لَمْ يَنْحُنِي شَكٌّ وَلَا تَوَهُّمُ",
+        "وَلِسِوَى قَلْبِيَ يَنْحُو الْوَهَمُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "قَلْبِيَ صَانَهُ الْجَمِيلُ عَنْ قَبِيحْ",
+        "وَلِي يَقُودُ النُّورَ فِيمَا لِي يُبِيحْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "عَلَّمَنِي مِنْ لَوْحِهِ وَالْقَلَمِ",
+        "مَنْ لِي يَقُودُ عِلْمَ مَا لَمْ أَعْلَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "ظَلَمَ نَفْسَهُ الَّذِي عَادَانِي",
+        "لِأَنَّهُ بَارَزَ مَنْ هَدَانِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 17,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 15,
+      "hemistichs": [
+        "يَعْصِمُنِي الْبَاقِي مِنَ الْأَكْدَارِ",
+        "فِي دَارِ دُنْيَاهُ وَتِلْكَ الدَّارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 18,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 16,
+      "hemistichs": [
+        "مَحَا النَّبِيُّ الْمُنْتَقَى الْمُنِيرِ",
+        "ظَلَامَ قَلْبِي وَحَبَا بِنُورِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

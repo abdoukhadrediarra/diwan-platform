@@ -1,0 +1,225 @@
+{
+  "code": "D01K231",
+  "diwan": 1,
+  "number": 231,
+  "source_file": "D01K231_وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ.docx",
+  "incipit": "وَجَّهَ لِلْخَلْقِ الْإِلَهُ أَحْمَدَا",
+  "title": "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 93,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 16,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "853e9757163d21e43e1ac993169ff87e05453556f09f66cc330b5f7a357183df",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَجَّهَ لِلْخَلْقِ الْإِلَهُ أَحْمَدَا",
+        "عَبْدًا رَسُولًا كُلُّهُ قَدْ حُمِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَزْكَى سَلَامَيْ مَنْ هَدَاهُ فَاهْتَدَى",
+        "عَلَيْهِ بِالْآلِ وَمَنْ بِهِ اقْتَدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "نَبِيُّنَا أَحْمَدُ حَازَ السُّؤْدَدَا",
+        "خِدْمَتُهُ تَهْدِي كَمَا تَمْحُو دَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "نَبِيُّنَا مُحَمَّدٌ لَمْ يُولَدَا",
+        "مِثْلٌ لَهُ وَأَبَدًا لَنْ يُولَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "كَرَّمَهُ بَاقٍ إِلَيْهِ الْمَدَدَا",
+        "قَادَ كَمَا قَادَ إِلَيْهِ السَّدَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "لَاقَى الَّذِينَ لَمْ يُعِينُوهُ رَدَى",
+        "وَالْكُلُّ وَلَّى مُدْبِرًا وَطُرِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "عَلَيْهِ صَلَّى مَنْ حَمَاهُ مَوْرِدَا",
+        "صَفَّى مَعَ التَّسْلِيمِ حَيْثُ وَرَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لَهُ خَوَارِقُ تَفُوقُ عَدَدَا",
+        "مَنْ لَمْ يُطِعْهُ لَا يَحُوزُ سَدَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "يَمْدَحُ أَحْمَدَ مَدِيحًا جَيِّدَا",
+        "خَدِيمُهُ أَحْمَدُ مُنْذُ أُيِّدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "خُذْ يَا رَسُولَ اللَّهِ مِنِّي أَبَدَا",
+        "هَدِيَّتِي وَلِيَ صَفْوًا أَبِّدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "لَكَ هَدِيَّتِيَ يَا مَنْ أَخْمَدَا",
+        "ضُرِّي وَفَقْرِي وَدَوَامًا خَمُدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "قَدَّمَكَ الْبَاقِي الَّذِي قَدْ أَوْجَدَا",
+        "بِكَ الْوَرَى قُطْبًا مَلَاذًا أَمْجَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "عَلَيْكَ أُثْنِي وَالثَّنَاءُ شَهِدَا",
+        "لَكَ بِتَقْدِيمٍ وَفَضْلٍ عُهِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "ظِلُّكَ يَكْفِي الْحَرَّ مَنْ تَعَبَّدَا",
+        "بِمَدْحِكَ الْمَوْلَى اخْتَفَى أَوْ قَدْ بَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 17,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 15,
+      "hemistichs": [
+        "بِقَوْلِ كُلِّي اللَّهُ رَبِّي سَرْمَدَا",
+        "عَبَدْتُهُ ذَا خِدْمَةٍ لِأَحْمَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 18,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 16,
+      "hemistichs": [
+        "مُحَمَّدٌ خَيْرُ كَرِيمٍ حُمِدَا",
+        "عِنْدَ جَمِيلٍ لَا يُرِينَا كَمَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 19,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

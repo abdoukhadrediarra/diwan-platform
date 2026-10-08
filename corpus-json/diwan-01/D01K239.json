@@ -1,0 +1,128 @@
+{
+  "code": "D01K239",
+  "diwan": 1,
+  "number": 239,
+  "source_file": "D01K239_وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ.docx",
+  "incipit": "وُدِّي لِبَاقٍ فَاتِحٍ لِي الْبَابَا",
+  "title": "وُدِّي لِبَاقٍ فَاتِحٍ لِي الْبَابَا",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 9,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "fbccc5947256051517fb9c4d91d1799440c9d8f104131a088e5c8a9894939620",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وُدِّي لِبَاقٍ فَاتِحٍ لِي الْبَابَا",
+        "بِجَاهِ مَنْ فُقْتُ بِهِ أَحْبَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "إِذَا امْتَدَحْتُ الْمُصْطَفَى لِي طَابَا",
+        "قَلْبِي بِمَا لَمْ يُرِهِ الْأَقْطَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "نَفَى الَّذِي قَدْ خَلَقَ الْأَرْبَابَا",
+        "عَنِّي بِهِ وَبِالنَّبِي أَسْبَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "نَبِيُّنَا الْمُخْتَارُ مَا إِنْ رَابَا",
+        "فِي أَنَّنِي فُقْتُ بِهِ الْأَتْرَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "كَوْنِي لَهُ مُعْجِزَةً مَا غَابَا",
+        "وَلَمْ أَزَلْ فِي مَدْحِهِ وَغَّابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "لِلْمُصْطَفَى وَجَّهْتُ مَدْحًا ذَابَا",
+        "بِهِ لَعِينِي وَالثَّنَآ أَذَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "عَلَيْهِ أَثْنَيْتُ وَلَنْ أُعَابَا",
+        "وَقَدْ كَفَانِي مَنْ نَحَا إِتْعَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لِلْمُنْتَقَى الَّذِي مَحَا اغْتِرَابَا",
+        "عَنْ قَصْدِ نَحْوِي وَمَحَا خَرَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "إِلَى سِوَايَ وَحَمَى الْجَنَابَا",
+        "سِتَّةَ أَشْهُرٍ ثَنَا إِطْنَابَا"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
