@@ -1,0 +1,161 @@
+{
+  "code": "D02K23",
+  "diwan": 2,
+  "number": 23,
+  "source_file": "D02K23_هُمْ فِيهَا خَالِدُونَ.docx",
+  "incipit": "هَدَانِيَ إِلَهِي بِالْمُقَفَّى مُحَمَّدٍ",
+  "title": "هُمْ فِيهَا خَالِدُونَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "09befee8e4be8bd8cc9e99aec5be92bed21f5dd54631fa901192d97324cc38e3",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "هُمْ فِيهَا خَالِدُونَ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "هَدَانِيَ إِلَهِي بِالْمُقَفَّى مُحَمَّدٍ",
+        "عَلَيْهِ صَلَاةٌ مَعْ سَلَامٍ مُسَرْمَدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "مِدَادِي وَأَقْلَامِي لِرَبِّي تَوَجَّهَتْ",
+        "بِخَطٍّ يَسُرُّ الْمُنْتَقَى نِعْمَ سَيِّدِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "فَلَاحُ الَّذِي يَقْفُو هُدَى أَفْضَلِ الْوَرَى",
+        "مُدَامٌ لَدَى الْهَادِي الْكَرِيمِ الْمُؤَيِّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "يَقِينِي يَقِينِي حُبَّ مَا لَا يُحِبُّهُ",
+        "نَبِيٌّ رَسُولٌ جَادَ لِي بِالْمُخَلَّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "هَدِيَّاتُ خَيْرِ الْخَلْقِ مَا سَاءَنِي نَفَتْ",
+        "لِغَيْرِي وَأَغْنَتْ كَلْكَلِي عَنْ تَجَلُّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "إِذَا مَا تَلَوْتُ الْآيَ لِي انْقَادَتِ الْمُنَى",
+        "وَيَنْحُو لِغَيْرِي سَرْمَدًا ذُو تَمَرُّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "خُذِ الضُّرَّ وَالْأَسْوَاءَ وَالْكُلَّ وَجِّهَنْ",
+        "إِلَى غَيْرِ نَحْوِي مَالِكِي ذَا تَفَرُّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "إِلَى الْمُنْتَقَى بَلِّغْ لِوَجْهِكَ خِدْمَتِي",
+        "وَلِي بِخُيُورٍ صَافِيَاتٍ بِهِ اشْهَدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "لِيَ اشْهَدْ بِأَنِّي عَبْدُ ذِي الْعَرْشِ وَحْدَهُ",
+        "وَإِنِّي خَدِيمُ الْمُنْتَقَى وَلْتُمَهِّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "دُرِيتَ إِلَهًا وَاحِدًا خَيْرَ مَالِكٍ",
+        "فَكُنْ لِي بِغُفْرَانٍ وَعَفْوٍ وَأَيِّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "وَثِقْتُ بِكَ الدَّارَيْنِ يَا خَالِقَ الْوَرَى",
+        "بِذِكْرِكَ وَالْمَاحِي النَّبِي ذَا تَقَيُّدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "نَحَوْتُ لِرَبِّي وَالْمُقَفَّى مُحَمَّدٍ",
+        "عَلَيْهِ صَلَاةٌ مَعْ سَلَامٍ مُسَرْمَدِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

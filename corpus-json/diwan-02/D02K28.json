@@ -1,0 +1,83 @@
+{
+  "code": "D02K28",
+  "diwan": 2,
+  "number": 28,
+  "source_file": "D02K28_اللَّهُ.docx",
+  "incipit": "إِلَى اللَّهِ رَبِّ الْعَرْشِ وَالْفَرْشِ وَالسَّمَآ",
+  "title": "اللَّهُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 80,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 4,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "fa0a96f8052081c61eded5bd7ef379a6fbb5ece1ec4e16874e7ec7e27d10be8d",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللَّهُ تَعَالَى عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِلَى اللَّهِ رَبِّ الْعَرْشِ وَالْفَرْشِ وَالسَّمَآ",
+        "وَذِي الْأَرْضِ وَالْكُرْسِيِّ شُكْرِي وَقَدْ سَمَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لَهُ الْحَمْدُ وَالشُّكْرُ الَّذِي قَادَ لِي رِضًى",
+        "وَمَا زَالَ رَبِّي ذَا عَطَاءٍ وَمُنْعِمَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لِرَبِّي خِطَابِي شَاكِرًا لَسْتُ شَاكِيًا",
+        "وَكُلِّيَّتِي صَفَّى وَأَبْقَى وَأَنْعَمَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "هَدَايَاكَ سَاقَتْ يَا شَكُورُ مَضَرَّةً",
+        "لِغَيْرِي وَلِي يُفْضِي الْقَضَاءُ مُبَسِّمَا"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

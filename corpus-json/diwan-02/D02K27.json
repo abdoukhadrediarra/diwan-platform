@@ -1,0 +1,83 @@
+{
+  "code": "D02K27",
+  "diwan": 2,
+  "number": 27,
+  "source_file": "D02K27_اللَّهُ.docx",
+  "incipit": "إِلَى اللَّهِ حَمْدِي مَادِحًا خَيْرَ مُرْسَلِ",
+  "title": "اللَّهُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 80,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 4,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "c13c570351cb8528e217c6d4e8bc8a806d5da5d3cba77d7d0b204c08498a4dbb",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِلَى اللَّهِ حَمْدِي مَادِحًا خَيْرَ مُرْسَلِ",
+        "عَلَيْهِ سَلَامَا حَفِيظٍ خَيْرِ مُرْسِلِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لَهُ رُمْتُ مِنْ رَبِّ الْبَرَايَا صَلَاتَهُ",
+        "بِتَسْلِيمِ بَاقٍ نَافِعٍ خَيْرِ مُنْزِلِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لِوَجْهِكَ خَلِّدْ مِنْ قِلَامِي بُشَارَةً",
+        "لِخَيْرِ الْبَرَايَا وَلْتَجُدْ لِي بِمَنْزِلِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "هَدَايَاكَ سَاقَتْ يَا شَكُورُ لِيَ الْمُنَى",
+        "بِغَيْرِ الْأَذَى عَنْ كُلِّ سُوءٍ بِمَعْزِلِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
