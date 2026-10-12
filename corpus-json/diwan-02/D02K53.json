@@ -1,0 +1,95 @@
+{
+  "code": "D02K53",
+  "diwan": 2,
+  "number": 53,
+  "source_file": "D02K53_مَدِيحِي لِمَنْ أَرْدَى الَّذِي رَامَ إِخْرَاجِي.docx",
+  "incipit": "مَدِيحِي لِمَنْ أَرْدَى الَّذِي رَامَ إِخْرَاجِي",
+  "title": "مَدِيحِي لِمَنْ أَرْدَى الَّذِي رَامَ إِخْرَاجِي",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "5cb647e33b855b02cab6c9bff76336e233d48e7e93696cc55085687bd16a4154",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَدِيحِي لِمَنْ أَرْدَى الَّذِي رَامَ إِخْرَاجِي",
+        "عَلَيْهِ سَلَامَا مَنْ هَدَاهُ بِمِعْرَاجِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "مُحَمَّدٌ الْمُخْتَارُ صَفَّى بِهِ الْبَقَا",
+        "لِيَ الدَّهْرَ بَاقٍ قَدْ هَدَانِي بِمِنْهَاجِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "هَدَانِيَ بَاقٍ لَا يُوَجِّهُ لِي أَذًى",
+        "بِهَادٍ مُنِيرٍ لَمْ يَزَلْ خَيْرَ وَهَّاجِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَدَحْتُ رَسُولَ اللَّهِ مَدْحًا مُدَمِّرًا",
+        "عَدُوِّي وَيَنْجُو بِابْتِغَآ خِدْمَتِي نَاجِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "نَبِيٌّ جَوَادٌ وَجَّهَ الدَّهْرَ لِي النَّدَى",
+        "بِذَا قَالَ لِي جَمِّلْ وَفِي خِدْمَتِي نَاجِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "رَسُولٌ شَفِيعٌ كَفَّ عَنْ قَصْدِيَ الْعِدَى",
+        "جَنَابِيَ مَعْصُومٌ بِهِ مَاتَ مِخْرَاجِي"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "code": "D02K70",
+  "diwan": 2,
+  "number": 70,
+  "source_file": "D02K70_عَامَ دَكْسَشٍ.docx",
+  "incipit": "عِدَى رَبِّنَا لَانُوا لَنَا قَبْلَ دَكْسَشِ",
+  "title": "عَامَ دَكْسَشٍ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 7,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "d6ddce4122947ccd08f9627c10f4add9d6c2b16df24aef53cb36d7872a627844",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "عَامَ دَكْسَشٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "عِدَى رَبِّنَا لَانُوا لَنَا قَبْلَ دَكْسَشِ",
+        "كَمَا بِالنَّبِي عَنِّي مَحَا ضُرَّ جَيْسَشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَجَابَنِيَ الْبَاقِي فَمَنْ رَامَ غَيْرَ مَا",
+        "أُحِبُّ لِغَيْرِي سِيقَ إِنْ يَأْبَ يُبْأَشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَرَامِي مِنَ الْبَاقِي دَوَامًا أَحُوزُهُ",
+        "فَمَنْ لَمْ يُوَافِقْنِي يَبُؤْ ذَا تَعَطُّشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "دُعَائِي اسْتَجَابَ اللَّهُ وَاللَّهُ خَيْرُ مَنْ",
+        "لِغَيْرِي نَفَى مَا سَاءَنِي كَالْقَطَمَّشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "كِتَابُ إِلَهِي سَاقَ ضُرًّا مَعَ الْعِدَى",
+        "لِغَيْرِي وَمَنْ يَحْوِي الْأَذَى كَالْقَمَرَّشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "سَلَامُ الَّذِي سَاقَ الْأَذَى وَالْعِدَى إِلَى",
+        "سِوَانَا عَلَى مَاحٍ مَحَا كَالْمُدَهِّشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "شُكُورِي بِكُلِّي بَعْدَ حَمْدِي لِمَالِكِي",
+        "سَلَامِي لِمَنْ عَنِّي مَحَا ضُرَّ جَيْسَشِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

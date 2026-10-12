@@ -1,0 +1,104 @@
+{
+  "code": "D02K43",
+  "diwan": 2,
+  "number": 43,
+  "source_file": "D02K43_مُحَمَّدُ.docx",
+  "incipit": "مَدِيحُكَ يَا خَيْرَ الْبَرَايَا عِبَادَةٌ",
+  "title": "مُحَمَّدُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "50ab5ae805c9ca7cadb7292bcabc41fb972ed106af489969d5ba03c9fc666f5d",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى مَنِ اسْمُهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَدِيحُكَ يَا خَيْرَ الْبَرَايَا عِبَادَةٌ",
+        "يَنَالُ بِهِ الْفَوْزَ الَّذِي دَامَ يَمْدَحُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حُبِبيتَ مُنًى خَيْرَ الْبَرَايَا جَلِيَّةً",
+        "مَنِ ارْتَابَ فِيمَا حُزْتَهُ فَهْوَ يُقْدَحُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَنِ ارْتَابَ فِي كَوْنِ الْمُقَفَّى مُقَدَّمًا",
+        "عَلَى كُلِّ مَخْلُوقٍ فَمَا الصَّدْرُ يُشْرَحُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مُحَمَّدٌ الْمُخْتَارُ لَا خَلْقَ مِثْلُهُ",
+        "فَمَنْ شَكَّ فِي تَقْدِيمِهِ لَا يُفَرَّحُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَعَا الْخَلْقَ لِلْمَنَّانِ لِينًا وَرَحْمَةً",
+        "عَلَيْهِ سَلَامَا مَنْ مَزَايَاهُ يَمْدَحُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَعَلَى آلِهِ وَصَحْبِهِ وَتَقَبَّلْ بِجَاهِهِ عَلَيْهِ بِآلِهِ وَصَحْبِهِ سَلَامَاكَ وَبَرَكَاتُكَ هَذِهِ الْأَبْيَاتَ الْمَأْخُوذَةَ مِنِ اسْمِهِ بِقَدْرِ عَظَمَةِ ذَاتِكَ يَا شَكُورُ آمِينْ يَا رَبَّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

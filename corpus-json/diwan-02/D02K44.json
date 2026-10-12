@@ -1,0 +1,94 @@
+{
+  "code": "D02K44",
+  "diwan": 2,
+  "number": 44,
+  "source_file": "D02K44_مُحَمَّدُ.docx",
+  "incipit": "مِدَادِي وَأَقْلَامِي لَكُمْ عَامَ جَيْسَشِ",
+  "title": "مُحَمَّدُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "3266f49ac55357fe996d728dd151d365c7149bb0b1da7ab4e16c2ac8ef05e8fd",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى مَنْ جَعَلْتَ خِدْمَتِي لَهُ مِنْ عَامِ جَيْسَشٍ إِلَى انْتِهَاءِ عَامِ بَكْسَشٍ أَحَبَّ إِلَيْكَ وَإِلَيْهِ مِنْ كُلِّ خِدْمَةٍ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ يَا مَنْ تَقَبَّلْتَ تِلْكَ الْخِدْمَةَ بِقَدْرِ عَظَمَةِ ذَاتِكَ آمِينْ يَا رَبَّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مِدَادِي وَأَقْلَامِي لَكُمْ عَامَ جَيْسَشِ",
+        "سُرُورًا عَظِيمًا لِانْتِهَآ عَامِ بَكْسَشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حَمَيْتَ قِلَامِي عَنْ سِوَى الْبِشْرِ وَالرِّضَى",
+        "حَمَاكَ إِلَهِي عَنْ أَذًى كَالْمُفَتِّشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَحَوْتَ الْأَذَى وَالسُّوءَ يَا خَيْرَ شَافِعٍ",
+        "عَلَيْكَ صَلَاةُ اللَّهِ نَافِي الْمُدَهِّشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَدَدْتَ لِيَ الْآمَالَ بِالْأَمْنِ وَالصَّفَآ",
+        "عَلَيْكَ سَلَامُ اللَّهِ مَاحِي التَّفَتُّشِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَعَانِي إِلَى شُكْرٍ بِبِشْرٍ وَرَاحَةٍ",
+        "صَفَائِي إِلَى الْجَنَّاتِ مِنْ عَامِ جَكْسَشِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

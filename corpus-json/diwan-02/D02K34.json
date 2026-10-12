@@ -1,0 +1,95 @@
+{
+  "code": "D02K34",
+  "diwan": 2,
+  "number": 34,
+  "source_file": "D02K34_أَلَا إِنَّنِي خِلٌّ وَحِبٌّ مَعَ الْهُدَى.docx",
+  "incipit": "أَلَا إِنَّنِي خِلٌّ وَحِبٌّ مَعَ الْهُدَى",
+  "title": "أَلَا إِنَّنِي خِلٌّ وَحِبٌّ مَعَ الْهُدَى",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "f4807c6e41bceb84cfbb4aaa8540fdca2004f69cea80aac9869dfb8c4b38a8b4",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَلَهُ أَيْضًا زِيدَ فَيْضًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أَلَا إِنَّنِي خِلٌّ وَحِبٌّ مَعَ الْهُدَى",
+        "لِرَبِّي إِلَهِي وَهْوَ عَنِّي مَحَا الرَّدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "شُكُورِي لَهُ مِنْ بَعْدِ حَمْدٍ عَلَى النَّبِي",
+        "مُحَمَّدٍ الْمُخْتَارِ ذِي الْأَمْنِ وَالنَّدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "رَسُولٌ شَفِيعٌ لَا يُحَاكِيهِ مُرْسَلٌ",
+        "لَدَى مُرْسِلِ الرُّسْلِ الَّذِي فَضْلُهُ بَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "نَبِيٌّ شُجَاعٌ لَا يُدَانِيهِ فَائِقٌ",
+        "فَمَنْ رَامَ هَضْمَ الْمُنْتَقَى مَاتَ مُكْمَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "مَدِيحِي لَهُ فِي الْبَرِّ وَالْبَحْرِ قَادَ لِي",
+        "مَرَامِي بِلَا كَدٍّ هُوَ الْبَحْرُ مُزْبِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "عَلَيْهِ صَلَاةٌ مَعْ سَلَامٍ بِلَا انْتِهَآ",
+        "مَعَ الْآلِ وَالْأَصْحَابِ مَنْ بُلِّغُوا الْمَدَى"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

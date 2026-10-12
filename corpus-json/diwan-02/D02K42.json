@@ -1,0 +1,84 @@
+{
+  "code": "D02K42",
+  "diwan": 2,
+  "number": 42,
+  "source_file": "D02K42_مُحَمَّدٌ.docx",
+  "incipit": "مَدَدْتُ يَدِي لِلَّهِ رَبِّي وَأَحْمَدُ",
+  "title": "مُحَمَّدٌ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "bced9523f9d4e192ecd84e9dd1adae646f076a33f732a7e04905704a1c148abe",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدٌ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَدَدْتُ يَدِي لِلَّهِ رَبِّي وَأَحْمَدُ",
+        "إِلَهِي عَلَى خَيْرِ الْوَرَى وَهْوَ أَحْمَدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حَوَيْتُ مِنَ الْبَاقِي مُنًى فَاقَتِ الْمُنَى",
+        "وَيَنْحُو جَنَابِي لِلزِّيَارَةِ حُمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مُحَمَّدٌ الْمُخْتَارُ لِي بَانَ سَبْقُهُ",
+        "عَلَيْهِ سَلَامَا مَنْ بِهِ لَسْتُ أَكْمَدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَرَامِي بِلَا ضُرٍّ وَخَوْفٍ يُقَادُ لِي",
+        "وَسِيقَ إِلَى غَيْرِي الَّذِي الْقَلْبُ يَجْمُدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَرَى الْخَلْقُ أَنَّ الْمُنْتَقَى خَيْرُ خَلْقِ مَنْ",
+        "إِلَيْهِ يَدِي تَمْتَدُّ شُكْرًا وَأَحْمَدُ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

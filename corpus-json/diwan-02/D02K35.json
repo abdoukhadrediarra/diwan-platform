@@ -1,0 +1,95 @@
+{
+  "code": "D02K35",
+  "diwan": 2,
+  "number": 35,
+  "source_file": "D02K35_إِلَى الْمُصْطَفَى وَجَّهْتُ مَدْحًا مَعَ الْقُرْبِ.docx",
+  "incipit": "إِلَى الْمُصْطَفَى وَجَّهْتُ مَدْحًا مَعَ الْقُرْبِ",
+  "title": "إِلَى الْمُصْطَفَى وَجَّهْتُ مَدْحًا مَعَ الْقُرْبِ",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "321addcb388c1275939b112a1bf9787b26bb6dd846168279dbe934a7bda7d0b5",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِلَى الْمُصْطَفَى وَجَّهْتُ مَدْحًا مَعَ الْقُرْبِ",
+        "وَعَنِّي مَحَا مِنْ قَبْلُ ضُرِّي مَعَ الْكَرْبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "مَدَحْتُ رَسُولَ اللَّهِ حَتَّى كَأَنَّنِي",
+        "مَعَ الْآلِ وَالْأَصْحَابِ بِالْجِسْمِ وَالْقَلْبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "عَلَى الْمُصْطَفَى أَزْكَى صَلَاةٍ مِنَ الْعَلِي",
+        "بِتَسْلِيمِهِ فِيمَنْ أَجَابُوا لَدَى الْكِذْبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "إِلَى الْمُصْطَفَى وَجَّهْتُ كُلِّي بِخِدْمَتِي",
+        "وَمَا عَاقَنِي دَفْعِي وَمَا عَاقَنِي جَلْبِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "وَمَا أَمَّنِي مِنْ قَبْلُ سُوءٌ سِوَى بَلًا",
+        "مَحَاهُ رَسُولٌ قَادَ لِي مُخْجِلَ الطِّبِّ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "وَمَا أَمَّنِي بِالسُّوءِ قِتْلٌ سِوَى شَقِي",
+        "طَرِيدٍ غَدَا دُنْيَا وَأُخْرَى مَعَ الْكَأْبِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

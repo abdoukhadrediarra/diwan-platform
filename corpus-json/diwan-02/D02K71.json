@@ -1,0 +1,106 @@
+{
+  "code": "D02K71",
+  "diwan": 2,
+  "number": 71,
+  "source_file": "D02K71_عَامَ دَكْسَشٍ.docx",
+  "incipit": "عُلُومُ الَّذِي قَادَ الْعُلُومَ لِمَنْ يَشَآ",
+  "title": "عَامَ دَكْسَشٍ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 7,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "4cf3b593797de510e1d35f143a3f00d7c5dafe608658a09e360adec3cb53ea22",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "عَامَ دَكْسَشٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "عُلُومُ الَّذِي قَادَ الْعُلُومَ لِمَنْ يَشَآ",
+        "تُعَلِّمُنِي مَا كَانَ فِي الْغَيْبِ أَوْ ظَهَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "إِلَى غَيْرِنَا يَنْحُو لَعِينٌ وَمُفْسِدٌ",
+        "دَوَامًا وَمَنْ أَخْفَى الْمُعَادَاةَ أَوْ جَهَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مِدَادِي وَأَقْلَامِي وَقَلْبِي لِمَالِكٍ",
+        "كَفَانِي مَبِيعَاتِي وَبَيْعِي لَهَا اسْتَتَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "دَعَانِي إِلَى ذِكْرٍ وَشُكْرٍ مَعَ الْمُنَى",
+        "أَمَانِي وَيُبْدِي اللَّهُ لِي بَعْضَ مَا سَتَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "كِتَابُ إِلَهِي عِزَّتِي وَهْوَ قَائِدِي",
+        "يُعَلِّمُنِي وَاللَّهُ بَاقٍ وَلِي قَهَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "سَعِدْتُ بِذِكْرٍ جَاءَ مِنْ خَيْرِ مُنْزِلِ",
+        "كِتَابًا عَزِيزًا نُورُهُ غَيْرَهُ بَهَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "شَهِدْتُ بِأَنَّ اللَّهَ لَا رَبَّ غَيْرُهُ",
+        "وَأَنَّ ابْنَ عَبْدِ اللَّهِ تَقْدِيمُهُ ظَهَرْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

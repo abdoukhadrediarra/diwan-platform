@@ -1,0 +1,127 @@
+{
+  "code": "D02K65",
+  "diwan": 2,
+  "number": 65,
+  "source_file": "D02K65_مُحَرَّمْ صَفَرْ.docx",
+  "incipit": "مَحَوْتُ الَّذِي أَفْسَدْتُهُ مُنْذُ أَزْمَانِ",
+  "title": "مُحَرَّمْ صَفَرْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 8,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "ed9906bec5e2d8c10edf6e910ba036b124667e460b62c86c2b3adb6fee3998a9",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَانْفَعْ بِهَذِهِ الْأَبْيَاتِ كُلَّ مَنْ قَبِلَهَا وَفَهِّمْهَا كُلَّ مَنْ أَرَادَ الِانْتِفَاعَ وَالنَّفْعَ بِهَا آمِينْ يَا رَبَّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَرَّمْ صَفَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَحَوْتُ الَّذِي أَفْسَدْتُهُ مُنْذُ أَزْمَانِ",
+        "بِمَحْوِ رَحِيمٍ لَمْ يَزَلْ خَيْرَ رَحْمَانِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حَبَبْتُ دَوَامَ الذِّكْرِ وَالشُّكْرِ عَابِدًا",
+        "لِمُغْنٍ كَرِيمٍ لَمْ يَزَلْ خَيْرَ دَيَّانِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "رَضِيتُ عَنِ الْبَاقِي الَّذِي أَنْزَلَ الْهُدَى",
+        "كِتَابًا بِهِ صَفَّى حَيَاتِي وَأَحْيَانِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "رَبَاحِي كِتَابٌ قَادَهُ لِي مُحَمَّدٌ",
+        "مِنَ اللَّهِ فُرْقَانًا حَوَى كُلَّ بُرْهَانِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "مَدَحْتُ بِهِ خَيْرَ الْوَرَى مُنْذُ أَزْمُنٍ",
+        "عَلَيْهِ سَلَامَا مُذْهِبٍ عَيْبِ أَذْهَانِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "صَلَاةٌ وَتَسْلِيمٌ مِنَ اللَّهِ سَرْمَدًا",
+        "عَلَى خَيْرِ مَبْعُوثٍ حَبَانَا بِقُرْآنِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "فَلَاحُ ذَوِي الْإِسْعَادِ بِالْمُنْتَقَى بَدَا",
+        "عَلَيْهِ سَلَامَا مَنْ سَقَى كُلَّ ظَمْآنِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "رِضَى مُدْخِلِ الْجَنَّاتِ أَبْغِي لِصَحْبِ مَنْ",
+        "مَحَوْتُ بِهِ مَا سَاءَنِي مُنْذُ أَزْمَانِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
