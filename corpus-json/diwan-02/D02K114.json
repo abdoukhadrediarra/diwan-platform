@@ -1,0 +1,104 @@
+{
+  "code": "D02K114",
+  "diwan": 2,
+  "number": 114,
+  "source_file": "D02K114_مُحَمَّدُ.docx",
+  "incipit": "مَحَا النَّبِيُّ رَسُولُ اللَّهِ كُلَّ أَوَدْ",
+  "title": "مُحَمَّدُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "4196c8b4a7658919c03d89639249c89f893f4022abd9ef57876312959a00d3f5",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَحَا النَّبِيُّ رَسُولُ اللَّهِ كُلَّ أَوَدْ",
+        "عَنِّي وَرَبِّيَ أَغْنَى عَنْ أَذًى وَقَوَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حُبُّ النَّبِيِّ رَسُولِ اللَّهِ كَرَّمَنِي",
+        "صَلَّى عَلَيْكَ كَرِيمٌ جَادَ لِي بِعَدَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَدَّ الشَّفِيعُ الَّذِي لِي قَادَ خَيْرَ بَقَا",
+        "لِي خَيْرَ عِلْمٍ وَسَعْيٍ مَعْ رِضًى وَمَدَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَحَا الرَّسُولُ مَضَرَّاتِي بِخَالِقِنَا",
+        "صَلَّى عَلَيْهِ مُقِيتٌ كَانَ لِي بِسَدَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَوَامُ بِشْرٍ وَأَمْنٍ مَعْ رِضًى بِمُنًى",
+        "عَلَيَّ مِمَّنْ مَحَا مَا سَاءَنِي كَأَوَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

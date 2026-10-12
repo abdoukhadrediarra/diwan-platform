@@ -1,0 +1,148 @@
+{
+  "code": "D02K100",
+  "diwan": 2,
+  "number": 100,
+  "source_file": "D02K100_اللَّهُ مُحَمَّدْ.docx",
+  "incipit": "إِلَى الَّذِي يُذْهِبُ الْأَحْزَانَ إِذْهَابَا",
+  "title": "اللَّهُ مُحَمَّدْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 89,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 9,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "79c2b938a7b7c061b91c3a36b829360e94f6cf0d0eb6185e65d1249781f88c2c",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ أَبْيَاتٌ نَافِعَاتٌ لِكُلِّ مُسْتَفِيدٍ بِجَاهِ مَنْ كَانَ لَا يَسْتَفِيدُ وَيُفِيدُ اللَّهُ أَرْسَلَ سَيِّدَنَا وَمَوْلَانَا مُحَمَّدًا عَلَيْهِ بِآلِهِ وَصَحْبِهِ الصَّلَاةُ وَالسَّلَامُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُ مُحَمَّدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِلَى الَّذِي يُذْهِبُ الْأَحْزَانَ إِذْهَابَا",
+        "مِيلُوا بِقُرْآنِهِ مَا زَالَ وَهَّابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لِذِكْرِهِ بِكِتَابٍ مِنْهُ جَاءَ هُدًى",
+        "مِيلُوا تَحُوزُوا الَّذِي قَدْ فَاتَ أَلْبَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لِذِكْرِهِ مَدَدٌ مَا إِنْ يُمَاثِلُهُ",
+        "شَيْءٌ فَرُومُوا بِهِ أَنْ تَفْتَحُوا الْبَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "هُوَ الْكِتَابُ الَّذِي يُعْطِي مُلَازِمَهُ",
+        "فِي السِّرِّ وَالْجَهْرِ مَا يَكْفِيهِ إِعْجَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "مَنْ رَامَ فِيهِ مِنَ الرَّحْمَانِ مَرْحَمَةً",
+        "أَتَاهُ مَا يُخْجِلُ الظَّلَّامَ حَجَّابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "حَازَ الْكِتَابُ مَقَامًا لَا يَفُوزُ بِهِ",
+        "إِلَّا الَّذِي لَمْ يَزَلْ لِلَّهِ رَهَّابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "مَنْ يَسْتَفِدْ بِكِتَابِ اللَّهِ يَحْوِ مُنًى",
+        "تَكْفِي عِدَى اللَّهِ إِبْعَادًا وَإِرْهَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "مَحَا الْكِتَابُ أَذًى عَمَّنْ تَلَازَمَهُ",
+        "كَمَا نَفَى عَنْهُ مَنْ مَا زَالَ نَهَّابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "دُومُوا عَلَى ذِكْرِ رَبٍّ لَا شَرِيكَ لَهُ",
+        "بِمَا بِهِ أَذْهَبَ الْأَحْزَانَ إِذْهَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

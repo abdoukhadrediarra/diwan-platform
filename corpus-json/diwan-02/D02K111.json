@@ -1,0 +1,104 @@
+{
+  "code": "D02K111",
+  "diwan": 2,
+  "number": 111,
+  "source_file": "D02K111_مُحَمَّدُ.docx",
+  "incipit": "مَنْ سَرَّهُ كَوْنُ رَبِّ الْعَرْشِ مَالِكَهُ",
+  "title": "مُحَمَّدُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "bd1deb78046db866145e79f64fb0de402ef39b2f8bc5b66ae14843ef35b98d8a",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا الَّذِي مَدَحْتُهُ بِحُرُوفِ اسْمِهِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَنْ سَرَّهُ كَوْنُ رَبِّ الْعَرْشِ مَالِكَهُ",
+        "وَكَوْنُ أَحْمَدَ خَيْرَ الْخَلْقِ فَهْوَ هَدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حَوَى مُحَمَّدٌ الْمُخْتَارُ سُؤْدُدَهُ",
+        "قَبْلَ انْخِلَاقِ جَمِيعِ الْخَلْقِ مُنْفَرِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مُحَمَّدٌ لَيْسَ يَأْتِي مِثْلُهُ أَبَدًا",
+        "وَفِي الَّذِي قَدْ مَضَى شَرْوَاهُ لَمْ يَرِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَحَا ضَلَالًا وَكُفْرًا كَالنِّفَاقِ مَعًا",
+        "عَلَيْهِ تَسْلِيمُ مُغْنٍ لَمْ يَزَلْ صَمَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَعَا مِدَادِي وَأَقْلَامِي لِخِدْمَتِهِ",
+        "قَوْدُ الْوَرَى لِلَّذِي قَدْ كَانَ لِي بِهُدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَسَلِّمْ وَبَارِكْ عَلَيْهِ وَعَلَى آلِهِ وَصَحْبِهِ أَبَدًا"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

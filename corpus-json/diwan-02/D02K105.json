@@ -1,0 +1,95 @@
+{
+  "code": "D02K105",
+  "diwan": 2,
+  "number": 105,
+  "source_file": "D02K105_أُنْبِئْتُ أَنَّ رَسُولَ اللَّهِ بَشَّرَنِي.docx",
+  "incipit": "أُنْبِئْتُ أَنَّ رَسُولَ اللَّهِ بَشَّرَنِي",
+  "title": "أُنْبِئْتُ أَنَّ رَسُولَ اللَّهِ بَشَّرَنِي",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "36c5c694c2818f69383fa6849c233d0914a058d90aba3cd253164d02f5d07be3",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَقَدْ قَبِلَ مِنِّي هَذَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أُنْبِئْتُ أَنَّ رَسُولَ اللَّهِ بَشَّرَنِي",
+        "وَالْبِشْرُ عِنْدَ رَسُولِ اللَّهِ مَأْمُولُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "بَايَعْتُهُ عِنْدَ أَعْدَائِي وَثَبَّتَنِي",
+        "بِكَفِّ ذِي نَقَمَاتٍ قِيلُهُ الْقِيلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لَازَمْتُ صَبْرًا جَمِيلًا وَاقْتَدَيْتُ بِمَنْ",
+        "فَاقُوا وَلَيْسُوا مَجَازِيعًا إِذَا نِيلُوا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "جَاهَدْتُ دَهْرًا طَوِيلًا فِي الْعِدَى وَمَضَوْا",
+        "مَعَ الْأَنِينِ وَكُلٌّ بَعْدُ مَجْدُولُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "قَدْ أَدْبَرُوا بِأَنِينٍ مَعْ أَذًى وَبُكًى",
+        "وَلَيْسَ لِي عَنْ حِيَاضِ الصَّحِّ تَهْلِيلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "فَرُّوا لِغَيْرِي بِلَا لُقْيَانَةٍ أَبَدًا",
+        "وَجَاءَنِي مِنْ رَسُولِ اللَّهِ تَنْوِيلُ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

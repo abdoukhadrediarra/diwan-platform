@@ -1,0 +1,149 @@
+{
+  "code": "D02K99",
+  "diwan": 2,
+  "number": 99,
+  "source_file": "D02K99_رَبِيعِ الثَّانِي.docx",
+  "incipit": "رِبْحِي امْتِدَاحِيَ مَنْ مَدْحِي لَهُ دَفَعَا",
+  "title": "رَبِيعِ الثَّانِي",
+  "title_source": "bold",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 10,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "79687c210171cf1108519e28e3ea6ae215b2c5e392b425c55ee9919b7a93b7f6",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ بِحَقِّ وَجْهِ اللَّهِ تَعَالَى الْكَرِيمِ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى مَنْ مَدَحْتُهُ فِي رَبِيعِ الثَّانِي بِأَوَائِلِ حُرُوفِهِ فَقُلْتُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "رِبْحِي امْتِدَاحِيَ مَنْ مَدْحِي لَهُ دَفَعَا",
+        "ضُرًّا وَسُوءًا لِغَيْرِي الدَّهْرَ فَانْدَفَعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "بَرَاعَةُ الْمُنْتَقَى الْمُخْتَارُ بَاقِيَةٌ",
+        "صَلَّى عَلَيْهِ الَّذِي أَعْلَاهُ فَارْتَفَعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "يَنْقَادُ مِنِّي لَهُ مَدْحٌ يُشَيِّعُهُ",
+        "مَا سَرَّهُ وَهْوَ لِلْمَفْرُوقِ قَدْ جَمَعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عَنْ جَمْعِ أَوْصَافِهِ الْأَشْعَارُ قَدْ عَجَزَتْ",
+        "عَلَيْهِ تَسْلِيمُ مَنْ فَوْقَ الْوَرَى قَمَعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "اللَّهُ قَادَ لَهُ مَا انْقَادَتِ الْكُرَمَآ",
+        "لَهُ مِنَ الْخَيْرِ فِي الدَّارَيْنِ مُنْجَمِعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "لَهُ خِطَابِي وَشُكْرِي وَالرِّضَى امْتَزَجَا",
+        "وَإِنَّهُ فِيَّ عَبْدًا خَادِمًا شَفَعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "ثَبِّتْ صَلَاحِي وَفَوْزِي وَالْأَمَانَ مَعًا",
+        "بِاللَّهِ يَا خَيْرَ مَنْ بِاللَّهِ قَدْ نَفَعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "أَذْهِبْ لِغَيْرِيَ بِالْبَاقِي الْأَذَى أَبَدًا",
+        "وَبِي احْفَظِ الذِّكْرَ لِلْجَنَّاتِ مُرْتَفِعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "نَفَعْتَنِي فِيكَ يَا مُخْتَارُ سَلْ مَلِكِي",
+        "أَنْ لَا أُفَارِقَ خَيْرَ الذِّكْرِ إِنْ رُفِعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "يَتْلُوهُ إِنْ شَاءَ رَبِّي مَنْطِقِي نَشِطًا",
+        "لِوَجْهِهِ وَبِكُمْ مَا سَاءَنِي انْدَفَعَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَتَقَبَّلْ هَذِهِ الْحُرُوفَ بِلَا آفَةٍ وَلَا كَدَرٍ فِيَّ وَلَا بَيْنِي وَبَيْنَ أَحَدٍ آمِينْ يَا رَبَّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

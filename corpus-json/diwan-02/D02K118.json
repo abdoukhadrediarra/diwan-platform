@@ -1,0 +1,95 @@
+{
+  "code": "D02K118",
+  "diwan": 2,
+  "number": 118,
+  "source_file": "D02K118_قَدْ جَاءَنِي السُّؤْلُ مِنْ رَبِّي بِتَكْرَارِ.docx",
+  "incipit": "قَدْ جَاءَنِي السُّؤْلُ مِنْ رَبِّي بِتَكْرَارِ",
+  "title": "قَدْ جَاءَنِي السُّؤْلُ مِنْ رَبِّي بِتَكْرَارِ",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "e56fa081c9c5943bd472f4fd0776338fdf9d4e0aa16ca113e46db1dc055600fe",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ بِحَقِّ وَجْهِكَ الْكَرِيمِ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَاجْزِ عَنِّي بَنِي دَيْمَانَ وَالْعَلَوِيِّينَ خَيْرًا كَمَا نَصَرْتَنِي بِكَ وَبِهِ عَلَيْهِ الصَّلَاةُ وَالسَّلَامَ مَعَهُمْ عَامَ شَهِدْنَا بِكَرَمِ وَهُوَ عَامُ بَكْسَشٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "قَدْ جَاءَنِي السُّؤْلُ مِنْ رَبِّي بِتَكْرَارِ",
+        "لَا سِيَّمَا عِنْدَ بِئْرِ الْخَيْرِ جَرَّارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حَمْدِي وَشُكْرِي لِرَبٍّ قَادَ لِي مِنَنًا",
+        "فِي السِّرِّ وَالْجَهْرِ مَحْبُوبًا لِأَبْرَارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لِي قَادَ يُمْنَ صِحَابِ الْمُنْتَقَى مَلِكِي",
+        "وَكَانَ لِي لَا يُرِينِي شَرَّ فُجَّارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "شُكْرِي لِبَاقٍ قَدِيمٍ قَدْ حَمَى قِبَلِي",
+        "عَنْ كُلِّ سُوءٍ بِفَيْضٍ مِنْهُ لِي جَارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "لَهُ شُكُورِي لَدَى غُرٍّ قَدِ انْتَسَبُوا",
+        "إِلَى عَلِيٍّ بِلَا عَادٍ وَغَرَّارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "صَلَّى وَسَلَّمَ بَاقٍ لَا شَرِيكَ لَهُ",
+        "عَلَى الَّذِي السُّؤْلَ آتَانَا بِتَكْرَارِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

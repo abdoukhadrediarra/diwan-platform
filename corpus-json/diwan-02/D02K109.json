@@ -1,0 +1,116 @@
+{
+  "code": "D02K109",
+  "diwan": 2,
+  "number": 109,
+  "source_file": "D02K109_يَا رَبِّ بِالْمُصْطَفَى الْمُخْتَارِ مِنْ مُضَرٍ.docx",
+  "incipit": "يَا رَبِّ بِالْمُصْطَفَى الْمُخْتَارِ مِنْ مُضَرٍ",
+  "title": "يَا رَبِّ بِالْمُصْطَفَى الْمُخْتَارِ مِنْ مُضَرٍ",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 7,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "1f0e171791a5e76c224d8dcf638af1c04e44f3249617bd77ed1a9419e2c5cdb5",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ تَعَالَى وَبَرَكَاتُهُ فَهَاكُمُ هَذِهِ الْأَبْيَاتَ شِفَاءً مِنْ كُلِّ دَاءٍ وَحِصْنًا حَصِينًا مِنْ مَكَائِدِ جَمِيعِ الْأَعْدَاءِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "يَا رَبِّ بِالْمُصْطَفَى الْمُخْتَارِ مِنْ مُضَرٍ",
+        "شَفِيعِ أُمَّتِهِ فِي الْبَدْوِ وَالْحَضَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "عَلَيْهِ صَلِّ بِتَسْلِيمٍ بِلَا عَدَدٍ",
+        "فِي الْآلِ وَالصَّحْبِ وَاعْصِمْنَا مِنَ الضَّرَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "حُطْ أُمَّةَ الْمُصْطَفَى عَمَّا يَجُرُّ لَهُمْ",
+        "سِوَى الْعِبَادَاتِ وَاعْصِمْهُمْ مِنَ الشَّرَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "وَاصْرِفْ لِغَيْرِهِمُ الشَّيْطَانَ فِي أَبَدٍ",
+        "وَلْتَكْفِهِمْ كُلَّ مَنْ يَسْطُو مِنَ الْبَشَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "وَلْتَصْرِفِ الدَّاءَ عَنْ مَرْضَى الْجَمِيعِ بِهِ",
+        "وَاصْرِفْ لَهُمْ مُوجِبَاتِ الْأَمْنِ وَالْبَشَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "وَاجْعَلْ قُلُوبَ ذَوِي الْإِسْلَامِ فِي أَمَنٍ",
+        "وَلْتَكْفِهِمْ كُلَّ مَا يُفْضِي إِلَى الْغَرَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "وَصَلِّ دَأْبًا بِتَسْلِيمٍ عَلَيْهِ بِمَنْ",
+        "لَهُ انْتَمَوْا وَلْتَجُدْ بِالصَّفْوِ وَالدُّرَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "code": "D02K112",
+  "diwan": 2,
+  "number": 112,
+  "source_file": "D02K112_مُحَمَّدُ.docx",
+  "incipit": "مَلَّكْتُ خَيْرَ الْوَرَى بِشْرًا مِنَ الْخِدَمِ",
+  "title": "مُحَمَّدُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "de021f8a54d1a3b192c32a74f26dcfc8f5266a0d36a4fc4617e1c41cbefa80f2",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى مَنْ أَحْيَيْتُ بِهَذِهِ الْأَبْيَاتِ يَوْمَ مَوْلِدِهِ هَذَا سَيِّدِنَا وَوَسِيلَتِنَا إِلَيْكَ يَا قَرِيبُ يَا مُجِيبُ يَا بَدِيعُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَلَّكْتُ خَيْرَ الْوَرَى بِشْرًا مِنَ الْخِدَمِ",
+        "عَلَيْهِ تَسْلِيمُ بَاقٍ جَلَّ عَنْ عَدَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حُزْنَا مَوَاهِبَ بَاقٍ لَا شَرِيكَ لَهُ",
+        "بِجَاهِ أَفْضَلِ مَنْ يَمْشِي عَلَى قَدَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَوَاهِبُ اللَّهِ تَكْوِينٌ بِلَا كُلَفٍ",
+        "وَحَّدْتُهُ بِوُجُودٍ زِينَ بِالْقِدَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَدَدْتُ لِلْمَالِكِ الْبَاقِي الْمُقِيتِ يَدِي",
+        "وَمَدَّ لِي مِنْهُ نَفْعَ الدَّائِمِ الْحَكَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَعَا مِدَادِي وَأَقْلَامِي لِخِدْمَتِهِ",
+        "إِحْيَاءُ سُنَّتِهِ بِالْحُكْمِ وَالْحِكَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَآلِهِ وَصَحْبِهِ وَهَبْ لِي بِبَرَكَاتِ مَوْلِدِهِ هَذَا مَا يُوَافِقُ الظَّنَّ وَيَفُوقُهُ أَبَدًا آمِينْ يَا رَبَّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

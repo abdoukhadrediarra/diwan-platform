@@ -1,0 +1,104 @@
+{
+  "code": "D02K110",
+  "diwan": 2,
+  "number": 110,
+  "source_file": "D02K110_مُحَمَّدُ.docx",
+  "incipit": "مَنْ سَرَّهُ الْفَوْزُ فِي الدَّارَيْنِ دُونَ عَنًا",
+  "title": "مُحَمَّدُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "b56ecad9de8e029755ad3daf97a6b66dcb2d1248d83a918d0d82cf172ca3f3ff",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَنْ سَرَّهُ الْفَوْزُ فِي الدَّارَيْنِ دُونَ عَنًا",
+        "فَلَا يُفَارِقْ كِتَابًا نُورُهُ عَلَنَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حَوَى النِّظَامَ الَّذِي لَمْ يَأْتِ مَنْ سَلَفُوا",
+        "بِمِثْلِهِ خَيْرَ عِلْمٍ بِالرِّضَى قُرِنَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَنْ سَرَّهُ كَوْنُهُ فِي الْحَالِ مِثْلَ غَدٍ",
+        "مُلَازِمًا لِرَسُولِ اللَّهِ سَيِّدِنَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مُحَمَّدٍ فَلْيُلَازِمْ ذَا النِّظَامَ بِلَا",
+        "تَفَارُقٍ فَهْوَ نَظْمٌ أَعْجَزَ الْأُمَنَآ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَرَى ذَوُو الْعَقْلِ أَنَّ الْمُصْطَفَى عَلَنًا",
+        "عَلَيْهِ تَسْلِيمُ رَبِّي فَاقَ مَنْ عَلَنَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

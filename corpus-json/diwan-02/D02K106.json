@@ -1,0 +1,83 @@
+{
+  "code": "D02K106",
+  "diwan": 2,
+  "number": 106,
+  "source_file": "D02K106_اللَّهُ.docx",
+  "incipit": "اللَّهُ بِالْمُصْطَفَى قَدْ جَادَ لِي بِهُدَى",
+  "title": "اللَّهُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 80,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 4,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "b16fdee2229086d12b128716f17e4279654904dea3f246f585f852b745dca9d7",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "اللَّهُ بِالْمُصْطَفَى قَدْ جَادَ لِي بِهُدَى",
+        "فَذِكْرُهُ قَدْ مَحَا مَا سَاءَنِي وَهَدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لِلَّهِ شُكْرِي وَحَمْدِي وَهْوَ أَكْرَمُ مِنْ",
+        "كُلِّ كَرِيمٍ وَلِي قَدْ أَوْصَلَ السَّدَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لَهُ خِطَابِيَ فِي شَهْرِ النَّبِي وَمَحَا",
+        "قَبْلُ الْمَضَرَّاتِ مَحْوًا أَوْصَلَ الْمَدَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "هَاكُمْ سَلَامَيْ شَكُورٍ قُدْهُمَا كَرَمًا",
+        "لِمَنْ بِهِ يَا إِلَهِي جُدْتَ لِي بِهُدَى"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

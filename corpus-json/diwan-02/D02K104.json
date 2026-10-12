@@ -1,0 +1,115 @@
+{
+  "code": "D02K104",
+  "diwan": 2,
+  "number": 104,
+  "source_file": "D02K104_بِمُحَمَّدٍ.docx",
+  "incipit": "بَانَتْ سَعَادَةُ قَلْبٍ فِيهِ تَنْزِيلُ",
+  "title": "بِمُحَمَّدٍ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "3e64ccbf6a2b67cb6a60d2f0abe1c21980f5de5ef819c4bbd3366d3fb83fb2be",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ صَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِمُحَمَّدٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "بَانَتْ سَعَادَةُ قَلْبٍ فِيهِ تَنْزِيلُ",
+        "بِيُمْنِ مَنْ لِلَّذِي يَقْلِيهِ تَعْزِيلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "مِلْكِي امْتِدَاحِي رَسُولَ اللَّهِ سَيِّدَنَا",
+        "مُحَمَّدًا مَنْ لَهُ الدَّارَيْنِ تَجْمِيلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "حُزْتُ الْمُنَى بِالَّذِي أَعْدَائِيَ انْصَرَفُوا",
+        "لِغَيْرِ ضُرِّي بِهِ وَالْبَعْثُ تَكْمِيلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مِلْكِي صَلَاتِي عَلَى الْمَاحِي بِشِيعَتِهِ",
+        "وَقَادَ لِي مَا بِهِ قَدْ زَالَ تَخْمِيلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "مَدَّ امْتِدَاحِي رَسُولَ اللَّهِ لِي رُطَبًا",
+        "مِنْهُ جَنِيًّا وَقِتْلِي قَبْلُ مَعْزُولُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "دَرَى الْوَرَى كَوْنِيَ الْعَبْدَ الْخَدِيمَ بِهِ",
+        "وَانْقَادَ لِي مِنْهُ دُونَ الرَّيْبِ تَنْزِيلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

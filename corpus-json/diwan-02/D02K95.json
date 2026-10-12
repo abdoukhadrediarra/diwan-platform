@@ -1,0 +1,62 @@
+{
+  "code": "D02K95",
+  "diwan": 2,
+  "number": 95,
+  "source_file": "D02K95_صَفَرْ.docx",
+  "incipit": "صَفَّيْتَ يَا مَلِكُ الْقُدُّوسُ يَا جَارِي",
+  "title": "صَفَرْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 3,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "a64815aea5bf1c110fef07b2d76b1051e09da6cff3263580428f20d5be45c2d5",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "صَفَرْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "صَفَّيْتَ يَا مَلِكُ الْقُدُّوسُ يَا جَارِي",
+        "عُمْرِي بِحِلٍّ وَفَيْضٍ نَافِعٍ جَارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "فَرَّحْتَ قَلْبِيَ خُذْ شُكْرًا وَمَحْمَدَةً",
+        "مِمَّنْ لَهُ جُدْتَ بِالْجِيرَانِ وَالدَّارِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "رَضِيتُ عَنْكَ ارْتِضَاءً لَا يُخَالِطُهُ",
+        "سُخْطٌ وَكُلِّيَّتِي تَحْمِي عَنْ أَكْدَارِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

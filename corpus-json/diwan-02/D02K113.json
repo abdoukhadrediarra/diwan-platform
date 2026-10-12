@@ -1,0 +1,104 @@
+{
+  "code": "D02K113",
+  "diwan": 2,
+  "number": 113,
+  "source_file": "D02K113_مُحَمَّدٍ.docx",
+  "incipit": "مَدْحُ الرَّسُولِ الْكَرِيمِ الْبَاسِطِ الْعَجَبِ",
+  "title": "مُحَمَّدٍ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "fc7234213737ff9c67e40ef97c41439e7210d5269d0882c51fd26385747949b4",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَدْحُ الرَّسُولِ الْكَرِيمِ الْبَاسِطِ الْعَجَبِ",
+        "مِنَ الْمُحَرَّمِ دَيْنٌ لِي إِلَى رَجَبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حُزْتُ الْمَوَاهِبَ مِمَّنْ لَا شَرِيكَ لَهُ",
+        "بِمَدْحِ مَنْ مَدْحُهُ يُنْجِي مِنَ الرِّيَبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَدَحْتُهُ مَدْحَ حُبٍّ صَادِقٍ وَلَهُ",
+        "عَلَيَّ إِحْيَاءُ مَا يَكْفِي الْعِدَى بِيَبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مَدْحِي لَهُ رَاضَ لِي الْأَعْدَاءَ جُمْلَتَهُمْ",
+        "وَلِي يُوَجِّهُ مَا أَهْوَى بِلَا سَبَبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَعَا مِدَادِي وَأَقْلَامِي لِخِدْمَتِهِ",
+        "صَرْفُ الْأَذَى لِلْعِدَى رَبِّي مَعَ التَّبَبِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَآلِهِ وَصَحْبِهِ وَتَقَبَّلْ هَذِهِ الْأَبْيَاتِ بِقَدْرِ عَظَمَةِ ذَاتِكَ بِلَا شَيْءٍ يَسُوءُنِي أَوْ يَضُرُّنِي أَبَدًا آمِينْ يَا رَبَّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

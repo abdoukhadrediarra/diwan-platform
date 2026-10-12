@@ -1,0 +1,138 @@
+{
+  "code": "D02K101",
+  "diwan": 2,
+  "number": 101,
+  "source_file": "D02K101_اللَّهُ مُحَمَّدْ.docx",
+  "incipit": "اللَّهُ بَاقٍ كَرِيمٌ وَاحِدٌ صَمَدٌ",
+  "title": "اللَّهُ مُحَمَّدْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 89,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 9,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "b1729f43a9ef3fb12dd5fed2a3e2487228ca29fcc7480a141c5b6d4c4bc34a09",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَسَلِّمْ تَسْلِيمًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُ مُحَمَّدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "اللَّهُ بَاقٍ كَرِيمٌ وَاحِدٌ صَمَدٌ",
+        "هَادٍ بَدِيعٌ قَدِيرٌ وَهْوَ مُقْتَدِرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لَهُ السَّمَآ وَالْأَرَاضِي وَالْهَوَاءُ كَمَا",
+        "لَهُ الْوَرَى وَلَهُ الْأَشْيَاءُ وَالْقَدَرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لَهُ فُؤَادِي وَجِسْمِي شَاكِرًا وَلَهُ",
+        "عَقْدِي وَقَوْلِي وَفِعْلِي وَامَّحَى الْكَدَرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "هُوَ الْإِلَهُ هُوَ الرَّحْمَانُ مُنْفَرِدًا",
+        "هُوَ الرَّحِيمُ الَّذِي لِلشُّكْرِ أَبْتَدِرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "مُحَمَّدٌ خَيْرُ مَنْ غَابُوا وَمَنْ حَضَرُوا",
+        "وَخَيْرُ آتٍ وَتَأْتِي مِنْهُ لِي الْبُشَرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "حَازَتْ بِدَايَتُهُ مَا حَازَهُ الْكُرَمَآ",
+        "عِنْدَ النِّهَايَاتِ مَا مِثْلًا لَهُ بَشَرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "مَدَّ الْإِلَهُ لَهُ مَا امْتَدَّتِ الْفُضَلَآ",
+        "لَهُ هُوَ الْعُرْوَةُ الْوُثْقَى هُوَ الْقَمَرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "مَدَّ الْإِلَهُ بِهِ لِي مَا طَلَبْتُ وَمَا",
+        "فَاقَ الْمُنَى وَبِهِ لِي قَدْ صَفَا الْعُمُرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "دَعَا مِدَادِي وَأَقْلَامِي لِخِدْمَةِ مَنْ",
+        "فَاقَ الْوَرَى مَا بِهِ لِي قَادَ مُقْتَدِرُ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
