@@ -1,0 +1,237 @@
+{
+  "code": "D02K134",
+  "diwan": 2,
+  "number": 134,
+  "source_file": "D02K134_قَالَ مَوْعِدُكُمْ يَوْمُ الزِّينَةِ.docx",
+  "incipit": "قَلْبِي وَجِسْمِي وَرُوحِي الْيَوْمَ مُعْتَقَةٌ",
+  "title": "قَالَ مَوْعِدُكُمْ يَوْمُ الزِّينَةِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 94,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 18,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "022fafbf87fc84cc5b5e587ef3187767f13fa0aa417e40738d3d3b2d82159c5b",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "قَالَ مَوْعِدُكُمْ يَوْمُ الزِّينَةِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "قَلْبِي وَجِسْمِي وَرُوحِي الْيَوْمَ مُعْتَقَةٌ",
+        "عِنْدَ الْإِلَهِ وَعِنْدَ الْمُصْطَفَى الْمَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "اللَّهُ رَبِّي وَأَهْدَى لِلنَّبِي كَرَمًا",
+        "بِي رَاضِيًا عَنْهُمَا فِي كُلِّ مِتْيَاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لِلَّهِ حَمْدِي وَلِلْمَاحِي النَّبِي مِدَحِي",
+        "وَالْحَمْدُ وَالْمَدْحُ أَسْيَافِي وَأَرْمَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مُلْكِي صَلَاتِي عَلَى الْمُخْتَارِ سَيِّدِنَا",
+        "صَلَّى عَلَيْهِ الَّذِي لِي رَاضَ مِجْدَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "وَعْدُ الْكَرِيمِ أَتَانِي يَوْمَ مَوْلِدِهِ",
+        "وَإِنَّهُ خَيْرُ مُخْتَارٍ وَجَحْجَاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "عَلَيْهِ صَلَّى بِتَسْلِيمٍ وَأَطْلَقَنِي",
+        "رَبِّي بِهِ بِبُشَارَاتٍ لِمِلْوَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "دَعَا فُؤَادِي وَجُثْمَانِي لِخِدْمَةِ مَنْ",
+        "بِالْمُصْطَفَى جَادَ لِي فَضْلًا بِأَلْوَاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "كِتَابُ رَبِّي غَدَا كَنْزِي وَمَرْتَبَتِي",
+        "قَدْ فُزْتُ فِيهِ وَفِي الْمَاحِي بِأَرْبَاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "مَحَا عُيُوبِي وَآثَامِي وَعَلَّمَنِي",
+        "بِكُنْ عُلُومًا سَقَتْنِي سَقْيَ ذُلَّاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "يُرِينِيَ الْغَيْبَ كَشْفًا سَرْمَدًا وَبِهِ",
+        "جَاهَدْتُ غُلْفًا وَأَفْنَاهُمْ بِمِرْضَاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "وَقَانِيَ الْمَوْتَ وَالْأَمْرَاضَ يَرْفَعُنِي",
+        "بِالرُّوحِ وَالْجِسْمِ لِلْجَنَّاتِ وَالرَّاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "مَتَى بِهِ رُمْتُ حَاجًا نِلْتُ مَطْلَبَتِي",
+        "بِهِ امْتَلَا الْقَلْبُ مِنِّي ثُمَّ أَقْدَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 15,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 13,
+      "hemistichs": [
+        "أُرْضِي الْكَرِيمَ الَّذِي لِي سَاقَهُ كَرَمًا",
+        "إِنْ شَآ بِهِ وَدُيُونُ الْمَدْحِ بَحْبَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 16,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 14,
+      "hemistichs": [
+        "لِلْمُصْطَفَى خِدْمَةٌ مِنِّي سِنِينَ بِلَا",
+        "غِشٍّ وَأَعْتَقَنِي إِعْتَاقَ سَفَّاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 17,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 15,
+      "hemistichs": [
+        "زَيْنِي تِلَاوَةُ مَا جَاءَ الْأَمِينُ بِهِ",
+        "إِلَى الْأَمِينِ الَّذِي رَبَّى بِإِصْلَاحِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 18,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 16,
+      "hemistichs": [
+        "يَقُودُ لِي اللَّهُ بِالْمُخْتَارِ فِي أَبَدٍ",
+        "فَوْقَ الْمُنَى وَبِهِ لِلَّهِ إِرْكَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 19,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 17,
+      "hemistichs": [
+        "نَاجَيْتُهُ جَلَّ أَعْوَامًا وَمَلَّكَنِي",
+        "رَبِّي وَمَلَّكَنِي خَيْرُ الْوَرَى الْمَاحِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 20,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 18,
+      "hemistichs": [
+        "تَوْبِي وَبَيْعِي وَعَهْدِي اقْبَلْ مَعًا مَلِكِي",
+        "بِمَنْ بِهِ كُنْتَ لِي فِي كُلِّ مِتْيَاحِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

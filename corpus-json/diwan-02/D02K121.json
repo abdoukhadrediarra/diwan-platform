@@ -1,0 +1,127 @@
+{
+  "code": "D02K121",
+  "diwan": 2,
+  "number": 121,
+  "source_file": "D02K121_شَكُورُ رَافِعُ.docx",
+  "incipit": "شُكْرِي لِرَبٍّ كَرِيمٍ كَانَ شَكَّارَا",
+  "title": "شَكُورُ رَافِعُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 8,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "351efe257589ab7ef186978c8638f94561b87c56f2ae23a639eac8554b248873",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "اللَّهُمَّ يَا شَكُورُ يَا رَافِعُ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَاشْكُرْ جَمِيعَ أَعْمَالِي وَارْفَعْهَا إِلَيْكَ خَالِصَةً مَقْبُولَةً آمِينْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "شَكُورُ رَافِعُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "شُكْرِي لِرَبٍّ كَرِيمٍ كَانَ شَكَّارَا",
+        "وَأَرْتَجِي مِنْهُ فِي الدَّارَيْنِ أَبْكَارَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "كَتَبْتُ شُكْرًا لَهُ مَا قَدْ رَجَوْتُ بِهِ",
+        "كَوْنِي سَعِيدًا وَشَكَّارًا وَذَكَّارَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "وَجَّهْتُ وَجْهِيَ فِي شَهْرِ النَّبِي سَنَدِي",
+        "لِلْأَكْرَمِ الرَّافِعِ الْوَهَّابِ شَكَّارَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "رَجَوْتُ مِنْهُ تَعَالَى شُكْرَهُ عَمَلِي",
+        "وَرَفْعَهُ الْيَوْمَ عَنِّي نِعْمَ غَفَّارَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "رَجَوْتُ أَنْ يَمْحُوَ الزَّلَّاتِ جُمْلَتَهَا",
+        "عَنِّي وَتَسْخِيرَهُ لِي الدَّهْرَ كُفَّارَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "إِنِّي أُخَاطِبُهُ فِي الْبَحْرِ مُغْتَرِبًا",
+        "وَلَمْ يَزَلْ جَلَّ قَهَّارًا وَجَبَّارَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "فَجَأْتَنِي رَبِّ بِالْآلَاءِ هَبْ لِيَ أَنْ",
+        "أَعُودَ لِلْبَرِّ رُضْ لِي كُلَّ مَنْ بَارَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "عَلَى النَّبِي صَلِّ بِالتَّسْلِيمِ بِالْكُرَمَآ",
+        "وَارْفَعْ وَزِدْ بِيَ بَعْدَ الرَّفْعِ أَبْكَارَا"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
