@@ -1,0 +1,95 @@
+{
+  "code": "D02K163",
+  "diwan": 2,
+  "number": 163,
+  "source_file": "D02K163_الْبَاقِي.docx",
+  "incipit": "إِلَيَّ قَادَ الَّذِي قَدْ رَمَّ أَحْوَالِي",
+  "title": "الْبَاقِي",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "15ed09ba8da9be9b1e48cf4627701e886f3c868c3d1fcfc5d17364266c270bbc",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "الْبَاقِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِلَيَّ قَادَ الَّذِي قَدْ رَمَّ أَحْوَالِي",
+        "كَالْعَقْدِ وَالْفِعْلِ وَهْوَ الْأَكْرَمُ الْوَالِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لِسَانَ صِدْقٍ بِلَا مَكْرٍ وَلَا غَرَرٍ",
+        "وَلِي يُخَلِّدُ فِي الدَّارَيْنِ آمَالِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "بِاللَّهِ جَلَّ وَبِالرَّحْمَانِ حُزْتُ مُنًى",
+        "وَبِالرَّحِيمِ الَّذِي أَعْطَيْتُ أَعْمَالِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "اللَّهُ رَبِّي وَخَيْرُ الْخَلْقِ وَاسِطَتِي",
+        "صَلَّى عَلَيْهِ كَمَا لِي رَمَّ أَقْوَالِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "قُدْتُ الْفُؤَادَ مَعَ الْأَوْصَالِ جُمْلَتِهَا",
+        "مَعَ النَّبِي لِلَّذِي لِي قَادَ أَبْدَالِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "يَنْقَادُ لِي ثَمَنُ الْبَاقِي بِلَا عَدَدٍ",
+        "فِي الْعَقْدِ وَالْفِعْلِ خَيْرًا مِثْلَ أَحْوَالِي"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

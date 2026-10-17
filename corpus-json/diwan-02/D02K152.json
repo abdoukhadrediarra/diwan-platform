@@ -1,0 +1,94 @@
+{
+  "code": "D02K152",
+  "diwan": 2,
+  "number": 152,
+  "source_file": "D02K152_مَدَحْتُ الْكَرِيمَ الْمُصْطَفَى الْبَحْرِ أَعْوَامَا.docx",
+  "incipit": "مَدَحْتُ الْكَرِيمَ الْمُصْطَفَى الْبَحْرِ أَعْوَامَا",
+  "title": "مُحَمَّدُ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 5,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "64a795b1d0e4efcdf35e0b48770322db8482220e2f38127e6e4f9611e2a53263",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "مُحَمَّدُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَدَحْتُ الْكَرِيمَ الْمُصْطَفَى الْبَحْرِ أَعْوَامَا",
+        "وَفِي مَدْحِهِ قَدْ فُقْتُ فِي الْبَحْرِ أَقْوَامَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "حَبَانِي إِلَهِي بِالَّذِي كُنْتُ رَاجِيًا",
+        "بِمَدْحِ الَّذِي قَدْ كَبَّ مَنْ رَدَّ إِسْلَامَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَرَامِي دَوَامُ الشُّكْرِ لِلَّهِ بِالنَّبِي",
+        "عَلَيْهِ سَلَامَا مَنْ لَهُ سُقْتُ أَقْلَامَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "مِدَادِي وَأَقْلَامِي لِرَبِّي تَوَجَّهَتْ",
+        "خَدِيمًا لِمَنْ فِي مَدْحِهِ فُقْتُ أَعْلَامَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "دَعَانِي إِلَى مَدْحِ النَّبِيِّ مُحَمَّدٍ",
+        "خُرُوجِيَ مِمَّنْ كَابَدُونِيَ أَعْوَامَا"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

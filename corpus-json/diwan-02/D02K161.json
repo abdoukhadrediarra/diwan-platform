@@ -1,0 +1,115 @@
+{
+  "code": "D02K161",
+  "diwan": 2,
+  "number": 161,
+  "source_file": "D02K161_الْأَعْظَمِ.docx",
+  "incipit": "أَبْغِي مِنَ اللَّهِ بِشْرًا خَالِدًا أَبَدًا",
+  "title": "الْأَعْظَمِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 83,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "c8dda5b2f20b0490dbb7be3e7c54b5078118ebe1c91bc39d8ded09cc4eeaa001",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "الْأَعْظَمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أَبْغِي مِنَ اللَّهِ بِشْرًا خَالِدًا أَبَدًا",
+        "بِخَيْرِ ذِكْرٍ أَتَى مِنْ خَيْرِ مَنْ عُبِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لَا أَبْتَغِي الدَّهْرَ بِالْقُرْآنِ مِنْ بَدَلٍ",
+        "وَقَادَ لِي اللَّهُ مِنْ قُرْآنِهِ مَدَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "لَقَدْ تَبَيَّنَ لِي أَنَّ الْكِتَابَ هُدًى",
+        "وَقَادَ لِي كُلَّ خَيْرٍ قَدْ يَكُفُّ دَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عَلِمْتُ أَنَّ إِلَهِي كَانَ لِي وَمَعِي",
+        "وَلِي يُوَجِّهُ مَا أَحْوِي بِهِ سَدَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "ظُلْمِي امَّحَى لَيْسَ يَنْحُونِي أَذًى أَبَدًا",
+        "وَلَا يُفَارِقُنِي مَا سَرَّنِي أَبَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "مَحَا إِلَهِيَ ضُرِّي لَيْسَ يَقْصِدُنِي",
+        "إِلَّا الَّذِي اخْتَارَهُ لِي خَيْرُ مَنْ عُبِدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "code": "D02K153",
+  "diwan": 2,
+  "number": 153,
+  "source_file": "D02K153_سَلَامٌ يَقُودُ الْبِشْرَ وَالْأَمْنَ وَالْبِرَّا.docx",
+  "incipit": "سَلَامٌ يَقُودُ الْبِشْرَ وَالْأَمْنَ وَالْبِرَّا",
+  "title": "سَلَامٌ يَقُودُ الْبِشْرَ وَالْأَمْنَ وَالْبِرَّا",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 4,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "55dd71fb477f97663e8e6462aeaf6f44c6aff76c03648d97265b8464fbf4ecbd",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ تَعَالَى وَبَرَكَاتُهُ مِمَّنْ لَا يُحْجِبُهُ غُبَارُ الدُّنْيَا الْفَانِيَةِ وَأَكْدَارِهَا عَنْ أَنْ يَكُونَ بَيْنَكُمْ وَبَيْنَهُ مَا يَنْبَغِي وَيُرَحِّبُ وَيُبَشِّرُ بِهَذِهِ الْأَبْيَاتِ جَعَلَهَا اللَّهُ تَبَارَكَ وَتَعَالَى مِنْ أَنْفَعِ الْبَاقِيَاتِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "سَلَامٌ يَقُودُ الْبِشْرَ وَالْأَمْنَ وَالْبِرَّا",
+        "عَلَى مَنْ لَهُ أَبْغِي دُعَاءً يَقِي شَرَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "سَلَامٌ عَلَيْكُمْ لَا يُضَاهِي تَحِيَّةً",
+        "عَلَى مَنْ لَهُ أَبْغِي هُنَا وَغَدًا بِشْرَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "عَلَى حِزْبِهِ مِنِّي سَلَامٌ مُشَيَّعٌ",
+        "بِبِرٍّ وَمَعْرُوفٍ يُوَافِقُهُمْ طُرَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "وَقَاكُمْ بَدِيعٌ أَنْشَأَ الْأَرْضَ وَالسَّمَآ",
+        "أَذَى هَذِهِ الدُّنْيَا الدَّنِيَّةِ وَالْأُخْرَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "آمِينْ يَا رَبَّ الْعَالَمِينْ وَالسَّلَامُ عَلَيْكُمْ كُلُّكُمْ وَرَحْمَةُ اللَّهِ تَعَالَى وَبَرَكَاتُهُ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

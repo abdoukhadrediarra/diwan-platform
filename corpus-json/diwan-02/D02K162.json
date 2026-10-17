@@ -1,0 +1,105 @@
+{
+  "code": "D02K162",
+  "diwan": 2,
+  "number": 162,
+  "source_file": "D02K162_الْبَاقِي.docx",
+  "incipit": "أَجَابَنِي خَيْرُ بَاقٍ فِيهِ قَدْ طَابَا",
+  "title": "الْبَاقِي",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "6fa2d0a748870183fffe15837576fe4c1dc556616164de9fc64c3ea447eea87c",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "الْبَاقِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أَجَابَنِي خَيْرُ بَاقٍ فِيهِ قَدْ طَابَا",
+        "كُلِّي وَرَقَّى بِمَا لِي قَادَ أَقْطَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لِوَجْهِ بَاقٍ مَحَا قَصْدَ الْمَبِيعِ لَنَا",
+        "فَارَقْتُهُ وَهْوَ كَحْ وَالْأَمْلُ مَا خَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "بِعْتُ الَّذِي لَيْسَ يَنْحُونِي وَلِي أَبَدًا",
+        "وَلِي يُخَلِّدُهُ مَنْ كَبَّ صَخَّابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "إِلَى سِوَايَ الْعِدَى تَنْحُو بِمَا مَعَهُمْ",
+        "وَبِي يُصَفِّي إِلَهِي الدَّهْرَ أَلْبَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "قُلُوبُ مَنْ لَمْ يُحِبُّونِي عَلَى وَجَلٍ",
+        "وَلَا يُلَاقُونَ مَا رَامُوا وَلَا الْبَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "يَنْقَادُ لِي كُلُّ مَا رَامَ الْكِرَامُ مُنًى",
+        "وَاللَّهُ رَقَّى بِمَا لِي قَادَ أَقْطَابَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

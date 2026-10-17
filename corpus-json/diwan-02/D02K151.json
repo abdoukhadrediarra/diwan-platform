@@ -1,0 +1,127 @@
+{
+  "code": "D02K151",
+  "diwan": 2,
+  "number": 151,
+  "source_file": "D02K151_أَلَا فَابْشِرُوا إِنَّ الْمُقَفَّى كَفَى تَبَّا.docx",
+  "incipit": "أَلَا فَابْشِرُوا إِنَّ الْمُقَفَّى كَفَى تَبَّا",
+  "title": "أَلَا فَابْشِرُوا إِنَّ الْمُقَفَّى كَفَى تَبَّا",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 8,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "183460fcd8e4f9aa45c53da1dcadfc01698c7f2c24a503c234d669766320d043",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "الْحَمْدُ لِلَّهِ وَحْدَهُ وَسَلَامَاهُ عَلَى مَنْ لَا نَبِيَّ بَعْدَهُ أَمَّا بَعْدُ فَاجْلِسُوا مَعًا فَإِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى يَأْتِي بِمَا يُرِيحُنَا عَاجِلًا إِنْ شَاءَ اللَّهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أَلَا فَابْشِرُوا إِنَّ الْمُقَفَّى كَفَى تَبَّا",
+        "وَأَنَّ الَّذِي قَدْ أَمَّ مَا سَاءَنَا كُبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَرَاحَكُمُ الرَحْمَانُ مِنْ سَيْرِكُمْ إِلَى",
+        "ذَوِي الشِّرْكِ وَالْعُدْوَانِ حُبًّا لِمَنْ حَبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "أَتَاكُمْ مِنَ الْوَهَّابِ مَا زَحْزَحَ الْعَنَآ",
+        "وَمَنْ أَمَّكُمْ بِالسُّوءِ فِي عَصْرِكُمْ تَبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عَبَدْتُمْ كَرِيمًا لَا يُجَارِيهِ غَيْرُ مَنْ",
+        "يُلَاقِيهِ فِي الدَّارَيْنِ مَا يُورِثُ السَّبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "وَمَنْ بَارَزَ الْمَوْلَى تَعَالَى بِهَضْمِ مَنْ",
+        "لَهُ السَّبْقُ وَالتَّقْدِيمُ عَنْ خَيْرِهِ ذُبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "لَكُمْ قَادَ خَيْرًا سَاءَ مَنْ أَشْرَكُوا مَعًا",
+        "وَكُلٌّ لِمَا لَمْ يَرْضَهُ اللَّهُ قَدْ دَبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "يَكُفُّهُمُ الْقَهَّارُ كَفًّا يَسُرُّكُمْ",
+        "بِجَاهِ الَّذِي إِتْحَافُهُ نَحْوَكُمْ صَبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "عَلَى مَنْ بِهِ نُكْفَى الْعِدَى وَالْأَذَى مَعًا",
+        "سَلَامَا عَزِيزٍ قَبْلُ أَعْدَاءَهُ كُبَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَعَلَيْكُمْ كُلُّكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ تَعَالَى وَبَرَكَاتُهُ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
