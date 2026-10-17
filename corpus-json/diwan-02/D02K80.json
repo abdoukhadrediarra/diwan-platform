@@ -6,7 +6,7 @@
   "incipit": "وَجَّهْتُ كُلِّي إِلَى ذِي الْفَضْلِ وَالْمِنَنِ",
   "title": "تَبْيِيضُ مَا نُسِخَ مِنَ الْخِدَمْ لِوَجْهِ اللَّهِ تَعَالَى الَّذِي أَرْسَخَ الْقَدَمْ",
   "title_source": "bold",
-  "is_acrostic": true,
+  "is_acrostic": false,
   "acrostic_match": 9,
   "hemistichs_per_bayt": 2,
   "bayt_count": 12,

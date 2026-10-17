@@ -1,0 +1,52 @@
+{
+  "code": "D02K149",
+  "diwan": 2,
+  "number": 149,
+  "source_file": "D02K149_نَفَعَنِي مَنْ لَمْ يَكُنْ بِوَلَدِ.docx",
+  "incipit": "نَفَعَنِي مَنْ لَمْ يَكُنْ بِوَلَدِ",
+  "title": "نَفَعَنِي مَنْ لَمْ يَكُنْ بِوَلَدِ",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 3,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "387bd4a0474f1337bd3351c3171ac470e06452fcb3d8625c9eaa5d30ef1b8d57",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "نَفَعَنِي مَنْ لَمْ يَكُنْ بِوَلَدِ",
+        "وَلَا بِوَالِدٍ فَطَابَ خَلَدِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "عَلَى الَّذِي وُلِدَ خَيْرَ وَلَدِ",
+        "وَخَيْرَ وَالِدٍ بِخَيْرِ بَلَدِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "بِآلِهِ وَصَحْبِهِ وَالْحُمَّدِ",
+        "صَلَاةُ ذِي الْعَرْشِ الْعَظِيمِ الصَّمَدِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "incipit": "يَقِينِي إِلَى الْجَنَّاتِ مَا لَيْسَ يُحْمَدُ",
   "title": "فَيْضُ الْبَاقِي الْخَالِقْ فِي مَوْلِدِ خَيْرِ الْخَلَائِقْ",
   "title_source": "bold",
-  "is_acrostic": true,
+  "is_acrostic": false,
   "acrostic_match": 29,
   "hemistichs_per_bayt": 2,
   "bayt_count": 16,
