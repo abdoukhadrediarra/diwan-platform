@@ -1,0 +1,138 @@
+{
+  "code": "D03K20",
+  "diwan": 3,
+  "number": 20,
+  "source_file": "D03K20_أَعُوذُ بِاللهِ.docx",
+  "incipit": "أَعُوذُ بِالْإِلَهِ ذِي الْوُجُودِ",
+  "title": "أَعُوذُ بِاللهِ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 90,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 9,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "a47f3e3a085bf0a9df07e9805aed3339c4ba85132051f9555bf2c80d6546be06",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ بِحَقِّ وَجْهِ اللهِ تَعَالَى الْكَرِيمِ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَامْحُ عُيُوبَ نَفْسِ كُلِّ مَنْ طَلَبَ عِبَادَتَكَ بِهَذَا النَّظْمِ وَشَرْحِهِ وَهَبْ لَهُ سَعَادَةً لَا شَقَاوَةَ بَعْدَهَا أَبَدًا آمِينْ يَا رَبَّ الْعَالَمِينْ مُبَارَكُ الِابْتِدَاءِ مَيْمُونُ الِانْتِهَاءِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "أَعُوذُ بِاللهِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "أَعُوذُ بِالْإِلَهِ ذِي الْوُجُودِ",
+        "مِنَ الشَّيَاطِينِ وَغَيْرِ جُودِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "عُذْتُ بِرَبِّي ذِي الْوُجُودِ وَالْقِدَمْ",
+        "مِنْ كُلِّ مَا يُفْضِي لِزَلَّةِ الْقَدَمْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "وُجُودُ ذِي الْقِدَمِ وَالْبَقَاءِ",
+        "يَعْصِمُ كُلِّيَ مِنَ الشَّقَاءِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "ذَبَّتْ مُخَالَفَتُهُ التَّمَاثُلَا",
+        "وَقَدْ كَفَانِي ضُرَّ مَنْ تَمَاثَلَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "بِمَنْ لَهُ الْقِيَامُ بِالنَّفْسِ وَجَبْ",
+        "آمَنْتُ إِيمَانًا يَقُودُ لِي الْعَجَبْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "اللهُ مَوْجُودٌ قَدِيمٌ بَاقِ",
+        "لَهُ الْأَرَاضِي السَّبْعُ كَالطِّبَاقِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لَهُ تَعَالَى تِي الصِّفَاتُ وَحْدَهْ",
+        "خَمْسًا وَسِتًّا قَدْ بَدَتْ بِالْوَحْدَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "لَهُ تِهِ السِّتُّ وَأُولَاهَا وَفَتْ",
+        "نَفْسِيَّةً ثَابِتَةً وَمَا انْتَفَتْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "هَاءٌ بُعَيْدَهَا لَدَيْنَا سُمِّيَتْ",
+        "سَلْبِيَّةً أَضْدَادُهَا قَدْ نُفِيَتْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

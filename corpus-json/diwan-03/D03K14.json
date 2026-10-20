@@ -1,0 +1,181 @@
+{
+  "code": "D03K14",
+  "diwan": 3,
+  "number": 14,
+  "source_file": "D03K14_الْأَعْوَامَ كُلَّهَا.docx",
+  "incipit": "إِنَّ الَّذِي الصِّدْقُ مَعَ الْأَمَانَهْ",
+  "title": "الْأَعْوَامَ كُلَّهَا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "14339da2d644483b6ad41e116328f9638d2a9c9c3bc6ce040461fcff25c59567",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا وَجَعَلَ بِفَضْلِهِ وَجُودِهِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "الْأَعْوَامَ كُلَّهَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "إِنَّ الَّذِي الصِّدْقُ مَعَ الْأَمَانَهْ",
+        "لَهُ مَعَ التَّبْلِيغِ وَالْفَطَانَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "لِي قَادَ مِنْ رَبِّ الْوَرَى وَمِنْهُ",
+        "مَا قَادَ لِي وَقَدْ رَضِيتُ عَنْهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "إِلَيْهِ قُدْتُ ذِي وَلِلرُّسْلِ الْكِرَامْ",
+        "عَلَيْهِمُ سَلَامَيِ الْمُعْطِي الْمَرَامْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "عَلَى الْجَمِيعِ جَازَ مَا لِلْبَشَرِ",
+        "مِنْ عَرَضٍ يَجُرُّهُ لِلْبُشَرِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "وَلَّتْ لِغَيْرِهِمْ مَعًا أَضْدَادُ",
+        "تِيهِ وَكُلٌّ قُرَبًا يَزْدَادُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "الْكُتْبُ مَعْ يَوْمِ الْقِيَامِ أُدْخِلَا",
+        "تَحْتَ الْعَقَائِدِ تِهِ فَدَخَلَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "مَلَائِكُ اللهِ وَرُسْلُهُ الْكِرَامْ",
+        "وَقَدَرُ الْجَمِيلِ عَدُّهَا يُرَامْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "كُنْ مَعَ لَا إِلَهَ إِلَّا اللهُ",
+        "مُحَمَّدٌ أَرْسَلَهُ الْإِلَهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "لَازِمْ لِوَجْهِ اللهِ ذِكْرَ اللهِ",
+        "وَسِرْ بِأَحْمَدَ الْعُلَى لِلَّهِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "لَهُ وَلِلرُّسْلِ سَلَامَيِ الْكَرِيمْ",
+        "رُمْ تَحْوِ خَيْرًا أَجْرُهُ لَيْسَ يَرِيمْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "هُدَى الْإِلَهِ اللهِ قَطْعًا هُوَ ذَا",
+        "مَنْ لِسِوَى هُدَاهُ مَالَ مَا هَدَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "أَوْدَعْتُ ذَا الصِّدْقِ وَذَا الْأَمَانَهْ",
+        "وَصَاحِبَ التَّبْلِيغِ تِي الْأَمَانَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 15,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "عِبَادَةً خَالِصَةً لِوَجْهِهِ الْكَرِيمِ لِي إِلَيْهِ آمِينْ يَا رَبَّ الْعَالَمِينْ سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
