@@ -1,0 +1,171 @@
+{
+  "code": "D03K91",
+  "diwan": 3,
+  "number": 91,
+  "source_file": "D03K91_وَجَعَلَ هَذِهِ حَقًّا.docx",
+  "incipit": "وَادَعَنِي الْمَبِيعُ مِنْ غَيْرِ رُجُوعْ",
+  "title": "وَجَعَلَ هَذِهِ حَقًّا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "8bebbfb3542a229d862a78cb8929b5c4e01c0a05d69127c0c065877b9780ca92",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَجَعَلَ هَذِهِ حَقًّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وَادَعَنِي الْمَبِيعُ مِنْ غَيْرِ رُجُوعْ",
+        "لِي أَبَدًا ذَا عِصْمَةٍ مِنْ ضُرِّ جُوعْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "جُوعِي وَضُرِّي وَبَلَائِي وَالْفُتُونْ",
+        "لِغَيْرِ ذَاتِيَ انْتَحَتْ وَلِي الْمُتُونْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "عَلَّمَنِي اللهُ الْغُيُوبَ وَذَهَبْ",
+        "لِغَيْرِ ذَاتِي مَا يُؤَدِّي لِرَهَبْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "لَمْ يَنْحُنِي مَا يُورِثُ الْأَخْجَالَا",
+        "أَوْ يُورِثُ الْآفَاتِ وَالْأَوْجَالَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "هَرَبَ كُلُّ مَنْ أَبَى جُثْمَانِي",
+        "لِغَيْرِهِ وَطَابَ لِي زَمَانِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "أَلَانَ لِي اللهُ قُلُوبَ الْمُشْرِكِينْ",
+        "مُنْذُ غَدَا مَنْ خَالَفُونِي مُهْلَكِينْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "ذَهَبَ بِالشَّيْطَانِ وَالْحِزْبِ الْأَحَدْ",
+        "وَلَيْسَ يَقْصِدُ جَنَابِي مَنْ جَحَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "هَدَّدَ لِي إِبْلِيسَ رَبِّيَ وَمَنْ",
+        "وَالَاهُ فِي ضُرِّي مِنْ أَبْنَاءِ الزَّمَنْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "حَفِظْتُ ذِكْرَ مَالِكِي وَأَتْلُو",
+        "وَلَا يَؤُمُّ لِجِهَاتِي قِتْلُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "قَهَرَ لِي الْقَهَّارُ كُلَّ ظَالِمِ",
+        "وَلَا أَجُرُّ جَالِبَ الْمَظَالِمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "قُلُوبُ مَنْ ضُرِّي نَحَتْ قَدْ وَجِلَتْ",
+        "وَلِسِوَايَ صُرِفَتْ وَخَجِلَتْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "أَذْهَبَ رَبِّي سِلَعِي بِلَا رُجُوعْ",
+        "لِي أَبَدًا ذَا عِصْمَةٍ مِنْ ضُرِّ جُوعْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

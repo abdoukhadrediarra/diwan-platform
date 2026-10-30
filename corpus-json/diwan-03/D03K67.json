@@ -1,0 +1,171 @@
+{
+  "code": "D03K67",
+  "diwan": 3,
+  "number": 67,
+  "source_file": "D03K67_وَكَذَلِكَ مَكَّنَّا.docx",
+  "incipit": "وُجُودُ ذِي الْقِدَمِ وَالْبَقَاءِ",
+  "title": "وَكَذَلِكَ مَكَّنَّا",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "72fce97bc93db623d5bd771adf41ebbc8b8961e9dc58c6bb5d6457f8d6fa9929",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَكَذَلِكَ مَكَّنَّا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "وُجُودُ ذِي الْقِدَمِ وَالْبَقَاءِ",
+        "قَدْ بَانَ لِي وَجَادَ بِارْتِقَاءِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "كِتَابُ ذِي الْخِلَافِ وَالْقِيَامِ",
+        "هَدِيَّةٌ لِيَ لَدَى الْقِيَامِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "ذَلِكَ وَعْدُ مَنْ إِلَيْهِ الْوَحْدَهْ",
+        "قُدْتُ كَمَا نَحَاهُ كُلِّي وَحْدَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "اللهُ رَبِّي أَحَدٌ وَاللهُ",
+        "الصَّمَدُ الَّذِي بَدَتْ عُلَاهُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "لَيْسَ بِوَالِدٍ وَلَيْسَ بِوَلَدْ",
+        "خَلَقَ كُلَّ وَالِدٍ وَمَا وَلَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "كَرَّمَنِي بِـقُلْ هُوَ اللهُ أَحَدْ",
+        "تَكْرِيمَ مَنْ لَيْسَ لَهُ كُفْؤًا أَحَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "مَلَّكَ ذُو الْقُدْرَةِ وَالْإِرَادَهْ",
+        "خَلِيلَهُ الْحَبِيبَ مَا أَرَادَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "كَوَّنَ ذُو الْعِلْمِ وَذُو الْحَيَاةِ",
+        "لِي مَا أَشَاءُ بِصَفَا الْحَيَاةِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "كَرَمُ ذِي السَّمْعِ مَحَا التَّخَدُّدَا",
+        "عَنِّيَ قَبْلُ وَأَطَالَ الْعَدَدَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "نَاجَيْتُ ذَا الْبَصَرِ وَالْكَلَامِ",
+        "وَقَادَ لِي الذِّكْرَ بِلَا مَلَامِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "نَهَى مَضَرَّاتِ الزَّمَانِ اللهُ عَنْ",
+        "تَوَجُّهٍ لِي وَعَدُوِّي لَمْ يُعَنْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "إِلَى سِوَايَ جَالِبُ الشَّفَاءِ",
+        "يَنْحُو وَأَعْتَلِي مَعَ ارْتِفَاءِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
