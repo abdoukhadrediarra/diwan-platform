@@ -1,0 +1,115 @@
+{
+  "code": "D03K124",
+  "diwan": 3,
+  "number": 124,
+  "source_file": "D03K124_عَامِ لَسَشٍ.docx",
+  "incipit": "عَلَّمَنِي اللَّطِيفُ وَالسَّلَامُ",
+  "title": "عَامِ لَسَشٍ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 6,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "b6911dc86155295043506fb89ba7687deaeed2874f68eff037b20f110b58efa4",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى مَنْ تَقَبَّلْتَ مِنِّي مَا وَجَّهْتُهُ إِلَيْكَ وَإِلَيْهِ مِنْ عَامِ أَيْسَشٍ إِلَى عَامِ لَسَشٍ فِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "عَامِ لَسَشٍ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "عَلَّمَنِي اللَّطِيفُ وَالسَّلَامُ",
+        "تَعْلِيمَ مَنْ كِتَابُهُ الْكَلَامُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "إِلَيْهِ قَدْ قَادَ الشَّكُورُ سَعْيِي",
+        "بِالشُّكْرِ وَهْوَ حَافِظِي بِالرَّعْيِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَدَّ لِيَ الْوَاسِعُ خَيْرَ تَوْسِعَهْ",
+        "بِلَا سُؤَالٍ ذَا فَلَاحٍ وَسَعَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "لَطَفَ بِي الْجَمِيلُ لُطْفًا لَمْ يُرَى",
+        "قَطُّ لِغَيْرِي وَلِغَيْرِي لَنْ يُرَى"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "سَلَّمَ قَلْبِي وَلِسَانِي وَالْجَسَدْ",
+        "وَعَصَمَ الْكُلَّ وَبَابَ الضُّرِّ سَدْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "شَكَرْتُهُ بِمَا هُوَ الْكَلَامُ",
+        "وَإِنَّهُ اللَّطِيفُ وَالسَّلَامُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "وَحَمَيْتَ بِهَذِهِ الْأَبْيَاتِ جِهَاتِي السِّتَّ عَنِ الْمَكَارِهِ كُلِّهَا بِجَاهِهِ صَلَّى اللهُ تَعَالَى عَلَيْهِ وَسَلَّمَ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَاجْعَلْ تَوَالِيفِي فِي الْحَقِيقَةِ وَالشَّرِيعَةِ قَائِمَةً مَقَامَاتِ الْعَارِفِينَ الْمُرَبِّينَ الْمُرَقِّينَ آمِينْ يَا رَبَّ الْعَالَمِينْ سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

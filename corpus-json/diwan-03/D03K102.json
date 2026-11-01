@@ -1,0 +1,106 @@
+{
+  "code": "D03K102",
+  "diwan": 3,
+  "number": 102,
+  "source_file": "D03K102_عَامَ طَلْسَشٍ.docx",
+  "incipit": "عَلَّمَنِي الْعَلِيمُ وَالْخَبِيرُ",
+  "title": "عَامَ طَلْسَشٍ",
+  "title_source": "bold",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 7,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "485fa8f580203ff0043bed6def83523ce9a637db2b50f3b8a3855559cdc81920",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ وَصَلَّى اللهُ تَعَالَى عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلَّمَ تَسْلِيمًا كَمَا جَعَلَ بِجَاهِهِ صَلَّى اللهُ تَعَالَى عَلَيْهِ وَسَلَّمَ وَبَارَكَ عَامَ طَلْسَشٍ عَامَ حُصُولِ مَا قِيلَ فِي أَوَائِلِهِ بِلَا شَكٍّ وَلَا تَرَدُّدٍ عِنْدَهُ تَعَالَى وَعِنْدَهُ عَلَيْهِ سَلَامَاهُ أَبَدًا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "عَلَّمَنِي الْعَلِيمُ وَالْخَبِيرُ",
+        "تَعْلِيمَ مَنْ تَعْلِيمُهُ التَّعْلِيمُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "إِلَى سِوَانَا زَحْزَحَ الشَّيْطَانَا",
+        "وَطَيَّبَ الْمَمَرَّ وَالْأَوْطَانَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "مَحَا تَوَجُّهَ الْأَذَى وَالْكَدَرُ",
+        "مُجْرِي بِمَا يَسُرُّ قَلْبِي الْقَدَرُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "طَافَ لِغَيْرِ جِهَتِي اللَّعِينُ",
+        "أَيَّسَهُ مِنْ ضَرَرِي الْمُعِينُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "لِعُمُرِي إِدَامَةُ الشُّكُورِ",
+        "وَانْقَادَ لِي الْأَمْنُ مِنَ الشَّكُورِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "سَأَلْتُهُ كَوْنَ جَمِيعِ الْحَرَكَاتْ",
+        "وَالسَّكَنَاتِ شُكْرَهُ بِبَرَكَاتْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "شَكَرَهُ كُلِّيَ لَكِنْ قَدْ عَجَزْ",
+        "عَنْ شُكْرِهِ وَلِي وَعْدَهُ نَجَزْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

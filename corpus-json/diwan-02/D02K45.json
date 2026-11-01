@@ -6,7 +6,7 @@
   "incipit": "إِلَى اللَّهِ بِالْمُخْتَارِ هَاجَرْتُ سَرْمَدَا",
   "title": "فُتُوحَاتُ الْبَاقِي الْفَتَّاحْ سُبْحَانَهُ تَبَارَكَ وَتَعَالَى فِي مَزِيَّاتِ الْمِفْتَاحْ",
   "title_source": "bold",
-  "is_acrostic": true,
+  "is_acrostic": false,
   "acrostic_match": 12,
   "hemistichs_per_bayt": 2,
   "bayt_count": 9,

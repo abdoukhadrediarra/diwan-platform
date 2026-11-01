@@ -1,0 +1,161 @@
+{
+  "code": "D03K149",
+  "diwan": 3,
+  "number": 149,
+  "source_file": "D03K149_مِنْ شَوَّالَ جَمْسَشِهِ.docx",
+  "incipit": "مَلَّكَنِي نُورَ لِسَانِ الْعَرَبِ",
+  "title": "مِنْ شَوَّالَ جَمْسَشِهِ",
+  "title_source": "bold",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "d08b63aa3beb428848afc52c98fd6d59b5a8b83e8b2edeb8dbfdf3b0ed90b471",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ وَهَبَ اللهُ تَبَارَكَ وَتَعَالَى لِنَاظِمِ هَذِهِ الْحُرُوفِ لِسَانَ الْعَرَبِ بِلَا شَيْءٍ مِنْ آفَاتِهِ وَأَكْدَارِهِ أَبَدًا مِنْ شَوَّالَ جَمْسَشِهِ إِلَى دُخُولِهِ الْجَنَّةَ الَّتِي وُعِدَ الْمُتَّقُونَ وَاللهُ عَلَى مَا نَقُولُ وَكِيلٌ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "مَلَّكَنِي نُورَ لِسَانِ الْعَرَبِ",
+        "بَاقٍ حَيَاتِيَ لَهُ فِي قُرَبِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "نَبِيُّنَا أَحْمَدُ قَادَ لِي لِسَانْ",
+        "الْعَرَبِي الَّذِي حَمَانِي بِالْحِسَانْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "شَهِدَ لِي اللهُ بِنَزْعِهِ لِيَا",
+        "الْعَرَبِيَّةَ وَأَمْرِي وَلِيَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "وَلِيَ قَلْبِي وَلِسَانِي وَجَمِيعْ",
+        "جَوَارِحِي نِعْمَ الْمُجِيبُ وَالسَّمِيعْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "وَاجَهَنِي تَنْزِيلُ رَبِّ الْعَالَمِينْ",
+        "بِإِذْنِهِ مَعَ الْأَمِينِ وَالْأَمِينْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "إِذَا كَتَبْتُ اهْتَزَّ عَرْشُ الْمَلِكِ",
+        "وَاهْتَزَّ بِالتَّسْبِيحِ كُلُّ مَلَكِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "لِسَانِيَ احْتَمَى عَنِ الْفُضُولِ",
+        "يَرْقَى إِلَى الْأَفْضَلِ عَنْ مَفْضُولِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "جَذَبَ لِي الْجَمِيلُ خِدْمَةَ النَّبِي",
+        "غَائِبَةً عَنْ أَقْرَبٍ وَأَجْنَبِي"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "مَلَّكَنِي الْمَلِكُ وَالْمَلِيكُ",
+        "مَا دُونَهُ التَّمْلِيكُ وَالسُّلُوكُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "سَعَادَتِي عِنْدَ الْإِلَهِ بَاقِيَهْ",
+        "وَخِدَمِي إِلَى الْجِنَانِ رَاقِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "شَهِدَ لِي اللهُ بِأَنِّي مُؤْمِنُ",
+        "وَمُسْلِمٌ وَمُحْسِنٌ وَمُدْمِنُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "هِبَاتُ مَنْ نَحَتْ إِلَيْهِ قُرَبِي",
+        "قَادَتْ لِعُمْرِيَ لِسَانَ الْعَرَبِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

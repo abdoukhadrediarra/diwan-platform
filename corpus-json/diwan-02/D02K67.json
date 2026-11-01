@@ -6,7 +6,7 @@
   "incipit": "رَفَعْنَا إِلَى الْمَاحِي الَّذِي زَحْزَحَ الْحُزْنَا",
   "title": "مَوَاهِبُ النَّافِعْ فِي مَدَائِحِ الشَّافِعْ",
   "title_source": "bold",
-  "is_acrostic": true,
+  "is_acrostic": false,
   "acrostic_match": 29,
   "hemistichs_per_bayt": 2,
   "bayt_count": 20,

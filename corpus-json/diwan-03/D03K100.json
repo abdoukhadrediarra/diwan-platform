@@ -1,0 +1,41 @@
+{
+  "code": "D03K100",
+  "diwan": 3,
+  "number": 100,
+  "source_file": "D03K100_نَسَخْتُ بِالشُّكْرِ شِكَايَتِي فَلَا.docx",
+  "incipit": "نَسَخْتُ بِالشُّكْرِ شِكَايَتِي فَلَا",
+  "title": "نَسَخْتُ بِالشُّكْرِ شِكَايَتِي فَلَا",
+  "title_source": "first_sadr",
+  "is_acrostic": false,
+  "acrostic_match": null,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 2,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "027167b7ea58db91e50abc49dd1cf7c6e2f8013993a7904f59f6945d44ff83b7",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "نَسَخْتُ بِالشُّكْرِ شِكَايَتِي فَلَا",
+        "أَشْكُو لَهُ ضُرِّي فَضُرِّي أَفَلَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "أَشْكُرُهُ الْيَوْمَ شُكُورَ الْأَنْبِيَآ",
+        "وَالْأَوْلِيَآ وَالْعُلَمَآ بِقَلْبِيَا"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

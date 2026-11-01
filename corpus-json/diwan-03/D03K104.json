@@ -1,0 +1,171 @@
+{
+  "code": "D03K104",
+  "diwan": 3,
+  "number": 104,
+  "source_file": "D03K104_هُمْ فِيهَا خَالِدُونَ.docx",
+  "incipit": "هَدِيَّتِي إِلَى جُمَادَى الثَّانِيَهْ",
+  "title": "هُمْ فِيهَا خَالِدُونَ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 12,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "2e73672b644ce12d001ca55d2daa03ffe9aa3a3f206e60bf0d170d457337fa4f",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "هُمْ فِيهَا خَالِدُونَ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "هَدِيَّتِي إِلَى جُمَادَى الثَّانِيَهْ",
+        "مِنَ الْمُحَرَّمِ الْقُطُوفُ الدَّانِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "مَلَّكَنِي الْمَاحِي هَدَايَا كَافِيَهْ",
+        "كُلَّ أَذًى مِنْ خَيْرِ آيٍ كَافِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "فَرَّحْتُهُ بِخِدَمٍ لَا ثَانِيَهْ",
+        "لَهَا مِنَ الْخِدَمِ لَيْسَتْ فَانِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "يَسُرُّ سَيِّدِي حُرُوفِي الدَّاعِيَهْ",
+        "إِلَى جِنَانِهِ إِلَيْهَا السَّاعِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "هَدِيَّتِي إِلَى النَّبِي صَافِيَهْ",
+        "بُشَارَةً لَهُ خُيُورًا ضَافِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "إِنَّ قِلَامِي بِالنَّبِي هَادِيَهْ",
+        "إِلَى جِنَانِ مَنْ عُلَاهُ بَادِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "خِدْمَةُ خَيْرِ الْعَالَمِينَ جَالِيَهْ",
+        "قَالِيَنِي فَالدُّورُ مِنْهُ خَالِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "أَحْمَدُنَا الرُّتْبَةُ جَهْرًا عَالِيَهْ",
+        "تُعْلِي مُحِبَّهُ وَتُخْفِي قَالِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 9,
+      "hemistichs": [
+        "لِأَحْمَدَ الْمُخْتَارِ قُدْتُ الْقَافِيَهْ",
+        "عَافِيَةً تَدُومُ لَيِسَتْ عَافِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 11,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 10,
+      "hemistichs": [
+        "دَرَجَةُ الْمُخْتَارِ لَيْسَتْ خَافِيَهْ",
+        "إِذِ الْحَيَاةُ لِلْعِبَادِ شَافِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 12,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 11,
+      "hemistichs": [
+        "وُدِّي لِرَبِّي وَلَهُ لِي الْقَاسِيَهْ",
+        "أَلَانَ وَحْدِي لَسْتُ دَهْرًا نَاسِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 13,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 12,
+      "hemistichs": [
+        "نَاجَيْتُ فِيهِ لِجُمَادَى الثَّانِيَهْ",
+        "مِنَ الْمُحَرَّمِ الْمُنِيلَ الدَّانِيَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 14,
+      "section": "khatima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينْ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}

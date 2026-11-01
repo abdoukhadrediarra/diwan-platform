@@ -1,0 +1,127 @@
+{
+  "code": "D03K147",
+  "diwan": 3,
+  "number": 147,
+  "source_file": "D03K147_هُوَ خَيْرٌ لَكُمْ.docx",
+  "incipit": "هَدَانِيَ الْإِلَهُ بِالْكِتَابِ",
+  "title": "هُوَ خَيْرٌ لَكُمْ",
+  "title_source": "name_line",
+  "is_acrostic": true,
+  "acrostic_match": 100,
+  "hemistichs_per_bayt": 2,
+  "bayt_count": 8,
+  "has_open_flags": false,
+  "status": "published",
+  "content_hash": "2dd2a8bd1c08c749dc348d9011091d920c4a5df13aede47c878c07b244b32a38",
+  "warnings": [],
+  "lines": [
+    {
+      "position": 1,
+      "section": "muqaddima",
+      "kind": "prose",
+      "bayt_number": null,
+      "hemistichs": [
+        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 2,
+      "section": "title",
+      "kind": "title",
+      "bayt_number": null,
+      "hemistichs": [
+        "هُوَ خَيْرٌ لَكُمْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 3,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 1,
+      "hemistichs": [
+        "هَدَانِيَ الْإِلَهُ بِالْكِتَابِ",
+        "بِلَا عَدَاوَةٍ وَلَا عِتَابِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 4,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 2,
+      "hemistichs": [
+        "وَجَّهْتُ كُلِّيَ لَهُ بِهِ بِلَا",
+        "تَرَدُّدٍ وَعُمُرِي تَقَبَّلَا"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 5,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 3,
+      "hemistichs": [
+        "خِيرَتْ لِيَ الْخَيْرَاتُ وَانْصَرَفْتُ",
+        "لَهَا وَمِنْ فَيْضِ الْعَلِي اغْتَرَفْتُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 6,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 4,
+      "hemistichs": [
+        "يَقُودُنِي التَّوْفِيقُ وَالْإِلْهَامُ",
+        "إِلَى رِضَى بَاقٍ لَهُ الْإِفْهَامُ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 7,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 5,
+      "hemistichs": [
+        "رَدَّ لِغَيْرِيَ الَّذِي لَمْ يَرْضَ لِي",
+        "بَاقٍ حَبَا بِخِدْمَةِ الْمُفَضَّلِ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 8,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 6,
+      "hemistichs": [
+        "لِوَجْهِ بَاقٍ قَادَ لِي كِتَابَهْ",
+        "أَتْلُوهُ بِالْعَادَاتِ ذَا كِتَابَهْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 9,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 7,
+      "hemistichs": [
+        "كِتَابَتِي لِوَجْهِ رَبِّيَ الْكَرِيمْ",
+        "تَقُودُ لِي بِـكُنْ جَمِيعَ مَا أَرُومْ"
+      ],
+      "acrostic_spans": []
+    },
+    {
+      "position": 10,
+      "section": "matn",
+      "kind": "bayt",
+      "bayt_number": 8,
+      "hemistichs": [
+        "مَنَّ عَلَيَّ اللهُ بِالْكِتَابِ",
+        "بِلَا مُعَادَاةٍ وَلَا عِتَابِ"
+      ],
+      "acrostic_spans": []
+    }
+  ]
+}
